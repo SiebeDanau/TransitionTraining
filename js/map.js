@@ -33,7 +33,7 @@ const state = {
         document.title = module.title;
         document.getElementById("pageTitle").innerText = module.title;
       }
-      
+
       SetTitle();
 
       function initMap() {
@@ -396,4 +396,4 @@ const state = {
       resetButton.addEventListener("click", resetQuiz);
       retryButton.addEventListener("click", retryWrongPoints);
       hideObjectsEl.addEventListener("change", updateMapDisplay);
-      updateStats();
+      resetQuiz();
