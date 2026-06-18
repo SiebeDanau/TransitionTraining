@@ -27,13 +27,24 @@ const state = {
       const mapWrap = document.querySelector("#mapWrap");
       const mapImage = document.querySelector("#mapImage");
       const hotspotLayer = document.querySelector("#hotspotLayer");
-      const module = JSON.parse(localStorage.getItem("activeModule"));
-      fetch(`maps/${module.map}`)
-        .then(r => r.text())
-        .then(svg => {
-          document.getElementById("map").innerHTML = svg;
-        });
-        console.log("SVG IS: " + svg);
+
+      function initMap() {
+        const module = JSON.parse(localStorage.getItem("activeModule"));
+
+        if (!module || module.type !== "map") {
+          window.location.href = "index.html";
+          return;
+        }
+
+        document.title = module.title;
+
+        fetch(`maps/${module.map}`)
+          .then(r => r.text())
+          .then(svgText => loadSvgText(svgText, module.map));
+      }
+
+      initMap();
+
       function number(value) {
         return Number.parseFloat(String(value || "").replace(",", "."));
       }
@@ -357,24 +368,7 @@ const state = {
         setControlsEnabled(true);
         pickQuestion();
       }
-
-      svgFileEl.addEventListener("change", () => {
-        const file = svgFileEl.files?.[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-        reader.addEventListener("load", () => {
-          try {
-            loadSvgText(String(reader.result), file.name);
-          } catch (error) {
-            promptEl.textContent = "SVG niet bruikbaar";
-            mapStatus.textContent = file.name;
-            setFeedback(error.message, "bad");
-            setControlsEnabled(false);
-          }
-        });
-        reader.readAsText(file);
-      });
+      
 
       function retryWrongPoints() {
         if (state.wrongPoints.length === 0) return;

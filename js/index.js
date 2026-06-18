@@ -33,6 +33,7 @@ fetch("data/config.json")
   function openModule(module) {
     if (module.type === "map") {
         localStorage.setItem("activeModule", JSON.stringify(module));
+        console.log("JSON" + JSON.stringify(module));
         window.location.href = "map.html";
     }
 }
