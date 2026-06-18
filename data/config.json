@@ -2,15 +2,17 @@
   "modules": [
     {
       "id": "FIC points",
-      "title": "FIC points Training",
-      "description": "Test Description",
-      "file": "map.html"
+      "title": "FIC points",
+      "description": "",
+      "type": "map",
+      "map": "FIC points Blind Interactive.svg"
     },
     {
-      "id": "quiz",
-      "title": "Quiz Mode",
-      "description": "TODO",
-      "file": "quiz.html"
+      "id": "NAV points",
+      "title": "NAV points",
+      "description": "",
+      "type": "map",
+      "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"
     }
   ]
 }

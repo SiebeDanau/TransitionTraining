@@ -27,7 +27,12 @@ const state = {
       const mapWrap = document.querySelector("#mapWrap");
       const mapImage = document.querySelector("#mapImage");
       const hotspotLayer = document.querySelector("#hotspotLayer");
-
+      const module = JSON.parse(localStorage.getItem("activeModule"));
+      fetch(`maps/${module.map}`)
+        .then(r => r.text())
+        .then(svg => {
+          document.getElementById("map-container").innerHTML = svg;
+        });
       function number(value) {
         return Number.parseFloat(String(value || "").replace(",", "."));
       }
