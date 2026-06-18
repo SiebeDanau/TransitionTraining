@@ -31,8 +31,9 @@ const state = {
       fetch(`maps/${module.map}`)
         .then(r => r.text())
         .then(svg => {
-          document.getElementById("map-container").innerHTML = svg;
+          document.getElementById("map").innerHTML = svg;
         });
+        console.log("SVG IS: " + svg);
       function number(value) {
         return Number.parseFloat(String(value || "").replace(",", "."));
       }
