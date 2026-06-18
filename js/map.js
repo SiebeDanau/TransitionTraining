@@ -27,9 +27,16 @@ const state = {
       const mapWrap = document.querySelector("#mapWrap");
       const mapImage = document.querySelector("#mapImage");
       const hotspotLayer = document.querySelector("#hotspotLayer");
+      const module = JSON.parse(localStorage.getItem("activeModule"));
+
+      function SetTitle(){
+        document.title = module.title;
+        document.getElementById("pageTitle").innerText = module.title;
+      }
+      
+      SetTitle();
 
       function initMap() {
-        const module = JSON.parse(localStorage.getItem("activeModule"));
 
         if (!module || module.type !== "map") {
           window.location.href = "index.html";

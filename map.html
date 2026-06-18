@@ -283,32 +283,16 @@
     <main class="app">
       <section class="sidebar" aria-label="Quiz">
         <div>
-          <h1 class="title">Kaarttrainer</h1>
-          <p class="intro">
-            Kies je blinde SVG. De app leest alle rode punten met een titel en
-            maakt daar kaartvragen van.
+          <h1 class="title" id="pageTitle">Kaarttrainer</h1>
+          <p class="intro" id="pageIntro">
+            Klik op de vraagde punten.
           </p>
         </div>
 
-        <label class="file-box">
-          <span class="label">SVG-kaart</span>
-          <input
-            class="file-input"
-            id="svgFile"
-            type="file"
-            accept=".svg,image/svg+xml"
-          />
-        </label>
-
         <label class="file-box option-row">
           <input id="hideObjects" type="checkbox" />
-          <span>Objecten verbergen tijdens vragen</span>
+          <span>Objecten verbergen</span>
         </label>
-
-        <div class="status" aria-live="polite">
-          <p class="label">Duid aan</p>
-          <p class="prompt" id="prompt">Kies eerst je SVG</p>
-        </div>
 
         <p class="feedback" id="feedback"></p>
 
