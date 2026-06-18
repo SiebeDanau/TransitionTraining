@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaarttrainer</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f4ef;
+        --panel: #ffffff;
+        --ink: #202124;
+        --muted: #5f6368;
+        --line: #d8d5cc;
+        --accent: #186c78;
+        --good: #167847;
+        --bad: #b3261e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      button,
+      input,
+      select {
+        font: inherit;
+      }
+
+      .app {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+      }
+
+      .sidebar {
+        border-right: 1px solid var(--line);
+        background: var(--panel);
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .title {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .intro,
+      .hint {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .status,
+      .file-box {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+        background: #fbfaf7;
+      }
+
+      .file-box {
+        display: grid;
+        gap: 10px;
+      }
+
+      .option-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--ink);
+        line-height: 1.35;
+      }
+
+      .option-row input {
+        width: 18px;
+        height: 18px;
+        accent-color: var(--accent);
+        flex: 0 0 auto;
+      }
+
+      .file-input {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .label {
+        margin: 0 0 6px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .prompt {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.15;
+      }
+
+      .feedback {
+        min-height: 26px;
+        margin: 0;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .feedback.good {
+        color: var(--good);
+      }
+      .feedback.bad {
+        color: var(--bad);
+      }
+
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .button {
+        border: 1px solid var(--accent);
+        border-radius: 8px;
+        background: var(--accent);
+        color: #ffffff;
+        min-height: 42px;
+        padding: 0 14px;
+        cursor: pointer;
+      }
+
+      .button.secondary {
+        background: #ffffff;
+        color: var(--accent);
+      }
+
+      .button:disabled {
+        cursor: default;
+        opacity: 0.5;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: #fbfaf7;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 24px;
+        line-height: 1;
+      }
+
+      .stat span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .main {
+        min-width: 0;
+        padding: 24px;
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        gap: 16px;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .select {
+        min-height: 38px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        color: var(--ink);
+        padding: 0 12px;
+      }
+
+      .map-shell {
+        min-height: 360px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: auto;
+        background: #ffffff;
+      }
+
+      .map-wrap {
+        position: relative;
+        width: min(100%, 1586.6667px);
+        min-width: 760px;
+        aspect-ratio: var(--map-ratio, 1586.6667 / 1121.3333);
+        margin: 0 auto;
+      }
+
+      .map-image,
+      .hotspot-layer {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .map-image {
+        display: block;
+        user-select: none;
+      }
+
+      .hotspot {
+        cursor: pointer;
+        fill: rgba(24, 108, 120, 0);
+        stroke: rgba(24, 108, 120, 0);
+        stroke-width: 4;
+        transition: fill 120ms ease, stroke 120ms ease, stroke-width 120ms ease;
+      }
+
+      .hotspot:hover {
+        fill: rgba(24, 108, 120, 0.18);
+        stroke: rgba(24, 108, 120, 0.7);
+      }
+
+      .map-wrap.hide-points .hotspot:hover {
+        fill: rgba(24, 108, 120, 0);
+        stroke: rgba(24, 108, 120, 0);
+      }
+
+      .hotspot.correct {
+        fill: rgba(22, 120, 71, 0.2);
+        stroke: var(--good);
+        stroke-width: 8;
+      }
+
+      .hotspot.incorrect {
+        fill: rgba(179, 38, 30, 0.2);
+        stroke: var(--bad);
+        stroke-width: 8;
+      }
+
+      .hotspot.reveal {
+        fill: rgba(22, 120, 71, 0.16);
+        stroke: var(--good);
+        stroke-width: 8;
+        stroke-dasharray: 10 6;
+      }
+
+      @media (max-width: 820px) {
+        .app {
+          grid-template-columns: 1fr;
+        }
+        .sidebar {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .main {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <section class="sidebar" aria-label="Quiz">
+        <div>
+          <h1 class="title">Kaarttrainer</h1>
+          <p class="intro">
+            Kies je blinde SVG. De app leest alle rode punten met een titel en
+            maakt daar kaartvragen van.
+          </p>
+        </div>
+
+        <label class="file-box">
+          <span class="label">SVG-kaart</span>
+          <input
+            class="file-input"
+            id="svgFile"
+            type="file"
+            accept=".svg,image/svg+xml"
+          />
+        </label>
+
+        <label class="file-box option-row">
+          <input id="hideObjects" type="checkbox" />
+          <span>Objecten verbergen tijdens vragen</span>
+        </label>
+
+        <div class="status" aria-live="polite">
+          <p class="label">Duid aan</p>
+          <p class="prompt" id="prompt">Kies eerst je SVG</p>
+        </div>
+
+        <p class="feedback" id="feedback"></p>
+
+        <div class="controls">
+          <button class="button" id="nextButton" type="button" disabled>
+            Volgende
+          </button>
+          <button
+            class="button secondary"
+            id="revealButton"
+            type="button"
+            disabled
+          >
+            Toon antwoord
+          </button>
+
+        <div class="stats" aria-label="Score">
+          <div class="stat">
+            <strong id="correctCount">0</strong><span>juist</span>
+          </div>
+          <div class="stat">
+            <strong id="wrongCount">0</strong><span>fout</span>
+          </div>
+          <div class="stat">
+            <strong id="streakCount">0</strong><span>reeks</span>
+          </div>
+          <div class="stat">
+            <strong id="progressCount">0 / 0</strong><span>voortgang</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button
+            class="button secondary"
+            id="resetButton"
+            type="button"
+            disabled
+          >
+            Herlaad alle punten
+          </button>
+          <button
+            class="button secondary"
+            id="retryButton"
+            type="button"
+            style="display:none"
+          >
+            Herlaad foute antwoorden
+          </button>
+        </div>
+      </section>
+
+      <section class="main" aria-label="Kaart">
+        <div class="toolbar">
+          <p class="hint" id="mapStatus">Geen kaart geladen.</p>
+          <select class="select" id="modeSelect" aria-label="Vraagtype">
+            <option value="map">Kaartvragen</option>
+          </select>
+        </div>
+
+        <div class="map-shell">
+          <div class="map-wrap" id="mapWrap">
+            <img class="map-image" id="mapImage" alt="Blinde kaart" />
+            <svg
+              class="hotspot-layer"
+              id="hotspotLayer"
+              viewBox="0 0 1586.6667 1121.3333"
+              aria-label="Klikpunten"
+            ></svg>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        points: [],
+        remainingPoints: [],
+        wrongPoints: [],
+        currentQuestion: null,
+        svgText: "",
+        fileName: "",
+        correct: 0,
+        wrong: 0,
+        streak: 0,
+        answered: false,
+      };
+
+      const svgFileEl = document.querySelector("#svgFile");
+      const hideObjectsEl = document.querySelector("#hideObjects");
+      const promptEl = document.querySelector("#prompt");
+      const feedbackEl = document.querySelector("#feedback");
+      const correctCountEl = document.querySelector("#correctCount");
+      const wrongCountEl = document.querySelector("#wrongCount");
+      const streakCountEl = document.querySelector("#streakCount");
+      const progressCountEl = document.querySelector("#progressCount");
+      const nextButton = document.querySelector("#nextButton");
+      const revealButton = document.querySelector("#revealButton");
+      const resetButton = document.querySelector("#resetButton");
+      const retryButton = document.querySelector("#retryButton");
+      const mapStatus = document.querySelector("#mapStatus");
+      const mapWrap = document.querySelector("#mapWrap");
+      const mapImage = document.querySelector("#mapImage");
+      const hotspotLayer = document.querySelector("#hotspotLayer");
+
+      function number(value) {
+        return Number.parseFloat(String(value || "").replace(",", "."));
+      }
+
+      function parseMatrix(transform) {
+        const match = /matrix\(([^)]+)\)/.exec(transform || "");
+        if (!match) return [1, 0, 0, 1, 0, 0];
+        return match[1]
+          .split(/[,\s]+/)
+          .filter(Boolean)
+          .map(number);
+      }
+
+      function transformPoint(x, y, matrix) {
+        const [a, b, c, d, e, f] = matrix;
+        return { x: a * x + c * y + e, y: b * x + d * y + f };
+      }
+
+      function readViewBox(svg) {
+        const viewBox = svg.documentElement.getAttribute("viewBox");
+        if (viewBox) {
+          const values = viewBox
+            .split(/[,\s]+/)
+            .filter(Boolean)
+            .map(number);
+          if (values.length === 4) return values;
+        }
+
+        return [
+          0,
+          0,
+          number(svg.documentElement.getAttribute("width")) || 1586.6667,
+          number(svg.documentElement.getAttribute("height")) || 1121.3333,
+        ];
+      }
+
+      function readPoints(svg) {
+        const paths = Array.from(svg.querySelectorAll("path")).concat(Array.from(svg.querySelectorAll("ellipse")));
+        return paths
+            .map((path) => {
+            const title = path.querySelector("title")?.textContent.trim();
+            const style = path.getAttribute("style") || "";
+            const isRed = style.includes("fill:#ff1111") || style.includes("fill:#ff0000");
+            if (!title || !isRed) return null;
+
+            // DE CRUCIALE FIX:
+            // We kijken EERST of sodipodi:cx bestaat (zowel voor path als ellipse).
+            // Pas als die er niet is, vallen we terug op de gewone cx.
+            const cx = number(path.getAttribute("sodipodi:cx")) || number(path.getAttribute("cx"));
+            const cy = number(path.getAttribute("sodipodi:cy")) || number(path.getAttribute("cy"));
+            
+            if (!Number.isFinite(cx) || !Number.isFinite(cy)) return null;
+            
+            // Veilig de matrix ophalen
+            const closestTransformEl = path.closest('[transform]');
+            const transformAttr = closestTransformEl ? closestTransformEl.getAttribute("transform") : null;
+            const matrix = parseAnyTransform(transformAttr);
+
+            // Als er een matrix is, transformeren we vanaf de sodipodi-basis.
+            // Als er GEEN matrix is, gebruiken we gewoon de cx/cy direct.
+            let point;
+            if (matrix && matrix.length === 6) {
+                point = transformPoint(cx, cy, matrix);
+            } else {
+                point = { x: cx, y: cy };
+            }
+
+            return { label: title, x: point.x, y: point.y };
+            })
+            .filter(Boolean)
+            .sort((a, b) => a.label.localeCompare(b.label));
+        }
+
+        function parseAnyTransform(transformStr) {
+            if (!transformStr) return null;
+
+            // Check op translate(x, y) of translate(x y)
+            if (transformStr.includes("translate")) {
+                const matches = transformStr.match(/translate\s*\(([^)]+)\)/);
+                if (matches && matches[1]) {
+                // Splits op komma's of spaties en zet om naar getallen
+                const args = matches[1].split(/[\s,]+/).map(Number);
+                const e = args[0] || 0;
+                const f = args[1] || 0;
+                // Een pure translate is wiskundig gezien deze matrix: [1, 0, 0, 1, e, f]
+                return [1, 0, 0, 1, e, f];
+                }
+            }
+
+            // Check op matrix(a, b, c, d, e, f)
+            if (transformStr.includes("matrix")) {
+                const matches = transformStr.match(/matrix\s*\(([^)]+)\)/);
+                if (matches && matches[1]) {
+                return matches[1].split(/[\s,]+/).map(Number);
+                }
+            }
+            return null;
+        }   
+
+
+      function isTitledRedPoint(path) {
+        const title = path.querySelector("title")?.textContent.trim();
+        const style = path.getAttribute("style") || "";
+        return (
+          !!title &&
+          (style.includes("fill:#ff1111") || style.includes("fill:#ff0000"))
+        );
+      }
+
+      function makeDisplaySvg(svgText) {
+        if (!hideObjectsEl.checked) return svgText;
+
+        const parser = new DOMParser();
+        const svg = parser.parseFromString(svgText, "image/svg+xml");
+        svg.querySelectorAll("path").forEach((path) => {
+          if (isTitledRedPoint(path)) {
+            path.setAttribute("display", "none");
+          }
+        });
+
+        return new XMLSerializer().serializeToString(svg);
+      }
+
+      function updateMapDisplay() {
+        if (!state.svgText) return;
+
+        mapWrap.classList.toggle("hide-points", hideObjectsEl.checked);
+        mapImage.src = URL.createObjectURL(
+          new Blob([makeDisplaySvg(state.svgText)], { type: "image/svg+xml" })
+        );
+      }
+
+      function clearMarks() {
+        state.points.forEach((point) =>
+          point.element?.classList.remove("correct", "incorrect", "reveal")
+        );
+      }
+
+      function updateStats() {
+        correctCountEl.textContent = String(state.correct);
+        wrongCountEl.textContent = String(state.wrong);
+        streakCountEl.textContent = String(state.streak);
+        const total = state.points.length;
+        const answered = total - state.remainingPoints.length - (state.currentQuestion ? 1 : 0);
+        progressCountEl.textContent = `${answered} / ${total}`;
+      }
+
+      function setFeedback(text, type = "") {
+        feedbackEl.textContent = text;
+        feedbackEl.className = type ? `feedback ${type}` : "feedback";
+      }
+
+      function setControlsEnabled(enabled) {
+        nextButton.disabled = !enabled;
+        revealButton.disabled = !enabled;
+        resetButton.disabled = !enabled;
+      }
+
+      function shuffle(points) {
+        const result = [...points];
+        for (let index = result.length - 1; index > 0; index -= 1) {
+          const randomIndex = Math.floor(Math.random() * (index + 1));
+          [result[index], result[randomIndex]] = [
+            result[randomIndex],
+            result[index],
+          ];
+        }
+        return result;
+      }
+
+      function finishRound() {
+        state.currentQuestion = null;
+        state.answered = true;
+        promptEl.textContent = "Ronde klaar";
+        setFeedback(
+          `Je had ${state.correct} juist en ${state.wrong} fout.`,
+          "good"
+        );
+        clearMarks();
+        nextButton.disabled = true;
+        revealButton.disabled = true;
+        retryButton.style.display = state.wrongPoints.length > 0 ? "" : "none";
+      }
+
+      function pickQuestion() {
+        if (state.points.length === 0) return;
+        if (state.remainingPoints.length === 0) {
+          finishRound();
+          return;
+        }
+
+        state.currentQuestion = state.remainingPoints.shift();
+        state.answered = false;
+        promptEl.textContent = state.currentQuestion.label;
+        setFeedback("");
+        clearMarks();
+      }
+
+      function goToNextQuestion() {
+        if (!state.currentQuestion) return;
+        if (!state.answered) {
+          window.alert("Duid eerst een punt aan");
+          return;
+        }
+
+        pickQuestion();
+      }
+
+      function checkAnswer(point) {
+        if (state.answered || !state.currentQuestion) return;
+        state.answered = true;
+
+        if (point === state.currentQuestion) {
+          point.element.classList.add("correct");
+          state.correct += 1;
+          state.streak += 1;
+          setFeedback("Juist.", "good");
+        } else {
+          point.element.classList.add("incorrect");
+          state.currentQuestion.element.classList.add("reveal");
+          state.wrong += 1;
+          state.streak = 0;
+          if (!state.wrongPoints.includes(state.currentQuestion)) {
+            state.wrongPoints.push(state.currentQuestion);
+          }
+          setFeedback(`Fout.`, "bad");
+        }
+
+        updateStats();
+      }
+
+      function revealAnswer() {
+        if (!state.currentQuestion || state.answered) return;
+
+        clearMarks();
+        state.currentQuestion.element.classList.add("reveal");
+        state.answered = true;
+        state.wrong += 1;
+        state.streak = 0;
+        if (!state.wrongPoints.includes(state.currentQuestion)) {
+          state.wrongPoints.push(state.currentQuestion);
+        }
+        updateStats();
+        setFeedback(`Dit is ${state.currentQuestion.label}.`, "bad");
+      }
+
+      function resetQuiz() {
+        state.correct = 0;
+        state.wrong = 0;
+        state.streak = 0;
+        state.wrongPoints = [];
+        state.remainingPoints = shuffle(state.points);
+        nextButton.disabled = false;
+        revealButton.disabled = false;
+        retryButton.style.display = "none";
+        updateStats();
+        pickQuestion();
+      }
+
+      function renderHotspots(points) {
+        hotspotLayer.textContent = "";
+        const namespace = "http://www.w3.org/2000/svg";
+
+        points.forEach((point) => {
+          const circle = document.createElementNS(namespace, "circle");
+          circle.setAttribute("class", "hotspot");
+          circle.setAttribute("cx", point.x);
+          circle.setAttribute("cy", point.y);
+          circle.setAttribute("r", 14);
+          circle.setAttribute("aria-label", point.label);
+          circle.addEventListener("click", () => checkAnswer(point));
+          point.element = circle;
+          hotspotLayer.appendChild(circle);
+        });
+      }
+
+      function loadSvgText(svgText, fileName) {
+        const parser = new DOMParser();
+        const svg = parser.parseFromString(svgText, "image/svg+xml");
+
+        if (svg.querySelector("parsererror")) {
+          throw new Error("Deze SVG kon niet gelezen worden.");
+        }
+
+        const [minX, minY, width, height] = readViewBox(svg);
+        const points = readPoints(svg);
+
+        hotspotLayer.setAttribute(
+          "viewBox",
+          `${minX} ${minY} ${width} ${height}`
+        );
+        mapWrap.style.setProperty("--map-ratio", `${width} / ${height}`);
+
+        state.svgText = svgText;
+        state.fileName = fileName;
+        state.points = points;
+        state.remainingPoints = shuffle(points);
+        state.wrongPoints = [];
+        state.currentQuestion = null;
+        state.correct = 0;
+        state.wrong = 0;
+        state.streak = 0;
+
+        renderHotspots(points);
+        updateMapDisplay();
+        updateStats();
+        retryButton.style.display = "none";
+
+        if (points.length === 0) {
+          promptEl.textContent = "Geen punten gevonden";
+          mapStatus.textContent = `${fileName}: geen rode punten met titel gevonden.`;
+          setFeedback(
+            "Controleer of je punten rood zijn en een titel hebben.",
+            "bad"
+          );
+          setControlsEnabled(false);
+          return;
+        }
+
+        mapStatus.textContent = `${fileName}: ${points.length} punten gevonden.`;
+        setControlsEnabled(true);
+        pickQuestion();
+      }
+
+      svgFileEl.addEventListener("change", () => {
+        const file = svgFileEl.files?.[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.addEventListener("load", () => {
+          try {
+            loadSvgText(String(reader.result), file.name);
+          } catch (error) {
+            promptEl.textContent = "SVG niet bruikbaar";
+            mapStatus.textContent = file.name;
+            setFeedback(error.message, "bad");
+            setControlsEnabled(false);
+          }
+        });
+        reader.readAsText(file);
+      });
+
+      function retryWrongPoints() {
+        if (state.wrongPoints.length === 0) return;
+        state.correct = 0;
+        state.wrong = 0;
+        state.streak = 0;
+        state.remainingPoints = shuffle(state.wrongPoints);
+        state.wrongPoints = [];
+        nextButton.disabled = false;
+        revealButton.disabled = false;
+        retryButton.style.display = "none";
+        updateStats();
+        pickQuestion();
+      }
+
+      nextButton.addEventListener("click", goToNextQuestion);
+      revealButton.addEventListener("click", revealAnswer);
+      resetButton.addEventListener("click", resetQuiz);
+      retryButton.addEventListener("click", retryWrongPoints);
+      hideObjectsEl.addEventListener("change", updateMapDisplay);
+      updateStats();
+    </script>
+  </body>
+</html>
