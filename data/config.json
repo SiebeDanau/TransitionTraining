@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "id": "FIC points",
+      "title": "FIC points Training",
+      "description": "Test Description",
+      "file": "map.html"
+    },
+    {
+      "id": "quiz",
+      "title": "Quiz Mode",
+      "description": "TODO",
+      "file": "quiz.html"
+    }
+  ]
+}
