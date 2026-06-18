@@ -371,7 +371,6 @@ const state = {
           return;
         }
 
-        mapStatus.textContent = `${fileName}: ${points.length} punten gevonden.`;
         setControlsEnabled(true);
         pickQuestion();
       }
