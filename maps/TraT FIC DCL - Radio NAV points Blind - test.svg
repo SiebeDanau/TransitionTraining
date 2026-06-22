@@ -39,13 +39,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="5.9275902"
-     inkscape:cx="739.9297"
-     inkscape:cy="620.06649"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="1.0478598"
+     inkscape:cx="806.40558"
+     inkscape:cy="299.18124"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="106"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1">
     <inkscape:page
@@ -1487,7 +1487,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-80-1">DOVER</title>
+         id="title10-74-4-80-1">DVR</title>
     </ellipse>
     <path
        id="path357"
@@ -1743,7 +1743,7 @@
        inkscape:transform-center-x="-6.2031202"
        inkscape:transform-center-y="-56.782408">
       <title
-         id="title10-2-9-6-7-1-4-8">MONTMEDY-Dun sur Meuse</title>
+         id="title10-2-9-6-7-1-4-8">MMD</title>
     </ellipse>
     <path
        id="path421"
@@ -1761,7 +1761,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4">EINDHOVEN</title>
+         id="title10-74-4">EHN</title>
     </ellipse>
     <path
        id="path423"
@@ -6499,7 +6499,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title9">COSTA</title>
+         id="title9">COA</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6509,17 +6509,17 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title8">KOKSY</title>
+         id="title8">KOK</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
        id="path5-1"
        cx="798.68549"
-       cy="298.35931"
+       cy="297.405"
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10">NICKY</title>
+         id="title10">NIK</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6529,7 +6529,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-7">ANTWERPEN</title>
+         id="title10-7">ANT</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6539,7 +6539,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2">CHIEVRES</title>
+         id="title10-2">CIV</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6549,7 +6549,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-76">AFFLIGEM</title>
+         id="title10-76">AFI</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6559,7 +6559,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-9">BRUSSELS</title>
+         id="title10-9">BUB</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6569,7 +6569,7 @@
        rx="5.0609999"
        ry="4.8923759">
       <title
-         id="title10-3">BRUNO</title>
+         id="title10-3">BUN</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6579,7 +6579,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74">KLEINE-BROGEL</title>
+         id="title10-74">BBL</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6589,7 +6589,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-0">BEAUVECHAIN</title>
+         id="title10-0">BBE</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6599,7 +6599,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-90">HULDENBERG</title>
+         id="title10-90">HUL</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6609,7 +6609,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-34">ANTWERPEN</title>
+         id="title10-34">ONW</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6619,7 +6619,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-1">GOSLY</title>
+         id="title10-1">GOS</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6629,7 +6629,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-8">FLORENNES</title>
+         id="title10-8">BFS</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6639,7 +6639,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-984">LIEGE</title>
+         id="title10-984">LGE</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6649,7 +6649,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-5">OLNO</title>
+         id="title10-5">LNO</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6659,7 +6659,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-72">SPRIMONT</title>
+         id="title10-72">SPI</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6669,7 +6669,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-54">DIEKIRCH</title>
+         id="title10-54">DIK</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6679,7 +6679,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-4">LUXEMBOURGH</title>
+         id="title10-4">LUX</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6689,7 +6689,7 @@
        rx="5.0609999"
        ry="4.8923759">
       <title
-         id="title10-2-9">LILLE-LESQIUN</title>
+         id="title10-2-9">LEQ</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6699,7 +6699,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6">CAMBRAI EPINOY</title>
+         id="title10-2-9-6">CMB</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6709,7 +6709,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6-1">BOULOGNE SUR MER</title>
+         id="title10-2-9-6-1">BNE</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6719,7 +6719,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6-7">BOURSONNE</title>
+         id="title10-2-9-6-7">BSN</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6729,7 +6729,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6-7-0">PONTOISE CORMEILLES EN VEXIN</title>
+         id="title10-2-9-6-7-0">PON</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6739,7 +6739,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6-7-1">CHATILLON SUR MARNE</title>
+         id="title10-2-9-6-7-1">CTL</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6749,7 +6749,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-2-9-6-7-1-4">REIMS</title>
+         id="title10-2-9-6-7-1-4">REM</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6761,7 +6761,7 @@
        inkscape:transform-center-x="-6.2031202"
        inkscape:transform-center-y="-56.782408">
       <title
-         id="title10-2-9-6-7-1-4-8-3">GROSTENQUIN</title>
+         id="title10-2-9-6-7-1-4-8-3">GTQ</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6771,7 +6771,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-9">LIMA</title>
+         id="title10-74-9">LMA</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6781,7 +6781,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-8">ROTTERDAM</title>
+         id="title10-74-4-8">RTM</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6793,7 +6793,7 @@
        inkscape:transform-center-x="-97.818434"
        inkscape:transform-center-y="-32.44709">
       <title
-         id="title10-74-4-5">EINDHOVEN</title>
+         id="title10-74-4-5">GIX</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6803,7 +6803,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-80">NORVENICH</title>
+         id="title10-74-4-80">NVO</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6813,7 +6813,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-80-2">CLACTON</title>
+         id="title10-74-4-80-2">CLN</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6823,7 +6823,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-80-2-7">LAMBOURNE</title>
+         id="title10-74-4-80-2-7">LAM</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6833,7 +6833,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-8-1">SPIJKERBOOR</title>
+         id="title10-74-4-8-1">SPY</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6843,7 +6843,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-8-6">WOENSDRECHT</title>
+         id="title10-74-4-8-6">WDT</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6853,7 +6853,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-8-2">MAASTRICHT</title>
+         id="title10-74-4-8-2">MAS</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6863,7 +6863,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-80-1-1">DETLING</title>
+         id="title10-74-4-80-1-1">DET</title>
     </ellipse>
     <ellipse
        style="fill:#ff1111;stroke-width:0.895457"
@@ -6873,7 +6873,7 @@
        rx="5.0610785"
        ry="4.8923759">
       <title
-         id="title10-74-4-8-6-9">GILZEN-RIJEN</title>
+         id="title10-74-4-8-6-9">GZR</title>
     </ellipse>
   </g>
 </svg>
