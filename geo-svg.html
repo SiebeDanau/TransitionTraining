@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SVG georeferentie editor</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f5f1;
+        --panel: #ffffff;
+        --ink: #202124;
+        --muted: #5f6368;
+        --line: #d8d5cc;
+        --accent: #186c78;
+        --accent-2: #7a4f12;
+        --danger: #b3261e;
+        --good: #167847;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      button,
+      input,
+      select {
+        font: inherit;
+      }
+
+      .app {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: minmax(340px, 430px) minmax(0, 1fr);
+      }
+
+      .sidebar {
+        border-right: 1px solid var(--line);
+        background: var(--panel);
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        overflow: auto;
+      }
+
+      .main {
+        min-width: 0;
+        padding: 22px;
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        gap: 14px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 4px;
+        font-size: 26px;
+        line-height: 1.1;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+        font-size: 17px;
+        line-height: 1.2;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin-bottom: 6px;
+        font-size: 15px;
+        line-height: 1.2;
+        letter-spacing: 0;
+      }
+
+      .intro,
+      .hint,
+      .status {
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fbfaf7;
+        padding: 14px;
+      }
+
+      .stack {
+        display: grid;
+        gap: 10px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      label {
+        display: grid;
+        gap: 5px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      input,
+      select {
+        min-height: 38px;
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        color: var(--ink);
+        padding: 0 10px;
+      }
+
+      input[type="file"] {
+        padding: 7px;
+      }
+
+      .controls,
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+
+      .toolbar {
+        justify-content: space-between;
+      }
+
+      .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .zoom-label {
+        min-width: 58px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .button {
+        border: 1px solid var(--accent);
+        border-radius: 8px;
+        background: var(--accent);
+        color: #ffffff;
+        min-height: 38px;
+        padding: 0 12px;
+        cursor: pointer;
+      }
+
+      .button.secondary {
+        background: #ffffff;
+        color: var(--accent);
+      }
+
+      .button.danger {
+        border-color: var(--danger);
+        background: #ffffff;
+        color: var(--danger);
+      }
+
+      .button:disabled {
+        cursor: default;
+        opacity: 0.5;
+      }
+
+      .list {
+        display: grid;
+        gap: 8px;
+        max-height: 240px;
+        overflow: auto;
+      }
+
+      .item {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        padding: 10px;
+        text-align: left;
+        display: grid;
+        gap: 3px;
+        cursor: pointer;
+      }
+
+      .item.active {
+        border-color: var(--accent);
+        outline: 2px solid rgba(24, 108, 120, 0.16);
+      }
+
+      .item strong {
+        font-size: 14px;
+      }
+
+      .item span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .map-shell {
+        min-height: 420px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: auto;
+        background: #ffffff;
+      }
+
+      .map-wrap {
+        position: relative;
+        width: min(100%, 1400px);
+        min-width: 720px;
+        aspect-ratio: var(--svg-ratio, 4 / 3);
+        margin: 0 auto;
+      }
+
+      .map-image,
+      .overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .map-image {
+        display: block;
+        user-select: none;
+      }
+
+      .overlay {
+        cursor: crosshair;
+      }
+
+      .ref-marker {
+        fill: #ffffff;
+        stroke: var(--accent-2);
+        stroke-width: 4;
+      }
+
+      .ref-label,
+      .object-label {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        paint-order: stroke;
+        stroke: #ffffff;
+        stroke-width: 4px;
+        stroke-linejoin: round;
+      }
+
+      .ref-label {
+        fill: var(--accent-2);
+      }
+
+      .object-marker {
+        fill: #ff1111;
+        stroke: #ffffff;
+        stroke-width: 4;
+      }
+
+      .object-label {
+        fill: #202124;
+      }
+
+      .object-hit {
+        cursor: pointer;
+        fill: transparent;
+      }
+
+      .object-hit.active {
+        fill: rgba(24, 108, 120, 0.15);
+        stroke: var(--accent);
+        stroke-width: 2;
+      }
+
+      .status.good {
+        color: var(--good);
+      }
+
+      .status.bad {
+        color: var(--danger);
+      }
+
+      @media (max-width: 900px) {
+        .app {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .main {
+          padding: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <aside class="sidebar" aria-label="SVG editor">
+        <div>
+          <h1>SVG georeferentie editor</h1>
+          <p class="intro">
+            Upload een SVG, klik referentiepunten aan en plaats objecten op
+            geografische coordinaten.
+          </p>
+        </div>
+
+        <section class="panel stack">
+          <h2>SVG</h2>
+          <label>
+            Bestand
+            <input id="svgFile" type="file" accept=".svg,image/svg+xml" />
+          </label>
+          <div class="controls">
+            <button class="button secondary" id="downloadButton" type="button" disabled>
+              Download SVG
+            </button>
+          </div>
+          <p class="status" id="fileStatus">Nog geen SVG geladen.</p>
+        </section>
+
+        <section class="panel stack">
+          <h2>Referentiepunten</h2>
+          <label>
+            Bewerk punt
+            <select id="referenceSelect"></select>
+          </label>
+          <div class="row">
+            <label>
+              Latitude
+              <input id="referenceLat" type="text" placeholder="502032N" />
+            </label>
+            <label>
+              Longitude
+              <input id="referenceLon" type="text" placeholder="0060000E" />
+            </label>
+          </div>
+          <div class="row">
+            <label>
+              SVG X
+              <input id="referenceX" type="text" inputmode="decimal" readonly />
+            </label>
+            <label>
+              SVG Y
+              <input id="referenceY" type="text" inputmode="decimal" readonly />
+            </label>
+          </div>
+          <div class="controls">
+            <button class="button" id="saveReferenceButton" type="button" disabled>
+              Bewaar referentie
+            </button>
+            <button class="button secondary" id="newReferenceButton" type="button" disabled>
+              Nieuw punt
+            </button>
+            <button class="button danger" id="deleteReferenceButton" type="button" disabled>
+              Verwijder
+            </button>
+          </div>
+          <p class="hint">
+            Klik op de SVG om een referentiepunt te plaatsen. Vul daarna de
+            latitude en longitude in, bijvoorbeeld 502032N en 0034030E. Je mag
+            beide coordinaten ook samen in het latitudeveld zetten. Met 2
+            punten wordt schaal/rotatie gebruikt; met 3 of meer punten een
+            affine transformatie.
+          </p>
+          <div class="list" id="referenceList"></div>
+        </section>
+
+        <section class="panel stack">
+          <h2>Objecten</h2>
+          <label>
+            Titel
+            <input id="objectTitle" type="text" placeholder="Naam object, optioneel" />
+          </label>
+          <div class="row">
+            <label>
+              Latitude
+              <input id="objectLat" type="text" placeholder="502032N" />
+            </label>
+            <label>
+              Longitude
+              <input id="objectLon" type="text" placeholder="0060000E" />
+            </label>
+          </div>
+          <div class="controls">
+            <button class="button" id="saveObjectButton" type="button" disabled>
+              Bewaar object
+            </button>
+            <button class="button secondary" id="newObjectButton" type="button" disabled>
+              Nieuw object
+            </button>
+            <button class="button danger" id="deleteObjectButton" type="button" disabled>
+              Verwijder
+            </button>
+          </div>
+          <p class="status" id="objectStatus">Minstens 2 referentiepunten nodig.</p>
+          <div class="list" id="objectList"></div>
+        </section>
+      </aside>
+
+      <section class="main" aria-label="Kaart">
+        <div class="toolbar">
+          <p class="status" id="mapStatus">Upload een SVG om te starten.</p>
+          <div class="zoom-controls" aria-label="Zoom">
+            <button class="button secondary" id="zoomOutButton" type="button" disabled>
+              -
+            </button>
+            <span class="zoom-label" id="zoomLabel">100%</span>
+            <button class="button secondary" id="zoomInButton" type="button" disabled>
+              +
+            </button>
+            <button class="button secondary" id="zoomResetButton" type="button" disabled>
+              Reset
+            </button>
+            <a href="index.html">Terug naar modules</a>
+          </div>
+        </div>
+
+        <div class="map-shell">
+          <div class="map-wrap" id="mapWrap">
+            <img class="map-image" id="mapImage" alt="Geuploade SVG" />
+            <svg class="overlay" id="overlay" viewBox="0 0 100 100" aria-label="Editor overlay"></svg>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/geo-svg.js"></script>
+  </body>
+</html>

@@ -13,6 +13,12 @@
       "description": "",
       "type": "map",
       "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"
+    },
+    {
+      "id": "geo-svg-editor",
+      "title": "SVG georeferentie editor",
+      "description": "Upload een SVG en voeg objecten toe op geografische coordinaten.",
+      "type": "geo-svg"
     }
   ]
 }

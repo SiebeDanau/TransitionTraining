@@ -36,4 +36,8 @@ fetch("data/config.json")
         console.log("JSON" + JSON.stringify(module));
         window.location.href = "map.html";
     }
+    if (module.type === "geo-svg") {
+        localStorage.setItem("activeModule", JSON.stringify(module));
+        window.location.href = "geo-svg.html";
+    }
 }
