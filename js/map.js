@@ -89,40 +89,35 @@ const state = {
       }
 
       function readPoints(svg) {
-        const paths = Array.from(svg.querySelectorAll("path")).concat(Array.from(svg.querySelectorAll("ellipse")));
-        return paths
-            .map((path) => {
-            const title = path.querySelector("title")?.textContent.trim();
-            const style = path.getAttribute("style") || "";
-            const isRed = style.includes("fill:#ff1111") || style.includes("fill:#ff0000");
-            if (!title || !isRed) return null;
+        return Array.from(svg.querySelectorAll('[data-geo-svg-tool="object"]'))
+          .map((object) => {
+            const label =
+              object.getAttribute("data-title") ||
+              object.querySelector("title")?.textContent.trim();
+            if (!label) return null;
 
-            // DE CRUCIALE FIX:
-            // We kijken EERST of sodipodi:cx bestaat (zowel voor path als ellipse).
-            // Pas als die er niet is, vallen we terug op de gewone cx.
-            const cx = number(path.getAttribute("sodipodi:cx")) || number(path.getAttribute("cx"));
-            const cy = number(path.getAttribute("sodipodi:cy")) || number(path.getAttribute("cy"));
-            
+            const marker = object.querySelector("circle, ellipse, path, polygon, rect");
+
+            const cx =
+              number(marker?.getAttribute("sodipodi:cx")) ||
+              number(marker?.getAttribute("cx")) ||
+              0;
+            const cy =
+              number(marker?.getAttribute("sodipodi:cy")) ||
+              number(marker?.getAttribute("cy")) ||
+              0;
             if (!Number.isFinite(cx) || !Number.isFinite(cy)) return null;
-            
-            // Veilig de matrix ophalen
-            const closestTransformEl = path.closest('[transform]');
-            const transformAttr = closestTransformEl ? closestTransformEl.getAttribute("transform") : null;
-            const matrix = parseAnyTransform(transformAttr);
 
-            // Als er een matrix is, transformeren we vanaf de sodipodi-basis.
-            // Als er GEEN matrix is, gebruiken we gewoon de cx/cy direct.
-            let point;
-            if (matrix && matrix.length === 6) {
-                point = transformPoint(cx, cy, matrix);
-            } else {
-                point = { x: cx, y: cy };
-            }
+            const matrix = parseAnyTransform(object.getAttribute("transform"));
+            const point =
+              matrix && matrix.length === 6
+                ? transformPoint(cx, cy, matrix)
+                : { x: cx, y: cy };
 
-            return { label: title, x: point.x, y: point.y };
-            })
-            .filter(Boolean)
-            .sort((a, b) => a.label.localeCompare(b.label));
+            return { label, x: point.x, y: point.y };
+          })
+          .filter(Boolean)
+          .sort((a, b) => a.label.localeCompare(b.label));
         }
 
         function parseAnyTransform(transformStr) {
@@ -152,24 +147,17 @@ const state = {
         }   
 
 
-      function isTitledRedPoint(path) {
-        const title = path.querySelector("title")?.textContent.trim();
-        const style = path.getAttribute("style") || "";
-        return (
-          !!title &&
-          (style.includes("fill:#ff1111") || style.includes("fill:#ff0000"))
-        );
-      }
-
       function makeDisplaySvg(svgText) {
         if (!hideObjectsEl.checked) return svgText;
 
         const parser = new DOMParser();
         const svg = parser.parseFromString(svgText, "image/svg+xml");
-        svg.querySelectorAll("path").forEach((path) => {
-          if (isTitledRedPoint(path)) {
-            path.setAttribute("display", "none");
-          }
+        svg
+          .querySelectorAll(
+            '[data-geo-svg-tool="object"], [data-geo-svg-tool="object-label"]'
+          )
+          .forEach((object) => {
+            object.setAttribute("display", "none");
         });
 
         return new XMLSerializer().serializeToString(svg);
@@ -362,9 +350,9 @@ const state = {
 
         if (points.length === 0) {
           promptEl.textContent = "Geen punten gevonden";
-          mapStatus.textContent = `${fileName}: geen rode punten met titel gevonden.`;
+          mapStatus.textContent = `${fileName}: geen objecten uit de nieuwe editor gevonden.`;
           setFeedback(
-            "Controleer of je punten rood zijn en een titel hebben.",
+            "Voeg eerst objecten toe via de SVG georeferentie editor.",
             "bad"
           );
           setControlsEnabled(false);

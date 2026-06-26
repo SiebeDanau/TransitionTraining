@@ -88,6 +88,14 @@
         letter-spacing: 0;
       }
 
+      h4 {
+        margin: 6px 0 0;
+        font-size: 13px;
+        line-height: 1.2;
+        letter-spacing: 0;
+        color: var(--muted);
+      }
+
       .intro,
       .hint,
       .status {
@@ -102,6 +110,40 @@
         padding: 14px;
       }
 
+      .panel summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        cursor: pointer;
+        list-style: none;
+      }
+
+      .panel summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .panel summary::after {
+        content: "+";
+        color: var(--accent);
+        font-size: 20px;
+        line-height: 1;
+      }
+
+      .panel[open] summary::after {
+        content: "-";
+      }
+
+      .panel summary h2 {
+        margin-bottom: 0;
+      }
+
+      .panel-content {
+        display: grid;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
       .stack {
         display: grid;
         gap: 10px;
@@ -111,6 +153,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+      }
+
+      .row.three {
+        grid-template-columns: 1fr 1fr 1fr;
       }
 
       label {
@@ -133,6 +179,24 @@
 
       input[type="file"] {
         padding: 7px;
+      }
+
+      input[type="color"] {
+        min-height: 38px;
+        padding: 3px;
+      }
+
+      input[type="checkbox"] {
+        min-height: auto;
+        width: auto;
+      }
+
+      .check-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 13px;
       }
 
       .controls,
@@ -249,13 +313,17 @@
       }
 
       .overlay {
+        cursor: default;
+      }
+
+      .overlay.click-target {
         cursor: crosshair;
       }
 
       .ref-marker {
-        fill: #ffffff;
         stroke: var(--accent-2);
         stroke-width: 4;
+        stroke-linecap: round;
       }
 
       .ref-label,
@@ -274,8 +342,6 @@
 
       .object-marker {
         fill: #ff1111;
-        stroke: #ffffff;
-        stroke-width: 4;
       }
 
       .object-label {
@@ -293,12 +359,56 @@
         stroke-width: 2;
       }
 
+      .complex-object {
+        fill: rgba(24, 108, 120, 0.12);
+        stroke: var(--accent);
+        stroke-width: 4;
+        stroke-linejoin: round;
+      }
+
+      .complex-object.open {
+        fill: none;
+        stroke-dasharray: 10 7;
+      }
+
+      .complex-node {
+        fill: #ffffff;
+        stroke: var(--accent);
+        stroke-width: 3;
+      }
+
+      .complex-node.active {
+        fill: var(--accent);
+        stroke: #ffffff;
+        stroke-width: 4;
+      }
+
       .status.good {
         color: var(--good);
       }
 
       .status.bad {
         color: var(--danger);
+      }
+
+      .modal-dialog {
+        width: min(420px, calc(100vw - 32px));
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        color: var(--ink);
+        padding: 0;
+        box-shadow: 0 18px 48px rgba(32, 33, 36, 0.22);
+      }
+
+      .modal-dialog::backdrop {
+        background: rgba(32, 33, 36, 0.38);
+      }
+
+      .modal-content {
+        display: grid;
+        gap: 14px;
+        padding: 18px;
       }
 
       @media (max-width: 900px) {
@@ -328,8 +438,9 @@
           </p>
         </div>
 
-        <section class="panel stack">
-          <h2>SVG</h2>
+        <details class="panel">
+          <summary><h2>SVG</h2></summary>
+          <div class="panel-content">
           <label>
             Bestand
             <input id="svgFile" type="file" accept=".svg,image/svg+xml" />
@@ -340,10 +451,12 @@
             </button>
           </div>
           <p class="status" id="fileStatus">Nog geen SVG geladen.</p>
-        </section>
+          </div>
+        </details>
 
-        <section class="panel stack">
-          <h2>Referentiepunten</h2>
+        <details class="panel">
+          <summary><h2>Referentiepunten</h2></summary>
+          <div class="panel-content">
           <label>
             Bewerk punt
             <select id="referenceSelect"></select>
@@ -375,25 +488,34 @@
             <button class="button secondary" id="newReferenceButton" type="button" disabled>
               Nieuw punt
             </button>
+            <button class="button secondary" id="positionReferenceButton" type="button" disabled>
+              Plaats/verplaats op SVG
+            </button>
             <button class="button danger" id="deleteReferenceButton" type="button" disabled>
               Verwijder
             </button>
           </div>
           <p class="hint">
-            Klik op de SVG om een referentiepunt te plaatsen. Vul daarna de
-            latitude en longitude in, bijvoorbeeld 502032N en 0034030E. Je mag
-            beide coordinaten ook samen in het latitudeveld zetten. Met 2
-            punten wordt schaal/rotatie gebruikt; met 3 of meer punten een
-            affine transformatie.
+            Gebruik "Plaats/verplaats op SVG" om een referentiepunt op de kaart
+            te zetten. Gewoon klikken op de kaart verandert geen referentiepunt.
+            Vul daarna de latitude en longitude in, bijvoorbeeld 502032N en
+            0034030E. Minstens 3 geldige referentiepunten zijn nodig voor de
+            transformatie.
           </p>
           <div class="list" id="referenceList"></div>
-        </section>
+          </div>
+        </details>
 
-        <section class="panel stack">
-          <h2>Objecten</h2>
+        <details class="panel">
+          <summary><h2>Objecten</h2></summary>
+          <div class="panel-content">
           <label>
             Titel
             <input id="objectTitle" type="text" placeholder="Naam object, optioneel" />
+          </label>
+          <label class="check-row">
+            <input id="blindMap" type="checkbox" />
+            Blinde kaart
           </label>
           <div class="row">
             <label>
@@ -403,6 +525,20 @@
             <label>
               Longitude
               <input id="objectLon" type="text" placeholder="0060000E" />
+            </label>
+          </div>
+          <div class="row three">
+            <label>
+              Grootte
+              <input id="objectSize" type="number" min="2" max="80" step="1" />
+            </label>
+            <label>
+              Vorm
+              <select id="objectShape"></select>
+            </label>
+            <label>
+              Kleur
+              <input id="objectColor" type="color" />
             </label>
           </div>
           <div class="controls">
@@ -416,9 +552,82 @@
               Verwijder
             </button>
           </div>
-          <p class="status" id="objectStatus">Minstens 2 referentiepunten nodig.</p>
+          <p class="status" id="objectStatus">Minstens 3 referentiepunten nodig.</p>
           <div class="list" id="objectList"></div>
-        </section>
+          </div>
+        </details>
+
+        <details class="panel">
+          <summary><h2>Alle punten</h2></summary>
+          <div class="panel-content">
+          <div class="row three">
+            <label>
+              Grootte
+              <input id="globalObjectSize" type="number" min="2" max="80" step="1" />
+            </label>
+            <label>
+              Vorm
+              <select id="globalObjectShape"></select>
+            </label>
+            <label>
+              Kleur
+              <input id="globalObjectColor" type="color" />
+            </label>
+          </div>
+          <div class="controls">
+            <button class="button secondary" id="applyGlobalObjectStyleButton" type="button" disabled>
+              Pas toe op alle punten
+            </button>
+          </div>
+          </div>
+        </details>
+
+        <details class="panel">
+          <summary><h2>Complexe objecten</h2></summary>
+          <div class="panel-content">
+          <label>
+            Naam
+            <input id="complexTitle" type="text" placeholder="Naam complex object" />
+          </label>
+          <div class="row">
+            <label>
+              Latitude
+              <input id="complexLat" type="text" placeholder="502032N" />
+            </label>
+            <label>
+              Longitude
+              <input id="complexLon" type="text" placeholder="0060000E" />
+            </label>
+          </div>
+          <div class="controls">
+            <button class="button" id="addComplexCoordinateButton" type="button" disabled>
+              Voeg coordinaat toe
+            </button>
+            <button class="button secondary" id="updateComplexPointButton" type="button" disabled>
+              Werk punt bij
+            </button>
+            <button class="button secondary" id="addComplexMapPointButton" type="button" disabled>
+              Voeg punt op kaart toe
+            </button>
+            <button class="button secondary" id="closeComplexObjectButton" type="button" disabled>
+              Sluit object
+            </button>
+            <button class="button danger" id="deleteComplexObjectButton" type="button" disabled>
+              Verwijder
+            </button>
+          </div>
+          <p class="status" id="complexStatus">Upload eerst een SVG.</p>
+          <h4>Objecten</h4>
+          <div class="controls">
+            <button class="button secondary" id="newComplexObjectButton" type="button" disabled>
+              Nieuw complex object
+            </button>
+          </div>
+          <div class="list" id="complexList"></div>
+          <h4>Punten van geselecteerd object</h4>
+          <div class="list" id="complexPointList"></div>
+          </div>
+        </details>
       </aside>
 
       <section class="main" aria-label="Kaart">
@@ -447,6 +656,24 @@
         </div>
       </section>
     </main>
+
+    <dialog class="modal-dialog" id="newComplexObjectDialog">
+      <form class="modal-content" id="newComplexObjectForm" method="dialog">
+        <h2>Nieuw complex object</h2>
+        <label>
+          Naam
+          <input id="newComplexObjectName" type="text" />
+        </label>
+        <div class="controls">
+          <button class="button" id="confirmNewComplexObjectButton" type="submit">
+            Maak object
+          </button>
+          <button class="button secondary" id="cancelNewComplexObjectButton" type="button">
+            Annuleer
+          </button>
+        </div>
+      </form>
+    </dialog>
 
     <script src="js/geo-svg.js"></script>
   </body>
