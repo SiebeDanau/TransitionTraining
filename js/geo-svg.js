@@ -23,6 +23,7 @@ const state = {
   references: [],
   objects: [],
   complexObjects: [],
+  eaipPoints: [],
   selectedReferenceId: "",
   selectedObjectId: "",
   selectedComplexObjectId: "",
@@ -30,6 +31,7 @@ const state = {
   nextReferenceNumber: 1,
   nextComplexObjectNumber: 1,
   blindMap: false,
+  localCorrectionMode: "normal",
   referencePlacementArmed: false,
   complexMapPointArmed: false,
   objectDefaults: {
@@ -56,6 +58,7 @@ const referenceLat = document.querySelector("#referenceLat");
 const referenceLon = document.querySelector("#referenceLon");
 const referenceX = document.querySelector("#referenceX");
 const referenceY = document.querySelector("#referenceY");
+const localCorrectionMode = document.querySelector("#localCorrectionMode");
 const saveReferenceButton = document.querySelector("#saveReferenceButton");
 const newReferenceButton = document.querySelector("#newReferenceButton");
 const positionReferenceButton = document.querySelector("#positionReferenceButton");
@@ -71,8 +74,14 @@ const objectColor = document.querySelector("#objectColor");
 const saveObjectButton = document.querySelector("#saveObjectButton");
 const newObjectButton = document.querySelector("#newObjectButton");
 const deleteObjectButton = document.querySelector("#deleteObjectButton");
+const deleteAllObjectsButton = document.querySelector("#deleteAllObjectsButton");
 const objectStatus = document.querySelector("#objectStatus");
 const objectList = document.querySelector("#objectList");
+const loadEaipPointsButton = document.querySelector("#loadEaipPointsButton");
+const saveAllEaipPointsButton = document.querySelector("#saveAllEaipPointsButton");
+const eaipPointSearch = document.querySelector("#eaipPointSearch");
+const eaipPointStatus = document.querySelector("#eaipPointStatus");
+const eaipPointList = document.querySelector("#eaipPointList");
 const globalObjectSize = document.querySelector("#globalObjectSize");
 const globalObjectShape = document.querySelector("#globalObjectShape");
 const globalObjectColor = document.querySelector("#globalObjectColor");
@@ -122,14 +131,26 @@ function coordinateNumber(value, axis) {
   if ((axis === "lat" && !isLatitude) || (axis === "lon" && !isLongitude)) {
     return NaN;
   }
-  if (digits.length < 5 || digits.length > 7) return NaN;
 
-  const degreeLength = isLatitude ? 2 : digits.length - 4;
-  if (degreeLength < 1 || degreeLength > 3) return NaN;
+  let degreeLength;
+  let minuteText = "0";
+  let secondText = "0";
+
+  if (isLatitude) {
+    if (![1, 2, 4, 6].includes(digits.length)) return NaN;
+    degreeLength = digits.length <= 2 ? digits.length : 2;
+    if (digits.length >= 4) minuteText = digits.slice(2, 4);
+    if (digits.length === 6) secondText = digits.slice(4);
+  } else {
+    if (![1, 2, 3, 5, 7].includes(digits.length)) return NaN;
+    degreeLength = digits.length <= 3 ? digits.length : 3;
+    if (digits.length >= 5) minuteText = digits.slice(3, 5);
+    if (digits.length === 7) secondText = digits.slice(5);
+  }
 
   const degrees = Number.parseInt(digits.slice(0, degreeLength), 10);
-  const minutes = Number.parseInt(digits.slice(degreeLength, degreeLength + 2), 10);
-  const seconds = Number.parseFloat(digits.slice(degreeLength + 2));
+  const minutes = Number.parseInt(minuteText, 10);
+  const seconds = Number.parseFloat(secondText);
   if (
     !Number.isFinite(degrees) ||
     !Number.isFinite(minutes) ||
@@ -394,46 +415,184 @@ function computeTransform() {
   const refs = validReferences();
   if (refs.length < 3) return null;
 
-  const chosen = refs.slice(0, 3);
-  const matrix = [
-    [chosen[0].lon, chosen[0].lat, 1],
-    [chosen[1].lon, chosen[1].lat, 1],
-    [chosen[2].lon, chosen[2].lat, 1],
-  ];
-  const xCoefficients = solveLinear3(matrix, chosen.map((ref) => ref.x));
-  const yCoefficients = solveLinear3(matrix, chosen.map((ref) => ref.y));
-  if (!xCoefficients || !yCoefficients) return null;
+  let baseTransform = null;
+  if (refs.length >= 6) {
+    baseTransform = computePolynomialTransform(refs);
+  }
 
-  return (lat, lon) => ({
-    x: xCoefficients[0] * lon + xCoefficients[1] * lat + xCoefficients[2],
-    y: yCoefficients[0] * lon + yCoefficients[1] * lat + yCoefficients[2],
-  });
+  if (!baseTransform) baseTransform = computeAffineTransform(refs);
+  if (!baseTransform) return null;
+
+  return withLocalResidualCorrection(baseTransform, refs);
 }
 
-function solveLinear3(matrix, values) {
+function computeAffineTransform(refs) {
+  const rows = refs.map((ref) => [ref.lon, ref.lat, 1]);
+  const xCoefficients = solveLeastSquares(rows, refs.map((ref) => ref.x));
+  const yCoefficients = solveLeastSquares(rows, refs.map((ref) => ref.y));
+  if (!xCoefficients || !yCoefficients) return null;
+
+  const transform = (lat, lon) => {
+    const terms = [lon, lat, 1];
+    return {
+      x: dotProduct(xCoefficients, terms),
+      y: dotProduct(yCoefficients, terms),
+    };
+  };
+
+  transform.mode = "affine";
+  transform.referenceCount = refs.length;
+  return transform;
+}
+
+function computePolynomialTransform(refs) {
+  const lonCenter =
+    refs.reduce((sum, ref) => sum + ref.lon, 0) / refs.length;
+  const latCenter =
+    refs.reduce((sum, ref) => sum + ref.lat, 0) / refs.length;
+  const lonScale =
+    Math.max(...refs.map((ref) => Math.abs(ref.lon - lonCenter))) || 1;
+  const latScale =
+    Math.max(...refs.map((ref) => Math.abs(ref.lat - latCenter))) || 1;
+
+  const termsFor = (lat, lon) => {
+    const normalizedLon = (lon - lonCenter) / lonScale;
+    const normalizedLat = (lat - latCenter) / latScale;
+    return [
+      normalizedLon,
+      normalizedLat,
+      normalizedLon * normalizedLat,
+      normalizedLon * normalizedLon,
+      normalizedLat * normalizedLat,
+      1,
+    ];
+  };
+
+  const rows = refs.map((ref) => termsFor(ref.lat, ref.lon));
+  const xCoefficients = solveLeastSquares(rows, refs.map((ref) => ref.x));
+  const yCoefficients = solveLeastSquares(rows, refs.map((ref) => ref.y));
+  if (!xCoefficients || !yCoefficients) return null;
+
+  const transform = (lat, lon) => {
+    const terms = termsFor(lat, lon);
+    return {
+      x: dotProduct(xCoefficients, terms),
+      y: dotProduct(yCoefficients, terms),
+    };
+  };
+
+  transform.mode = "polynomial";
+  transform.referenceCount = refs.length;
+  return transform;
+}
+
+function withLocalResidualCorrection(baseTransform, refs) {
+  if (state.localCorrectionMode === "off") return baseTransform;
+
+  const residuals = refs
+    .map((ref) => {
+      const predicted = baseTransform(ref.lat, ref.lon);
+      return {
+        lat: ref.lat,
+        lon: ref.lon,
+        dx: ref.x - predicted.x,
+        dy: ref.y - predicted.y,
+      };
+    })
+    .filter((residual) =>
+      [residual.lat, residual.lon, residual.dx, residual.dy].every(Number.isFinite)
+    );
+
+  if (residuals.length < 3) return baseTransform;
+
+  const power = state.localCorrectionMode === "strong" ? 3 : 2;
+  const strength = state.localCorrectionMode === "strong" ? 1 : 0.75;
+
+  const transform = (lat, lon) => {
+    const base = baseTransform(lat, lon);
+    let totalWeight = 0;
+    let correctionX = 0;
+    let correctionY = 0;
+
+    for (const residual of residuals) {
+      const distance = Math.hypot(lon - residual.lon, lat - residual.lat);
+      if (distance < 1e-9) {
+        return {
+          x: base.x + residual.dx,
+          y: base.y + residual.dy,
+        };
+      }
+
+      const weight = 1 / Math.pow(distance, power);
+      totalWeight += weight;
+      correctionX += residual.dx * weight;
+      correctionY += residual.dy * weight;
+    }
+
+    if (totalWeight === 0) return base;
+
+    return {
+      x: base.x + (correctionX / totalWeight) * strength,
+      y: base.y + (correctionY / totalWeight) * strength,
+    };
+  };
+
+  transform.mode = `${baseTransform.mode}+local`;
+  transform.baseMode = baseTransform.mode;
+  transform.localCorrectionMode = state.localCorrectionMode;
+  transform.referenceCount = refs.length;
+  return transform;
+}
+
+function dotProduct(a, b) {
+  return a.reduce((sum, value, index) => sum + value * b[index], 0);
+}
+
+function solveLeastSquares(rows, values) {
+  if (rows.length === 0) return null;
+  const columns = rows[0].length;
+  const normalMatrix = Array.from({ length: columns }, () =>
+    Array(columns).fill(0)
+  );
+  const normalValues = Array(columns).fill(0);
+
+  rows.forEach((row, rowIndex) => {
+    for (let i = 0; i < columns; i += 1) {
+      normalValues[i] += row[i] * values[rowIndex];
+      for (let j = 0; j < columns; j += 1) {
+        normalMatrix[i][j] += row[i] * row[j];
+      }
+    }
+  });
+
+  return solveLinearSystem(normalMatrix, normalValues);
+}
+
+function solveLinearSystem(matrix, values) {
+  const size = matrix.length;
   const m = matrix.map((row, index) => [...row, values[index]]);
 
-  for (let pivot = 0; pivot < 3; pivot += 1) {
+  for (let pivot = 0; pivot < size; pivot += 1) {
     let max = pivot;
-    for (let row = pivot + 1; row < 3; row += 1) {
+    for (let row = pivot + 1; row < size; row += 1) {
       if (Math.abs(m[row][pivot]) > Math.abs(m[max][pivot])) max = row;
     }
     if (Math.abs(m[max][pivot]) < 1e-12) return null;
     [m[pivot], m[max]] = [m[max], m[pivot]];
 
     const divisor = m[pivot][pivot];
-    for (let col = pivot; col < 4; col += 1) m[pivot][col] /= divisor;
+    for (let col = pivot; col <= size; col += 1) m[pivot][col] /= divisor;
 
-    for (let row = 0; row < 3; row += 1) {
+    for (let row = 0; row < size; row += 1) {
       if (row === pivot) continue;
       const factor = m[row][pivot];
-      for (let col = pivot; col < 4; col += 1) {
+      for (let col = pivot; col <= size; col += 1) {
         m[row][col] -= factor * m[pivot][col];
       }
     }
   }
 
-  return [m[0][3], m[1][3], m[2][3]];
+  return m.map((row) => row[size]);
 }
 
 function newObject() {
@@ -450,6 +609,169 @@ function newObject() {
 
 function nextObjectTitle() {
   return `Object ${state.objects.length + 1}`;
+}
+
+function upsertObjectFromCoordinates({ id, title, lat, lon, style, transform }) {
+  const point = transform(lat, lon);
+  let object = state.objects.find((item) => item.id === id);
+  if (!object) {
+    object = state.objects.find((item) => item.title === title);
+  }
+  if (!object) {
+    object = {
+      id,
+      title: "",
+      lat: NaN,
+      lon: NaN,
+      x: NaN,
+      y: NaN,
+      ...state.objectDefaults,
+    };
+    state.objects.push(object);
+  }
+
+  object.title = title;
+  object.lat = lat;
+  object.lon = lon;
+  object.x = point.x;
+  object.y = point.y;
+  object.size = style.size;
+  object.shape = style.shape;
+  object.color = style.color;
+  return object;
+}
+
+function pointInsideViewBox(point) {
+  const [minX, minY, width, height] = state.viewBox;
+  return (
+    Number.isFinite(point.x) &&
+    Number.isFinite(point.y) &&
+    point.x >= minX &&
+    point.x <= minX + width &&
+    point.y >= minY &&
+    point.y <= minY + height
+  );
+}
+
+function normalizeEaipPoint(point, index) {
+  const name = String(point.name || point.title || point.id || "").trim();
+  const lat = String(point.lat || point.latitude || "").trim().toUpperCase();
+  const lon = String(point.lon || point.longitude || "").trim().toUpperCase();
+  if (!name || !Number.isFinite(coordinateNumber(lat, "lat")) || !Number.isFinite(coordinateNumber(lon, "lon"))) {
+    return null;
+  }
+
+  return {
+    id: String(point.id || name || `eaip-${index + 1}`),
+    name,
+    title: String(point.title || name),
+    lat,
+    lon,
+  };
+}
+
+function filteredEaipPoints() {
+  const query = eaipPointSearch.value.trim().toUpperCase();
+  if (!query) return state.eaipPoints.slice(0, 80);
+
+  return state.eaipPoints
+    .filter((point) =>
+      [point.name, point.title, point.lat, point.lon]
+        .join(" ")
+        .toUpperCase()
+        .includes(query)
+    )
+    .slice(0, 80);
+}
+
+function renderEaipPoints() {
+  eaipPointList.textContent = "";
+  const points = filteredEaipPoints();
+
+  points.forEach((point) => {
+    const button = document.createElement("button");
+    const title = document.createElement("strong");
+    const detail = document.createElement("span");
+    button.type = "button";
+    button.className = "item";
+    title.textContent = point.title;
+    detail.textContent = `${point.lat} ${point.lon}`;
+    button.appendChild(title);
+    button.appendChild(detail);
+    button.addEventListener("click", () => applyEaipPointToObject(point));
+    eaipPointList.appendChild(button);
+  });
+
+  if (state.eaipPoints.length === 0) {
+    return;
+  }
+
+  setStatus(
+    eaipPointStatus,
+    `${points.length} van ${state.eaipPoints.length} eAIP punten getoond.`
+  );
+  updateEaipBulkButton();
+}
+
+async function loadEaipPoints() {
+  setStatus(eaipPointStatus, "eAIP punten laden...");
+
+  try {
+    const response = await fetch("data/eaip-points.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const rawPoints = Array.isArray(data) ? data : data.points;
+    state.eaipPoints = Array.isArray(rawPoints)
+      ? rawPoints
+          .map((point, index) => normalizeEaipPoint(point, index))
+          .filter(Boolean)
+      : [];
+
+    if (state.eaipPoints.length === 0) {
+      setStatus(
+        eaipPointStatus,
+        "Geen eAIP punten gevonden. Voeg punten toe aan data/eaip-points.json.",
+        "bad"
+      );
+      renderEaipPoints();
+      updateEaipBulkButton();
+      return;
+    }
+
+    setStatus(
+      eaipPointStatus,
+      `${state.eaipPoints.length} eAIP punten geladen.`,
+      "good"
+    );
+    renderEaipPoints();
+    updateEaipBulkButton();
+  } catch (error) {
+    setStatus(
+      eaipPointStatus,
+      "Kon data/eaip-points.json niet laden. Gebruik een lokale webserver en controleer de JSON.",
+      "bad"
+    );
+    updateEaipBulkButton();
+  }
+}
+
+function applyEaipPointToObject(point) {
+  objectTitle.value = point.title;
+  objectLat.value = point.lat;
+  objectLon.value = point.lon;
+  setStatus(
+    objectStatus,
+    `${point.title} geselecteerd. Kies eventueel stijl en klik "Bewaar object".`,
+    "good"
+  );
+}
+
+function updateEaipBulkButton() {
+  saveAllEaipPointsButton.disabled =
+    state.eaipPoints.length === 0 || !state.svgDocument;
+  saveAllEaipPointsButton.title = saveAllEaipPointsButton.disabled
+    ? "Laad eerst een SVG en de eAIP punten."
+    : "Bewaart alle geladen eAIP punten. De tool controleert bij klikken of er genoeg referentiepunten zijn.";
 }
 
 function nextComplexObjectTitle() {
@@ -738,30 +1060,15 @@ function saveObject() {
     return;
   }
 
-  const point = transform(lat, lon);
-  let object = state.objects.find((item) => item.id === state.selectedObjectId);
-  if (!object) {
-    object = {
-      id: uid("obj"),
-      title: "",
-      lat: NaN,
-      lon: NaN,
-      x: NaN,
-      y: NaN,
-      ...state.objectDefaults,
-    };
-    state.objects.push(object);
-  }
-
   const style = objectStyleFromFields();
-  object.title = title;
-  object.lat = lat;
-  object.lon = lon;
-  object.x = point.x;
-  object.y = point.y;
-  object.size = style.size;
-  object.shape = style.shape;
-  object.color = style.color;
+  const object = upsertObjectFromCoordinates({
+    id: state.selectedObjectId || uid("obj"),
+    title,
+    lat,
+    lon,
+    style,
+    transform,
+  });
   state.selectedObjectId = object.id;
   objectTitle.value = title;
   objectLat.value = formatNumber(lat);
@@ -775,6 +1082,64 @@ function saveObject() {
   renderAll();
   updateMapImage();
   persistDraft();
+}
+
+function saveAllEaipPoints() {
+  const transform = computeTransform();
+  if (!transform) {
+    setStatus(objectStatus, "Minstens 3 geldige referentiepunten nodig.", "bad");
+    updateEaipBulkButton();
+    return;
+  }
+
+  if (state.eaipPoints.length === 0) {
+    setStatus(eaipPointStatus, "Laad eerst de eAIP punten.", "bad");
+    updateEaipBulkButton();
+    return;
+  }
+
+  const style = objectStyleFromFields();
+  let saved = 0;
+  let skipped = 0;
+  let visible = 0;
+
+  state.eaipPoints.forEach((eaipPoint) => {
+    const lat = coordinateNumber(eaipPoint.lat, "lat");
+    const lon = coordinateNumber(eaipPoint.lon, "lon");
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+      skipped += 1;
+      return;
+    }
+
+    const object = upsertObjectFromCoordinates({
+      id: `eaip-${eaipPoint.id}`,
+      title: eaipPoint.title,
+      lat,
+      lon,
+      style,
+      transform,
+    });
+    saved += 1;
+    if (pointInsideViewBox(object)) visible += 1;
+  });
+
+  state.selectedObjectId = "";
+  syncObjectsIntoSvg();
+  renderAll();
+  updateMapImage();
+  persistDraft();
+  setStatus(
+    eaipPointStatus,
+    `${saved} eAIP punten bewaard, ${visible} binnen de SVG-viewBox${skipped ? `, ${skipped} overgeslagen` : ""}.`,
+    skipped || visible === 0 ? "bad" : "good"
+  );
+  setStatus(
+    objectStatus,
+    visible === 0
+      ? "De punten zijn aangemaakt, maar liggen buiten de zichtbare SVG. Controleer de referentiepunten."
+      : `${visible} punten staan zichtbaar binnen de SVG.`,
+    visible === 0 ? "bad" : "good"
+  );
 }
 
 function armReferencePlacement() {
@@ -854,6 +1219,24 @@ function deleteObject() {
   renderAll();
   updateMapImage();
   persistDraft();
+}
+
+function deleteAllObjects() {
+  if (state.objects.length === 0) return;
+
+  const confirmed = window.confirm(
+    `Weet je zeker dat je alle ${state.objects.length} objecten wilt verwijderen?`
+  );
+  if (!confirmed) return;
+
+  state.objects = [];
+  state.selectedObjectId = "";
+  newObject();
+  syncObjectsIntoSvg();
+  renderAll();
+  updateMapImage();
+  persistDraft();
+  setStatus(objectStatus, "Alle objecten zijn verwijderd.", "good");
 }
 
 function createObjectMarker(svgDocument, object, className = "object-marker") {
@@ -1175,6 +1558,7 @@ function persistDraft() {
       nextReferenceNumber: state.nextReferenceNumber,
       nextComplexObjectNumber: state.nextComplexObjectNumber,
       blindMap: state.blindMap,
+      localCorrectionMode: state.localCorrectionMode,
       objectDefaults: state.objectDefaults,
     })
   );
@@ -1207,6 +1591,9 @@ function loadDraft() {
     }
     if (typeof draft.blindMap === "boolean") {
       state.blindMap = draft.blindMap;
+    }
+    if (["off", "normal", "strong"].includes(draft.localCorrectionMode)) {
+      state.localCorrectionMode = draft.localCorrectionMode;
     }
     if (draft.objectDefaults && typeof draft.objectDefaults === "object") {
       state.objectDefaults = {
@@ -1250,6 +1637,7 @@ function renderReferences() {
 
 function renderObjects() {
   objectList.textContent = "";
+  const visibleObjects = state.objects.filter(pointInsideViewBox).length;
   state.objects
     .slice()
     .sort((a, b) => a.title.localeCompare(b.title))
@@ -1265,6 +1653,14 @@ function renderObjects() {
     });
 
   deleteObjectButton.disabled = !state.selectedObjectId;
+  deleteAllObjectsButton.disabled = state.objects.length === 0;
+  if (state.objects.length > 0) {
+    setStatus(
+      objectStatus,
+      `${state.objects.length} objecten geladen, ${visibleObjects} binnen de SVG-viewBox.`,
+      visibleObjects === 0 ? "bad" : "good"
+    );
+  }
 }
 
 function renderComplexObjects() {
@@ -1412,7 +1808,27 @@ function renderOverlay() {
     setStatus(objectStatus, "Minstens 3 referentiepunten nodig.");
     setStatus(complexStatus, "Minstens 3 referentiepunten nodig voor coordinaten.");
   } else {
-    setStatus(objectStatus, "Affine transformatie actief met 3 of meer referentiepunten.", "good");
+    const baseMode = transformReady?.baseMode || transformReady?.mode;
+    const transformText =
+      baseMode === "polynomial"
+        ? `2e-graads transformatie actief met ${transformReady.referenceCount} referentiepunten.`
+        : refs >= 6
+          ? `Affine fallback actief met ${transformReady.referenceCount} referentiepunten. Controleer of referentiepunten goed verspreid zijn.`
+          : `Affine transformatie actief met ${transformReady.referenceCount} referentiepunten.`;
+    const correctionText =
+      transformReady?.localCorrectionMode && transformReady.localCorrectionMode !== "off"
+        ? ` Lokale correctie: ${transformReady.localCorrectionMode === "strong" ? "sterk" : "normaal"}.`
+        : "";
+    if (state.objects.length > 0) {
+      const visibleObjects = state.objects.filter(pointInsideViewBox).length;
+      setStatus(
+        objectStatus,
+        `${state.objects.length} objecten geladen, ${visibleObjects} binnen de SVG-viewBox. ${transformText}${correctionText}`,
+        visibleObjects === 0 ? "bad" : "good"
+      );
+    } else {
+      setStatus(objectStatus, `${transformText}${correctionText}`, "good");
+    }
     setStatus(complexStatus, "Complex object kan via coordinaten of kaartklik worden opgebouwd.", "good");
   }
 }
@@ -1422,6 +1838,7 @@ function renderAll() {
   renderObjects();
   renderComplexObjects();
   renderOverlay();
+  updateEaipBulkButton();
 }
 
 function enableEditor(enabled) {
@@ -1444,6 +1861,8 @@ function enableEditor(enabled) {
   applyGlobalObjectStyleButton.disabled = !enabled;
   deleteReferenceButton.disabled = !enabled || !state.selectedReferenceId;
   deleteObjectButton.disabled = !enabled || !state.selectedObjectId;
+  deleteAllObjectsButton.disabled = !enabled || state.objects.length === 0;
+  updateEaipBulkButton();
   setComplexEditorEnabled();
 }
 
@@ -1463,6 +1882,7 @@ function loadSvgText(svgText, fileName) {
   state.objects = readObjectsFromSvg(svgDocument);
   state.complexObjects = readComplexObjectsFromSvg(svgDocument);
   state.blindMap = readBlindMapFromSvg(svgDocument);
+  state.localCorrectionMode = "normal";
   state.referencePlacementArmed = false;
   state.complexMapPointArmed = false;
   state.objectDefaults = {
@@ -1481,6 +1901,7 @@ function loadSvgText(svgText, fileName) {
 
   loadDraft();
   blindMap.checked = state.blindMap;
+  localCorrectionMode.value = state.localCorrectionMode;
   syncDefaultStyleControls();
   if (state.references.length === 0) {
     state.references.push({
@@ -1567,6 +1988,10 @@ deleteReferenceButton.addEventListener("click", deleteReference);
 saveObjectButton.addEventListener("click", saveObject);
 newObjectButton.addEventListener("click", newObject);
 deleteObjectButton.addEventListener("click", deleteObject);
+deleteAllObjectsButton.addEventListener("click", deleteAllObjects);
+loadEaipPointsButton.addEventListener("click", loadEaipPoints);
+saveAllEaipPointsButton.addEventListener("click", saveAllEaipPoints);
+eaipPointSearch.addEventListener("input", renderEaipPoints);
 objectSize.addEventListener("change", applySelectedObjectStyle);
 objectShape.addEventListener("change", applySelectedObjectStyle);
 objectColor.addEventListener("input", applySelectedObjectStyle);
@@ -1602,6 +2027,11 @@ blindMap.addEventListener("change", () => {
   syncObjectsIntoSvg();
   renderAll();
   updateMapImage();
+  persistDraft();
+});
+localCorrectionMode.addEventListener("change", () => {
+  state.localCorrectionMode = localCorrectionMode.value;
+  renderAll();
   persistDraft();
 });
 downloadButton.addEventListener("click", downloadSvg);

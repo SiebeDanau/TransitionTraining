@@ -461,6 +461,14 @@
             Bewerk punt
             <select id="referenceSelect"></select>
           </label>
+          <label>
+            Lokale correctie
+            <select id="localCorrectionMode">
+              <option value="off">Uit</option>
+              <option value="normal" selected>Normaal</option>
+              <option value="strong">Sterk</option>
+            </select>
+          </label>
           <div class="row">
             <label>
               Latitude
@@ -500,7 +508,8 @@
             te zetten. Gewoon klikken op de kaart verandert geen referentiepunt.
             Vul daarna de latitude en longitude in, bijvoorbeeld 502032N en
             0034030E. Minstens 3 geldige referentiepunten zijn nodig voor de
-            transformatie.
+            transformatie. Vanaf 6 referentiepunten gebruikt de tool een
+            nauwkeurigere 2e-graads transformatie.
           </p>
           <div class="list" id="referenceList"></div>
           </div>
@@ -509,6 +518,23 @@
         <details class="panel">
           <summary><h2>Objecten</h2></summary>
           <div class="panel-content">
+          <section class="stack" aria-label="eAIP punten">
+            <h3>eAIP punten</h3>
+            <div class="controls">
+              <button class="button secondary" id="loadEaipPointsButton" type="button">
+                Laad eAIP punten
+              </button>
+              <button class="button secondary" id="saveAllEaipPointsButton" type="button" disabled>
+                Bewaar alle eAIP punten
+              </button>
+            </div>
+            <label>
+              Zoek punt
+              <input id="eaipPointSearch" type="text" placeholder="Naam of coordinaat" />
+            </label>
+            <p class="status" id="eaipPointStatus">Nog geen eAIP punten geladen.</p>
+            <div class="list" id="eaipPointList"></div>
+          </section>
           <label>
             Titel
             <input id="objectTitle" type="text" placeholder="Naam object, optioneel" />
@@ -550,6 +576,9 @@
             </button>
             <button class="button danger" id="deleteObjectButton" type="button" disabled>
               Verwijder
+            </button>
+            <button class="button danger" id="deleteAllObjectsButton" type="button" disabled>
+              Verwijder alle objecten
             </button>
           </div>
           <p class="status" id="objectStatus">Minstens 3 referentiepunten nodig.</p>
