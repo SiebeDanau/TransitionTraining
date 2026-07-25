@@ -1,43 +1,74 @@
-fetch("data/config.json")
-  .then(res => res.json())
-  .then(config => {
-    const menu = document.getElementById("menu");
+const menu = document.getElementById("menu");
+const menuStatus = document.getElementById("menuStatus");
 
-    config.modules.forEach(module => {
-      const card = document.createElement("div");
-      card.style.border = "1px solid #ccc";
-      card.style.padding = "10px";
-      card.style.margin = "10px";
-      card.style.cursor = "pointer";
+Promise.all([
+  fetch("data/config.json", { cache: "no-store" }).then(checkResponse),
+  fetch("data/roles.json", { cache: "no-store" }).then(checkResponse),
+])
+  .then(([config, roleConfig]) => {
+    const roles = Array.isArray(roleConfig.roles) ? roleConfig.roles : [];
 
-      if (module.description != "") {
-          card.innerHTML = `
-            <h2>${module.title}</h2>
-            <p>${module.description}</p>
-          `;
+    config.modules.forEach((module) => {
+      const card = document.createElement("section");
+      card.className = "module-card";
+
+      const title = document.createElement("h2");
+      title.textContent = module.title;
+      card.appendChild(title);
+
+      if (module.description) {
+        const description = document.createElement("p");
+        description.textContent = module.description;
+        card.appendChild(description);
       }
-      else {
-         card.innerHTML = `
-            <h2>${module.title}</h2>
-          `;
-      }
 
-      card.onclick = () => {
-        openModule(module);
-      };
+      const actions = document.createElement("div");
+      actions.className = "module-actions";
 
+      const field = document.createElement("label");
+      field.className = "role-field";
+      field.textContent = "Rol";
+
+      const roleSelect = document.createElement("select");
+      roleSelect.setAttribute("aria-label", `Rol voor ${module.title}`);
+      roleSelect.add(new Option("Selecteer een rol", ""));
+      roles.forEach((role) => roleSelect.add(new Option(role.label, role.id)));
+      field.appendChild(roleSelect);
+
+      const openButton = document.createElement("button");
+      openButton.type = "button";
+      openButton.textContent = "Module laden";
+      openButton.disabled = true;
+      roleSelect.addEventListener("change", () => {
+        openButton.disabled = !roleSelect.value;
+      });
+      openButton.addEventListener("click", () => {
+        const role = roles.find((item) => item.id === roleSelect.value);
+        if (role) openModule(module, role);
+      });
+
+      actions.append(field, openButton);
+      card.appendChild(actions);
       menu.appendChild(card);
     });
+  })
+  .catch((error) => {
+    menuStatus.textContent = `De modules en rollen konden niet geladen worden: ${error.message}`;
   });
 
-  function openModule(module) {
-    if (module.type === "map") {
-        localStorage.setItem("activeModule", JSON.stringify(module));
-        console.log("JSON" + JSON.stringify(module));
-        window.location.href = "map.html";
-    }
-    if (module.type === "geo-svg") {
-        localStorage.setItem("activeModule", JSON.stringify(module));
-        window.location.href = "geo-svg.html";
-    }
+function checkResponse(response) {
+  if (!response.ok) {
+    throw new Error(`${response.url} (${response.status})`);
+  }
+  return response.json();
+}
+
+function openModule(module, role) {
+  localStorage.setItem("activeModule", JSON.stringify(module));
+  localStorage.setItem(
+    "activeRole",
+    JSON.stringify({ id: role.id, label: role.label })
+  );
+
+  window.location.href = module.type === "geo-svg" ? "geo-svg.html" : "map.html";
 }

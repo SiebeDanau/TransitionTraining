@@ -9,6 +9,7 @@ const state = {
         wrong: 0,
         streak: 0,
         answered: false,
+        allowedPointIds: new Set(),
       };
 
       const svgFileEl = document.querySelector("#svgFile");
@@ -28,26 +29,57 @@ const state = {
       const mapImage = document.querySelector("#mapImage");
       const hotspotLayer = document.querySelector("#hotspotLayer");
       const module = JSON.parse(localStorage.getItem("activeModule"));
+      const activeRole = JSON.parse(localStorage.getItem("activeRole"));
 
       function SetTitle(){
+        if (!module) return;
         document.title = module.title;
         document.getElementById("pageTitle").innerText = module.title;
+        if (activeRole) {
+          document.getElementById("pageIntro").innerText =
+            `Rol: ${activeRole.label}`;
+        }
       }
 
       SetTitle();
 
-      function initMap() {
-
-        if (!module || module.type !== "map") {
+      async function initMap() {
+        if (!module || module.type !== "map" || !activeRole) {
           window.location.href = "index.html";
           return;
         }
 
-        document.title = module.title;
+        try {
+          const [mapResponse, roleResponse] = await Promise.all([
+            fetch(`maps/${module.map}`),
+            fetch("data/roles.json", { cache: "no-store" }),
+          ]);
+          if (!mapResponse.ok || !roleResponse.ok) {
+            throw new Error("Kaart of rollenbestand kon niet geladen worden.");
+          }
 
-        fetch(`maps/${module.map}`)
-          .then(r => r.text())
-          .then(svgText => loadSvgText(svgText, module.map));
+          const [svgText, roleConfig] = await Promise.all([
+            mapResponse.text(),
+            roleResponse.json(),
+          ]);
+          const role = roleConfig.roles?.find(
+            (item) => item.id === activeRole.id
+          );
+          const categoryAliases = {
+            "radio-navigation-points": "radio-navigation-aids",
+          };
+          const category =
+            role?.categories?.[module.id] ||
+            role?.categories?.[categoryAliases[module.id]];
+          state.allowedPointIds = new Set(
+            (category?.pointIds || []).map(normalizePointId)
+          );
+          loadSvgText(svgText, module.map);
+        } catch (error) {
+          promptEl.textContent = "Module kon niet geladen worden";
+          setFeedback(error.message, "bad");
+          setControlsEnabled(false);
+        }
       }
 
       initMap();
@@ -144,21 +176,33 @@ const state = {
                 }
             }
             return null;
-        }   
+        }
+
+      function normalizePointId(value) {
+        return String(value || "").trim().toUpperCase();
+      }
 
 
       function makeDisplaySvg(svgText) {
-        if (!hideObjectsEl.checked) return svgText;
-
         const parser = new DOMParser();
         const svg = parser.parseFromString(svgText, "image/svg+xml");
-        svg
-          .querySelectorAll(
-            '[data-geo-svg-tool="object"], [data-geo-svg-tool="object-label"]'
-          )
-          .forEach((object) => {
+        svg.querySelectorAll('[data-geo-svg-tool="object"]').forEach((object) => {
+          const label =
+            object.getAttribute("data-title") ||
+            object.querySelector("title")?.textContent;
+          if (
+            hideObjectsEl.checked ||
+            !state.allowedPointIds.has(normalizePointId(label))
+          ) {
             object.setAttribute("display", "none");
+          }
         });
+
+        if (hideObjectsEl.checked) {
+          svg
+            .querySelectorAll('[data-geo-svg-tool="object-label"]')
+            .forEach((label) => label.setAttribute("display", "none"));
+        }
 
         return new XMLSerializer().serializeToString(svg);
       }
@@ -325,7 +369,9 @@ const state = {
         }
 
         const [minX, minY, width, height] = readViewBox(svg);
-        const points = readPoints(svg);
+        const points = readPoints(svg).filter((point) =>
+          state.allowedPointIds.has(normalizePointId(point.label))
+        );
 
         hotspotLayer.setAttribute(
           "viewBox",
@@ -350,9 +396,8 @@ const state = {
 
         if (points.length === 0) {
           promptEl.textContent = "Geen punten gevonden";
-          mapStatus.textContent = `${fileName}: geen objecten uit de nieuwe editor gevonden.`;
           setFeedback(
-            "Voeg eerst objecten toe via de SVG georeferentie editor.",
+            `Voor ${activeRole.label} zijn geen punten uit de categorie ${module.id} op deze kaart gevonden.`,
             "bad"
           );
           setControlsEnabled(false);

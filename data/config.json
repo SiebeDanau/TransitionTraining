@@ -1,15 +1,22 @@
 {
   "modules": [
     {
-      "id": "FIC points",
-      "title": "FIC points",
+      "id": "significant-points",
+      "title": "Significant Points",
       "description": "",
       "type": "map",
-      "map": "Significant points - All AIP-met-objecten.svg"
+      "map": "Significant points - 15 references - All AIP.svg"
     },
     {
-      "id": "NAV points",
-      "title": "NAV points",
+      "id": "radio-navigation-points",
+      "title": "Radio Navigation Points",
+      "description": "",
+      "type": "map",
+      "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"
+    },
+    {
+      "id": "aerodromes",
+      "title": "Aerodromes",
       "description": "",
       "type": "map",
       "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"

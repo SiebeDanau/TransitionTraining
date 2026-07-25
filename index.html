@@ -3,12 +3,84 @@
 <head>
   <title>Transition Training</title>
   <script src="js/index.js" defer></script>
+  <style>
+    body {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202124;
+      background: #f5f4ef;
+    }
+
+    #menu {
+      display: grid;
+      gap: 16px;
+    }
+
+    .module-card {
+      display: grid;
+      gap: 14px;
+      padding: 20px;
+      border: 1px solid #d8d5cc;
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .module-card h2,
+    .module-card p {
+      margin: 0;
+    }
+
+    .module-actions {
+      display: flex;
+      align-items: end;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .role-field {
+      display: grid;
+      gap: 6px;
+      min-width: 220px;
+    }
+
+    select,
+    button {
+      min-height: 42px;
+      padding: 0 12px;
+      font: inherit;
+      border-radius: 8px;
+    }
+
+    select {
+      border: 1px solid #aaa;
+      background: #fff;
+    }
+
+    button {
+      border: 1px solid #186c78;
+      background: #186c78;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      cursor: default;
+      opacity: .5;
+    }
+
+    #menuStatus {
+      color: #b3261e;
+    }
+  </style>
 </head>
 <body>
 
   <h1>Training Modules</h1>
 
   <div id="menu"></div>
+  <p id="menuStatus" role="alert"></p>
 
 </body>
 </html>
