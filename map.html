@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kaarttrainer</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css"
+    />
     <style>
       :root {
         color-scheme: light;
@@ -203,66 +207,40 @@
         min-height: 360px;
         border: 1px solid var(--line);
         border-radius: 8px;
-        overflow: auto;
+        overflow: hidden;
         background: #ffffff;
       }
 
-      .map-wrap {
-        position: relative;
-        width: min(100%, 1586.6667px);
-        min-width: 760px;
-        aspect-ratio: var(--map-ratio, 1586.6667 / 1121.3333);
-        margin: 0 auto;
-      }
-
-      .map-image,
-      .hotspot-layer {
-        position: absolute;
-        inset: 0;
+      .map-canvas {
         width: 100%;
         height: 100%;
+        min-height: 520px;
       }
 
-      .map-image {
-        display: block;
-        user-select: none;
+      .background-control {
+        display: flex;
+        align-items: center;
+        gap: 10px;
       }
 
-      .hotspot {
-        cursor: pointer;
-        fill: rgba(24, 108, 120, 0);
-        stroke: rgba(24, 108, 120, 0);
-        stroke-width: 4;
-        transition: fill 120ms ease, stroke 120ms ease, stroke-width 120ms ease;
+      .map-note {
+        color: var(--muted);
+        font-size: 13px;
       }
 
-      .hotspot:hover {
-        fill: rgba(24, 108, 120, 0.18);
-        stroke: rgba(24, 108, 120, 0.7);
+      .maplibregl-ctrl-group {
+        border: 1px solid var(--line);
+        box-shadow: none;
       }
 
-      .map-wrap.hide-points .hotspot:hover {
-        fill: rgba(24, 108, 120, 0);
-        stroke: rgba(24, 108, 120, 0);
-      }
-
-      .hotspot.correct {
-        fill: rgba(22, 120, 71, 0.2);
-        stroke: var(--good);
-        stroke-width: 8;
-      }
-
-      .hotspot.incorrect {
-        fill: rgba(179, 38, 30, 0.2);
-        stroke: var(--bad);
-        stroke-width: 8;
-      }
-
-      .hotspot.reveal {
-        fill: rgba(22, 120, 71, 0.16);
-        stroke: var(--good);
-        stroke-width: 8;
-        stroke-dasharray: 10 6;
+      .map-error {
+        height: 100%;
+        min-height: 520px;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+        color: var(--bad);
+        text-align: center;
       }
 
       @media (max-width: 820px) {
@@ -275,6 +253,10 @@
         }
         .main {
           padding: 16px;
+        }
+        .map-canvas,
+        .map-error {
+          min-height: 460px;
         }
       }
     </style>
@@ -351,21 +333,24 @@
 
       <section class="main" aria-label="Kaart">
         <div class="toolbar">
+          <label class="background-control" for="backgroundMode">
+            <span>Achtergrond</span>
+            <select class="select" id="backgroundMode">
+              <option value="local">Rustige trainingskaart</option>
+              <option value="osm">OpenStreetMap minimaal</option>
+            </select>
+          </label>
+          <span class="map-note" id="mapNote">
+            Wegen en overige details zijn verborgen.
+          </span>
         </div>
 
         <div class="map-shell">
-          <div class="map-wrap" id="mapWrap">
-            <img class="map-image" id="mapImage" alt="Blinde kaart" />
-            <svg
-              class="hotspot-layer"
-              id="hotspotLayer"
-              viewBox="0 0 1586.6667 1121.3333"
-              aria-label="Klikpunten"
-            ></svg>
-          </div>
+          <div class="map-canvas" id="mapCanvas" aria-label="Interactieve trainingskaart"></div>
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
     <script src="js/map.js"></script>
   </body>
 </html>

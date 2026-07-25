@@ -78,6 +78,9 @@ const deleteAllObjectsButton = document.querySelector("#deleteAllObjectsButton")
 const objectStatus = document.querySelector("#objectStatus");
 const objectList = document.querySelector("#objectList");
 const loadEaipPointsButton = document.querySelector("#loadEaipPointsButton");
+const loadFranceEaipPointsButton = document.querySelector(
+  "#loadFranceEaipPointsButton"
+);
 const saveAllEaipPointsButton = document.querySelector("#saveAllEaipPointsButton");
 const eaipPointSearch = document.querySelector("#eaipPointSearch");
 const eaipPointStatus = document.querySelector("#eaipPointStatus");
@@ -713,11 +716,14 @@ function renderEaipPoints() {
   updateEaipBulkButton();
 }
 
-async function loadEaipPoints() {
-  setStatus(eaipPointStatus, "eAIP punten laden...");
+async function loadEaipPoints(
+  sourcePath = "data/eaip-points.json",
+  sourceLabel = "eAIP"
+) {
+  setStatus(eaipPointStatus, `${sourceLabel} punten laden...`);
 
   try {
-    const response = await fetch("data/eaip-points.json", { cache: "no-store" });
+    const response = await fetch(sourcePath, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     const rawPoints = Array.isArray(data) ? data : data.points;
@@ -730,7 +736,7 @@ async function loadEaipPoints() {
     if (state.eaipPoints.length === 0) {
       setStatus(
         eaipPointStatus,
-        "Geen eAIP punten gevonden. Voeg punten toe aan data/eaip-points.json.",
+        `Geen ${sourceLabel} punten gevonden. Controleer ${sourcePath}.`,
         "bad"
       );
       renderEaipPoints();
@@ -740,7 +746,7 @@ async function loadEaipPoints() {
 
     setStatus(
       eaipPointStatus,
-      `${state.eaipPoints.length} eAIP punten geladen.`,
+      `${state.eaipPoints.length} ${sourceLabel} punten geladen.`,
       "good"
     );
     renderEaipPoints();
@@ -748,7 +754,7 @@ async function loadEaipPoints() {
   } catch (error) {
     setStatus(
       eaipPointStatus,
-      "Kon data/eaip-points.json niet laden. Gebruik een lokale webserver en controleer de JSON.",
+      `Kon ${sourcePath} niet laden. Gebruik een lokale webserver en controleer de JSON.`,
       "bad"
     );
     updateEaipBulkButton();
@@ -1989,7 +1995,10 @@ saveObjectButton.addEventListener("click", saveObject);
 newObjectButton.addEventListener("click", newObject);
 deleteObjectButton.addEventListener("click", deleteObject);
 deleteAllObjectsButton.addEventListener("click", deleteAllObjects);
-loadEaipPointsButton.addEventListener("click", loadEaipPoints);
+loadEaipPointsButton.addEventListener("click", () => loadEaipPoints());
+loadFranceEaipPointsButton.addEventListener("click", () =>
+  loadEaipPoints("data/eaip-points-france.json", "France AIP")
+);
 saveAllEaipPointsButton.addEventListener("click", saveAllEaipPoints);
 eaipPointSearch.addEventListener("input", renderEaipPoints);
 objectSize.addEventListener("change", applySelectedObjectStyle);
