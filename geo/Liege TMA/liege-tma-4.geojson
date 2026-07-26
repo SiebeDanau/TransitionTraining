@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "LIEGE TMA FOUR",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIEGE TMA FOUR",
+        "upperLimit": "FL055",
+        "lowerLimit": "3000FT AMSL",
+        "airspaceClass": "C",
+        "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
+        "aipPage": "ENR 2.1-14",
+        "geometryNote": "Published endpoints retained exactly; circle arcs sampled at maximum 1 degree; international-border segments use Eurostat/GISCO Countries 2024 CNTR_BN_01M."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.89,
+              50.75083333
+            ],
+            [
+              5.915,
+              50.74972222
+            ],
+            [
+              5.99888889,
+              50.75222222
+            ],
+            [
+              5.99888889,
+              50.51166667
+            ],
+            [
+              5.65555556,
+              50.44083333
+            ],
+            [
+              5.89,
+              50.75083333
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

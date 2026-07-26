@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "name": "CHARLEROI TMA THREE B",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CHARLEROI TMA THREE B",
+        "upperLimit": "FL055",
+        "lowerLimit": "3500FT AMSL",
+        "airspaceClass": "C",
+        "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
+        "aipPage": "ENR 2.1-12",
+        "geometryNote": "Published endpoints retained exactly; circle arcs sampled at maximum 1 degree; international-border segments use Eurostat/GISCO Countries 2024 CNTR_BN_01M."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.85166667,
+              50.48333333
+            ],
+            [
+              4.96194444,
+              50.51472222
+            ],
+            [
+              4.98611111,
+              50.40194444
+            ],
+            [
+              4.87222222,
+              50.38777778
+            ],
+            [
+              4.85166667,
+              50.48333333
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

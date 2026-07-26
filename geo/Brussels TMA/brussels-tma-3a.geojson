@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "name": "BRUSSELS TMA THREE A",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRUSSELS TMA THREE A",
+        "upperLimit": "FL195",
+        "lowerLimit": "3500FT AMSL",
+        "airspaceClass": "C",
+        "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
+        "aipPage": "ENR 2.1-9",
+        "geometryNote": "Circle arcs sampled at maximum 1 degree; published endpoints retained exactly."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.01555556,
+              51.24444444
+            ],
+            [
+              3.6025,
+              50.67
+            ],
+            [
+              3.40583333,
+              50.89277778
+            ],
+            [
+              3.47166667,
+              51.05388889
+            ],
+            [
+              3.95861111,
+              51.21583333
+            ],
+            [
+              3.961193197000057,
+              51.21936167500007
+            ],
+            [
+              3.965860595000038,
+              51.22387282400007
+            ],
+            [
+              3.97766651400002,
+              51.225132114000075
+            ],
+            [
+              3.985424752000029,
+              51.23292550700006
+            ],
+            [
+              4.005676622000067,
+              51.24182249000006
+            ],
+            [
+              4.01555556,
+              51.24444444
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

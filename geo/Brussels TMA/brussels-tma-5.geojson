@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "BRUSSELS TMA FIVE",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRUSSELS TMA FIVE",
+        "upperLimit": "FL195",
+        "lowerLimit": "3500FT AMSL",
+        "airspaceClass": "C",
+        "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
+        "aipPage": "ENR 2.1-9",
+        "geometryNote": "Circle arcs sampled at maximum 1 degree; published endpoints retained exactly."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.48888889,
+              50.68638889
+            ],
+            [
+              4.8125,
+              50.91666667
+            ],
+            [
+              4.90694444,
+              50.89583333
+            ],
+            [
+              4.63361111,
+              50.68
+            ],
+            [
+              4.48805556,
+              50.63972222
+            ],
+            [
+              4.48888889,
+              50.68638889
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -11,6 +11,41 @@ const BLANK_STYLE = {
 };
 
 const OSM_STYLE_URL = "https://tiles.openfreemap.org/styles/bright";
+const TMA_FILE_GROUPS = {
+  "Brussels TMA": [
+    "brussels-tma-1",
+    "brussels-tma-2",
+    "brussels-tma-3a",
+    "brussels-tma-3b",
+    "brussels-tma-4",
+    "brussels-tma-5",
+    "brussels-tma-7",
+    "brussels-tma-8",
+    "brussels-tma-9a",
+    "brussels-tma-9b",
+  ],
+  "Charleroi TMA": [
+    "charleroi-tma-1",
+    "charleroi-tma-2a",
+    "charleroi-tma-2b",
+    "charleroi-tma-3a",
+    "charleroi-tma-3b",
+  ],
+  "Liege TMA": [
+    "liege-tma-1",
+    "liege-tma-2",
+    "liege-tma-3",
+    "liege-tma-4",
+    "liege-tma-5",
+  ],
+  "Luxembourg TMA": [
+    "luxembourg-tma-1a",
+    "luxembourg-tma-1b",
+    "luxembourg-tma-5",
+  ],
+  "Maastricht TMA": ["maastricht-tma-1"],
+  "Oostende TMA": ["oostende-tma-1", "oostende-tma-2"],
+};
 
 const state = {
   points: [],
@@ -30,7 +65,6 @@ const state = {
   backgroundMode: localStorage.getItem("mapBackgroundMode") || "local",
 };
 
-const hideObjectsEl = document.querySelector("#hideObjects");
 const backgroundModeEl = document.querySelector("#backgroundMode");
 const mapCanvasEl = document.querySelector("#mapCanvas");
 const mapNoteEl = document.querySelector("#mapNote");
@@ -199,7 +233,8 @@ function makeBackgroundSvg(svgText) {
   svg.querySelectorAll('[data-geo-svg-tool="object-label"]').forEach((label) => {
     label.setAttribute("display", "none");
   });
-  return new XMLSerializer().serializeToString(svg);
+  const serialized = new XMLSerializer().serializeToString(svg);
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(serialized)}`;
 }
 
 function pointGeoJson() {
@@ -228,9 +263,14 @@ function updatePointSource() {
 
 function addTrainingLayers() {
   const map = state.map;
-  if (!map || !map.isStyleLoaded()) return;
+  if (!map) return;
 
-  if (state.backgroundMode === "local" && state.imageUrl && state.imageCoordinates) {
+  if (
+    state.backgroundMode === "local" &&
+    state.imageUrl &&
+    state.imageCoordinates &&
+    !map.getSource("local-map")
+  ) {
     map.addSource("local-map", {
       type: "image",
       url: state.imageUrl,
@@ -244,18 +284,72 @@ function addTrainingLayers() {
     });
   }
 
-  map.addSource("training-points", {
-    type: "geojson",
-    data: pointGeoJson(),
+  if (!map.getSource("brussels-uir")) {
+    map.addSource("brussels-uir", {
+      type: "geojson",
+      data: "geo/brussels-uir.geojson?v=20260726-3",
+    });
+  }
+  if (!map.getLayer("brussels-uir-outline")) {
+    map.addLayer({
+      id: "brussels-uir-outline",
+      type: "line",
+      source: "brussels-uir",
+      layout: {
+        visibility: "visible",
+        "line-cap": "round",
+        "line-join": "round",
+      },
+      paint: {
+        "line-color": "#000000",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 5, 3, 9, 5],
+        "line-opacity": 1,
+      },
+    });
+  }
+
+  Object.entries(TMA_FILE_GROUPS).forEach(([folder, files]) => {
+    files.forEach((sourceId) => {
+      const layerId = `tma-${sourceId}-outline`;
+      if (!map.getSource(sourceId)) {
+        map.addSource(sourceId, {
+          type: "geojson",
+          data: `geo/${encodeURIComponent(folder)}/${sourceId}.geojson`,
+        });
+      }
+      if (!map.getLayer(layerId)) {
+        map.addLayer({
+          id: layerId,
+          type: "line",
+          source: sourceId,
+          layout: {
+            visibility: "visible",
+            "line-cap": "round",
+            "line-join": "round",
+          },
+          paint: {
+            "line-color": "#2563eb",
+            "line-width":
+              sourceId === "maastricht-tma-1"
+                ? ["interpolate", ["linear"], ["zoom"], 5, 4, 9, 6]
+                : ["interpolate", ["linear"], ["zoom"], 5, 2, 9, 4],
+            "line-opacity": 1,
+          },
+        });
+      }
+    });
   });
 
-  map.addLayer({
+  if (!map.getSource("training-points")) {
+    map.addSource("training-points", {
+      type: "geojson",
+      data: pointGeoJson(),
+    });
+  }
+  if (!map.getLayer("training-points")) map.addLayer({
     id: "training-points",
     type: "circle",
     source: "training-points",
-    layout: {
-      visibility: hideObjectsEl.checked ? "none" : "visible",
-    },
     paint: {
       "circle-radius": [
         "case",
@@ -267,11 +361,11 @@ function addTrainingLayers() {
         "match",
         ["get", "status"],
         "correct",
-        "#167847",
+        "rgba(0, 0, 0, 0)",
         "incorrect",
         "#b3261e",
         "reveal",
-        "#ffffff",
+        "rgba(0, 0, 0, 0)",
         "#d62728",
       ],
       "circle-stroke-color": [
@@ -294,7 +388,57 @@ function addTrainingLayers() {
     },
   });
 
-  map.addLayer({
+  if (!map.getLayer("training-revealed-point")) map.addLayer({
+    id: "training-revealed-point",
+    type: "circle",
+    source: "training-points",
+    filter: [
+      "in",
+      ["get", "status"],
+      ["literal", ["correct", "reveal"]],
+    ],
+    paint: {
+      "circle-radius": 4.5,
+      "circle-color": "#d62728",
+      "circle-stroke-color": "#ffffff",
+      "circle-stroke-width": 1.5,
+    },
+  });
+
+  if (!map.getLayer("training-feedback")) map.addLayer({
+    id: "training-feedback",
+    type: "circle",
+    source: "training-points",
+    filter: ["!=", ["get", "status"], "idle"],
+    paint: {
+      "circle-radius": 10,
+      "circle-color": [
+        "match",
+        ["get", "status"],
+        "correct",
+        "rgba(0, 0, 0, 0)",
+        "incorrect",
+        "#b3261e",
+        "reveal",
+        "rgba(0, 0, 0, 0)",
+        "#d62728",
+      ],
+      "circle-stroke-color": [
+        "match",
+        ["get", "status"],
+        "correct",
+        "#0b5d36",
+        "incorrect",
+        "#7d1712",
+        "reveal",
+        "#167847",
+        "#ffffff",
+      ],
+      "circle-stroke-width": 4,
+    },
+  });
+
+  if (!map.getLayer("training-hit-area")) map.addLayer({
     id: "training-hit-area",
     type: "circle",
     source: "training-points",
@@ -310,8 +454,20 @@ function simplifyOsmStyle() {
   const map = state.map;
   const layers = map?.getStyle()?.layers || [];
   layers.forEach((layer) => {
+    if (
+      layer.id === "local-map" ||
+      layer.id.startsWith("brussels-uir") ||
+      layer.id.startsWith("tma-") ||
+      layer.id.startsWith("training-")
+    ) {
+      return;
+    }
     if (layer.type === "background") {
-      map.setPaintProperty(layer.id, "background-color", "#f7f6f1");
+      try {
+        map.setPaintProperty(layer.id, "background-color", "#f7f6f1");
+      } catch (error) {
+        console.warn(`Achtergrondlaag ${layer.id} kon niet worden aangepast.`, error);
+      }
       return;
     }
     const identity = `${layer.id} ${layer["source-layer"] || ""}`.toLowerCase();
@@ -323,12 +479,22 @@ function simplifyOsmStyle() {
     const keepBoundary =
       /(boundary|admin)/.test(identity) &&
       /(country|national|admin-0|admin_0|admin0)/.test(identity);
-    map.setLayoutProperty(
-      layer.id,
-      "visibility",
-      keepWater || keepRiver || keepBoundary ? "visible" : "none"
-    );
+    try {
+      map.setLayoutProperty(
+        layer.id,
+        "visibility",
+        keepWater || keepRiver || keepBoundary ? "visible" : "none"
+      );
+    } catch (error) {
+      console.warn(`Kaartlaag ${layer.id} kon niet worden gefilterd.`, error);
+    }
   });
+}
+
+function restoreMapLayers() {
+  if (state.backgroundMode === "osm") simplifyOsmStyle();
+  addTrainingLayers();
+  updatePointSource();
 }
 
 function fitMapToData() {
@@ -338,10 +504,8 @@ function fitMapToData() {
   state.map.fitBounds(bounds, { padding: 54, duration: 0, maxZoom: 7.4 });
 }
 
-function applyBackground(mode, preserveView = true) {
+function applyBackground(mode) {
   if (!state.map) return;
-  const center = state.map.getCenter();
-  const zoom = state.map.getZoom();
   state.backgroundMode = mode;
   localStorage.setItem("mapBackgroundMode", mode);
   mapNoteEl.textContent =
@@ -350,12 +514,6 @@ function applyBackground(mode, preserveView = true) {
       : "Alleen land, water, grote rivieren en landsgrenzen blijven zichtbaar.";
 
   state.map.setStyle(mode === "local" ? BLANK_STYLE : OSM_STYLE_URL);
-  state.map.once("style.load", () => {
-    if (mode === "osm") simplifyOsmStyle();
-    addTrainingLayers();
-    if (preserveView) state.map.jumpTo({ center, zoom });
-    else fitMapToData();
-  });
 }
 
 function initializeMap() {
@@ -382,9 +540,10 @@ function initializeMap() {
     "bottom-right"
   );
 
-  state.map.on("load", () => {
-    if (state.backgroundMode === "osm") simplifyOsmStyle();
-    addTrainingLayers();
+  state.map.on("style.load", () => {
+    restoreMapLayers();
+  });
+  state.map.once("load", () => {
     fitMapToData();
   });
 
@@ -577,9 +736,7 @@ function loadSvgText(svgText, fileName) {
   state.wrong = 0;
   state.streak = 0;
   state.imageCoordinates = imageCoordinatesFromReferences(svg, points);
-  state.imageUrl = URL.createObjectURL(
-    new Blob([makeBackgroundSvg(svgText)], { type: "image/svg+xml" })
-  );
+  state.imageUrl = makeBackgroundSvg(svgText);
 
   updateStats();
   retryButton.style.display = "none";
@@ -616,15 +773,6 @@ nextButton.addEventListener("click", goToNextQuestion);
 revealButton.addEventListener("click", revealAnswer);
 resetButton.addEventListener("click", resetQuiz);
 retryButton.addEventListener("click", retryWrongPoints);
-hideObjectsEl.addEventListener("change", () => {
-  if (state.map?.getLayer("training-points")) {
-    state.map.setLayoutProperty(
-      "training-points",
-      "visibility",
-      hideObjectsEl.checked ? "none" : "visible"
-    );
-  }
-});
 backgroundModeEl.addEventListener("change", () => {
   applyBackground(backgroundModeEl.value);
 });

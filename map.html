@@ -68,37 +68,11 @@
         line-height: 1.45;
       }
 
-      .status,
-      .file-box {
+      .status {
         border: 1px solid var(--line);
         border-radius: 8px;
         padding: 16px;
         background: #fbfaf7;
-      }
-
-      .file-box {
-        display: grid;
-        gap: 10px;
-      }
-
-      .option-row {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: var(--ink);
-        line-height: 1.35;
-      }
-
-      .option-row input {
-        width: 18px;
-        height: 18px;
-        accent-color: var(--accent);
-        flex: 0 0 auto;
-      }
-
-      .file-input {
-        width: 100%;
-        max-width: 100%;
       }
 
       .label {
@@ -228,6 +202,24 @@
         font-size: 13px;
       }
 
+      .map-legend {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .map-legend-line {
+        width: 30px;
+        height: 0;
+        border-top: 4px solid #000000;
+      }
+
+      .map-legend-line.tma {
+        border-top-color: #2563eb;
+      }
+
       .maplibregl-ctrl-group {
         border: 1px solid var(--line);
         box-shadow: none;
@@ -270,11 +262,6 @@
             Klik op de gevraagde punten.
           </p>
         </div>
-
-        <label class="file-box option-row">
-          <input id="hideObjects" type="checkbox" />
-          <span>Objecten verbergen</span>
-        </label>
 
         <div class="status" aria-live="polite">
           <p class="label">Duid aan</p>
@@ -343,6 +330,14 @@
           <span class="map-note" id="mapNote">
             Wegen en overige details zijn verborgen.
           </span>
+          <span class="map-legend">
+            <span class="map-legend-line" aria-hidden="true"></span>
+            Brussels UIR
+          </span>
+          <span class="map-legend">
+            <span class="map-legend-line tma" aria-hidden="true"></span>
+            TMA
+          </span>
         </div>
 
         <div class="map-shell">
@@ -351,6 +346,6 @@
       </section>
     </main>
     <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/map.js?v=20260726-13"></script>
   </body>
 </html>

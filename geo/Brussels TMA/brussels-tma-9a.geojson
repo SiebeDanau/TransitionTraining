@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "name": "BRUSSELS TMA NINE A",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRUSSELS TMA NINE A",
+        "upperLimit": "4500FT AMSL",
+        "lowerLimit": "3500FT AMSL",
+        "airspaceClass": "C",
+        "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
+        "aipPage": "ENR 2.1-10",
+        "geometryNote": "Circle arcs sampled at maximum 1 degree; published endpoints retained exactly."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.99861111,
+              51.10944444
+            ],
+            [
+              4.99861111,
+              51.22555556
+            ],
+            [
+              5.08861111,
+              51.15916667
+            ],
+            [
+              4.99861111,
+              51.10944444
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
