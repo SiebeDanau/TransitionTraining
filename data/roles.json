@@ -148,7 +148,43 @@
           "pointIds": []
         },
         "radio-navigation-aids": {
-          "pointIds": []
+          "pointIds": [
+            "AFI",
+            "ANT",
+            "BBE",
+            "BBL",
+            "BFS",
+            "BSN",
+            "BUB",
+            "BUN",
+            "CIV",
+            "CLN",
+            "CMB",
+            "COA",
+            "DIK",
+            "DVR",
+            "FLO",
+            "GTQ",
+            "HUL",
+            "KOK",
+            "KRH",
+            "LAM",
+            "LEQ",
+            "LNO",
+            "MAS",
+            "MMD",
+            "NIK",
+            "NVO",
+            "OSN",
+            "PON",
+            "REM",
+            "RTM",
+            "SPI",
+            "SPY",
+            "BOT",
+            "LMA",
+            "ONW"
+          ]
         },
         "navigation-warnings": {
           "pointIds": []
@@ -305,7 +341,43 @@
           "pointIds": []
         },
         "radio-navigation-aids": {
-          "pointIds": []
+          "pointIds": [
+            "AFI",
+            "ANT",
+            "BBE",
+            "BBL",
+            "BFS",
+            "BSN",
+            "BUB",
+            "BUN",
+            "CIV",
+            "CLN",
+            "CMB",
+            "COA",
+            "DIK",
+            "DVR",
+            "FLO",
+            "GTQ",
+            "HUL",
+            "KOK",
+            "KRH",
+            "LAM",
+            "LEQ",
+            "LNO",
+            "MAS",
+            "MMD",
+            "NIK",
+            "NVO",
+            "OSN",
+            "PON",
+            "REM",
+            "RTM",
+            "SPI",
+            "SPY",
+            "BOT",
+            "LMA",
+            "ONW"
+          ]
         },
         "navigation-warnings": {
           "pointIds": []
@@ -371,7 +443,39 @@
           "pointIds": []
         },
         "radio-navigation-aids": {
-          "pointIds": []
+          "pointIds": [
+            "AFI",
+            "ANT",
+            "BBE",
+            "BBL",
+            "BFS",
+            "BNE",
+            "BUB",
+            "BUN",
+            "CIV",
+            "CMB",
+            "COA",
+            "CTL",
+            "DIK",
+            "DVR",
+            "FLO",
+            "GTQ",
+            "HUL",
+            "KOK",
+            "KRH",
+            "LEQ",
+            "LNO",
+            "LUX",
+            "MAS",
+            "MMD",
+            "NIK",
+            "NVO",
+            "REM",
+            "RTM",
+            "SPI",
+            "SPY",
+            "ONW"
+          ]
         },
         "navigation-warnings": {
           "pointIds": []
@@ -511,7 +615,47 @@
           "pointIds": []
         },
         "radio-navigation-aids": {
-          "pointIds": []
+          "pointIds": [
+            "ABB",
+            "AFI",
+            "ANT",
+            "BBE",
+            "BBL",
+            "BFS",
+            "BNE",
+            "BSN",
+            "BUB",
+            "BUN",
+            "CIV",
+            "CLN",
+            "CMB",
+            "COA",
+            "CTL",
+            "DET",
+            "DIK",
+            "DVR",
+            "FLO",
+            "GTQ",
+            "GZR",
+            "HUL",
+            "KOK",
+            "KRH",
+            "LAM",
+            "LEQ",
+            "LNO",
+            "LUX",
+            "MAS",
+            "MMD",
+            "NIK",
+            "NVO",
+            "PAM",
+            "REM",
+            "RTM",
+            "SPI",
+            "SPY",
+            "LMA",
+            "ONW"
+          ]
         },
         "navigation-warnings": {
           "pointIds": []

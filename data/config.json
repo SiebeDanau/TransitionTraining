@@ -18,7 +18,13 @@
       "title": "Radio Navigation Points",
       "description": "",
       "type": "map",
-      "data": []
+      "data": [
+        "Radio Navigation Aids/radio-navigation-aids-belgium.json",
+        "Radio Navigation Aids/radio-navigation-aids-france.json",
+        "Radio Navigation Aids/radio-navigation-aids-germany.json",
+        "Radio Navigation Aids/radio-navigation-aids-netherlands.json",
+        "Radio Navigation Aids/radio-navigation-aids-uk.json"
+      ]
     },
     {
       "id": "aerodromes",
