@@ -1,0 +1,1604 @@
+{
+  "points": [
+    {
+      "id": "EBAW",
+      "name": "EBAW",
+      "title": "ANTWERPEN / Deurne",
+      "type": "public",
+      "elevation": "32 FT",
+      "traffic": "IFR/VFR",
+      "lat": "511122N",
+      "lon": "0042737E"
+    },
+    {
+      "id": "EBBR",
+      "name": "EBBR",
+      "title": "BRUSSELS / Brussels-National",
+      "type": "public",
+      "elevation": "175 FT",
+      "traffic": "IFR/VFR",
+      "lat": "505405N",
+      "lon": "0042904E"
+    },
+    {
+      "id": "EBCI",
+      "name": "EBCI",
+      "title": "CHARLEROI / Brussels South",
+      "type": "public",
+      "elevation": "606 FT",
+      "traffic": "IFR/VFR",
+      "lat": "502736N",
+      "lon": "0042710E"
+    },
+    {
+      "id": "EBKT",
+      "name": "EBKT",
+      "title": "KORTRIJK / Wevelgem",
+      "type": "public",
+      "elevation": "55 FT",
+      "traffic": "IFR/VFR",
+      "lat": "504907N",
+      "lon": "0031233E"
+    },
+    {
+      "id": "EBLG",
+      "name": "EBLG",
+      "title": "LIÈGE / Liège",
+      "type": "public",
+      "elevation": "651 FT",
+      "traffic": "IFR/VFR",
+      "lat": "503811N",
+      "lon": "0052634E"
+    },
+    {
+      "id": "EBOS",
+      "name": "EBOS",
+      "title": "OOSTENDE-BRUGGE / Oostende",
+      "type": "public",
+      "elevation": "7 FT",
+      "traffic": "IFR/VFR",
+      "lat": "511156N",
+      "lon": "0025144E"
+    },
+    {
+      "id": "EBBE",
+      "name": "EBBE",
+      "title": "BEAUVECHAIN",
+      "type": "military",
+      "elevation": "362 FT",
+      "traffic": "IFR/VFR",
+      "lat": "504528N",
+      "lon": "0044601E"
+    },
+    {
+      "id": "EBBX",
+      "name": "EBBX",
+      "title": "BERTRIX / Jehonville",
+      "type": "military",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "495330N",
+      "lon": "0051326E"
+    },
+    {
+      "id": "EBMB",
+      "name": "EBMB",
+      "title": "BRUSSELS / Melsbroek",
+      "type": "military",
+      "elevation": "175 FT",
+      "traffic": "IFR/VFR",
+      "lat": "505405N",
+      "lon": "0042904E"
+    },
+    {
+      "id": "EBCV",
+      "name": "EBCV",
+      "title": "CHIÈVRES",
+      "type": "military",
+      "elevation": "194 FT",
+      "traffic": "IFR/VFR",
+      "lat": "503433N",
+      "lon": "0034952E"
+    },
+    {
+      "id": "EBDT",
+      "name": "EBDT",
+      "title": "DIEST / Schaffen",
+      "type": "military",
+      "elevation": "92 FT",
+      "traffic": "VFR",
+      "lat": "510005N",
+      "lon": "0050343E"
+    },
+    {
+      "id": "EBFS",
+      "name": "EBFS",
+      "title": "FLORENNES",
+      "type": "military",
+      "elevation": "927 FT",
+      "traffic": "IFR/VFR",
+      "lat": "501436N",
+      "lon": "0043845E"
+    },
+    {
+      "id": "EBBL",
+      "name": "EBBL",
+      "title": "KLEINE-BROGEL",
+      "type": "military",
+      "elevation": "192 FT",
+      "traffic": "IFR/VFR",
+      "lat": "511006N",
+      "lon": "0052812E"
+    },
+    {
+      "id": "EBFN",
+      "name": "EBFN",
+      "title": "KOKSIJDE",
+      "type": "military",
+      "elevation": "11 FT",
+      "traffic": "IFR/VFR",
+      "lat": "510525N",
+      "lon": "0023910E"
+    },
+    {
+      "id": "EBSU",
+      "name": "EBSU",
+      "title": "SAINT-HUBERT",
+      "type": "military",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "500203N",
+      "lon": "0052624E"
+    },
+    {
+      "id": "EBUL",
+      "name": "EBUL",
+      "title": "URSEL",
+      "type": "military",
+      "elevation": "87 FT",
+      "traffic": "VFR",
+      "lat": "510839N",
+      "lon": "0032832E"
+    },
+    {
+      "id": "EBWE",
+      "name": "EBWE",
+      "title": "WEELDE",
+      "type": "military",
+      "elevation": "97 FT",
+      "traffic": "VFR",
+      "lat": "512339N",
+      "lon": "0045733E"
+    },
+    {
+      "id": "EBAM",
+      "name": "EBAM",
+      "title": "AMOUGIES",
+      "type": "private",
+      "elevation": "41 FT",
+      "traffic": "VFR",
+      "lat": "504422N",
+      "lon": "0032910E"
+    },
+    {
+      "id": "EBKH",
+      "name": "EBKH",
+      "title": "BALEN / Keiheuvel",
+      "type": "private",
+      "elevation": "123 FT",
+      "traffic": "VFR",
+      "lat": "511051N",
+      "lon": "0051315E"
+    },
+    {
+      "id": "EBBT",
+      "name": "EBBT",
+      "title": "BRASSCHAAT",
+      "type": "private",
+      "elevation": "68 FT",
+      "traffic": "VFR",
+      "lat": "512027N",
+      "lon": "0043015E"
+    },
+    {
+      "id": "EBCF",
+      "name": "EBCF",
+      "title": "CERFONTAINE",
+      "type": "private",
+      "elevation": "943 FT",
+      "traffic": "VFR",
+      "lat": "500910N",
+      "lon": "0042314E"
+    },
+    {
+      "id": "EBZW",
+      "name": "EBZW",
+      "title": "GENK / Zwartberg",
+      "type": "private",
+      "elevation": "270 FT",
+      "traffic": "VFR",
+      "lat": "510055N",
+      "lon": "0053135E"
+    },
+    {
+      "id": "EBGG",
+      "name": "EBGG",
+      "title": "GERAARDSBERGEN / Overboelare",
+      "type": "private",
+      "elevation": "48 FT",
+      "traffic": "VFR",
+      "lat": "504520N",
+      "lon": "0035150E"
+    },
+    {
+      "id": "EBTN",
+      "name": "EBTN",
+      "title": "GOETSENHOVEN",
+      "type": "private",
+      "elevation": "238 FT",
+      "traffic": "VFR",
+      "lat": "504654N",
+      "lon": "0045728E"
+    },
+    {
+      "id": "EBGB",
+      "name": "EBGB",
+      "title": "GRIMBERGEN/Lint",
+      "type": "private",
+      "elevation": "62 FT",
+      "traffic": "VFR",
+      "lat": "505655N",
+      "lon": "0042331E"
+    },
+    {
+      "id": "EBZH",
+      "name": "EBZH",
+      "title": "HASSELT / Kiewit",
+      "type": "private",
+      "elevation": "133 FT",
+      "traffic": "VFR",
+      "lat": "505812N",
+      "lon": "0052230E"
+    },
+    {
+      "id": "EBHN",
+      "name": "EBHN",
+      "title": "HOEVENEN",
+      "type": "private",
+      "elevation": "2 FT",
+      "traffic": "VFR",
+      "lat": "511819N",
+      "lon": "0042326E"
+    },
+    {
+      "id": "EBEH",
+      "name": "EBEH",
+      "title": "HYDROBASE DE L’EAU D’HEURE",
+      "type": "private",
+      "elevation": "802 FT",
+      "traffic": "VFR",
+      "lat": "501101N",
+      "lon": "0042211E"
+    },
+    {
+      "id": "EBLE",
+      "name": "EBLE",
+      "title": "LEOPOLDSBURG / Beverlo",
+      "type": "private",
+      "elevation": "199 FT",
+      "traffic": "VFR",
+      "lat": "510712N",
+      "lon": "0051826E"
+    },
+    {
+      "id": "EBMO",
+      "name": "EBMO",
+      "title": "MOORSELE",
+      "type": "private",
+      "elevation": "57 FT",
+      "traffic": "VFR",
+      "lat": "505110N",
+      "lon": "0030850E"
+    },
+    {
+      "id": "EBNM",
+      "name": "EBNM",
+      "title": "NAMUR / Suarlée",
+      "type": "private",
+      "elevation": "586 FT",
+      "traffic": "VFR",
+      "lat": "502917N",
+      "lon": "0044608E"
+    },
+    {
+      "id": "EBSG",
+      "name": "EBSG",
+      "title": "SAINT-GHISLAIN",
+      "type": "private",
+      "elevation": "67 FT",
+      "traffic": "VFR",
+      "lat": "502727N",
+      "lon": "0034913E"
+    },
+    {
+      "id": "EBSH",
+      "name": "EBSH",
+      "title": "SAINT-HUBERT / Saint-Hubert",
+      "type": "private",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "500209N",
+      "lon": "0052415E"
+    },
+    {
+      "id": "EBST",
+      "name": "EBST",
+      "title": "SINT-TRUIDEN / Brustem",
+      "type": "private",
+      "elevation": "238 FT",
+      "traffic": "VFR",
+      "lat": "504731N",
+      "lon": "0051206E"
+    },
+    {
+      "id": "EBSP",
+      "name": "EBSP",
+      "title": "SPA / La Sauvenière",
+      "type": "private",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "502857N",
+      "lon": "0055437E"
+    },
+    {
+      "id": "EBTY",
+      "name": "EBTY",
+      "title": "TOURNAI / Maubray",
+      "type": "private",
+      "elevation": "153 FT",
+      "traffic": "VFR",
+      "lat": "503147N",
+      "lon": "0032940E"
+    },
+    {
+      "id": "EBTX",
+      "name": "EBTX",
+      "title": "VERVIERS / Theux",
+      "type": "private",
+      "elevation": "1091 FT",
+      "traffic": "VFR",
+      "lat": "503309N",
+      "lon": "0055118E"
+    },
+    {
+      "id": "EBZR",
+      "name": "EBZR",
+      "title": "ZOERSEL / Oostmalle",
+      "type": "private",
+      "elevation": "45 FT",
+      "traffic": "VFR",
+      "lat": "511553N",
+      "lon": "0044512E"
+    },
+    {
+      "id": "EBSL",
+      "name": "EBSL",
+      "title": "ZUTENDAAL",
+      "type": "private",
+      "elevation": "312 FT",
+      "traffic": "VFR",
+      "lat": "505651N",
+      "lon": "0053526E"
+    },
+    {
+      "id": "EBAR",
+      "name": "EBAR",
+      "title": "ARLON / Sterpenich",
+      "type": "ulm",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "493946N",
+      "lon": "0055313E"
+    },
+    {
+      "id": "EBML",
+      "name": "EBML",
+      "title": "ASSESSE / Maillen",
+      "type": "ulm",
+      "elevation": "878 FT",
+      "traffic": "VFR",
+      "lat": "502227N",
+      "lon": "0045540E"
+    },
+    {
+      "id": "EBIS",
+      "name": "EBIS",
+      "title": "ATH / Isières",
+      "type": "ulm",
+      "elevation": "90 FT",
+      "traffic": "VFR",
+      "lat": "503951N",
+      "lon": "0034816E"
+    },
+    {
+      "id": "EBBN",
+      "name": "EBBN",
+      "title": "BÜLLINGEN",
+      "type": "ulm",
+      "elevation": "2 FT",
+      "traffic": "VFR",
+      "lat": "502454N",
+      "lon": "0061635E"
+    },
+    {
+      "id": "EBMG",
+      "name": "EBMG",
+      "title": "DOISCHE / Matagne-la-Petite",
+      "type": "ulm",
+      "elevation": "779 FT",
+      "traffic": "VFR",
+      "lat": "500617N",
+      "lon": "0043817E"
+    },
+    {
+      "id": "EBBY",
+      "name": "EBBY",
+      "title": "GENAPPE / Baisy-Thy",
+      "type": "ulm",
+      "elevation": "517 FT",
+      "traffic": "VFR",
+      "lat": "503407N",
+      "lon": "0042605E"
+    },
+    {
+      "id": "EBAV",
+      "name": "EBAV",
+      "title": "HANNUT / Avernas-le-Bauduin",
+      "type": "ulm",
+      "elevation": "386 FT",
+      "traffic": "VFR",
+      "lat": "504224N",
+      "lon": "0050405E"
+    },
+    {
+      "id": "EBBZ",
+      "name": "EBBZ",
+      "title": "PONT-À-CELLES / Buzet",
+      "type": "ulm",
+      "elevation": "514 FT",
+      "traffic": "VFR",
+      "lat": "503230N",
+      "lon": "0042252E"
+    },
+    {
+      "id": "EBOR",
+      "name": "EBOR",
+      "title": "VRESSE-SUR-SEMOIS / Orchimont",
+      "type": "ulm",
+      "elevation": "1304 FT",
+      "traffic": "VFR",
+      "lat": "495423N",
+      "lon": "0045603E"
+    },
+    {
+      "id": "EBZU",
+      "name": "EBZU",
+      "title": "ZUIENKERKE",
+      "type": "ulm",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "511524N",
+      "lon": "0030826E"
+    },
+    {
+      "id": "EBSM",
+      "name": "EBSM",
+      "title": "VERREBROEK",
+      "type": "personal",
+      "elevation": "10 FT",
+      "traffic": "VFR",
+      "lat": "511606N",
+      "lon": "0041031E"
+    },
+    {
+      "id": "EBCT",
+      "name": "EBCT",
+      "title": "CASTEAU / SHAPE",
+      "type": "military heliport",
+      "elevation": "291 FT",
+      "traffic": "VFR",
+      "lat": "503003N",
+      "lon": "0035853E"
+    },
+    {
+      "id": "EBAL",
+      "name": "EBAL",
+      "title": "AALST / Onze-Lieve-Vrouwziekenhuis",
+      "type": "hospital heliport",
+      "elevation": "133 FT",
+      "traffic": "VFR",
+      "lat": "505636N",
+      "lon": "0040321E"
+    },
+    {
+      "id": "EBMD",
+      "name": "EBMD",
+      "title": "ANTWERPEN / AZ Middelheim",
+      "type": "hospital heliport",
+      "elevation": "38 FT",
+      "traffic": "VFR",
+      "lat": "511054N",
+      "lon": "0042516E"
+    },
+    {
+      "id": "EBSJ",
+      "name": "EBSJ",
+      "title": "BRUGGE / AZ Sint-Jan",
+      "type": "hospital heliport",
+      "elevation": "12 FT",
+      "traffic": "VFR",
+      "lat": "511314N",
+      "lon": "0031146E"
+    },
+    {
+      "id": "EBSS",
+      "name": "EBSS",
+      "title": "BRUGGE / Sint-Lucas",
+      "type": "hospital heliport",
+      "elevation": "8 FT",
+      "traffic": "VFR",
+      "lat": "511103N",
+      "lon": "0031500E"
+    },
+    {
+      "id": "EBUC",
+      "name": "EBUC",
+      "title": "BRUSSELS / UCL",
+      "type": "hospital heliport",
+      "elevation": "222 FT",
+      "traffic": "VFR",
+      "lat": "505111N",
+      "lon": "0042713E"
+    },
+    {
+      "id": "EBEU",
+      "name": "EBEU",
+      "title": "EDEGEM / UZA",
+      "type": "hospital heliport",
+      "elevation": "34 FT",
+      "traffic": "VFR",
+      "lat": "510921N",
+      "lon": "0042435E"
+    },
+    {
+      "id": "EBEA",
+      "name": "EBEA",
+      "title": "EEKLO / AZ Alma",
+      "type": "hospital heliport",
+      "elevation": "22 FT",
+      "traffic": "VFR",
+      "lat": "511128N",
+      "lon": "0033204E"
+    },
+    {
+      "id": "EBGT",
+      "name": "EBGT",
+      "title": "GENT / UZ Gent",
+      "type": "hospital heliport",
+      "elevation": "32 FT",
+      "traffic": "VFR",
+      "lat": "510114N",
+      "lon": "0034349E"
+    },
+    {
+      "id": "EBGH",
+      "name": "EBGH",
+      "title": "GILLY / Grand Hôpital de Charleroi",
+      "type": "hospital heliport",
+      "elevation": "488 FT",
+      "traffic": "VFR",
+      "lat": "502515N",
+      "lon": "0042924E"
+    },
+    {
+      "id": "EBYP",
+      "name": "EBYP",
+      "title": "IEPER / Jan Yperman",
+      "type": "hospital heliport",
+      "elevation": "63 FT",
+      "traffic": "VFR",
+      "lat": "505149N",
+      "lon": "0025348E"
+    },
+    {
+      "id": "EBKZ",
+      "name": "EBKZ",
+      "title": "KNOKKE / AZ Zeno",
+      "type": "hospital heliport",
+      "elevation": "13 FT",
+      "traffic": "VFR",
+      "lat": "511943N",
+      "lon": "0031732E"
+    },
+    {
+      "id": "EBKG",
+      "name": "EBKG",
+      "title": "KORTRIJK / AZ Groeninge",
+      "type": "hospital heliport",
+      "elevation": "121 FT",
+      "traffic": "VFR",
+      "lat": "504810N",
+      "lon": "0031550E"
+    },
+    {
+      "id": "EBLC",
+      "name": "EBLC",
+      "title": "LIÈGE / Citadelle",
+      "type": "hospital heliport",
+      "elevation": "523 FT",
+      "traffic": "VFR",
+      "lat": "503912N",
+      "lon": "0053440E"
+    },
+    {
+      "id": "EBCH",
+      "name": "EBCH",
+      "title": "LIEGE / Clinique Montlegia CHC",
+      "type": "hospital heliport",
+      "elevation": "557 FT",
+      "traffic": "VFR",
+      "lat": "503854N",
+      "lon": "0053203E"
+    },
+    {
+      "id": "EBLS",
+      "name": "EBLS",
+      "title": "LIÈGE / Sart Tilman",
+      "type": "hospital heliport",
+      "elevation": "765 FT",
+      "traffic": "VFR",
+      "lat": "503417N",
+      "lon": "0053355E"
+    },
+    {
+      "id": "EBLX",
+      "name": "EBLX",
+      "title": "LIERNEUX / Centre Hospitalier Spécial l'Accueil",
+      "type": "hospital heliport",
+      "elevation": "1403 FT",
+      "traffic": "VFR",
+      "lat": "501713N",
+      "lon": "0054720E"
+    },
+    {
+      "id": "EBMC",
+      "name": "EBMC",
+      "title": "LODELINSART / Marie-Curie",
+      "type": "hospital heliport",
+      "elevation": "473 FT",
+      "traffic": "VFR",
+      "lat": "502549N",
+      "lon": "0042618E"
+    },
+    {
+      "id": "EBMT",
+      "name": "EBMT",
+      "title": "MONTIGNY-LE-TILLEUL",
+      "type": "hospital heliport",
+      "elevation": "681 FT",
+      "traffic": "VFR",
+      "lat": "502131N",
+      "lon": "0042207E"
+    },
+    {
+      "id": "EBNB",
+      "name": "EBNB",
+      "title": "NAMUR / Bouge",
+      "type": "hospital heliport",
+      "elevation": "490 FT",
+      "traffic": "VFR",
+      "lat": "502844N",
+      "lon": "0045306E"
+    },
+    {
+      "id": "EBNG",
+      "name": "EBNG",
+      "title": "NAMUR / CHU UCL Godinne",
+      "type": "hospital heliport",
+      "elevation": "547 FT",
+      "traffic": "VFR",
+      "lat": "502131N",
+      "lon": "0045304E"
+    },
+    {
+      "id": "EBAD",
+      "name": "EBAD",
+      "title": "ROESELARE / AZ Delta",
+      "type": "hospital heliport",
+      "elevation": "80 FT",
+      "traffic": "VFR",
+      "lat": "505502N",
+      "lon": "0030955E"
+    },
+    {
+      "id": "EBVS",
+      "name": "EBVS",
+      "title": "VEURNE / Sint-Augustinus",
+      "type": "hospital heliport",
+      "elevation": "4 FT",
+      "traffic": "VFR",
+      "lat": "510344N",
+      "lon": "0024010E"
+    },
+    {
+      "id": "EBJS",
+      "name": "EBJS",
+      "title": "ATH / Ghislenghien",
+      "type": "private heliport",
+      "elevation": "169 FT",
+      "traffic": "VFR",
+      "lat": "504000N",
+      "lon": "0035213E"
+    },
+    {
+      "id": "EBBM",
+      "name": "EBBM",
+      "title": "BRAKEL / Michelbeke",
+      "type": "private heliport",
+      "elevation": "166 FT",
+      "traffic": "VFR",
+      "lat": "504951N",
+      "lon": "0034627E"
+    },
+    {
+      "id": "EBBV",
+      "name": "EBBV",
+      "title": "BRECHT / Vochten",
+      "type": "private heliport",
+      "elevation": "79 FT",
+      "traffic": "VFR",
+      "lat": "511955N",
+      "lon": "0043728E"
+    },
+    {
+      "id": "EBOK",
+      "name": "EBOK",
+      "title": "BRUSSELS / Groot-Bijgaarden",
+      "type": "private heliport",
+      "elevation": "121 FT",
+      "traffic": "VFR",
+      "lat": "505210N",
+      "lon": "0041650E"
+    },
+    {
+      "id": "EBDV",
+      "name": "EBDV",
+      "title": "DIKSMUIDE / Leke",
+      "type": "private heliport",
+      "elevation": "25 FT",
+      "traffic": "VFR",
+      "lat": "510541N",
+      "lon": "0025529E"
+    },
+    {
+      "id": "EBEB",
+      "name": "EBEB",
+      "title": "EVERGEM / Belzele",
+      "type": "private heliport",
+      "elevation": "19 FT",
+      "traffic": "VFR",
+      "lat": "510603N",
+      "lon": "0033913E"
+    },
+    {
+      "id": "EBFR",
+      "name": "EBFR",
+      "title": "FRANCORCHAMPS",
+      "type": "private heliport",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "502722N",
+      "lon": "0055714E"
+    },
+    {
+      "id": "EBAG",
+      "name": "EBAG",
+      "title": "GRACE-HOLLOGNE / Agusta Aerospace Services",
+      "type": "private heliport",
+      "elevation": "596 FT",
+      "traffic": "VFR",
+      "lat": "503824N",
+      "lon": "0052727E"
+    },
+    {
+      "id": "EBHM",
+      "name": "EBHM",
+      "title": "HASSELT / Maasland",
+      "type": "private heliport",
+      "elevation": "156 FT",
+      "traffic": "VFR",
+      "lat": "505435N",
+      "lon": "0052056E"
+    },
+    {
+      "id": "EBHO",
+      "name": "EBHO",
+      "title": "HOLSBEEK",
+      "type": "private heliport",
+      "elevation": "74 FT",
+      "traffic": "VFR",
+      "lat": "505512N",
+      "lon": "0044608E"
+    },
+    {
+      "id": "EBKD",
+      "name": "EBKD",
+      "title": "HOLSBEEK / Kortrijk-Dutsel",
+      "type": "private heliport",
+      "elevation": "210 FT",
+      "traffic": "VFR",
+      "lat": "505413N",
+      "lon": "0044822E"
+    },
+    {
+      "id": "EBHT",
+      "name": "EBHT",
+      "title": "HOUTHALEN",
+      "type": "private heliport",
+      "elevation": "170 FT",
+      "traffic": "VFR",
+      "lat": "510051N",
+      "lon": "0052133E"
+    },
+    {
+      "id": "EBHF",
+      "name": "EBHF",
+      "title": "KALLO",
+      "type": "private heliport",
+      "elevation": "27 FT",
+      "traffic": "VFR",
+      "lat": "511608N",
+      "lon": "0041745E"
+    },
+    {
+      "id": "EBTW",
+      "name": "EBTW",
+      "title": "KIELDRECHT / De Kreek",
+      "type": "private heliport",
+      "elevation": "9 FT",
+      "traffic": "VFR",
+      "lat": "511635N",
+      "lon": "0041050E"
+    },
+    {
+      "id": "EBFI",
+      "name": "EBFI",
+      "title": "KNOKKE / Fort Isabella",
+      "type": "private heliport",
+      "elevation": "11 FT",
+      "traffic": "VFR",
+      "lat": "511958N",
+      "lon": "0032152E"
+    },
+    {
+      "id": "EBKW",
+      "name": "EBKW",
+      "title": "KNOKKE-HEIST / Westkapelle",
+      "type": "private heliport",
+      "elevation": "2 FT",
+      "traffic": "VFR",
+      "lat": "511918N",
+      "lon": "0031740E"
+    },
+    {
+      "id": "EBSA",
+      "name": "EBSA",
+      "title": "KONINGSHOOIKT",
+      "type": "private heliport",
+      "elevation": "50 FT",
+      "traffic": "VFR",
+      "lat": "510459N",
+      "lon": "0043442E"
+    },
+    {
+      "id": "EBBG",
+      "name": "EBBG",
+      "title": "KORTRIJK / Bellegem",
+      "type": "private heliport",
+      "elevation": "97 FT",
+      "traffic": "VFR",
+      "lat": "504545N",
+      "lon": "0031726E"
+    },
+    {
+      "id": "EBHC",
+      "name": "EBHC",
+      "title": "KRUISEM / Hof Van Cleve",
+      "type": "private heliport",
+      "elevation": "193 FT",
+      "traffic": "VFR",
+      "lat": "505413N",
+      "lon": "0033033E"
+    },
+    {
+      "id": "EBKR",
+      "name": "EBKR",
+      "title": "KRUISEM / Sons",
+      "type": "private heliport",
+      "elevation": "190 FT",
+      "traffic": "VFR",
+      "lat": "505330N",
+      "lon": "0033003E"
+    },
+    {
+      "id": "EBKL",
+      "name": "EBKL",
+      "title": "KRUISEM / Wijkhuizenstraat",
+      "type": "private heliport",
+      "elevation": "54 FT",
+      "traffic": "VFR",
+      "lat": "505544N",
+      "lon": "0033315E"
+    },
+    {
+      "id": "EBMS",
+      "name": "EBMS",
+      "title": "LIERNEUX / Bra",
+      "type": "private heliport",
+      "elevation": "1 FT",
+      "traffic": "VFR",
+      "lat": "501918N",
+      "lon": "0054351E"
+    },
+    {
+      "id": "EBLT",
+      "name": "EBLT",
+      "title": "LINT",
+      "type": "private heliport",
+      "elevation": "28 FT",
+      "traffic": "VFR",
+      "lat": "510811N",
+      "lon": "0042844E"
+    },
+    {
+      "id": "EBRE",
+      "name": "EBRE",
+      "title": "LO-RENINGE",
+      "type": "private heliport",
+      "elevation": "24 FT",
+      "traffic": "VFR",
+      "lat": "505604N",
+      "lon": "0024533E"
+    },
+    {
+      "id": "EBLO",
+      "name": "EBLO",
+      "title": "LOCHRISTI",
+      "type": "private heliport",
+      "elevation": "13 FT",
+      "traffic": "VFR",
+      "lat": "510503N",
+      "lon": "0035019E"
+    },
+    {
+      "id": "EBLU",
+      "name": "EBLU",
+      "title": "LUMMEN",
+      "type": "private heliport",
+      "elevation": "139 FT",
+      "traffic": "VFR",
+      "lat": "505931N",
+      "lon": "0051420E"
+    },
+    {
+      "id": "EBMM",
+      "name": "EBMM",
+      "title": "MAASMECHELEN",
+      "type": "private heliport",
+      "elevation": "267 FT",
+      "traffic": "VFR",
+      "lat": "505714N",
+      "lon": "0054217E"
+    },
+    {
+      "id": "EBMH",
+      "name": "EBMH",
+      "title": "MALDEGEM / Huysman",
+      "type": "private heliport",
+      "elevation": "21 FT",
+      "traffic": "VFR",
+      "lat": "511310N",
+      "lon": "0032408E"
+    },
+    {
+      "id": "EBME",
+      "name": "EBME",
+      "title": "MEERBEEK",
+      "type": "private heliport",
+      "elevation": "192 FT",
+      "traffic": "VFR",
+      "lat": "505226N",
+      "lon": "0043549E"
+    },
+    {
+      "id": "EBMN",
+      "name": "EBMN",
+      "title": "MEETKERKE / Nachtegaele",
+      "type": "private heliport",
+      "elevation": "13 FT",
+      "traffic": "VFR",
+      "lat": "511439N",
+      "lon": "0031016E"
+    },
+    {
+      "id": "EBCM",
+      "name": "EBCM",
+      "title": "MERCHTEM / Stephex",
+      "type": "private heliport",
+      "elevation": "141 FT",
+      "traffic": "VFR",
+      "lat": "505641N",
+      "lon": "0041440E"
+    },
+    {
+      "id": "EBLM",
+      "name": "EBLM",
+      "title": "MEULEBEKE",
+      "type": "private heliport",
+      "elevation": "94 FT",
+      "traffic": "VFR",
+      "lat": "505554N",
+      "lon": "0031738E"
+    },
+    {
+      "id": "EBTM",
+      "name": "EBTM",
+      "title": "MOERKERKE / Den Hoorn",
+      "type": "private heliport",
+      "elevation": "12 FT",
+      "traffic": "VFR",
+      "lat": "511443N",
+      "lon": "0032214E"
+    },
+    {
+      "id": "EBGU",
+      "name": "EBGU",
+      "title": "NEVELE",
+      "type": "private heliport",
+      "elevation": "35 FT",
+      "traffic": "VFR",
+      "lat": "510248N",
+      "lon": "0033113E"
+    },
+    {
+      "id": "EBDY",
+      "name": "EBDY",
+      "title": "NIVELLES / Dynali",
+      "type": "private heliport",
+      "elevation": "517 FT",
+      "traffic": "VFR",
+      "lat": "503431N",
+      "lon": "0042129E"
+    },
+    {
+      "id": "EBNK",
+      "name": "EBNK",
+      "title": "NOKERE / Suys",
+      "type": "private heliport",
+      "elevation": "195 FT",
+      "traffic": "VFR",
+      "lat": "505246N",
+      "lon": "0033112E"
+    },
+    {
+      "id": "EBOO",
+      "name": "EBOO",
+      "title": "OOSTDIJCKBANK",
+      "type": "private heliport",
+      "elevation": "70 FT",
+      "traffic": "VFR",
+      "lat": "511628N",
+      "lon": "0022651E"
+    },
+    {
+      "id": "EBNH",
+      "name": "EBNH",
+      "title": "OOSTENDE",
+      "type": "private heliport",
+      "elevation": "4 FT",
+      "traffic": "VFR",
+      "lat": "511140N",
+      "lon": "0025117E"
+    },
+    {
+      "id": "EBOB",
+      "name": "EBOB",
+      "title": "OUD-HEVERLEE / Blanden",
+      "type": "private heliport",
+      "elevation": "200 FT",
+      "traffic": "VFR",
+      "lat": "504921N",
+      "lon": "0044232E"
+    },
+    {
+      "id": "EBPW",
+      "name": "EBPW",
+      "title": "PECQ / Warcoing",
+      "type": "private heliport",
+      "elevation": "52 FT",
+      "traffic": "VFR",
+      "lat": "504320N",
+      "lon": "0031934E"
+    },
+    {
+      "id": "EBNP",
+      "name": "EBNP",
+      "title": "PELT / Tilburgs",
+      "type": "private heliport",
+      "elevation": "118 FT",
+      "traffic": "VFR",
+      "lat": "511424N",
+      "lon": "0052504E"
+    },
+    {
+      "id": "EBEN",
+      "name": "EBEN",
+      "title": "RANST / Engels",
+      "type": "private heliport",
+      "elevation": "25 FT",
+      "traffic": "VFR",
+      "lat": "511242N",
+      "lon": "0043451E"
+    },
+    {
+      "id": "EBLY",
+      "name": "EBLY",
+      "title": "RANST / Lymar",
+      "type": "private heliport",
+      "elevation": "25 FT",
+      "traffic": "VFR",
+      "lat": "511238N",
+      "lon": "0043436E"
+    },
+    {
+      "id": "EBRO",
+      "name": "EBRO",
+      "title": "RANST / Van Den Bosch",
+      "type": "private heliport",
+      "elevation": "25 FT",
+      "traffic": "VFR",
+      "lat": "511235N",
+      "lon": "0043515E"
+    },
+    {
+      "id": "EBTB",
+      "name": "EBTB",
+      "title": "ROESELARE / Boury",
+      "type": "private heliport",
+      "elevation": "75 FT",
+      "traffic": "VFR",
+      "lat": "505758N",
+      "lon": "0030918E"
+    },
+    {
+      "id": "EBNR",
+      "name": "EBNR",
+      "title": "ROESELARE / Nuytten",
+      "type": "private heliport",
+      "elevation": "83 FT",
+      "traffic": "VFR",
+      "lat": "505439N",
+      "lon": "0030613E"
+    },
+    {
+      "id": "EBRR",
+      "name": "EBRR",
+      "title": "ROESELARE / Rumbeke",
+      "type": "private heliport",
+      "elevation": "70 FT",
+      "traffic": "VFR",
+      "lat": "505436N",
+      "lon": "0030853E"
+    },
+    {
+      "id": "EBRD",
+      "name": "EBRD",
+      "title": "ROOSDAAL",
+      "type": "private heliport",
+      "elevation": "241 FT",
+      "traffic": "VFR",
+      "lat": "504932N",
+      "lon": "0040549E"
+    },
+    {
+      "id": "EBAS",
+      "name": "EBAS",
+      "title": "SCHILDE / ‘s Gravenwezel",
+      "type": "private heliport",
+      "elevation": "12 FT",
+      "traffic": "VFR",
+      "lat": "511449N",
+      "lon": "0043234E"
+    },
+    {
+      "id": "EBMA",
+      "name": "EBMA",
+      "title": "SINT-ELOOIS-WINKEL / Monte Marcella",
+      "type": "private heliport",
+      "elevation": "130 FT",
+      "traffic": "VFR",
+      "lat": "505143N",
+      "lon": "0031035E"
+    },
+    {
+      "id": "EBSW",
+      "name": "EBSW",
+      "title": "SINT-PIETERS-LEEUW",
+      "type": "private heliport",
+      "elevation": "189 FT",
+      "traffic": "VFR",
+      "lat": "504552N",
+      "lon": "0041313E"
+    },
+    {
+      "id": "EBSF",
+      "name": "EBSF",
+      "title": "SPA / Francorchamps",
+      "type": "private heliport",
+      "elevation": "1212 FT",
+      "traffic": "VFR",
+      "lat": "502548N",
+      "lon": "0055731E"
+    },
+    {
+      "id": "EBSB",
+      "name": "EBSB",
+      "title": "SPIERE-HELKIJN",
+      "type": "private heliport",
+      "elevation": "48 FT",
+      "traffic": "VFR",
+      "lat": "504340N",
+      "lon": "0032112E"
+    },
+    {
+      "id": "EBPC",
+      "name": "EBPC",
+      "title": "TESSENDERLO",
+      "type": "private heliport",
+      "elevation": "78 FT",
+      "traffic": "VFR",
+      "lat": "510428N",
+      "lon": "0050716E"
+    },
+    {
+      "id": "EBTK",
+      "name": "EBTK",
+      "title": "TIELEN / Kasterlee",
+      "type": "private heliport",
+      "elevation": "103 FT",
+      "traffic": "VFR",
+      "lat": "511701N",
+      "lon": "0045444E"
+    },
+    {
+      "id": "EBVE",
+      "name": "EBVE",
+      "title": "VEURNE",
+      "type": "private heliport",
+      "elevation": "73 FT",
+      "traffic": "VFR",
+      "lat": "510120N",
+      "lon": "0024048E"
+    },
+    {
+      "id": "EBVN",
+      "name": "EBVN",
+      "title": "VLIMMEREN",
+      "type": "private heliport",
+      "elevation": "68 FT",
+      "traffic": "VFR",
+      "lat": "511823N",
+      "lon": "0044824E"
+    },
+    {
+      "id": "EBWA",
+      "name": "EBWA",
+      "title": "WAASMUNSTER",
+      "type": "private heliport",
+      "elevation": "97 FT",
+      "traffic": "VFR",
+      "lat": "510722N",
+      "lon": "0040740E"
+    },
+    {
+      "id": "EBWK",
+      "name": "EBWK",
+      "title": "WERVIK",
+      "type": "private heliport",
+      "elevation": "46 FT",
+      "traffic": "VFR",
+      "lat": "504617N",
+      "lon": "0030141E"
+    },
+    {
+      "id": "EBWH",
+      "name": "EBWH",
+      "title": "WINGENE / Hemelrijk",
+      "type": "private heliport",
+      "elevation": "47 FT",
+      "traffic": "VFR",
+      "lat": "510522N",
+      "lon": "0031549E"
+    },
+    {
+      "id": "EBWS",
+      "name": "EBWS",
+      "title": "WINGENE / Scherrens",
+      "type": "private heliport",
+      "elevation": "66 FT",
+      "traffic": "VFR",
+      "lat": "510432N",
+      "lon": "0031756E"
+    },
+    {
+      "id": "EBWZ",
+      "name": "EBWZ",
+      "title": "WINGENE / Zwevezele",
+      "type": "private heliport",
+      "elevation": "107 FT",
+      "traffic": "VFR",
+      "lat": "510307N",
+      "lon": "0031420E"
+    },
+    {
+      "id": "EBZA",
+      "name": "EBZA",
+      "title": "ZEDELGEM / Aartrijke",
+      "type": "private heliport",
+      "elevation": "46 FT",
+      "traffic": "VFR",
+      "lat": "510736N",
+      "lon": "0030416E"
+    },
+    {
+      "id": "EBZE",
+      "name": "EBZE",
+      "title": "ZELE",
+      "type": "private heliport",
+      "elevation": "11 FT",
+      "traffic": "VFR",
+      "lat": "510252N",
+      "lon": "0040108E"
+    },
+    {
+      "id": "EBZM",
+      "name": "EBZM",
+      "title": "ZOMERGEM",
+      "type": "private heliport",
+      "elevation": "58 FT",
+      "traffic": "VFR",
+      "lat": "510753N",
+      "lon": "0033120E"
+    },
+    {
+      "id": "EBZO",
+      "name": "EBZO",
+      "title": "ZONNEBEKE / Zandvoorde",
+      "type": "private heliport",
+      "elevation": "93 FT",
+      "traffic": "VFR",
+      "lat": "504902N",
+      "lon": "0025828E"
+    },
+    {
+      "id": "EBAF",
+      "name": "EBAF",
+      "title": "AFFLIGEM",
+      "type": "personal heliport",
+      "elevation": "141 FT",
+      "traffic": "VFR",
+      "lat": "505412N",
+      "lon": "0040531E"
+    },
+    {
+      "id": "EBRU",
+      "name": "EBRU",
+      "title": "BEKKEVOORT",
+      "type": "personal heliport",
+      "elevation": "103 FT",
+      "traffic": "VFR",
+      "lat": "505727N",
+      "lon": "0050055E"
+    },
+    {
+      "id": "EBBC",
+      "name": "EBBC",
+      "title": "BEVEREN / Casteleyn",
+      "type": "personal heliport",
+      "elevation": "19 FT",
+      "traffic": "VFR",
+      "lat": "511326N",
+      "lon": "0041251E"
+    },
+    {
+      "id": "EBDZ",
+      "name": "EBDZ",
+      "title": "DEINZE / De Groote",
+      "type": "personal heliport",
+      "elevation": "38 FT",
+      "traffic": "VFR",
+      "lat": "505750N",
+      "lon": "0033234E"
+    },
+    {
+      "id": "EBPP",
+      "name": "EBPP",
+      "title": "DEINZE / Piens",
+      "type": "personal heliport",
+      "elevation": "28 FT",
+      "traffic": "VFR",
+      "lat": "505942N",
+      "lon": "0033144E"
+    },
+    {
+      "id": "EBGJ",
+      "name": "EBGJ",
+      "title": "ENGIS",
+      "type": "personal heliport",
+      "elevation": "772 FT",
+      "traffic": "VFR",
+      "lat": "503249N",
+      "lon": "0052510E"
+    },
+    {
+      "id": "EBPL",
+      "name": "EBPL",
+      "title": "GESVES",
+      "type": "personal heliport",
+      "elevation": "872 FT",
+      "traffic": "VFR",
+      "lat": "502546N",
+      "lon": "0050410E"
+    },
+    {
+      "id": "EBYC",
+      "name": "EBYC",
+      "title": "GREMBERGEN / Dendermonde",
+      "type": "personal heliport",
+      "elevation": "12 FT",
+      "traffic": "VFR",
+      "lat": "510328N",
+      "lon": "0040551E"
+    },
+    {
+      "id": "EBHH",
+      "name": "EBHH",
+      "title": "HULSHOUT",
+      "type": "personal heliport",
+      "elevation": "39 FT",
+      "traffic": "VFR",
+      "lat": "510313N",
+      "lon": "0044745E"
+    },
+    {
+      "id": "EBWV",
+      "name": "EBWV",
+      "title": "ICHTEGEM",
+      "type": "personal heliport",
+      "elevation": "71 FT",
+      "traffic": "VFR",
+      "lat": "510343N",
+      "lon": "0030150E"
+    },
+    {
+      "id": "EBRL",
+      "name": "EBRL",
+      "title": "KAMPENHOUT",
+      "type": "personal heliport",
+      "elevation": "50 FT",
+      "traffic": "VFR",
+      "lat": "505640N",
+      "lon": "0043240E"
+    },
+    {
+      "id": "EBLV",
+      "name": "EBLV",
+      "title": "KORTEMARK",
+      "type": "personal heliport",
+      "elevation": "67 FT",
+      "traffic": "VFR",
+      "lat": "510028N",
+      "lon": "0030242E"
+    },
+    {
+      "id": "EBLJ",
+      "name": "EBLJ",
+      "title": "LOKEREN / Janssens",
+      "type": "personal heliport",
+      "elevation": "19 FT",
+      "traffic": "VFR",
+      "lat": "510544N",
+      "lon": "0035506E"
+    },
+    {
+      "id": "EBLH",
+      "name": "EBLH",
+      "title": "LOTENHULLE",
+      "type": "personal heliport",
+      "elevation": "43 FT",
+      "traffic": "VFR",
+      "lat": "510200N",
+      "lon": "0032948E"
+    },
+    {
+      "id": "EBMK",
+      "name": "EBMK",
+      "title": "MAARKEDAL / Nukerke",
+      "type": "personal heliport",
+      "elevation": "171 FT",
+      "traffic": "VFR",
+      "lat": "504655N",
+      "lon": "0033711E"
+    },
+    {
+      "id": "EBSV",
+      "name": "EBSV",
+      "title": "OTTERGEM / Erpe-Mere",
+      "type": "personal heliport",
+      "elevation": "135 FT",
+      "traffic": "VFR",
+      "lat": "505558N",
+      "lon": "0035704E"
+    },
+    {
+      "id": "EBLD",
+      "name": "EBLD",
+      "title": "RANST / De Vijver",
+      "type": "personal heliport",
+      "elevation": "30 FT",
+      "traffic": "VFR",
+      "lat": "511302N",
+      "lon": "0043328E"
+    },
+    {
+      "id": "EBVU",
+      "name": "EBVU",
+      "title": "ROTSELAAR",
+      "type": "personal heliport",
+      "elevation": "48 FT",
+      "traffic": "VFR",
+      "lat": "505621N",
+      "lon": "0044350E"
+    },
+    {
+      "id": "EBEM",
+      "name": "EBEM",
+      "title": "SINT-JORIS-WINGE",
+      "type": "personal heliport",
+      "elevation": "150 FT",
+      "traffic": "VFR",
+      "lat": "505422N",
+      "lon": "0045154E"
+    },
+    {
+      "id": "EBLR",
+      "name": "EBLR",
+      "title": "WAASMUNSTER / Raemdonck",
+      "type": "personal heliport",
+      "elevation": "21 FT",
+      "traffic": "VFR",
+      "lat": "510651N",
+      "lon": "0040216E"
+    },
+    {
+      "id": "EBWP",
+      "name": "EBWP",
+      "title": "WORTEGEM-PETEGEM",
+      "type": "personal heliport",
+      "elevation": "149 FT",
+      "traffic": "VFR",
+      "lat": "505244N",
+      "lon": "0033205E"
+    }
+  ]
+}

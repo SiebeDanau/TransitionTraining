@@ -31,7 +31,7 @@
       "title": "Aerodromes",
       "description": "",
       "type": "map",
-      "data": []
+      "data": ["Aerodromes/aerodromes-belgium.json"]
     }
   ]
 }
