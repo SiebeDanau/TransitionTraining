@@ -522,7 +522,7 @@ function pickQuestion() {
   }
   state.currentQuestion = state.remainingPoints.shift();
   state.answered = false;
-  promptEl.textContent = state.currentQuestion.label;
+  promptEl.textContent = state.currentQuestion.questionLabel;
   setFeedback("");
   clearMarks();
 }
@@ -552,7 +552,7 @@ function checkAnswer(point) {
     if (!state.wrongPoints.includes(state.currentQuestion)) {
       state.wrongPoints.push(state.currentQuestion);
     }
-    setFeedback(`Fout. Je duidde ${point.label} aan.`, "bad");
+    setFeedback(`Fout. Je duidde ${point.questionLabel} aan.`, "bad");
   }
   updatePointSource();
   updateStats();
@@ -593,9 +593,15 @@ function loadPoints(records) {
     const lat = parseCoordinate(record.lat);
     const lon = parseCoordinate(record.lon);
     if (!id || !Number.isFinite(lat) || !Number.isFinite(lon)) return;
+    const label = record.title || record.name || id;
+    const questionLabel =
+      moduleConfig.id === "radio-navigation-points" && record.station
+        ? `${label} (${record.station})`
+        : label;
     uniquePoints.set(id, {
       id,
-      label: record.title || record.name || id,
+      label,
+      questionLabel,
       lat,
       lon,
       status: "idle",
