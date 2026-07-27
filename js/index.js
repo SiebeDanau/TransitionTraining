@@ -32,7 +32,9 @@ Promise.all([
       const roleSelect = document.createElement("select");
       roleSelect.setAttribute("aria-label", `Rol voor ${module.title}`);
       roleSelect.add(new Option("Selecteer een rol", ""));
-      roles.forEach((role) => roleSelect.add(new Option(role.label, role.id)));
+      [...roles]
+        .sort((a, b) => a.label.localeCompare(b.label, "nl"))
+        .forEach((role) => roleSelect.add(new Option(role.label, role.id)));
       field.appendChild(roleSelect);
 
       const openButton = document.createElement("button");
@@ -70,5 +72,5 @@ function openModule(module, role) {
     JSON.stringify({ id: role.id, label: role.label })
   );
 
-  window.location.href = module.type === "geo-svg" ? "geo-svg.html" : "map.html";
+  window.location.href = "map.html";
 }

@@ -52,16 +52,12 @@ const state = {
   remainingPoints: [],
   wrongPoints: [],
   currentQuestion: null,
-  svgText: "",
-  fileName: "",
   correct: 0,
   wrong: 0,
   streak: 0,
   answered: false,
   allowedPointIds: new Set(),
   map: null,
-  imageUrl: "",
-  imageCoordinates: null,
   backgroundMode: localStorage.getItem("mapBackgroundMode") || "local",
 };
 
@@ -78,7 +74,7 @@ const nextButton = document.querySelector("#nextButton");
 const revealButton = document.querySelector("#revealButton");
 const resetButton = document.querySelector("#resetButton");
 const retryButton = document.querySelector("#retryButton");
-const moduleConfig = JSON.parse(localStorage.getItem("activeModule"));
+let moduleConfig = JSON.parse(localStorage.getItem("activeModule"));
 const activeRole = JSON.parse(localStorage.getItem("activeRole"));
 
 backgroundModeEl.value = state.backgroundMode;
@@ -94,147 +90,20 @@ function setTitle() {
 
 setTitle();
 
-function number(value) {
-  return Number.parseFloat(String(value ?? "").replace(",", "."));
-}
-
 function normalizePointId(value) {
   return String(value || "").trim().toUpperCase();
 }
 
-function readViewBox(svg) {
-  const value = svg.documentElement.getAttribute("viewBox");
-  if (value) {
-    const values = value.split(/[,\s]+/).filter(Boolean).map(number);
-    if (values.length === 4) return values;
-  }
-  return [
-    0,
-    0,
-    number(svg.documentElement.getAttribute("width")) || 1586.6667,
-    number(svg.documentElement.getAttribute("height")) || 1121.3333,
-  ];
-}
-
-function readPoints(svg) {
-  return Array.from(svg.querySelectorAll('[data-geo-svg-tool="object"]'))
-    .map((object, index) => {
-      const label =
-        object.getAttribute("data-title") ||
-        object.querySelector("title")?.textContent.trim();
-      const lat = number(object.getAttribute("data-lat"));
-      const lon = number(object.getAttribute("data-lon"));
-      if (!label || !Number.isFinite(lat) || !Number.isFinite(lon)) return null;
-      return {
-        id: `point-${index}`,
-        label,
-        lat,
-        lon,
-        status: "idle",
-      };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.label.localeCompare(b.label));
-}
-
-function readReferences(svg) {
-  return Array.from(svg.querySelectorAll('[data-geo-svg-tool="reference"]'))
-    .map((reference) => ({
-      x: number(reference.getAttribute("data-x")),
-      y: number(reference.getAttribute("data-y")),
-      lat: number(reference.getAttribute("data-lat")),
-      lon: number(reference.getAttribute("data-lon")),
-    }))
-    .filter((reference) =>
-      [reference.x, reference.y, reference.lat, reference.lon].every(Number.isFinite)
-    );
-}
-
-function solveLinear3(matrix, values) {
-  const rows = matrix.map((row, index) => [...row, values[index]]);
-  for (let column = 0; column < 3; column += 1) {
-    let pivot = column;
-    for (let row = column + 1; row < 3; row += 1) {
-      if (Math.abs(rows[row][column]) > Math.abs(rows[pivot][column])) pivot = row;
-    }
-    [rows[column], rows[pivot]] = [rows[pivot], rows[column]];
-    const divisor = rows[column][column];
-    if (Math.abs(divisor) < 1e-12) return null;
-    for (let item = column; item < 4; item += 1) rows[column][item] /= divisor;
-    for (let row = 0; row < 3; row += 1) {
-      if (row === column) continue;
-      const factor = rows[row][column];
-      for (let item = column; item < 4; item += 1) {
-        rows[row][item] -= factor * rows[column][item];
-      }
-    }
-  }
-  return rows.map((row) => row[3]);
-}
-
-function fitAffine(references, property) {
-  const normal = [
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0],
-  ];
-  const target = [0, 0, 0];
-  references.forEach((reference) => {
-    const terms = [reference.x, reference.y, 1];
-    for (let row = 0; row < 3; row += 1) {
-      target[row] += terms[row] * reference[property];
-      for (let column = 0; column < 3; column += 1) {
-        normal[row][column] += terms[row] * terms[column];
-      }
-    }
-  });
-  return solveLinear3(normal, target);
-}
-
-function imageCoordinatesFromReferences(svg, points) {
-  const [minX, minY, width, height] = readViewBox(svg);
-  const references = readReferences(svg);
-  if (references.length >= 3) {
-    const lonCoefficients = fitAffine(references, "lon");
-    const latCoefficients = fitAffine(references, "lat");
-    if (lonCoefficients && latCoefficients) {
-      const project = (x, y) => [
-        lonCoefficients[0] * x + lonCoefficients[1] * y + lonCoefficients[2],
-        latCoefficients[0] * x + latCoefficients[1] * y + latCoefficients[2],
-      ];
-      return [
-        project(minX, minY),
-        project(minX + width, minY),
-        project(minX + width, minY + height),
-        project(minX, minY + height),
-      ];
-    }
-  }
-
-  const lons = points.map((point) => point.lon);
-  const lats = points.map((point) => point.lat);
-  const west = Math.min(...lons) - 0.5;
-  const east = Math.max(...lons) + 0.5;
-  const south = Math.min(...lats) - 0.35;
-  const north = Math.max(...lats) + 0.35;
-  return [
-    [west, north],
-    [east, north],
-    [east, south],
-    [west, south],
-  ];
-}
-
-function makeBackgroundSvg(svgText) {
-  const svg = new DOMParser().parseFromString(svgText, "image/svg+xml");
-  svg.querySelectorAll('[data-geo-svg-tool="object"]').forEach((object) => {
-    object.setAttribute("display", "none");
-  });
-  svg.querySelectorAll('[data-geo-svg-tool="object-label"]').forEach((label) => {
-    label.setAttribute("display", "none");
-  });
-  const serialized = new XMLSerializer().serializeToString(svg);
-  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(serialized)}`;
+function parseCoordinate(value) {
+  if (typeof value === "number") return value;
+  const normalized = String(value || "").trim().toUpperCase();
+  const match = normalized.match(/^(\d{2,3})(\d{2})(\d{2}(?:\.\d+)?)([NSEW])$/);
+  if (!match) return Number.NaN;
+  const degrees = Number(match[1]);
+  const minutes = Number(match[2]);
+  const seconds = Number(match[3]);
+  const sign = match[4] === "S" || match[4] === "W" ? -1 : 1;
+  return sign * (degrees + minutes / 60 + seconds / 3600);
 }
 
 function pointGeoJson() {
@@ -264,25 +133,6 @@ function updatePointSource() {
 function addTrainingLayers() {
   const map = state.map;
   if (!map) return;
-
-  if (
-    state.backgroundMode === "local" &&
-    state.imageUrl &&
-    state.imageCoordinates &&
-    !map.getSource("local-map")
-  ) {
-    map.addSource("local-map", {
-      type: "image",
-      url: state.imageUrl,
-      coordinates: state.imageCoordinates,
-    });
-    map.addLayer({
-      id: "local-map",
-      type: "raster",
-      source: "local-map",
-      paint: { "raster-opacity": 1, "raster-fade-duration": 0 },
-    });
-  }
 
   if (!map.getSource("brussels-uir")) {
     map.addSource("brussels-uir", {
@@ -455,7 +305,6 @@ function simplifyOsmStyle() {
   const layers = map?.getStyle()?.layers || [];
   layers.forEach((layer) => {
     if (
-      layer.id === "local-map" ||
       layer.id.startsWith("brussels-uir") ||
       layer.id.startsWith("tma-") ||
       layer.id.startsWith("training-")
@@ -567,17 +416,38 @@ async function initMap() {
   }
 
   try {
-    const [mapResponse, roleResponse] = await Promise.all([
-      fetch(`maps/${moduleConfig.map}`),
+    const [configResponse, roleResponse] = await Promise.all([
+      fetch("data/config.json", { cache: "no-store" }),
       fetch("data/roles.json", { cache: "no-store" }),
     ]);
-    if (!mapResponse.ok || !roleResponse.ok) {
-      throw new Error("Kaart of rollenbestand kon niet geladen worden.");
+    if (!configResponse.ok || !roleResponse.ok) {
+      throw new Error("Moduleconfiguratie of rollenbestand kon niet geladen worden.");
     }
 
-    const [svgText, roleConfig] = await Promise.all([
-      mapResponse.text(),
+    const [config, roleConfig] = await Promise.all([
+      configResponse.json(),
       roleResponse.json(),
+    ]);
+    const latestModuleConfig = config.modules?.find(
+      (item) => item.id === moduleConfig.id
+    );
+    if (!latestModuleConfig) {
+      throw new Error(`Module "${moduleConfig.id}" bestaat niet meer.`);
+    }
+    moduleConfig = latestModuleConfig;
+    localStorage.setItem("activeModule", JSON.stringify(moduleConfig));
+    setTitle();
+
+    const dataFiles = Array.isArray(moduleConfig.data) ? moduleConfig.data : [];
+    const dataResponses = await Promise.all([
+      ...dataFiles.map((file) => fetch(`data/${file}`, { cache: "no-store" })),
+    ]);
+    if (dataResponses.some((response) => !response.ok)) {
+      throw new Error("Een puntenbestand kon niet geladen worden.");
+    }
+
+    const pointCollections = await Promise.all([
+      ...dataResponses.map((response) => response.json()),
     ]);
     const role = roleConfig.roles?.find((item) => item.id === activeRole.id);
     const categoryAliases = {
@@ -589,7 +459,7 @@ async function initMap() {
     state.allowedPointIds = new Set(
       (category?.pointIds || []).map(normalizePointId)
     );
-    loadSvgText(svgText, moduleConfig.map);
+    loadPoints(pointCollections.flatMap((collection) => collection.points || []));
   } catch (error) {
     promptEl.textContent = "Module kon niet geladen worden";
     setFeedback(error.message, "bad");
@@ -609,8 +479,7 @@ function updateStats() {
   wrongCountEl.textContent = String(state.wrong);
   streakCountEl.textContent = String(state.streak);
   const total = state.points.length;
-  const answered =
-    total - state.remainingPoints.length - (state.currentQuestion ? 1 : 0);
+  const answered = state.correct + state.wrong;
   progressCountEl.textContent = `${answered} / ${total}`;
 }
 
@@ -683,7 +552,7 @@ function checkAnswer(point) {
     if (!state.wrongPoints.includes(state.currentQuestion)) {
       state.wrongPoints.push(state.currentQuestion);
     }
-    setFeedback("Fout.", "bad");
+    setFeedback(`Fout. Je duidde ${point.label} aan.`, "bad");
   }
   updatePointSource();
   updateStats();
@@ -717,17 +586,42 @@ function resetQuiz() {
   pickQuestion();
 }
 
-function loadSvgText(svgText, fileName) {
-  const svg = new DOMParser().parseFromString(svgText, "image/svg+xml");
-  if (svg.querySelector("parsererror")) {
-    throw new Error("Deze SVG kon niet gelezen worden.");
+function loadPoints(records) {
+  const uniquePoints = new Map();
+  records.forEach((record) => {
+    const id = normalizePointId(record.id || record.name || record.title);
+    const lat = parseCoordinate(record.lat);
+    const lon = parseCoordinate(record.lon);
+    if (!id || !Number.isFinite(lat) || !Number.isFinite(lon)) return;
+    uniquePoints.set(id, {
+      id,
+      label: record.title || record.name || id,
+      lat,
+      lon,
+      status: "idle",
+    });
+  });
+
+  const missingPointIds = Array.from(state.allowedPointIds).filter(
+    (id) => !uniquePoints.has(id)
+  );
+  if (missingPointIds.length > 0) {
+    console.warn(
+      `[${moduleConfig.id}] ${missingPointIds.length} punten voor rol ` +
+        `"${activeRole.label}" zijn niet gevonden in de geconfigureerde databronnen:`,
+      missingPointIds,
+      moduleConfig.data || []
+    );
   }
 
-  const points = readPoints(svg).filter((point) =>
-    state.allowedPointIds.has(normalizePointId(point.label))
-  );
-  state.svgText = svgText;
-  state.fileName = fileName;
+  const points = Array.from(uniquePoints.values())
+    .filter(
+      (point) =>
+        state.allowedPointIds.size === 0 ||
+        state.allowedPointIds.has(normalizePointId(point.id))
+    )
+    .sort((a, b) => a.label.localeCompare(b.label));
+
   state.points = points;
   state.remainingPoints = shuffle(points);
   state.wrongPoints = [];
@@ -735,11 +629,10 @@ function loadSvgText(svgText, fileName) {
   state.correct = 0;
   state.wrong = 0;
   state.streak = 0;
-  state.imageCoordinates = imageCoordinatesFromReferences(svg, points);
-  state.imageUrl = makeBackgroundSvg(svgText);
 
   updateStats();
   retryButton.style.display = "none";
+  initializeMap();
   if (points.length === 0) {
     promptEl.textContent = "Geen punten gevonden";
     setFeedback(
@@ -751,7 +644,6 @@ function loadSvgText(svgText, fileName) {
   }
 
   setControlsEnabled(true);
-  initializeMap();
   pickQuestion();
 }
 

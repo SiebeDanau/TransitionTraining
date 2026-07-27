@@ -1,0 +1,7439 @@
+{
+  "source": "United Kingdom AIP ENR 4.4 name-code designators for significant points (AIRAC amendments through 06 AUG 2026).",
+  "points": [
+    {
+      "id": "ABBEW",
+      "name": "ABBEW",
+      "title": "ABBEW",
+      "lat": "503011.88N",
+      "lon": "0032833.64W"
+    },
+    {
+      "id": "ABBOT",
+      "name": "ABBOT",
+      "title": "ABBOT",
+      "lat": "520058.00N",
+      "lon": "0003558.49E"
+    },
+    {
+      "id": "ABEDA",
+      "name": "ABEDA",
+      "title": "ABEDA",
+      "lat": "521939.63N",
+      "lon": "0015215.84E"
+    },
+    {
+      "id": "ABEVI",
+      "name": "ABEVI",
+      "title": "ABEVI",
+      "lat": "544227.00N",
+      "lon": "0024629.24W"
+    },
+    {
+      "id": "ABGEP",
+      "name": "ABGEP",
+      "title": "ABGEP",
+      "lat": "532539.32N",
+      "lon": "0045139.71W"
+    },
+    {
+      "id": "ABKAT",
+      "name": "ABKAT",
+      "title": "ABKAT",
+      "lat": "540853.12N",
+      "lon": "0015846.69W"
+    },
+    {
+      "id": "ABKIM",
+      "name": "ABKIM",
+      "title": "ABKIM",
+      "lat": "505043N",
+      "lon": "0015858W"
+    },
+    {
+      "id": "ABLIN",
+      "name": "ABLIN",
+      "title": "ABLIN",
+      "lat": "524657.86N",
+      "lon": "0045933.38W"
+    },
+    {
+      "id": "ABLUC",
+      "name": "ABLUC",
+      "title": "ABLUC",
+      "lat": "534756.75N",
+      "lon": "0043045.91W"
+    },
+    {
+      "id": "ABSAV",
+      "name": "ABSAV",
+      "title": "ABSAV",
+      "lat": "503828.94N",
+      "lon": "0011029.05W"
+    },
+    {
+      "id": "ABSUN",
+      "name": "ABSUN",
+      "title": "ABSUN",
+      "lat": "541732.20N",
+      "lon": "0061517.74W"
+    },
+    {
+      "id": "ABTOS",
+      "name": "ABTOS",
+      "title": "ABTOS",
+      "lat": "531444.92N",
+      "lon": "0002536.29E"
+    },
+    {
+      "id": "ABTUM",
+      "name": "ABTUM",
+      "title": "ABTUM",
+      "lat": "512603.66N",
+      "lon": "0012228.98E"
+    },
+    {
+      "id": "ABWIV",
+      "name": "ABWIV",
+      "title": "ABWIV",
+      "lat": "515248.67N",
+      "lon": "0030032.70W"
+    },
+    {
+      "id": "ACAGE",
+      "name": "ACAGE",
+      "title": "ACAGE",
+      "lat": "550000.00N",
+      "lon": "0003101.00E"
+    },
+    {
+      "id": "ACBAZ",
+      "name": "ACBAZ",
+      "title": "ACBAZ",
+      "lat": "514440.67N",
+      "lon": "0030214.79W"
+    },
+    {
+      "id": "ACCAQ",
+      "name": "ACCAQ",
+      "title": "ACCAQ",
+      "lat": "515152.62N",
+      "lon": "0035035.63W"
+    },
+    {
+      "id": "ACCOP",
+      "name": "ACCOP",
+      "title": "ACCOP",
+      "lat": "515544.33N",
+      "lon": "0032257.07W"
+    },
+    {
+      "id": "ADASI",
+      "name": "ADASI",
+      "title": "ADASI",
+      "lat": "591315.16N",
+      "lon": "0061731.47W"
+    },
+    {
+      "id": "ADELU",
+      "name": "ADELU",
+      "title": "ADELU",
+      "lat": "532630.48N",
+      "lon": "0013212.64W"
+    },
+    {
+      "id": "ADGEG",
+      "name": "ADGEG",
+      "title": "ADGEG",
+      "lat": "531343N",
+      "lon": "0021906E"
+    },
+    {
+      "id": "ADHAV",
+      "name": "ADHAV",
+      "title": "ADHAV",
+      "lat": "515452.88N",
+      "lon": "0051348.51W"
+    },
+    {
+      "id": "ADKIK",
+      "name": "ADKIK",
+      "title": "ADKIK",
+      "lat": "504748.52N",
+      "lon": "0023245.46W"
+    },
+    {
+      "id": "ADLOG",
+      "name": "ADLOG",
+      "title": "ADLOG",
+      "lat": "501925.00N",
+      "lon": "0004933.40W"
+    },
+    {
+      "id": "ADMEX",
+      "name": "ADMEX",
+      "title": "ADMEX",
+      "lat": "522139.20N",
+      "lon": "0012744.81W"
+    },
+    {
+      "id": "ADMIS",
+      "name": "ADMIS",
+      "title": "ADMIS",
+      "lat": "515948.54N",
+      "lon": "0001035.56E"
+    },
+    {
+      "id": "ADNAM",
+      "name": "ADNAM",
+      "title": "ADNAM",
+      "lat": "520616.98N",
+      "lon": "0004418.84E"
+    },
+    {
+      "id": "ADODO",
+      "name": "ADODO",
+      "title": "ADODO",
+      "lat": "583000.00N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "ADRUD",
+      "name": "ADRUD",
+      "title": "ADRUD",
+      "lat": "491014N",
+      "lon": "0062655W"
+    },
+    {
+      "id": "ADVAS",
+      "name": "ADVAS",
+      "title": "ADVAS",
+      "lat": "514053.03N",
+      "lon": "0012633.13E"
+    },
+    {
+      "id": "ADVAT",
+      "name": "ADVAT",
+      "title": "ADVAT",
+      "lat": "450000.00N",
+      "lon": "0092811.19W"
+    },
+    {
+      "id": "ADZOP",
+      "name": "ADZOP",
+      "title": "ADZOP",
+      "lat": "541057.10N",
+      "lon": "0031520.80W"
+    },
+    {
+      "id": "AGBOS",
+      "name": "AGBOS",
+      "title": "AGBOS",
+      "lat": "515014.72N",
+      "lon": "0033756.19W"
+    },
+    {
+      "id": "AGCAT",
+      "name": "AGCAT",
+      "title": "AGCAT",
+      "lat": "515128.74N",
+      "lon": "0044454.82W"
+    },
+    {
+      "id": "AGLIL",
+      "name": "AGLIL",
+      "title": "AGLIL",
+      "lat": "533441.99N",
+      "lon": "0032711.30W"
+    },
+    {
+      "id": "AGORI",
+      "name": "AGORI",
+      "title": "AGORI",
+      "lat": "570000N",
+      "lon": "0130000W"
+    },
+    {
+      "id": "AGPED",
+      "name": "AGPED",
+      "title": "AGPED",
+      "lat": "550718.90N",
+      "lon": "0015657.15W"
+    },
+    {
+      "id": "AKIVO",
+      "name": "AKIVO",
+      "title": "AKIVO",
+      "lat": "595751.58N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "AKODA",
+      "name": "AKODA",
+      "title": "AKODA",
+      "lat": "552144.78N",
+      "lon": "0044942.12W"
+    },
+    {
+      "id": "AKOKO",
+      "name": "AKOKO",
+      "title": "AKOKO",
+      "lat": "531416.24N",
+      "lon": "0031207.03E"
+    },
+    {
+      "id": "AKOMU",
+      "name": "AKOMU",
+      "title": "AKOMU",
+      "lat": "541016.25N",
+      "lon": "0025553.38W"
+    },
+    {
+      "id": "AKUPA",
+      "name": "AKUPA",
+      "title": "AKUPA",
+      "lat": "522911.57N",
+      "lon": "0010528.03W"
+    },
+    {
+      "id": "ALASO",
+      "name": "ALASO",
+      "title": "ALASO",
+      "lat": "552650.23N",
+      "lon": "0013353.69W"
+    },
+    {
+      "id": "ALAVA",
+      "name": "ALAVA",
+      "title": "ALAVA",
+      "lat": "532342.60N",
+      "lon": "0035817.31W"
+    },
+    {
+      "id": "ALESO",
+      "name": "ALESO",
+      "title": "ALESO",
+      "lat": "503432.24N",
+      "lon": "0011331.50E"
+    },
+    {
+      "id": "ALHAD",
+      "name": "ALHAD",
+      "title": "ALHAD",
+      "lat": "512346.75N",
+      "lon": "0010858.16W"
+    },
+    {
+      "id": "ALHUP",
+      "name": "ALHUP",
+      "title": "ALHUP",
+      "lat": "524244.24N",
+      "lon": "0025628.15W"
+    },
+    {
+      "id": "ALOTI",
+      "name": "ALOTI",
+      "title": "ALOTI",
+      "lat": "575427.01N",
+      "lon": "0033630.27E"
+    },
+    {
+      "id": "ALUTA",
+      "name": "ALUTA",
+      "title": "ALUTA",
+      "lat": "490018.65N",
+      "lon": "0072953.23W"
+    },
+    {
+      "id": "AMCON",
+      "name": "AMCON",
+      "title": "AMCON",
+      "lat": "553431.14N",
+      "lon": "0063837.46W"
+    },
+    {
+      "id": "AMDUT",
+      "name": "AMDUT",
+      "title": "AMDUT",
+      "lat": "504027.90N",
+      "lon": "0004746.38E"
+    },
+    {
+      "id": "AMFEP",
+      "name": "AMFEP",
+      "title": "AMFEP",
+      "lat": "523050.36N",
+      "lon": "0021851.80E"
+    },
+    {
+      "id": "AMFUL",
+      "name": "AMFUL",
+      "title": "AMFUL",
+      "lat": "512844.40N",
+      "lon": "0033721.36W"
+    },
+    {
+      "id": "AMLAD",
+      "name": "AMLAD",
+      "title": "AMLAD",
+      "lat": "561552.37N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "AMLET",
+      "name": "AMLET",
+      "title": "AMLET",
+      "lat": "531606.52N",
+      "lon": "0015017.59W"
+    },
+    {
+      "id": "AMMAN",
+      "name": "AMMAN",
+      "title": "AMMAN",
+      "lat": "515025.95N",
+      "lon": "0035954.00W"
+    },
+    {
+      "id": "AMPIT",
+      "name": "AMPIT",
+      "title": "AMPIT",
+      "lat": "531139.41N",
+      "lon": "0031132.59W"
+    },
+    {
+      "id": "AMPOP",
+      "name": "AMPOP",
+      "title": "AMPOP",
+      "lat": "493147.68N",
+      "lon": "0060902.85W"
+    },
+    {
+      "id": "AMTAP",
+      "name": "AMTAP",
+      "title": "AMTAP",
+      "lat": "582225.36N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "AMTOD",
+      "name": "AMTOD",
+      "title": "AMTOD",
+      "lat": "503215.69N",
+      "lon": "0012544.46W"
+    },
+    {
+      "id": "AMVEL",
+      "name": "AMVEL",
+      "title": "AMVEL",
+      "lat": "531102.96N",
+      "lon": "0000155.16W"
+    },
+    {
+      "id": "AMWAB",
+      "name": "AMWAB",
+      "title": "AMWAB",
+      "lat": "514608.52N",
+      "lon": "0040136.69W"
+    },
+    {
+      "id": "ANJAK",
+      "name": "ANJAK",
+      "title": "ANJAK",
+      "lat": "525350.17N",
+      "lon": "0025933.44W"
+    },
+    {
+      "id": "ANMAZ",
+      "name": "ANMAZ",
+      "title": "ANMAZ",
+      "lat": "543321.61N",
+      "lon": "0000810.62E"
+    },
+    {
+      "id": "ANNET",
+      "name": "ANNET",
+      "title": "ANNET",
+      "lat": "493905.11N",
+      "lon": "0040005.00W"
+    },
+    {
+      "id": "APPLE",
+      "name": "APPLE",
+      "title": "APPLE",
+      "lat": "543000.00N",
+      "lon": "0023050.23W"
+    },
+    {
+      "id": "APSOV",
+      "name": "APSOV",
+      "title": "APSOV",
+      "lat": "554922.84N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "ARKIL",
+      "name": "ARKIL",
+      "title": "ARKIL",
+      "lat": "503928N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "ARNUN",
+      "name": "ARNUN",
+      "title": "ARNUN",
+      "lat": "510325.98N",
+      "lon": "0005552.98E"
+    },
+    {
+      "id": "ARPAK",
+      "name": "ARPAK",
+      "title": "ARPAK",
+      "lat": "514844.64N",
+      "lon": "0031905.48W"
+    },
+    {
+      "id": "ARPUB",
+      "name": "ARPUB",
+      "title": "ARPUB",
+      "lat": "533534N",
+      "lon": "0011428W"
+    },
+    {
+      "id": "ARREK",
+      "name": "ARREK",
+      "title": "ARREK",
+      "lat": "513643.04N",
+      "lon": "0015007.27E"
+    },
+    {
+      "id": "ARSAT",
+      "name": "ARSAT",
+      "title": "ARSAT",
+      "lat": "543206.19N",
+      "lon": "0014418.63W"
+    },
+    {
+      "id": "ARTEX",
+      "name": "ARTEX",
+      "title": "ARTEX",
+      "lat": "565341.37N",
+      "lon": "0035738.47E"
+    },
+    {
+      "id": "ARTIX",
+      "name": "ARTIX",
+      "title": "ARTIX",
+      "lat": "532342.08N",
+      "lon": "0010208.72W"
+    },
+    {
+      "id": "ASCOM",
+      "name": "ASCOM",
+      "title": "ASCOM",
+      "lat": "542953.74N",
+      "lon": "0031022.88W"
+    },
+    {
+      "id": "ASHUM",
+      "name": "ASHUM",
+      "title": "ASHUM",
+      "lat": "513607.25N",
+      "lon": "0015336.46W"
+    },
+    {
+      "id": "ASKAM",
+      "name": "ASKAM",
+      "title": "ASKAM",
+      "lat": "545747.34N",
+      "lon": "0031349.91E"
+    },
+    {
+      "id": "ASLIB",
+      "name": "ASLIB",
+      "title": "ASLIB",
+      "lat": "544927.55N",
+      "lon": "0030339.35W"
+    },
+    {
+      "id": "ASMIM",
+      "name": "ASMIM",
+      "title": "ASMIM",
+      "lat": "532645.75N",
+      "lon": "0023910.71W"
+    },
+    {
+      "id": "ASNIP",
+      "name": "ASNIP",
+      "title": "ASNIP",
+      "lat": "532843.09N",
+      "lon": "0025425.97W"
+    },
+    {
+      "id": "ASNUD",
+      "name": "ASNUD",
+      "title": "ASNUD",
+      "lat": "564139.00N",
+      "lon": "0030320.35W"
+    },
+    {
+      "id": "ASRUS",
+      "name": "ASRUS",
+      "title": "ASRUS",
+      "lat": "550321N",
+      "lon": "0032045W"
+    },
+    {
+      "id": "ATHAS",
+      "name": "ATHAS",
+      "title": "ATHAS",
+      "lat": "523644.93N",
+      "lon": "0024528.05W"
+    },
+    {
+      "id": "ATNAK",
+      "name": "ATNAK",
+      "title": "ATNAK",
+      "lat": "570000.00N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "ATSAP",
+      "name": "ATSAP",
+      "title": "ATSAP",
+      "lat": "512715.96N",
+      "lon": "0013016.98E"
+    },
+    {
+      "id": "ATSIX",
+      "name": "ATSIX",
+      "title": "ATSIX",
+      "lat": "600000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "ATSUR",
+      "name": "ATSUR",
+      "title": "ATSUR",
+      "lat": "500000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "AVANT",
+      "name": "AVANT",
+      "title": "AVANT",
+      "lat": "504912.00N",
+      "lon": "0005618.05W"
+    },
+    {
+      "id": "AVRAL",
+      "name": "AVRAL",
+      "title": "AVRAL",
+      "lat": "553034N",
+      "lon": "0034259E"
+    },
+    {
+      "id": "AVTIC",
+      "name": "AVTIC",
+      "title": "AVTIC",
+      "lat": "524304.81N",
+      "lon": "0030757.93W"
+    },
+    {
+      "id": "AVZAC",
+      "name": "AVZAC",
+      "title": "AVZAC",
+      "lat": "514637.02N",
+      "lon": "0050355.57W"
+    },
+    {
+      "id": "AXCIS",
+      "name": "AXCIS",
+      "title": "AXCIS",
+      "lat": "524319.48N",
+      "lon": "0031634.76W"
+    },
+    {
+      "id": "AXNEF",
+      "name": "AXNEF",
+      "title": "AXNEF",
+      "lat": "514505.23N",
+      "lon": "0035319.14W"
+    },
+    {
+      "id": "AZCAL",
+      "name": "AZCAL",
+      "title": "AZCAL",
+      "lat": "515417.03N",
+      "lon": "0031144.52W"
+    },
+    {
+      "id": "BABGU",
+      "name": "BABGU",
+      "title": "BABGU",
+      "lat": "541639.33N",
+      "lon": "0051625.07W"
+    },
+    {
+      "id": "BABRA",
+      "name": "BABRA",
+      "title": "BABRA",
+      "lat": "533739.37N",
+      "lon": "0035642.63W"
+    },
+    {
+      "id": "BADGA",
+      "name": "BADGA",
+      "title": "BADGA",
+      "lat": "553749.24N",
+      "lon": "0023657.62E"
+    },
+    {
+      "id": "BADIM",
+      "name": "BADIM",
+      "title": "BADIM",
+      "lat": "513837.89N",
+      "lon": "0023040.43W"
+    },
+    {
+      "id": "BADSI",
+      "name": "BADSI",
+      "title": "BADSI",
+      "lat": "523930.00N",
+      "lon": "0044617.12W"
+    },
+    {
+      "id": "BAGIT",
+      "name": "BAGIT",
+      "title": "BAGIT",
+      "lat": "531344.63N",
+      "lon": "0035918.18W"
+    },
+    {
+      "id": "BAGSO",
+      "name": "BAGSO",
+      "title": "BAGSO",
+      "lat": "534047.96N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "BAJJA",
+      "name": "BAJJA",
+      "title": "BAJJA",
+      "lat": "514805.01N",
+      "lon": "0041705.77W"
+    },
+    {
+      "id": "BAKOX",
+      "name": "BAKOX",
+      "title": "BAKOX",
+      "lat": "533143.40N",
+      "lon": "0050933.03W"
+    },
+    {
+      "id": "BAKUR",
+      "name": "BAKUR",
+      "title": "BAKUR",
+      "lat": "521429.61N",
+      "lon": "0054048.81W"
+    },
+    {
+      "id": "BALID",
+      "name": "BALID",
+      "title": "BALID",
+      "lat": "562949.16N",
+      "lon": "0015706.88W"
+    },
+    {
+      "id": "BALIX",
+      "name": "BALIX",
+      "title": "BALIX",
+      "lat": "590000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "BAMEP",
+      "name": "BAMEP",
+      "title": "BAMEP",
+      "lat": "535242N",
+      "lon": "0021609W"
+    },
+    {
+      "id": "BAMLI",
+      "name": "BAMLI",
+      "title": "BAMLI",
+      "lat": "540828N",
+      "lon": "0063904W"
+    },
+    {
+      "id": "BAMRA",
+      "name": "BAMRA",
+      "title": "BAMRA",
+      "lat": "592600.28N",
+      "lon": "0035709.80W"
+    },
+    {
+      "id": "BANBA",
+      "name": "BANBA",
+      "title": "BANBA",
+      "lat": "515710.10N",
+      "lon": "0061420.59W"
+    },
+    {
+      "id": "BANEM",
+      "name": "BANEM",
+      "title": "BANEM",
+      "lat": "522008.11N",
+      "lon": "0013019.26E"
+    },
+    {
+      "id": "BANTO",
+      "name": "BANTO",
+      "title": "BANTO",
+      "lat": "522127.65N",
+      "lon": "0001357.38W"
+    },
+    {
+      "id": "BANVA",
+      "name": "BANVA",
+      "title": "BANVA",
+      "lat": "503242N",
+      "lon": "0004512E"
+    },
+    {
+      "id": "BAPHU",
+      "name": "BAPHU",
+      "title": "BAPHU",
+      "lat": "511042.47N",
+      "lon": "0034442.58W"
+    },
+    {
+      "id": "BARKU",
+      "name": "BARKU",
+      "title": "BARKU",
+      "lat": "603617.61N",
+      "lon": "0092436.37W"
+    },
+    {
+      "id": "BARMI",
+      "name": "BARMI",
+      "title": "BARMI",
+      "lat": "522841.76N",
+      "lon": "0023413.73E"
+    },
+    {
+      "id": "BAROS",
+      "name": "BAROS",
+      "title": "BAROS",
+      "lat": "532422.39N",
+      "lon": "0032643.38W"
+    },
+    {
+      "id": "BARTN",
+      "name": "BARTN",
+      "title": "BARTN",
+      "lat": "532814.17N",
+      "lon": "0022541.11W"
+    },
+    {
+      "id": "BATLI",
+      "name": "BATLI",
+      "title": "BATLI",
+      "lat": "533845.07N",
+      "lon": "0012136.90W"
+    },
+    {
+      "id": "BAVDO",
+      "name": "BAVDO",
+      "title": "BAVDO",
+      "lat": "541819.73N",
+      "lon": "0010925.35W"
+    },
+    {
+      "id": "BAVUD",
+      "name": "BAVUD",
+      "title": "BAVUD",
+      "lat": "533108.30N",
+      "lon": "0045109.14W"
+    },
+    {
+      "id": "BAZNA",
+      "name": "BAZNA",
+      "title": "BAZNA",
+      "lat": "541110.60N",
+      "lon": "0012655.93E"
+    },
+    {
+      "id": "BEBNI",
+      "name": "BEBNI",
+      "title": "BEBNI",
+      "lat": "545905.82N",
+      "lon": "0033514.22W"
+    },
+    {
+      "id": "BEDFO",
+      "name": "BEDFO",
+      "title": "BEDFO",
+      "lat": "521330.00N",
+      "lon": "0003347.81W"
+    },
+    {
+      "id": "BEDRA",
+      "name": "BEDRA",
+      "title": "BEDRA",
+      "lat": "490000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "BEGAM",
+      "name": "BEGAM",
+      "title": "BEGAM",
+      "lat": "540924.84N",
+      "lon": "0020715.43W"
+    },
+    {
+      "id": "BEGAS",
+      "name": "BEGAS",
+      "title": "BEGAS",
+      "lat": "450000N",
+      "lon": "0090000W"
+    },
+    {
+      "id": "BEGID",
+      "name": "BEGID",
+      "title": "BEGID",
+      "lat": "563000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "BEGTO",
+      "name": "BEGTO",
+      "title": "BEGTO",
+      "lat": "504545.12N",
+      "lon": "0011407.99W"
+    },
+    {
+      "id": "BEKET",
+      "name": "BEKET",
+      "title": "BEKET",
+      "lat": "585313.00N",
+      "lon": "0013120.14W"
+    },
+    {
+      "id": "BEKMO",
+      "name": "BEKMO",
+      "title": "BEKMO",
+      "lat": "525910.21N",
+      "lon": "0023710.22E"
+    },
+    {
+      "id": "BELOX",
+      "name": "BELOX",
+      "title": "BELOX",
+      "lat": "535316.37N",
+      "lon": "0032923.15W"
+    },
+    {
+      "id": "BELZU",
+      "name": "BELZU",
+      "title": "BELZU",
+      "lat": "543940.00N",
+      "lon": "0061348.00W"
+    },
+    {
+      "id": "BENBO",
+      "name": "BENBO",
+      "title": "BENBO",
+      "lat": "502704.76N",
+      "lon": "0000036.71E"
+    },
+    {
+      "id": "BENSU",
+      "name": "BENSU",
+      "title": "BENSU",
+      "lat": "513444.26N",
+      "lon": "0005508.45W"
+    },
+    {
+      "id": "BEPHE",
+      "name": "BEPHE",
+      "title": "BEPHE",
+      "lat": "523033.98N",
+      "lon": "0024600.31W"
+    },
+    {
+      "id": "BEREP",
+      "name": "BEREP",
+      "title": "BEREP",
+      "lat": "590209N",
+      "lon": "0014420E"
+    },
+    {
+      "id": "BERUL",
+      "name": "BERUL",
+      "title": "BERUL",
+      "lat": "524016.19N",
+      "lon": "0033112.63W"
+    },
+    {
+      "id": "BERUX",
+      "name": "BERUX",
+      "title": "BERUX",
+      "lat": "450000N",
+      "lon": "0110000W"
+    },
+    {
+      "id": "BESGA",
+      "name": "BESGA",
+      "title": "BESGA",
+      "lat": "604722.52N",
+      "lon": "0075445.75W"
+    },
+    {
+      "id": "BETAX",
+      "name": "BETAX",
+      "title": "BETAX",
+      "lat": "530032.89N",
+      "lon": "0005402.72W"
+    },
+    {
+      "id": "BETPO",
+      "name": "BETPO",
+      "title": "BETPO",
+      "lat": "514754N",
+      "lon": "0004328W"
+    },
+    {
+      "id": "BEVAM",
+      "name": "BEVAM",
+      "title": "BEVAM",
+      "lat": "554352.88N",
+      "lon": "0001502.96E"
+    },
+    {
+      "id": "BEVUP",
+      "name": "BEVUP",
+      "title": "BEVUP",
+      "lat": "504800N",
+      "lon": "0021420W"
+    },
+    {
+      "id": "BIBPE",
+      "name": "BIBPE",
+      "title": "BIBPE",
+      "lat": "514258.91N",
+      "lon": "0015108.70W"
+    },
+    {
+      "id": "BIDVA",
+      "name": "BIDVA",
+      "title": "BIDVA",
+      "lat": "504338.76N",
+      "lon": "0005839.48W"
+    },
+    {
+      "id": "BIFCU",
+      "name": "BIFCU",
+      "title": "BIFCU",
+      "lat": "520816.67N",
+      "lon": "0032202.77W"
+    },
+    {
+      "id": "BIFIN",
+      "name": "BIFIN",
+      "title": "BIFIN",
+      "lat": "520322.51N",
+      "lon": "0022718.91W"
+    },
+    {
+      "id": "BIGNO",
+      "name": "BIGNO",
+      "title": "BIGNO",
+      "lat": "500000N",
+      "lon": "0024930W"
+    },
+    {
+      "id": "BILLY",
+      "name": "BILLY",
+      "title": "BILLY",
+      "lat": "600110.57N",
+      "lon": "0083408.26W"
+    },
+    {
+      "id": "BILNI",
+      "name": "BILNI",
+      "title": "BILNI",
+      "lat": "504031.08N",
+      "lon": "0020732.56W"
+    },
+    {
+      "id": "BILTO",
+      "name": "BILTO",
+      "title": "BILTO",
+      "lat": "563000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "BILVO",
+      "name": "BILVO",
+      "title": "BILVO",
+      "lat": "534352.26N",
+      "lon": "0031108.89W"
+    },
+    {
+      "id": "BIMGO",
+      "name": "BIMGO",
+      "title": "BIMGO",
+      "lat": "493000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "BINBO",
+      "name": "BINBO",
+      "title": "BINBO",
+      "lat": "532406.07N",
+      "lon": "0032029.35E"
+    },
+    {
+      "id": "BINTI",
+      "name": "BINTI",
+      "title": "BINTI",
+      "lat": "543344.74N",
+      "lon": "0015944.93W"
+    },
+    {
+      "id": "BISRU",
+      "name": "BISRU",
+      "title": "BISRU",
+      "lat": "510418.09N",
+      "lon": "0002202.82E"
+    },
+    {
+      "id": "BLACA",
+      "name": "BLACA",
+      "title": "BLACA",
+      "lat": "545300.00N",
+      "lon": "0050931.92W"
+    },
+    {
+      "id": "BLIXY",
+      "name": "BLIXY",
+      "title": "BLIXY",
+      "lat": "513730.25N",
+      "lon": "0015831.54E"
+    },
+    {
+      "id": "BODSO",
+      "name": "BODSO",
+      "title": "BODSO",
+      "lat": "530308.25N",
+      "lon": "0020540.71E"
+    },
+    {
+      "id": "BOFUM",
+      "name": "BOFUM",
+      "title": "BOFUM",
+      "lat": "533213.98N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "BOGNA",
+      "name": "BOGNA",
+      "title": "BOGNA",
+      "lat": "504207.00N",
+      "lon": "0001505.57W"
+    },
+    {
+      "id": "BOLBI",
+      "name": "BOLBI",
+      "title": "BOLBI",
+      "lat": "532759.75N",
+      "lon": "0014845.07W"
+    },
+    {
+      "id": "BOLRO",
+      "name": "BOLRO",
+      "title": "BOLRO",
+      "lat": "500000.00N",
+      "lon": "0014129.43W"
+    },
+    {
+      "id": "BOMBO",
+      "name": "BOMBO",
+      "title": "BOMBO",
+      "lat": "515944.29N",
+      "lon": "0002346.85W"
+    },
+    {
+      "id": "BONBY",
+      "name": "BONBY",
+      "title": "BONBY",
+      "lat": "575330N",
+      "lon": "0042036W"
+    },
+    {
+      "id": "BOXHE",
+      "name": "BOXHE",
+      "title": "BOXHE",
+      "lat": "500929.33N",
+      "lon": "0033829.69W"
+    },
+    {
+      "id": "BOYNE",
+      "name": "BOYNE",
+      "title": "BOYNE",
+      "lat": "534601.59N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "BRAIN",
+      "name": "BRAIN",
+      "title": "BRAIN",
+      "lat": "514839.91N",
+      "lon": "0003906.00E"
+    },
+    {
+      "id": "BRASO",
+      "name": "BRASO",
+      "title": "BRASO",
+      "lat": "514106.57N",
+      "lon": "0004100.03E"
+    },
+    {
+      "id": "BRIPO",
+      "name": "BRIPO",
+      "title": "BRIPO",
+      "lat": "504227.47N",
+      "lon": "0024500.00W"
+    },
+    {
+      "id": "BRUCE",
+      "name": "BRUCE",
+      "title": "BRUCE",
+      "lat": "561411.05N",
+      "lon": "0055028.09W"
+    },
+    {
+      "id": "BRUMI",
+      "name": "BRUMI",
+      "title": "BRUMI",
+      "lat": "522237.21N",
+      "lon": "0020019.14W"
+    },
+    {
+      "id": "BUCFA",
+      "name": "BUCFA",
+      "title": "BUCFA",
+      "lat": "513013.22N",
+      "lon": "0020941.09W"
+    },
+    {
+      "id": "BUCGO",
+      "name": "BUCGO",
+      "title": "BUCGO",
+      "lat": "514606.08N",
+      "lon": "0023637.20W"
+    },
+    {
+      "id": "BUDON",
+      "name": "BUDON",
+      "title": "BUDON",
+      "lat": "574206.85N",
+      "lon": "0003343.38W"
+    },
+    {
+      "id": "BUDXE",
+      "name": "BUDXE",
+      "title": "BUDXE",
+      "lat": "502818.29N",
+      "lon": "0031744.21W"
+    },
+    {
+      "id": "BUGUP",
+      "name": "BUGUP",
+      "title": "BUGUP",
+      "lat": "515237.17N",
+      "lon": "0013659.89W"
+    },
+    {
+      "id": "BUKUT",
+      "name": "BUKUT",
+      "title": "BUKUT",
+      "lat": "524530.21N",
+      "lon": "0024801.68E"
+    },
+    {
+      "id": "BURNI",
+      "name": "BURNI",
+      "title": "BURNI",
+      "lat": "534337.76N",
+      "lon": "0023103.86W"
+    },
+    {
+      "id": "BUSTA",
+      "name": "BUSTA",
+      "title": "BUSTA",
+      "lat": "520534.45N",
+      "lon": "0000403.92E"
+    },
+    {
+      "id": "BUZAD",
+      "name": "BUZAD",
+      "title": "BUZAD",
+      "lat": "515632.08N",
+      "lon": "0003308.21W"
+    },
+    {
+      "id": "BUZDE",
+      "name": "BUZDE",
+      "title": "BUZDE",
+      "lat": "534551.20N",
+      "lon": "0012312.42E"
+    },
+    {
+      "id": "CALDA",
+      "name": "CALDA",
+      "title": "CALDA",
+      "lat": "534627.00N",
+      "lon": "0023838.38W"
+    },
+    {
+      "id": "CANZI",
+      "name": "CANZI",
+      "title": "CANZI",
+      "lat": "510121.30N",
+      "lon": "0065812.04W"
+    },
+    {
+      "id": "CARWI",
+      "name": "CARWI",
+      "title": "CARWI",
+      "lat": "512505.88N",
+      "lon": "0031744.16W"
+    },
+    {
+      "id": "CASEL",
+      "name": "CASEL",
+      "title": "CASEL",
+      "lat": "534952.13N",
+      "lon": "0041056.75W"
+    },
+    {
+      "id": "CAWZE",
+      "name": "CAWZE",
+      "title": "CAWZE",
+      "lat": "512227.35N",
+      "lon": "0015920.05W"
+    },
+    {
+      "id": "CESQA",
+      "name": "CESQA",
+      "title": "CESQA",
+      "lat": "513940.99N",
+      "lon": "0013711.97W"
+    },
+    {
+      "id": "CHASE",
+      "name": "CHASE",
+      "title": "CHASE",
+      "lat": "523647.51N",
+      "lon": "0015501.92W"
+    },
+    {
+      "id": "CHINN",
+      "name": "CHINN",
+      "title": "CHINN",
+      "lat": "575751.00N",
+      "lon": "0041117.14W"
+    },
+    {
+      "id": "CLYDE",
+      "name": "CLYDE",
+      "title": "CLYDE",
+      "lat": "555748.43N",
+      "lon": "0044731.51W"
+    },
+    {
+      "id": "COCCU",
+      "name": "COCCU",
+      "title": "COCCU",
+      "lat": "521604.34N",
+      "lon": "0000322.02W"
+    },
+    {
+      "id": "CONHA",
+      "name": "CONHA",
+      "title": "CONHA",
+      "lat": "524226.44N",
+      "lon": "0024659.26W"
+    },
+    {
+      "id": "CONKO",
+      "name": "CONKO",
+      "title": "CONKO",
+      "lat": "513648.00N",
+      "lon": "0020310.18W"
+    },
+    {
+      "id": "COWLY",
+      "name": "COWLY",
+      "title": "COWLY",
+      "lat": "513657.58N",
+      "lon": "0010353.72W"
+    },
+    {
+      "id": "CREWE",
+      "name": "CREWE",
+      "title": "CREWE",
+      "lat": "524906.85N",
+      "lon": "0021826.90W"
+    },
+    {
+      "id": "CROFT",
+      "name": "CROFT",
+      "title": "CROFT",
+      "lat": "533736.89N",
+      "lon": "0023219.85W"
+    },
+    {
+      "id": "CUTEL",
+      "name": "CUTEL",
+      "title": "CUTEL",
+      "lat": "555308.89N",
+      "lon": "0022227.68E"
+    },
+    {
+      "id": "DAGGA",
+      "name": "DAGGA",
+      "title": "DAGGA",
+      "lat": "514919.37N",
+      "lon": "0004739.00E"
+    },
+    {
+      "id": "DANDI",
+      "name": "DANDI",
+      "title": "DANDI",
+      "lat": "534103.71N",
+      "lon": "0035658.08W"
+    },
+    {
+      "id": "DANWO",
+      "name": "DANWO",
+      "title": "DANWO",
+      "lat": "514722.81N",
+      "lon": "0014105.77W"
+    },
+    {
+      "id": "DAUNT",
+      "name": "DAUNT",
+      "title": "DAUNT",
+      "lat": "552508.18N",
+      "lon": "0045246.93W"
+    },
+    {
+      "id": "DAVAZ",
+      "name": "DAVAZ",
+      "title": "DAVAZ",
+      "lat": "515258.69N",
+      "lon": "0052553.59W"
+    },
+    {
+      "id": "DAVOT",
+      "name": "DAVOT",
+      "title": "DAVOT",
+      "lat": "572041.57N",
+      "lon": "0040528.57W"
+    },
+    {
+      "id": "DAWLY",
+      "name": "DAWLY",
+      "title": "DAWLY",
+      "lat": "503427.31N",
+      "lon": "0032750.23W"
+    },
+    {
+      "id": "DAYNE",
+      "name": "DAYNE",
+      "title": "DAYNE",
+      "lat": "531419.12N",
+      "lon": "0020145.26W"
+    },
+    {
+      "id": "DEGGE",
+      "name": "DEGGE",
+      "title": "DEGGE",
+      "lat": "513740.40N",
+      "lon": "0010009.12W"
+    },
+    {
+      "id": "DEGOS",
+      "name": "DEGOS",
+      "title": "DEGOS",
+      "lat": "541121.19N",
+      "lon": "0065422.89W"
+    },
+    {
+      "id": "DEJEM",
+      "name": "DEJEM",
+      "title": "DEJEM",
+      "lat": "534629.25N",
+      "lon": "0043636.41W"
+    },
+    {
+      "id": "DELBO",
+      "name": "DELBO",
+      "title": "DELBO",
+      "lat": "515236.92N",
+      "lon": "0011624.01W"
+    },
+    {
+      "id": "DENBY",
+      "name": "DENBY",
+      "title": "DENBY",
+      "lat": "533112.53N",
+      "lon": "0015740.39W"
+    },
+    {
+      "id": "DENOG",
+      "name": "DENOG",
+      "title": "DENOG",
+      "lat": "572553.37N",
+      "lon": "0014515.83W"
+    },
+    {
+      "id": "DESIG",
+      "name": "DESIG",
+      "title": "DESIG",
+      "lat": "533138.13N",
+      "lon": "0015333.70W"
+    },
+    {
+      "id": "DESNA",
+      "name": "DESNA",
+      "title": "DESNA",
+      "lat": "503700.00N",
+      "lon": "0004700.31W"
+    },
+    {
+      "id": "DEVAL",
+      "name": "DEVAL",
+      "title": "DEVAL",
+      "lat": "505125.35N",
+      "lon": "0012800.00E"
+    },
+    {
+      "id": "DEVBI",
+      "name": "DEVBI",
+      "title": "DEVBI",
+      "lat": "604254.32N",
+      "lon": "0084610.49W"
+    },
+    {
+      "id": "DEXEN",
+      "name": "DEXEN",
+      "title": "DEXEN",
+      "lat": "531649N",
+      "lon": "0053000W"
+    },
+    {
+      "id": "DIBAL",
+      "name": "DIBAL",
+      "title": "DIBAL",
+      "lat": "524749.98N",
+      "lon": "0023000.00E"
+    },
+    {
+      "id": "DIDZA",
+      "name": "DIDZA",
+      "title": "DIDZA",
+      "lat": "513627.71N",
+      "lon": "0012343.46W"
+    },
+    {
+      "id": "DIGBI",
+      "name": "DIGBI",
+      "title": "DIGBI",
+      "lat": "551105.57N",
+      "lon": "0010301.45W"
+    },
+    {
+      "id": "DIGMA",
+      "name": "DIGMA",
+      "title": "DIGMA",
+      "lat": "533859.86N",
+      "lon": "0033723.50W"
+    },
+    {
+      "id": "DIGSU",
+      "name": "DIGSU",
+      "title": "DIGSU",
+      "lat": "520126N",
+      "lon": "0003805E"
+    },
+    {
+      "id": "DIGUT",
+      "name": "DIGUT",
+      "title": "DIGUT",
+      "lat": "513901.29N",
+      "lon": "0011759.47W"
+    },
+    {
+      "id": "DIKVU",
+      "name": "DIKVU",
+      "title": "DIKVU",
+      "lat": "511746.89N",
+      "lon": "0001901.84E"
+    },
+    {
+      "id": "DIMLI",
+      "name": "DIMLI",
+      "title": "DIMLI",
+      "lat": "545647.47N",
+      "lon": "0063654.74W"
+    },
+    {
+      "id": "DINIM",
+      "name": "DINIM",
+      "title": "DINIM",
+      "lat": "510000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "DIPSO",
+      "name": "DIPSO",
+      "title": "DIPSO",
+      "lat": "530312.62N",
+      "lon": "0012038.61W"
+    },
+    {
+      "id": "DIQSE",
+      "name": "DIQSE",
+      "title": "DIQSE",
+      "lat": "514800.46N",
+      "lon": "0051552.78W"
+    },
+    {
+      "id": "DISIT",
+      "name": "DISIT",
+      "title": "DISIT",
+      "lat": "520610.84N",
+      "lon": "0014240.91W"
+    },
+    {
+      "id": "DISVO",
+      "name": "DISVO",
+      "title": "DISVO",
+      "lat": "503931.38N",
+      "lon": "0010257.16W"
+    },
+    {
+      "id": "DITOB",
+      "name": "DITOB",
+      "title": "DITOB",
+      "lat": "521701.15N",
+      "lon": "0014927.08E"
+    },
+    {
+      "id": "DIXIB",
+      "name": "DIXIB",
+      "title": "DIXIB",
+      "lat": "511412.22N",
+      "lon": "0005053.53W"
+    },
+    {
+      "id": "DIZIM",
+      "name": "DIZIM",
+      "title": "DIZIM",
+      "lat": "520223.59N",
+      "lon": "0031107.44W"
+    },
+    {
+      "id": "DIZZE",
+      "name": "DIZZE",
+      "title": "DIZZE",
+      "lat": "535042.74N",
+      "lon": "0023232.91W"
+    },
+    {
+      "id": "DOBEM",
+      "name": "DOBEM",
+      "title": "DOBEM",
+      "lat": "515210.52N",
+      "lon": "0025545.33W"
+    },
+    {
+      "id": "DOGAL",
+      "name": "DOGAL",
+      "title": "DOGAL",
+      "lat": "540000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "DOKEN",
+      "name": "DOKEN",
+      "title": "DOKEN",
+      "lat": "554054.59N",
+      "lon": "0020656.05E"
+    },
+    {
+      "id": "DOLAS",
+      "name": "DOLAS",
+      "title": "DOLAS",
+      "lat": "525842.96N",
+      "lon": "0010003.43E"
+    },
+    {
+      "id": "DOLOP",
+      "name": "DOLOP",
+      "title": "DOLOP",
+      "lat": "531250.90N",
+      "lon": "0033750.73W"
+    },
+    {
+      "id": "DOLUR",
+      "name": "DOLUR",
+      "title": "DOLUR",
+      "lat": "492903.89N",
+      "lon": "0050326.07W"
+    },
+    {
+      "id": "DOMUT",
+      "name": "DOMUT",
+      "title": "DOMUT",
+      "lat": "501542.57N",
+      "lon": "0014008.65W"
+    },
+    {
+      "id": "DONAX",
+      "name": "DONAX",
+      "title": "DONAX",
+      "lat": "532911.34N",
+      "lon": "0035740.24W"
+    },
+    {
+      "id": "DONIB",
+      "name": "DONIB",
+      "title": "DONIB",
+      "lat": "554309.46N",
+      "lon": "0074144.04W"
+    },
+    {
+      "id": "DONNA",
+      "name": "DONNA",
+      "title": "DONNA",
+      "lat": "514200.38N",
+      "lon": "0004437.04W"
+    },
+    {
+      "id": "DOPEK",
+      "name": "DOPEK",
+      "title": "DOPEK",
+      "lat": "532303.95N",
+      "lon": "0005531.64W"
+    },
+    {
+      "id": "DORJA",
+      "name": "DORJA",
+      "title": "DORJA",
+      "lat": "554047.55N",
+      "lon": "0013527.90E"
+    },
+    {
+      "id": "DORKI",
+      "name": "DORKI",
+      "title": "DORKI",
+      "lat": "511633N",
+      "lon": "0001552W"
+    },
+    {
+      "id": "DOSUN",
+      "name": "DOSUN",
+      "title": "DOSUN",
+      "lat": "600702.50N",
+      "lon": "0062338.51W"
+    },
+    {
+      "id": "DRAKE",
+      "name": "DRAKE",
+      "title": "DRAKE",
+      "lat": "501234N",
+      "lon": "0000434W"
+    },
+    {
+      "id": "DUCNO",
+      "name": "DUCNO",
+      "title": "DUCNO",
+      "lat": "515824.34N",
+      "lon": "0021851.65W"
+    },
+    {
+      "id": "DUFFY",
+      "name": "DUFFY",
+      "title": "DUFFY",
+      "lat": "543053.42N",
+      "lon": "0055138.80W"
+    },
+    {
+      "id": "EBOTO",
+      "name": "EBOTO",
+      "title": "EBOTO",
+      "lat": "522133.30N",
+      "lon": "0004139.63W"
+    },
+    {
+      "id": "ECCIT",
+      "name": "ECCIT",
+      "title": "ECCIT",
+      "lat": "520747.90N",
+      "lon": "0053843.73W"
+    },
+    {
+      "id": "EDCOX",
+      "name": "EDCOX",
+      "title": "EDCOX",
+      "lat": "521259.68N",
+      "lon": "0002419.92W"
+    },
+    {
+      "id": "EDFAR",
+      "name": "EDFAR",
+      "title": "EDFAR",
+      "lat": "522035.66N",
+      "lon": "0024652.02W"
+    },
+    {
+      "id": "EDONU",
+      "name": "EDONU",
+      "title": "EDONU",
+      "lat": "561736N",
+      "lon": "0033341W"
+    },
+    {
+      "id": "EDUXO",
+      "name": "EDUXO",
+      "title": "EDUXO",
+      "lat": "532424N",
+      "lon": "0011301W"
+    },
+    {
+      "id": "EFMIH",
+      "name": "EFMIH",
+      "title": "EFMIH",
+      "lat": "523406.42N",
+      "lon": "0015353.84E"
+    },
+    {
+      "id": "EGRUF",
+      "name": "EGRUF",
+      "title": "EGRUF",
+      "lat": "514327.72N",
+      "lon": "0034042.18W"
+    },
+    {
+      "id": "EGTOC",
+      "name": "EGTOC",
+      "title": "EGTOC",
+      "lat": "540000.00N",
+      "lon": "0031337.49W"
+    },
+    {
+      "id": "EKLAD",
+      "name": "EKLAD",
+      "title": "EKLAD",
+      "lat": "531513.70N",
+      "lon": "0024928.85W"
+    },
+    {
+      "id": "EKNIV",
+      "name": "EKNIV",
+      "title": "EKNIV",
+      "lat": "512425.62N",
+      "lon": "0003731.08E"
+    },
+    {
+      "id": "ELBOB",
+      "name": "ELBOB",
+      "title": "ELBOB",
+      "lat": "544358.15N",
+      "lon": "0074438.09W"
+    },
+    {
+      "id": "ELBUS",
+      "name": "ELBUS",
+      "title": "ELBUS",
+      "lat": "552943.28N",
+      "lon": "0040435.87W"
+    },
+    {
+      "id": "ELDAX",
+      "name": "ELDAX",
+      "title": "ELDAX",
+      "lat": "502918.36N",
+      "lon": "0003930.42E"
+    },
+    {
+      "id": "ELDER",
+      "name": "ELDER",
+      "title": "ELDER",
+      "lat": "503948.10N",
+      "lon": "0012013.93W"
+    },
+    {
+      "id": "ELEZE",
+      "name": "ELEZE",
+      "title": "ELEZE",
+      "lat": "524419.98N",
+      "lon": "0015600.48W"
+    },
+    {
+      "id": "ELKOG",
+      "name": "ELKOG",
+      "title": "ELKOG",
+      "lat": "602647.63N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "ELLIQ",
+      "name": "ELLIQ",
+      "title": "ELLIQ",
+      "lat": "525706.48N",
+      "lon": "0030030.80W"
+    },
+    {
+      "id": "ELMUD",
+      "name": "ELMUD",
+      "title": "ELMUD",
+      "lat": "550656N",
+      "lon": "0014024W"
+    },
+    {
+      "id": "ELNAB",
+      "name": "ELNAB",
+      "title": "ELNAB",
+      "lat": "532211N",
+      "lon": "0011251E"
+    },
+    {
+      "id": "ELNIF",
+      "name": "ELNIF",
+      "title": "ELNIF",
+      "lat": "515119.24N",
+      "lon": "0024921.61W"
+    },
+    {
+      "id": "ELNOD",
+      "name": "ELNOD",
+      "title": "ELNOD",
+      "lat": "532826N",
+      "lon": "0013524W"
+    },
+    {
+      "id": "ELREW",
+      "name": "ELREW",
+      "title": "ELREW",
+      "lat": "520750.16N",
+      "lon": "0030638.15W"
+    },
+    {
+      "id": "ELRIP",
+      "name": "ELRIP",
+      "title": "ELRIP",
+      "lat": "503744.67N",
+      "lon": "0025923.73W"
+    },
+    {
+      "id": "ELSAN",
+      "name": "ELSAN",
+      "title": "ELSAN",
+      "lat": "564219.29N",
+      "lon": "0034357.58E"
+    },
+    {
+      "id": "ELSOF",
+      "name": "ELSOF",
+      "title": "ELSOF",
+      "lat": "512631.49N",
+      "lon": "0012846.13W"
+    },
+    {
+      "id": "ELSOX",
+      "name": "ELSOX",
+      "title": "ELSOX",
+      "lat": "510000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "ELVOS",
+      "name": "ELVOS",
+      "title": "ELVOS",
+      "lat": "524201N",
+      "lon": "0011825W"
+    },
+    {
+      "id": "ELWIS",
+      "name": "ELWIS",
+      "title": "ELWIS",
+      "lat": "514547.16N",
+      "lon": "0023149.08W"
+    },
+    {
+      "id": "EMBOR",
+      "name": "EMBOR",
+      "title": "EMBOR",
+      "lat": "525748.00N",
+      "lon": "0011745.25W"
+    },
+    {
+      "id": "EMGAT",
+      "name": "EMGAT",
+      "title": "EMGAT",
+      "lat": "550947.37N",
+      "lon": "0044511.90W"
+    },
+    {
+      "id": "EMJEE",
+      "name": "EMJEE",
+      "title": "EMJEE",
+      "lat": "520354.62N",
+      "lon": "0015841.73W"
+    },
+    {
+      "id": "EMKAD",
+      "name": "EMKAD",
+      "title": "EMKAD",
+      "lat": "511449.88N",
+      "lon": "0004233.94E"
+    },
+    {
+      "id": "EMKUK",
+      "name": "EMKUK",
+      "title": "EMKUK",
+      "lat": "515837.47N",
+      "lon": "0012114.72W"
+    },
+    {
+      "id": "EMLON",
+      "name": "EMLON",
+      "title": "EMLON",
+      "lat": "531220.44N",
+      "lon": "0023000.00E"
+    },
+    {
+      "id": "EMPER",
+      "name": "EMPER",
+      "title": "EMPER",
+      "lat": "490000N",
+      "lon": "0090000W"
+    },
+    {
+      "id": "EMWIP",
+      "name": "EMWIP",
+      "title": "EMWIP",
+      "lat": "500319.72N",
+      "lon": "0031908.98W"
+    },
+    {
+      "id": "ENCOD",
+      "name": "ENCOD",
+      "title": "ENCOD",
+      "lat": "531959.32N",
+      "lon": "0002423.92W"
+    },
+    {
+      "id": "ENDEQ",
+      "name": "ENDEQ",
+      "title": "ENDEQ",
+      "lat": "532644.38N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "ENHAQ",
+      "name": "ENHAQ",
+      "title": "ENHAQ",
+      "lat": "512422.69N",
+      "lon": "0014313.40W"
+    },
+    {
+      "id": "ENHEL",
+      "name": "ENHEL",
+      "title": "ENHEL",
+      "lat": "501354.15N",
+      "lon": "0031523.42W"
+    },
+    {
+      "id": "ENIPI",
+      "name": "ENIPI",
+      "title": "ENIPI",
+      "lat": "550110.78N",
+      "lon": "0031510.23W"
+    },
+    {
+      "id": "ENJEX",
+      "name": "ENJEX",
+      "title": "ENJEX",
+      "lat": "520321.06N",
+      "lon": "0060227.78W"
+    },
+    {
+      "id": "ENUKU",
+      "name": "ENUKU",
+      "title": "ENUKU",
+      "lat": "561400N",
+      "lon": "0033819W"
+    },
+    {
+      "id": "ENZEN",
+      "name": "ENZEN",
+      "title": "ENZEN",
+      "lat": "525839.07N",
+      "lon": "0031157.12E"
+    },
+    {
+      "id": "EPACE",
+      "name": "EPACE",
+      "title": "EPACE",
+      "lat": "511420.88N",
+      "lon": "0033111.46W"
+    },
+    {
+      "id": "EPCAN",
+      "name": "EPCAN",
+      "title": "EPCAN",
+      "lat": "565532N",
+      "lon": "0020659W"
+    },
+    {
+      "id": "EPLEF",
+      "name": "EPLEF",
+      "title": "EPLEF",
+      "lat": "495531.78N",
+      "lon": "0030044.62W"
+    },
+    {
+      "id": "EPOXI",
+      "name": "EPOXI",
+      "title": "EPOXI",
+      "lat": "531958.70N",
+      "lon": "0032717.71W"
+    },
+    {
+      "id": "EPUNA",
+      "name": "EPUNA",
+      "title": "EPUNA",
+      "lat": "503000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "ERAKA",
+      "name": "ERAKA",
+      "title": "ERAKA",
+      "lat": "580000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "ERDOG",
+      "name": "ERDOG",
+      "title": "ERDOG",
+      "lat": "592003.14N",
+      "lon": "0012503.64W"
+    },
+    {
+      "id": "ERDOW",
+      "name": "ERDOW",
+      "title": "ERDOW",
+      "lat": "535514.77N",
+      "lon": "0005016.67E"
+    },
+    {
+      "id": "ERDUV",
+      "name": "ERDUV",
+      "title": "ERDUV",
+      "lat": "535234.66N",
+      "lon": "0041008.23W"
+    },
+    {
+      "id": "ERGAB",
+      "name": "ERGAB",
+      "title": "ERGAB",
+      "lat": "540922N",
+      "lon": "0022312W"
+    },
+    {
+      "id": "ERGUM",
+      "name": "ERGUM",
+      "title": "ERGUM",
+      "lat": "500725.13N",
+      "lon": "0014449.66W"
+    },
+    {
+      "id": "ERING",
+      "name": "ERING",
+      "title": "ERING",
+      "lat": "513526.45N",
+      "lon": "0013643.00E"
+    },
+    {
+      "id": "ERKEX",
+      "name": "ERKEX",
+      "title": "ERKEX",
+      "lat": "505240.62N",
+      "lon": "0011936.96E"
+    },
+    {
+      "id": "ERKIT",
+      "name": "ERKIT",
+      "title": "ERKIT",
+      "lat": "540148.85N",
+      "lon": "0004948.85W"
+    },
+    {
+      "id": "ERLOT",
+      "name": "ERLOT",
+      "title": "ERLOT",
+      "lat": "551714.26N",
+      "lon": "0003505.84W"
+    },
+    {
+      "id": "ERNAN",
+      "name": "ERNAN",
+      "title": "ERNAN",
+      "lat": "541643.90N",
+      "lon": "0072333.97W"
+    },
+    {
+      "id": "ERSON",
+      "name": "ERSON",
+      "title": "ERSON",
+      "lat": "562747.58N",
+      "lon": "0041823.67W"
+    },
+    {
+      "id": "ESHIN",
+      "name": "ESHIN",
+      "title": "ESHIN",
+      "lat": "533437.20N",
+      "lon": "0001813.05W"
+    },
+    {
+      "id": "ESKDO",
+      "name": "ESKDO",
+      "title": "ESKDO",
+      "lat": "551756.00N",
+      "lon": "0031215.26W"
+    },
+    {
+      "id": "ESTRY",
+      "name": "ESTRY",
+      "title": "ESTRY",
+      "lat": "533952.07N",
+      "lon": "0031542.28W"
+    },
+    {
+      "id": "ETARI",
+      "name": "ETARI",
+      "title": "ETARI",
+      "lat": "553000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "ETIGA",
+      "name": "ETIGA",
+      "title": "ETIGA",
+      "lat": "540239.17N",
+      "lon": "0044726.67W"
+    },
+    {
+      "id": "ETILO",
+      "name": "ETILO",
+      "title": "ETILO",
+      "lat": "573000.00N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "ETNAH",
+      "name": "ETNAH",
+      "title": "ETNAH",
+      "lat": "514126.45N",
+      "lon": "0031423.74W"
+    },
+    {
+      "id": "ETSOM",
+      "name": "ETSOM",
+      "title": "ETSOM",
+      "lat": "575331.02N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "ETVAX",
+      "name": "ETVAX",
+      "title": "ETVAX",
+      "lat": "505806.99N",
+      "lon": "0003556.27E"
+    },
+    {
+      "id": "EVATA",
+      "name": "EVATA",
+      "title": "EVATA",
+      "lat": "510821.29N",
+      "lon": "0004557.52W"
+    },
+    {
+      "id": "EVBEV",
+      "name": "EVBEV",
+      "title": "EVBEV",
+      "lat": "574709.60N",
+      "lon": "0074041.24W"
+    },
+    {
+      "id": "EVCOR",
+      "name": "EVCOR",
+      "title": "EVCOR",
+      "lat": "505614.13N",
+      "lon": "0070651.86W"
+    },
+    {
+      "id": "EVEXU",
+      "name": "EVEXU",
+      "title": "EVEXU",
+      "lat": "504115.78N",
+      "lon": "0003440.86W"
+    },
+    {
+      "id": "EVKAL",
+      "name": "EVKAL",
+      "title": "EVKAL",
+      "lat": "531546.99N",
+      "lon": "0002637.21W"
+    },
+    {
+      "id": "EVMEK",
+      "name": "EVMEK",
+      "title": "EVMEK",
+      "lat": "514740.93N",
+      "lon": "0011217.66E"
+    },
+    {
+      "id": "EVNAL",
+      "name": "EVNAL",
+      "title": "EVNAL",
+      "lat": "572430.67N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "EVNAS",
+      "name": "EVNAS",
+      "title": "EVNAS",
+      "lat": "514004.25N",
+      "lon": "0002638.37E"
+    },
+    {
+      "id": "EVRIN",
+      "name": "EVRIN",
+      "title": "EVRIN",
+      "lat": "514656.45N",
+      "lon": "0063347.61W"
+    },
+    {
+      "id": "EVSEM",
+      "name": "EVSEM",
+      "title": "EVSEM",
+      "lat": "514350.05N",
+      "lon": "0012745.14W"
+    },
+    {
+      "id": "EVSON",
+      "name": "EVSON",
+      "title": "EVSON",
+      "lat": "532127N",
+      "lon": "0013949W"
+    },
+    {
+      "id": "EVTES",
+      "name": "EVTES",
+      "title": "EVTES",
+      "lat": "510454.66N",
+      "lon": "0011257.07W"
+    },
+    {
+      "id": "EVTOL",
+      "name": "EVTOL",
+      "title": "EVTOL",
+      "lat": "521101.34N",
+      "lon": "0053114.02W"
+    },
+    {
+      "id": "EWOKE",
+      "name": "EWOKE",
+      "title": "EWOKE",
+      "lat": "545724.95N",
+      "lon": "0011404.39W"
+    },
+    {
+      "id": "EXARO",
+      "name": "EXARO",
+      "title": "EXARO",
+      "lat": "510003.26N",
+      "lon": "0012249.54W"
+    },
+    {
+      "id": "EXBUM",
+      "name": "EXBUM",
+      "title": "EXBUM",
+      "lat": "514829.61N",
+      "lon": "0031433.78W"
+    },
+    {
+      "id": "EXFOB",
+      "name": "EXFOB",
+      "title": "EXFOB",
+      "lat": "502700.00N",
+      "lon": "0005500.00E"
+    },
+    {
+      "id": "EXKIC",
+      "name": "EXKIC",
+      "title": "EXKIC",
+      "lat": "504453.02N",
+      "lon": "0033654.36W"
+    },
+    {
+      "id": "EXMOR",
+      "name": "EXMOR",
+      "title": "EXMOR",
+      "lat": "511042.76N",
+      "lon": "0032135.11W"
+    },
+    {
+      "id": "EZTIM",
+      "name": "EZTIM",
+      "title": "EZTIM",
+      "lat": "532437.47N",
+      "lon": "0023451.84E"
+    },
+    {
+      "id": "FACTU",
+      "name": "FACTU",
+      "title": "FACTU",
+      "lat": "522102.96N",
+      "lon": "0021713.23W"
+    },
+    {
+      "id": "FADZU",
+      "name": "FADZU",
+      "title": "FADZU",
+      "lat": "515256.10N",
+      "lon": "0035854.33W"
+    },
+    {
+      "id": "FANFE",
+      "name": "FANFE",
+      "title": "FANFE",
+      "lat": "514620.78N",
+      "lon": "0035248.88W"
+    },
+    {
+      "id": "FARJO",
+      "name": "FARJO",
+      "title": "FARJO",
+      "lat": "505616.27N",
+      "lon": "0033442.70W"
+    },
+    {
+      "id": "FEBWI",
+      "name": "FEBWI",
+      "title": "FEBWI",
+      "lat": "515327.13N",
+      "lon": "0031320.42W"
+    },
+    {
+      "id": "FELCA",
+      "name": "FELCA",
+      "title": "FELCA",
+      "lat": "514930.86N",
+      "lon": "0033219.61W"
+    },
+    {
+      "id": "FENIK",
+      "name": "FENIK",
+      "title": "FENIK",
+      "lat": "554254.65N",
+      "lon": "0041730.91W"
+    },
+    {
+      "id": "FERIT",
+      "name": "FERIT",
+      "title": "FERIT",
+      "lat": "513759.23N",
+      "lon": "0003221.20E"
+    },
+    {
+      "id": "FIFAH",
+      "name": "FIFAH",
+      "title": "FIFAH",
+      "lat": "515248.51N",
+      "lon": "0041534.00W"
+    },
+    {
+      "id": "FIGZI",
+      "name": "FIGZI",
+      "title": "FIGZI",
+      "lat": "515734.77N",
+      "lon": "0023613.57W"
+    },
+    {
+      "id": "FIMCA",
+      "name": "FIMCA",
+      "title": "FIMCA",
+      "lat": "501648.49N",
+      "lon": "0033000.82W"
+    },
+    {
+      "id": "FINDO",
+      "name": "FINDO",
+      "title": "FINDO",
+      "lat": "562209.05N",
+      "lon": "0032748.80W"
+    },
+    {
+      "id": "FINMA",
+      "name": "FINMA",
+      "title": "FINMA",
+      "lat": "515947.21N",
+      "lon": "0010313.34W"
+    },
+    {
+      "id": "FITBO",
+      "name": "FITBO",
+      "title": "FITBO",
+      "lat": "521308.55N",
+      "lon": "0022412.55W"
+    },
+    {
+      "id": "FIZED",
+      "name": "FIZED",
+      "title": "FIZED",
+      "lat": "533444.87N",
+      "lon": "0003917.40W"
+    },
+    {
+      "id": "FONZU",
+      "name": "FONZU",
+      "title": "FONZU",
+      "lat": "504921.60N",
+      "lon": "0035358.82W"
+    },
+    {
+      "id": "FORTY",
+      "name": "FORTY",
+      "title": "FORTY",
+      "lat": "575700.26N",
+      "lon": "0003544.60E"
+    },
+    {
+      "id": "FOXLA",
+      "name": "FOXLA",
+      "title": "FOXLA",
+      "lat": "520157.13N",
+      "lon": "0041236.58W"
+    },
+    {
+      "id": "FOYLE",
+      "name": "FOYLE",
+      "title": "FOYLE",
+      "lat": "560834.13N",
+      "lon": "0042256.41W"
+    },
+    {
+      "id": "FRANE",
+      "name": "FRANE",
+      "title": "FRANE",
+      "lat": "512306.00N",
+      "lon": "0003739.40E"
+    },
+    {
+      "id": "FYNER",
+      "name": "FYNER",
+      "title": "FYNER",
+      "lat": "560256.12N",
+      "lon": "0050655.19W"
+    },
+    {
+      "id": "GAJIT",
+      "name": "GAJIT",
+      "title": "GAJIT",
+      "lat": "512040.02N",
+      "lon": "0020000.00W"
+    },
+    {
+      "id": "GANKI",
+      "name": "GANKI",
+      "title": "GANKI",
+      "lat": "564548N",
+      "lon": "0025808W"
+    },
+    {
+      "id": "GAPLI",
+      "name": "GAPLI",
+      "title": "GAPLI",
+      "lat": "500000N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "GARMI",
+      "name": "GARMI",
+      "title": "GARMI",
+      "lat": "500000.00N",
+      "lon": "0012249.59W"
+    },
+    {
+      "id": "GARVA",
+      "name": "GARVA",
+      "title": "GARVA",
+      "lat": "574118.00N",
+      "lon": "0042941.35W"
+    },
+    {
+      "id": "GASBA",
+      "name": "GASBA",
+      "title": "GASBA",
+      "lat": "515010.40N",
+      "lon": "0004852.85E"
+    },
+    {
+      "id": "GASGU",
+      "name": "GASGU",
+      "title": "GASGU",
+      "lat": "511223.99N",
+      "lon": "0005736.02W"
+    },
+    {
+      "id": "GASKO",
+      "name": "GASKO",
+      "title": "GASKO",
+      "lat": "541328.97N",
+      "lon": "0015721.30W"
+    },
+    {
+      "id": "GAVEL",
+      "name": "GAVEL",
+      "title": "GAVEL",
+      "lat": "592300.00N",
+      "lon": "0012421.67W"
+    },
+    {
+      "id": "GELPO",
+      "name": "GELPO",
+      "title": "GELPO",
+      "lat": "483839.06N",
+      "lon": "0093009.45W"
+    },
+    {
+      "id": "GETNO",
+      "name": "GETNO",
+      "title": "GETNO",
+      "lat": "535547.97N",
+      "lon": "0032947.06W"
+    },
+    {
+      "id": "GIBSO",
+      "name": "GIBSO",
+      "title": "GIBSO",
+      "lat": "504459.08N",
+      "lon": "0023107.33W"
+    },
+    {
+      "id": "GIBSU",
+      "name": "GIBSU",
+      "title": "GIBSU",
+      "lat": "564547.28N",
+      "lon": "0031610.15E"
+    },
+    {
+      "id": "GIFJE",
+      "name": "GIFJE",
+      "title": "GIFJE",
+      "lat": "512941.00N",
+      "lon": "0020000.00E"
+    },
+    {
+      "id": "GIGTO",
+      "name": "GIGTO",
+      "title": "GIGTO",
+      "lat": "533801.06N",
+      "lon": "0040550.62W"
+    },
+    {
+      "id": "GIGUL",
+      "name": "GIGUL",
+      "title": "GIGUL",
+      "lat": "543626.27N",
+      "lon": "0031009.89E"
+    },
+    {
+      "id": "GILDA",
+      "name": "GILDA",
+      "title": "GILDA",
+      "lat": "513605.68N",
+      "lon": "0003501.04E"
+    },
+    {
+      "id": "GILTI",
+      "name": "GILTI",
+      "title": "GILTI",
+      "lat": "513413.01N",
+      "lon": "0020318.17E"
+    },
+    {
+      "id": "GINGA",
+      "name": "GINGA",
+      "title": "GINGA",
+      "lat": "565530.15N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "GINIS",
+      "name": "GINIS",
+      "title": "GINIS",
+      "lat": "532738.95N",
+      "lon": "0045128.61W"
+    },
+    {
+      "id": "GIPER",
+      "name": "GIPER",
+      "title": "GIPER",
+      "lat": "510000N",
+      "lon": "0120000W"
+    },
+    {
+      "id": "GIPLO",
+      "name": "GIPLO",
+      "title": "GIPLO",
+      "lat": "533131N",
+      "lon": "0004723W"
+    },
+    {
+      "id": "GIRLI",
+      "name": "GIRLI",
+      "title": "GIRLI",
+      "lat": "544240.51N",
+      "lon": "0014811.49W"
+    },
+    {
+      "id": "GIRVA",
+      "name": "GIRVA",
+      "title": "GIRVA",
+      "lat": "551107.99N",
+      "lon": "0045346.67W"
+    },
+    {
+      "id": "GISOK",
+      "name": "GISOK",
+      "title": "GISOK",
+      "lat": "513008.62N",
+      "lon": "0050727.62W"
+    },
+    {
+      "id": "GITUS",
+      "name": "GITUS",
+      "title": "GITUS",
+      "lat": "502000.14N",
+      "lon": "0054159.89W"
+    },
+    {
+      "id": "GIVEM",
+      "name": "GIVEM",
+      "title": "GIVEM",
+      "lat": "552753.52N",
+      "lon": "0001452.78E"
+    },
+    {
+      "id": "GIVPO",
+      "name": "GIVPO",
+      "title": "GIVPO",
+      "lat": "531709.77N",
+      "lon": "0025209.02E"
+    },
+    {
+      "id": "GIVUN",
+      "name": "GIVUN",
+      "title": "GIVUN",
+      "lat": "504358.45N",
+      "lon": "0004803.14W"
+    },
+    {
+      "id": "GLESK",
+      "name": "GLESK",
+      "title": "GLESK",
+      "lat": "565400.00N",
+      "lon": "0024745.28W"
+    },
+    {
+      "id": "GOBNU",
+      "name": "GOBNU",
+      "title": "GOBNU",
+      "lat": "512052.92N",
+      "lon": "0010625.12W"
+    },
+    {
+      "id": "GODLU",
+      "name": "GODLU",
+      "title": "GODLU",
+      "lat": "510958.44N",
+      "lon": "0011704.26E"
+    },
+    {
+      "id": "GODOS",
+      "name": "GODOS",
+      "title": "GODOS",
+      "lat": "531456.55N",
+      "lon": "0032546.79E"
+    },
+    {
+      "id": "GODPA",
+      "name": "GODPA",
+      "title": "GODPA",
+      "lat": "525900N",
+      "lon": "0031001W"
+    },
+    {
+      "id": "GOGSI",
+      "name": "GOGSI",
+      "title": "GOGSI",
+      "lat": "511727.16N",
+      "lon": "0010002.31W"
+    },
+    {
+      "id": "GOKTU",
+      "name": "GOKTU",
+      "title": "GOKTU",
+      "lat": "501504.87N",
+      "lon": "0012244.57W"
+    },
+    {
+      "id": "GOLES",
+      "name": "GOLES",
+      "title": "GOLES",
+      "lat": "533629.08N",
+      "lon": "0010500.37W"
+    },
+    {
+      "id": "GOMOT",
+      "name": "GOMOT",
+      "title": "GOMOT",
+      "lat": "555509.60N",
+      "lon": "0003239.12W"
+    },
+    {
+      "id": "GOMUP",
+      "name": "GOMUP",
+      "title": "GOMUP",
+      "lat": "570000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "GONAN",
+      "name": "GONAN",
+      "title": "GONAN",
+      "lat": "450000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "GOREV",
+      "name": "GOREV",
+      "title": "GOREV",
+      "lat": "560312N",
+      "lon": "0050000E"
+    },
+    {
+      "id": "GOSAM",
+      "name": "GOSAM",
+      "title": "GOSAM",
+      "lat": "554719.18N",
+      "lon": "0041202.10W"
+    },
+    {
+      "id": "GOTNA",
+      "name": "GOTNA",
+      "title": "GOTNA",
+      "lat": "543541.43N",
+      "lon": "0053552.85W"
+    },
+    {
+      "id": "GOXUL",
+      "name": "GOXUL",
+      "title": "GOXUL",
+      "lat": "512132.02N",
+      "lon": "0001033.49W"
+    },
+    {
+      "id": "GRICE",
+      "name": "GRICE",
+      "title": "GRICE",
+      "lat": "561148.00N",
+      "lon": "0034107.79W"
+    },
+    {
+      "id": "GROVE",
+      "name": "GROVE",
+      "title": "GROVE",
+      "lat": "522337.76N",
+      "lon": "0015543.72W"
+    },
+    {
+      "id": "GUBJE",
+      "name": "GUBJE",
+      "title": "GUBJE",
+      "lat": "520227.50N",
+      "lon": "0053242.80W"
+    },
+    {
+      "id": "GUNPA",
+      "name": "GUNPA",
+      "title": "GUNPA",
+      "lat": "610000N",
+      "lon": "0000000E"
+    },
+    {
+      "id": "GUNSO",
+      "name": "GUNSO",
+      "title": "GUNSO",
+      "lat": "490310N",
+      "lon": "0114606W"
+    },
+    {
+      "id": "GUNTU",
+      "name": "GUNTU",
+      "title": "GUNTU",
+      "lat": "533537.40N",
+      "lon": "0030953.64W"
+    },
+    {
+      "id": "GUSSI",
+      "name": "GUSSI",
+      "title": "GUSSI",
+      "lat": "571246.93N",
+      "lon": "0040726.86W"
+    },
+    {
+      "id": "HABCI",
+      "name": "HABCI",
+      "title": "HABCI",
+      "lat": "511401.12N",
+      "lon": "0001644.96E"
+    },
+    {
+      "id": "HALIF",
+      "name": "HALIF",
+      "title": "HALIF",
+      "lat": "534406.31N",
+      "lon": "0013450.10W"
+    },
+    {
+      "id": "HANKY",
+      "name": "HANKY",
+      "title": "HANKY",
+      "lat": "510645.98N",
+      "lon": "0010751.00W"
+    },
+    {
+      "id": "HARDY",
+      "name": "HARDY",
+      "title": "HARDY",
+      "lat": "502815.75N",
+      "lon": "0002928.04E"
+    },
+    {
+      "id": "HASTY",
+      "name": "HASTY",
+      "title": "HASTY",
+      "lat": "504342.46N",
+      "lon": "0003200.37E"
+    },
+    {
+      "id": "HAVEN",
+      "name": "HAVEN",
+      "title": "HAVEN",
+      "lat": "552740.00N",
+      "lon": "0025946.67W"
+    },
+    {
+      "id": "HAWFA",
+      "name": "HAWFA",
+      "title": "HAWFA",
+      "lat": "513208.71N",
+      "lon": "0023812.55W"
+    },
+    {
+      "id": "HAWKE",
+      "name": "HAWKE",
+      "title": "HAWKE",
+      "lat": "502226.57N",
+      "lon": "0000524.77E"
+    },
+    {
+      "id": "HAZEL",
+      "name": "HAZEL",
+      "title": "HAZEL",
+      "lat": "510019.03N",
+      "lon": "0005904.06W"
+    },
+    {
+      "id": "HEKXA",
+      "name": "HEKXA",
+      "title": "HEKXA",
+      "lat": "513103.61N",
+      "lon": "0012026.55W"
+    },
+    {
+      "id": "HEMEL",
+      "name": "HEMEL",
+      "title": "HEMEL",
+      "lat": "514820.00N",
+      "lon": "0002509.78W"
+    },
+    {
+      "id": "HERON",
+      "name": "HERON",
+      "title": "HERON",
+      "lat": "552035.29N",
+      "lon": "0050000.00W"
+    },
+    {
+      "id": "HILLY",
+      "name": "HILLY",
+      "title": "HILLY",
+      "lat": "512006.04N",
+      "lon": "0001437.38E"
+    },
+    {
+      "id": "HOLLY",
+      "name": "HOLLY",
+      "title": "HOLLY",
+      "lat": "505312.18N",
+      "lon": "0000542.23W"
+    },
+    {
+      "id": "HOTXI",
+      "name": "HOTXI",
+      "title": "HOTXI",
+      "lat": "511506.35N",
+      "lon": "0020000.00W"
+    },
+    {
+      "id": "IBGON",
+      "name": "IBGON",
+      "title": "IBGON",
+      "lat": "510047.24N",
+      "lon": "0004758.48W"
+    },
+    {
+      "id": "IBNID",
+      "name": "IBNID",
+      "title": "IBNID",
+      "lat": "503143.71N",
+      "lon": "0014708.46W"
+    },
+    {
+      "id": "IBOLU",
+      "name": "IBOLU",
+      "title": "IBOLU",
+      "lat": "562310N",
+      "lon": "0030803W"
+    },
+    {
+      "id": "IBRAR",
+      "name": "IBRAR",
+      "title": "IBRAR",
+      "lat": "533154.28N",
+      "lon": "0034110.87W"
+    },
+    {
+      "id": "IBROD",
+      "name": "IBROD",
+      "title": "IBROD",
+      "lat": "563000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "IBTES",
+      "name": "IBTES",
+      "title": "IBTES",
+      "lat": "542625.20N",
+      "lon": "0050315.12W"
+    },
+    {
+      "id": "ICCIN",
+      "name": "ICCIN",
+      "title": "ICCIN",
+      "lat": "513936.80N",
+      "lon": "0024458.74W"
+    },
+    {
+      "id": "ICOSA",
+      "name": "ICOSA",
+      "title": "ICOSA",
+      "lat": "513748.09N",
+      "lon": "0035210.14W"
+    },
+    {
+      "id": "ICTAM",
+      "name": "ICTAM",
+      "title": "ICTAM",
+      "lat": "513137.37N",
+      "lon": "0010948.12W"
+    },
+    {
+      "id": "IDDEC",
+      "name": "IDDEC",
+      "title": "IDDEC",
+      "lat": "542803.59N",
+      "lon": "0000324.39E"
+    },
+    {
+      "id": "IDESI",
+      "name": "IDESI",
+      "title": "IDESI",
+      "lat": "515351.74N",
+      "lon": "0015308.08E"
+    },
+    {
+      "id": "IDEXA",
+      "name": "IDEXA",
+      "title": "IDEXA",
+      "lat": "532814N",
+      "lon": "0050951W"
+    },
+    {
+      "id": "IDGAS",
+      "name": "IDGAS",
+      "title": "IDGAS",
+      "lat": "541422.81N",
+      "lon": "0043329.47W"
+    },
+    {
+      "id": "IDITU",
+      "name": "IDITU",
+      "title": "IDITU",
+      "lat": "513224.79N",
+      "lon": "0005837.35E"
+    },
+    {
+      "id": "IDKOL",
+      "name": "IDKOL",
+      "title": "IDKOL",
+      "lat": "540543N",
+      "lon": "0015945W"
+    },
+    {
+      "id": "IJALA",
+      "name": "IJALA",
+      "title": "IJALA",
+      "lat": "511658.25N",
+      "lon": "0062553.43W"
+    },
+    {
+      "id": "ILLOC",
+      "name": "ILLOC",
+      "title": "ILLOC",
+      "lat": "515517.20N",
+      "lon": "0001056.60E"
+    },
+    {
+      "id": "ILZIC",
+      "name": "ILZIC",
+      "title": "ILZIC",
+      "lat": "503518.71N",
+      "lon": "0033844.20W"
+    },
+    {
+      "id": "IMVUR",
+      "name": "IMVUR",
+      "title": "IMVUR",
+      "lat": "511028.90N",
+      "lon": "0003156.40W"
+    },
+    {
+      "id": "INBAS",
+      "name": "INBAS",
+      "title": "INBAS",
+      "lat": "564200.00N",
+      "lon": "0041459.11W"
+    },
+    {
+      "id": "INBOB",
+      "name": "INBOB",
+      "title": "INBOB",
+      "lat": "553624.86N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "INDOX",
+      "name": "INDOX",
+      "title": "INDOX",
+      "lat": "511839.55N",
+      "lon": "0010114.04W"
+    },
+    {
+      "id": "INFEC",
+      "name": "INFEC",
+      "title": "INFEC",
+      "lat": "513237.73N",
+      "lon": "0041130.99W"
+    },
+    {
+      "id": "INFUS",
+      "name": "INFUS",
+      "title": "INFUS",
+      "lat": "515725.85N",
+      "lon": "0031221.35W"
+    },
+    {
+      "id": "INGUR",
+      "name": "INGUR",
+      "title": "INGUR",
+      "lat": "514241.67N",
+      "lon": "0025136.75W"
+    },
+    {
+      "id": "INKEK",
+      "name": "INKEK",
+      "title": "INKEK",
+      "lat": "503853N",
+      "lon": "0003209W"
+    },
+    {
+      "id": "INKOB",
+      "name": "INKOB",
+      "title": "INKOB",
+      "lat": "535216.19N",
+      "lon": "0042414.43W"
+    },
+    {
+      "id": "INLIM",
+      "name": "INLIM",
+      "title": "INLIM",
+      "lat": "515422.98N",
+      "lon": "0011912.90E"
+    },
+    {
+      "id": "INNUF",
+      "name": "INNUF",
+      "title": "INNUF",
+      "lat": "590705.41N",
+      "lon": "0080234.75W"
+    },
+    {
+      "id": "INPIP",
+      "name": "INPIP",
+      "title": "INPIP",
+      "lat": "545235.54N",
+      "lon": "0025346.10W"
+    },
+    {
+      "id": "INPUT",
+      "name": "INPUT",
+      "title": "INPUT",
+      "lat": "551818.30N",
+      "lon": "0043905.37E"
+    },
+    {
+      "id": "INREV",
+      "name": "INREV",
+      "title": "INREV",
+      "lat": "550857.44N",
+      "lon": "0030539.46W"
+    },
+    {
+      "id": "IPDOR",
+      "name": "IPDOR",
+      "title": "IPDOR",
+      "lat": "552239N",
+      "lon": "0031545W"
+    },
+    {
+      "id": "IPKUS",
+      "name": "IPKUS",
+      "title": "IPKUS",
+      "lat": "513152.43N",
+      "lon": "0002318.58E"
+    },
+    {
+      "id": "IPNOX",
+      "name": "IPNOX",
+      "title": "IPNOX",
+      "lat": "541340N",
+      "lon": "0024222W"
+    },
+    {
+      "id": "IPRIL",
+      "name": "IPRIL",
+      "title": "IPRIL",
+      "lat": "514028.81N",
+      "lon": "0001335.35W"
+    },
+    {
+      "id": "IPSAD",
+      "name": "IPSAD",
+      "title": "IPSAD",
+      "lat": "552145N",
+      "lon": "0024114W"
+    },
+    {
+      "id": "IPSET",
+      "name": "IPSET",
+      "title": "IPSET",
+      "lat": "543105.63N",
+      "lon": "0052708.92W"
+    },
+    {
+      "id": "IPSIR",
+      "name": "IPSIR",
+      "title": "IPSIR",
+      "lat": "540454N",
+      "lon": "0015657W"
+    },
+    {
+      "id": "IRKUM",
+      "name": "IRKUM",
+      "title": "IRKUM",
+      "lat": "525947.90N",
+      "lon": "0052239.45W"
+    },
+    {
+      "id": "IRKUN",
+      "name": "IRKUN",
+      "title": "IRKUN",
+      "lat": "505516N",
+      "lon": "0012800E"
+    },
+    {
+      "id": "ITSUX",
+      "name": "ITSUX",
+      "title": "ITSUX",
+      "lat": "560259.94N",
+      "lon": "0033000.00E"
+    },
+    {
+      "id": "ITVIP",
+      "name": "ITVIP",
+      "title": "ITVIP",
+      "lat": "511713.75N",
+      "lon": "0010312.30E"
+    },
+    {
+      "id": "IVLOD",
+      "name": "IVLOD",
+      "title": "IVLOD",
+      "lat": "530746N",
+      "lon": "0030919W"
+    },
+    {
+      "id": "IXURA",
+      "name": "IXURA",
+      "title": "IXURA",
+      "lat": "520405N",
+      "lon": "0012540W"
+    },
+    {
+      "id": "IZLAW",
+      "name": "IZLAW",
+      "title": "IZLAW",
+      "lat": "510325.45N",
+      "lon": "0032251.31W"
+    },
+    {
+      "id": "JACKO",
+      "name": "JACKO",
+      "title": "JACKO",
+      "lat": "514408.65N",
+      "lon": "0012536.00E"
+    },
+    {
+      "id": "JETZI",
+      "name": "JETZI",
+      "title": "JETZI",
+      "lat": "513027.09N",
+      "lon": "0035211.94W"
+    },
+    {
+      "id": "JOZMA",
+      "name": "JOZMA",
+      "title": "JOZMA",
+      "lat": "503738.14N",
+      "lon": "0035635.42W"
+    },
+    {
+      "id": "JUMZI",
+      "name": "JUMZI",
+      "title": "JUMZI",
+      "lat": "521943.58N",
+      "lon": "0002430.31W"
+    },
+    {
+      "id": "KAMJU",
+      "name": "KAMJU",
+      "title": "KAMJU",
+      "lat": "523450.15N",
+      "lon": "0023150.54W"
+    },
+    {
+      "id": "KAPEX",
+      "name": "KAPEX",
+      "title": "KAPEX",
+      "lat": "504029.70N",
+      "lon": "0015059.80W"
+    },
+    {
+      "id": "KARNO",
+      "name": "KARNO",
+      "title": "KARNO",
+      "lat": "525339.55N",
+      "lon": "0025354.05W"
+    },
+    {
+      "id": "KATHY",
+      "name": "KATHY",
+      "title": "KATHY",
+      "lat": "503113.59N",
+      "lon": "0012000.23W"
+    },
+    {
+      "id": "KEFTE",
+      "name": "KEFTE",
+      "title": "KEFTE",
+      "lat": "540112.37N",
+      "lon": "0014435.47W"
+    },
+    {
+      "id": "KEGUN",
+      "name": "KEGUN",
+      "title": "KEGUN",
+      "lat": "531132.90N",
+      "lon": "0030901.35W"
+    },
+    {
+      "id": "KELLY",
+      "name": "KELLY",
+      "title": "KELLY",
+      "lat": "535419.47N",
+      "lon": "0042150.52W"
+    },
+    {
+      "id": "KEMPY",
+      "name": "KEMPY",
+      "title": "KEMPY",
+      "lat": "520738.51N",
+      "lon": "0003845.57E"
+    },
+    {
+      "id": "KENET",
+      "name": "KENET",
+      "title": "KENET",
+      "lat": "513113.63N",
+      "lon": "0012718.00W"
+    },
+    {
+      "id": "KEPAD",
+      "name": "KEPAD",
+      "title": "KEPAD",
+      "lat": "524835.41N",
+      "lon": "0022844.28W"
+    },
+    {
+      "id": "KESEG",
+      "name": "KESEG",
+      "title": "KESEG",
+      "lat": "600058N",
+      "lon": "0060056W"
+    },
+    {
+      "id": "KESIX",
+      "name": "KESIX",
+      "title": "KESIX",
+      "lat": "565700N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "KIDLI",
+      "name": "KIDLI",
+      "title": "KIDLI",
+      "lat": "514617.00N",
+      "lon": "0012140.87W"
+    },
+    {
+      "id": "KIPWI",
+      "name": "KIPWI",
+      "title": "KIPWI",
+      "lat": "520757.35N",
+      "lon": "0031041.87W"
+    },
+    {
+      "id": "KISWO",
+      "name": "KISWO",
+      "title": "KISWO",
+      "lat": "523727.16N",
+      "lon": "0030824.49W"
+    },
+    {
+      "id": "KITFE",
+      "name": "KITFE",
+      "title": "KITFE",
+      "lat": "514407.29N",
+      "lon": "0020715.54W"
+    },
+    {
+      "id": "KLAKI",
+      "name": "KLAKI",
+      "title": "KLAKI",
+      "lat": "502216.59N",
+      "lon": "0030754.14W"
+    },
+    {
+      "id": "KLONN",
+      "name": "KLONN",
+      "title": "KLONN",
+      "lat": "582324.44N",
+      "lon": "0024944.12E"
+    },
+    {
+      "id": "KOBBI",
+      "name": "KOBBI",
+      "title": "KOBBI",
+      "lat": "514113.77N",
+      "lon": "0000918.34W"
+    },
+    {
+      "id": "KOGAD",
+      "name": "KOGAD",
+      "title": "KOGAD",
+      "lat": "493000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "KOKAL",
+      "name": "KOKAL",
+      "title": "KOKAL",
+      "lat": "585734.82N",
+      "lon": "0025338.21W"
+    },
+    {
+      "id": "KOKIB",
+      "name": "KOKIB",
+      "title": "KOKIB",
+      "lat": "543000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "KOLID",
+      "name": "KOLID",
+      "title": "KOLID",
+      "lat": "533425.70N",
+      "lon": "0024520.23W"
+    },
+    {
+      "id": "KONAN",
+      "name": "KONAN",
+      "title": "KONAN",
+      "lat": "510750.75N",
+      "lon": "0020000.00E"
+    },
+    {
+      "id": "KOPUL",
+      "name": "KOPUL",
+      "title": "KOPUL",
+      "lat": "513231.76N",
+      "lon": "0010813.84E"
+    },
+    {
+      "id": "KORXA",
+      "name": "KORXA",
+      "title": "KORXA",
+      "lat": "514214.41N",
+      "lon": "0044718.68W"
+    },
+    {
+      "id": "KOTEM",
+      "name": "KOTEM",
+      "title": "KOTEM",
+      "lat": "500000.00N",
+      "lon": "0010313.83W"
+    },
+    {
+      "id": "KRAGY",
+      "name": "KRAGY",
+      "title": "KRAGY",
+      "lat": "520710.73N",
+      "lon": "0045655.16W"
+    },
+    {
+      "id": "KUBAX",
+      "name": "KUBAX",
+      "title": "KUBAX",
+      "lat": "525633.93N",
+      "lon": "0025713.20E"
+    },
+    {
+      "id": "KUGUR",
+      "name": "KUGUR",
+      "title": "KUGUR",
+      "lat": "553000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "KUKIS",
+      "name": "KUKIS",
+      "title": "KUKIS",
+      "lat": "514156.23N",
+      "lon": "0030436.53W"
+    },
+    {
+      "id": "KUMIL",
+      "name": "KUMIL",
+      "title": "KUMIL",
+      "lat": "503431.39N",
+      "lon": "0013638.81W"
+    },
+    {
+      "id": "KUNAV",
+      "name": "KUNAV",
+      "title": "KUNAV",
+      "lat": "503054N",
+      "lon": "0010356E"
+    },
+    {
+      "id": "KUVOX",
+      "name": "KUVOX",
+      "title": "KUVOX",
+      "lat": "580458.86N",
+      "lon": "0073623.54W"
+    },
+    {
+      "id": "KUXEM",
+      "name": "KUXEM",
+      "title": "KUXEM",
+      "lat": "531511.07N",
+      "lon": "0024046.76W"
+    },
+    {
+      "id": "LAGAV",
+      "name": "LAGAV",
+      "title": "LAGAV",
+      "lat": "565335.12N",
+      "lon": "0041210.37W"
+    },
+    {
+      "id": "LAKEY",
+      "name": "LAKEY",
+      "title": "LAKEY",
+      "lat": "541420.00N",
+      "lon": "0025852.38W"
+    },
+    {
+      "id": "LAMIX",
+      "name": "LAMIX",
+      "title": "LAMIX",
+      "lat": "531828.66N",
+      "lon": "0004055.52W"
+    },
+    {
+      "id": "LAMMA",
+      "name": "LAMMA",
+      "title": "LAMMA",
+      "lat": "555130.00N",
+      "lon": "0024603.39W"
+    },
+    {
+      "id": "LAMRO",
+      "name": "LAMRO",
+      "title": "LAMRO",
+      "lat": "570151.49N",
+      "lon": "0033309.09E"
+    },
+    {
+      "id": "LAMSO",
+      "name": "LAMSO",
+      "title": "LAMSO",
+      "lat": "524358.43N",
+      "lon": "0025939.68E"
+    },
+    {
+      "id": "LANAK",
+      "name": "LANAK",
+      "title": "LANAK",
+      "lat": "554200.87N",
+      "lon": "0035618.64W"
+    },
+    {
+      "id": "LANON",
+      "name": "LANON",
+      "title": "LANON",
+      "lat": "522551.90N",
+      "lon": "0042220.94W"
+    },
+    {
+      "id": "LANPI",
+      "name": "LANPI",
+      "title": "LANPI",
+      "lat": "521115.07N",
+      "lon": "0052329.75W"
+    },
+    {
+      "id": "LANVA",
+      "name": "LANVA",
+      "title": "LANVA",
+      "lat": "534347.86N",
+      "lon": "0042637.51W"
+    },
+    {
+      "id": "LAPRA",
+      "name": "LAPRA",
+      "title": "LAPRA",
+      "lat": "520707.18N",
+      "lon": "0011236.45E"
+    },
+    {
+      "id": "LARCK",
+      "name": "LARCK",
+      "title": "LARCK",
+      "lat": "505441.83N",
+      "lon": "0002647.93E"
+    },
+    {
+      "id": "LARDI",
+      "name": "LARDI",
+      "title": "LARDI",
+      "lat": "533616.09N",
+      "lon": "0033057.16E"
+    },
+    {
+      "id": "LARGA",
+      "name": "LARGA",
+      "title": "LARGA",
+      "lat": "545149.54N",
+      "lon": "0040911.97E"
+    },
+    {
+      "id": "LARLA",
+      "name": "LARLA",
+      "title": "LARLA",
+      "lat": "492241.13N",
+      "lon": "0070715.22W"
+    },
+    {
+      "id": "LASNO",
+      "name": "LASNO",
+      "title": "LASNO",
+      "lat": "483554N",
+      "lon": "0090000W"
+    },
+    {
+      "id": "LATMU",
+      "name": "LATMU",
+      "title": "LATMU",
+      "lat": "531525N",
+      "lon": "0020522E"
+    },
+    {
+      "id": "LAVRI",
+      "name": "LAVRI",
+      "title": "LAVRI",
+      "lat": "511549N",
+      "lon": "0003449E"
+    },
+    {
+      "id": "LAWJO",
+      "name": "LAWJO",
+      "title": "LAWJO",
+      "lat": "501645.92N",
+      "lon": "0021943.34W"
+    },
+    {
+      "id": "LEDGO",
+      "name": "LEDGO",
+      "title": "LEDGO",
+      "lat": "511423.78N",
+      "lon": "0073404.65W"
+    },
+    {
+      "id": "LEGRO",
+      "name": "LEGRO",
+      "title": "LEGRO",
+      "lat": "531934.86N",
+      "lon": "0013045.89E"
+    },
+    {
+      "id": "LEHOC",
+      "name": "LEHOC",
+      "title": "LEHOC",
+      "lat": "540108.08N",
+      "lon": "0020108.08W"
+    },
+    {
+      "id": "LEKCI",
+      "name": "LEKCI",
+      "title": "LEKCI",
+      "lat": "513440.46N",
+      "lon": "0025314.66W"
+    },
+    {
+      "id": "LELDO",
+      "name": "LELDO",
+      "title": "LELDO",
+      "lat": "534259.53N",
+      "lon": "0040507.00W"
+    },
+    {
+      "id": "LELNA",
+      "name": "LELNA",
+      "title": "LELNA",
+      "lat": "495856.80N",
+      "lon": "0020623.42W"
+    },
+    {
+      "id": "LEMGU",
+      "name": "LEMGU",
+      "title": "LEMGU",
+      "lat": "522421.56N",
+      "lon": "0052236.38W"
+    },
+    {
+      "id": "LESLU",
+      "name": "LESLU",
+      "title": "LESLU",
+      "lat": "510000N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "LESNI",
+      "name": "LESNI",
+      "title": "LESNI",
+      "lat": "573233.14N",
+      "lon": "0011622.40W"
+    },
+    {
+      "id": "LESRA",
+      "name": "LESRA",
+      "title": "LESRA",
+      "lat": "552307.98N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "LESTA",
+      "name": "LESTA",
+      "title": "LESTA",
+      "lat": "524427.09N",
+      "lon": "0010419.42W"
+    },
+    {
+      "id": "LIBBA",
+      "name": "LIBBA",
+      "title": "LIBBA",
+      "lat": "554326.21N",
+      "lon": "0034443.21W"
+    },
+    {
+      "id": "LIBSO",
+      "name": "LIBSO",
+      "title": "LIBSO",
+      "lat": "533129.33N",
+      "lon": "0000536.32E"
+    },
+    {
+      "id": "LIFFY",
+      "name": "LIFFY",
+      "title": "LIFFY",
+      "lat": "532848.28N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "LIFOX",
+      "name": "LIFOX",
+      "title": "LIFOX",
+      "lat": "495220.46N",
+      "lon": "0031022.75W"
+    },
+    {
+      "id": "LIMKA",
+      "name": "LIMKA",
+      "title": "LIMKA",
+      "lat": "543026.50N",
+      "lon": "0051311.22W"
+    },
+    {
+      "id": "LINDY",
+      "name": "LINDY",
+      "title": "LINDY",
+      "lat": "512814.12N",
+      "lon": "0010257.19W"
+    },
+    {
+      "id": "LIPGO",
+      "name": "LIPGO",
+      "title": "LIPGO",
+      "lat": "530350.13N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "LISBO",
+      "name": "LISBO",
+      "title": "LISBO",
+      "lat": "543130.00N",
+      "lon": "0060524.10W"
+    },
+    {
+      "id": "LISTO",
+      "name": "LISTO",
+      "title": "LISTO",
+      "lat": "530835.93N",
+      "lon": "0021156.54W"
+    },
+    {
+      "id": "LIVSU",
+      "name": "LIVSU",
+      "title": "LIVSU",
+      "lat": "514148.74N",
+      "lon": "0005057.72E"
+    },
+    {
+      "id": "LIZAD",
+      "name": "LIZAD",
+      "title": "LIZAD",
+      "lat": "493525.24N",
+      "lon": "0041948.55W"
+    },
+    {
+      "id": "LOFFO",
+      "name": "LOFFO",
+      "title": "LOFFO",
+      "lat": "515012.00N",
+      "lon": "0003556.37E"
+    },
+    {
+      "id": "LOGAN",
+      "name": "LOGAN",
+      "title": "LOGAN",
+      "lat": "514451.32N",
+      "lon": "0013642.58E"
+    },
+    {
+      "id": "LOMON",
+      "name": "LOMON",
+      "title": "LOMON",
+      "lat": "560345.57N",
+      "lon": "0043447.86W"
+    },
+    {
+      "id": "LOMVO",
+      "name": "LOMVO",
+      "title": "LOMVO",
+      "lat": "531615.87N",
+      "lon": "0051045.82W"
+    },
+    {
+      "id": "LONAM",
+      "name": "LONAM",
+      "title": "LONAM",
+      "lat": "535022.32N",
+      "lon": "0035633.03E"
+    },
+    {
+      "id": "LOREL",
+      "name": "LOREL",
+      "title": "LOREL",
+      "lat": "520050.20N",
+      "lon": "0000309.52W"
+    },
+    {
+      "id": "LORKU",
+      "name": "LORKU",
+      "title": "LORKU",
+      "lat": "495618.10N",
+      "lon": "0022215.64W"
+    },
+    {
+      "id": "LORTA",
+      "name": "LORTA",
+      "title": "LORTA",
+      "lat": "553145.72N",
+      "lon": "0035630.83W"
+    },
+    {
+      "id": "LOVEL",
+      "name": "LOVEL",
+      "title": "LOVEL",
+      "lat": "531506.00N",
+      "lon": "0021627.98W"
+    },
+    {
+      "id": "LUCCO",
+      "name": "LUCCO",
+      "title": "LUCCO",
+      "lat": "552048.54N",
+      "lon": "0043341.11W"
+    },
+    {
+      "id": "LUCSA",
+      "name": "LUCSA",
+      "title": "LUCSA",
+      "lat": "523706.60N",
+      "lon": "0025656.18W"
+    },
+    {
+      "id": "LUFMA",
+      "name": "LUFMA",
+      "title": "LUFMA",
+      "lat": "510448.01N",
+      "lon": "0031438.16W"
+    },
+    {
+      "id": "LUGIS",
+      "name": "LUGIS",
+      "title": "LUGIS",
+      "lat": "500000.00N",
+      "lon": "0005220.10W"
+    },
+    {
+      "id": "LULOX",
+      "name": "LULOX",
+      "title": "LULOX",
+      "lat": "502200N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "LUSEN",
+      "name": "LUSEN",
+      "title": "LUSEN",
+      "lat": "603000.00N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "LUSIV",
+      "name": "LUSIV",
+      "title": "LUSIV",
+      "lat": "554001.54N",
+      "lon": "0041440.50W"
+    },
+    {
+      "id": "LUSOD",
+      "name": "LUSOD",
+      "title": "LUSOD",
+      "lat": "535622.70N",
+      "lon": "0041926.37W"
+    },
+    {
+      "id": "LUTIP",
+      "name": "LUTIP",
+      "title": "LUTIP",
+      "lat": "531521.89N",
+      "lon": "0044415.59W"
+    },
+    {
+      "id": "LUTOV",
+      "name": "LUTOV",
+      "title": "LUTOV",
+      "lat": "551421.66N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "LUXIV",
+      "name": "LUXIV",
+      "title": "LUXIV",
+      "lat": "510510.63N",
+      "lon": "0004657.06W"
+    },
+    {
+      "id": "LUXTO",
+      "name": "LUXTO",
+      "title": "LUXTO",
+      "lat": "520830.66N",
+      "lon": "0020338.38W"
+    },
+    {
+      "id": "LYNAS",
+      "name": "LYNAS",
+      "title": "LYNAS",
+      "lat": "532633.02N",
+      "lon": "0042000.00W"
+    },
+    {
+      "id": "MADAD",
+      "name": "MADAD",
+      "title": "MADAD",
+      "lat": "555447.35N",
+      "lon": "0014402.48W"
+    },
+    {
+      "id": "MAGEE",
+      "name": "MAGEE",
+      "title": "MAGEE",
+      "lat": "544729.53N",
+      "lon": "0053630.02W"
+    },
+    {
+      "id": "MAKUX",
+      "name": "MAKUX",
+      "title": "MAKUX",
+      "lat": "535829.90N",
+      "lon": "0045227.89W"
+    },
+    {
+      "id": "MAKZA",
+      "name": "MAKZA",
+      "title": "MAKZA",
+      "lat": "543217.00N",
+      "lon": "0034753.00W"
+    },
+    {
+      "id": "MALUD",
+      "name": "MALUD",
+      "title": "MALUD",
+      "lat": "532448.17N",
+      "lon": "0033630.30W"
+    },
+    {
+      "id": "MAMUL",
+      "name": "MAMUL",
+      "title": "MAMUL",
+      "lat": "532505.20N",
+      "lon": "0011648.45W"
+    },
+    {
+      "id": "MANGO",
+      "name": "MANGO",
+      "title": "MANGO",
+      "lat": "514133.88N",
+      "lon": "0004725.58E"
+    },
+    {
+      "id": "MANIG",
+      "name": "MANIG",
+      "title": "MANIG",
+      "lat": "494707.01N",
+      "lon": "0031533.72W"
+    },
+    {
+      "id": "MARUK",
+      "name": "MARUK",
+      "title": "MARUK",
+      "lat": "501446.56N",
+      "lon": "0020420.41W"
+    },
+    {
+      "id": "MASOP",
+      "name": "MASOP",
+      "title": "MASOP",
+      "lat": "540921.02N",
+      "lon": "0042115.26W"
+    },
+    {
+      "id": "MATCH",
+      "name": "MATCH",
+      "title": "MATCH",
+      "lat": "514645.20N",
+      "lon": "0001500.00E"
+    },
+    {
+      "id": "MATIK",
+      "name": "MATIK",
+      "title": "MATIK",
+      "lat": "610000N",
+      "lon": "0080400W"
+    },
+    {
+      "id": "MATUT",
+      "name": "MATUT",
+      "title": "MATUT",
+      "lat": "541017.23N",
+      "lon": "0043821.89W"
+    },
+    {
+      "id": "MAVET",
+      "name": "MAVET",
+      "title": "MAVET",
+      "lat": "540257N",
+      "lon": "0033104W"
+    },
+    {
+      "id": "MAXIT",
+      "name": "MAXIT",
+      "title": "MAXIT",
+      "lat": "511459.08N",
+      "lon": "0003342.83W"
+    },
+    {
+      "id": "MAYLA",
+      "name": "MAYLA",
+      "title": "MAYLA",
+      "lat": "513740.76N",
+      "lon": "0004311.80E"
+    },
+    {
+      "id": "MEDOG",
+      "name": "MEDOG",
+      "title": "MEDOG",
+      "lat": "515701.32N",
+      "lon": "0033257.83W"
+    },
+    {
+      "id": "MEGEL",
+      "name": "MEGEL",
+      "title": "MEGEL",
+      "lat": "522057.94N",
+      "lon": "0020425.20E"
+    },
+    {
+      "id": "MEJAC",
+      "name": "MEJAC",
+      "title": "MEJAC",
+      "lat": "542012.55N",
+      "lon": "0014952.57W"
+    },
+    {
+      "id": "MEZRE",
+      "name": "MEZRE",
+      "title": "MEZRE",
+      "lat": "500200.00N",
+      "lon": "0001200.00W"
+    },
+    {
+      "id": "MIDJO",
+      "name": "MIDJO",
+      "title": "MIDJO",
+      "lat": "524754.42N",
+      "lon": "0024827.24W"
+    },
+    {
+      "id": "MIMFO",
+      "name": "MIMFO",
+      "title": "MIMFO",
+      "lat": "511358.23N",
+      "lon": "0002930.43E"
+    },
+    {
+      "id": "MIMKU",
+      "name": "MIMKU",
+      "title": "MIMKU",
+      "lat": "560000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "MIMVA",
+      "name": "MIMVA",
+      "title": "MIMVA",
+      "lat": "530603.21N",
+      "lon": "0031812.63E"
+    },
+    {
+      "id": "MIPVO",
+      "name": "MIPVO",
+      "title": "MIPVO",
+      "lat": "521329N",
+      "lon": "0013609E"
+    },
+    {
+      "id": "MIRSI",
+      "name": "MIRSI",
+      "title": "MIRSI",
+      "lat": "533216.69N",
+      "lon": "0024242.16W"
+    },
+    {
+      "id": "MITSO",
+      "name": "MITSO",
+      "title": "MITSO",
+      "lat": "533906.86N",
+      "lon": "0005337.75W"
+    },
+    {
+      "id": "MIVLA",
+      "name": "MIVLA",
+      "title": "MIVLA",
+      "lat": "504630.00N",
+      "lon": "0011558.02W"
+    },
+    {
+      "id": "MOCHA",
+      "name": "MOCHA",
+      "title": "MOCHA",
+      "lat": "593255.50N",
+      "lon": "0012159.47W"
+    },
+    {
+      "id": "MOCQO",
+      "name": "MOCQO",
+      "title": "MOCQO",
+      "lat": "522748.08N",
+      "lon": "0032037.20W"
+    },
+    {
+      "id": "MODGO",
+      "name": "MODGO",
+      "title": "MODGO",
+      "lat": "602642.86N",
+      "lon": "0073955.20W"
+    },
+    {
+      "id": "MODMI",
+      "name": "MODMI",
+      "title": "MODMI",
+      "lat": "511400.99N",
+      "lon": "0002909.99W"
+    },
+    {
+      "id": "MOFWE",
+      "name": "MOFWE",
+      "title": "MOFWE",
+      "lat": "524839.37N",
+      "lon": "0031323.42W"
+    },
+    {
+      "id": "MOGLI",
+      "name": "MOGLI",
+      "title": "MOGLI",
+      "lat": "521830.00N",
+      "lon": "0001608.63W"
+    },
+    {
+      "id": "MOGLO",
+      "name": "MOGLO",
+      "title": "MOGLO",
+      "lat": "553000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "MOGMO",
+      "name": "MOGMO",
+      "title": "MOGMO",
+      "lat": "532443N",
+      "lon": "0011251W"
+    },
+    {
+      "id": "MOGTA",
+      "name": "MOGTA",
+      "title": "MOGTA",
+      "lat": "531008N",
+      "lon": "0023810W"
+    },
+    {
+      "id": "MOKBU",
+      "name": "MOKBU",
+      "title": "MOKBU",
+      "lat": "511610.10N",
+      "lon": "0012913.78E"
+    },
+    {
+      "id": "MOLAK",
+      "name": "MOLAK",
+      "title": "MOLAK",
+      "lat": "543648.90N",
+      "lon": "0093022.73W"
+    },
+    {
+      "id": "MOLIX",
+      "name": "MOLIX",
+      "title": "MOLIX",
+      "lat": "524919.21N",
+      "lon": "0030407.22E"
+    },
+    {
+      "id": "MONAV",
+      "name": "MONAV",
+      "title": "MONAV",
+      "lat": "582306.02N",
+      "lon": "0013811.02W"
+    },
+    {
+      "id": "MONTY",
+      "name": "MONTY",
+      "title": "MONTY",
+      "lat": "525334.00N",
+      "lon": "0031026.44W"
+    },
+    {
+      "id": "MOPAT",
+      "name": "MOPAT",
+      "title": "MOPAT",
+      "lat": "512955.20N",
+      "lon": "0070537.23W"
+    },
+    {
+      "id": "MORAG",
+      "name": "MORAG",
+      "title": "MORAG",
+      "lat": "524510N",
+      "lon": "0053000W"
+    },
+    {
+      "id": "MOREZ",
+      "name": "MOREZ",
+      "title": "MOREZ",
+      "lat": "511233.91N",
+      "lon": "0002948.60W"
+    },
+    {
+      "id": "MOSUN",
+      "name": "MOSUN",
+      "title": "MOSUN",
+      "lat": "515337.69N",
+      "lon": "0022610.09W"
+    },
+    {
+      "id": "MOTOX",
+      "name": "MOTOX",
+      "title": "MOTOX",
+      "lat": "505727.52N",
+      "lon": "0012800.00E"
+    },
+    {
+      "id": "MOVEN",
+      "name": "MOVEN",
+      "title": "MOVEN",
+      "lat": "520342.81N",
+      "lon": "0014846.72W"
+    },
+    {
+      "id": "MOXDE",
+      "name": "MOXDE",
+      "title": "MOXDE",
+      "lat": "540757.72N",
+      "lon": "0003328.85E"
+    },
+    {
+      "id": "MUCTE",
+      "name": "MUCTE",
+      "title": "MUCTE",
+      "lat": "521031.13N",
+      "lon": "0011225.43E"
+    },
+    {
+      "id": "MULYM",
+      "name": "MULYM",
+      "title": "MULYM",
+      "lat": "514917.14N",
+      "lon": "0024657.01W"
+    },
+    {
+      "id": "NAKID",
+      "name": "NAKID",
+      "title": "NAKID",
+      "lat": "494254.09N",
+      "lon": "0043722.57W"
+    },
+    {
+      "id": "NALAN",
+      "name": "NALAN",
+      "title": "NALAN",
+      "lat": "610000N",
+      "lon": "0060000W"
+    },
+    {
+      "id": "NALAX",
+      "name": "NALAX",
+      "title": "NALAX",
+      "lat": "532859.89N",
+      "lon": "0002405.94E"
+    },
+    {
+      "id": "NANEV",
+      "name": "NANEV",
+      "title": "NANEV",
+      "lat": "573428.67N",
+      "lon": "0022713.91W"
+    },
+    {
+      "id": "NANTI",
+      "name": "NANTI",
+      "title": "NANTI",
+      "lat": "530814.54N",
+      "lon": "0023400.51W"
+    },
+    {
+      "id": "NANUM",
+      "name": "NANUM",
+      "title": "NANUM",
+      "lat": "520134.97N",
+      "lon": "0013747.00W"
+    },
+    {
+      "id": "NAPEX",
+      "name": "NAPEX",
+      "title": "NAPEX",
+      "lat": "531222.64N",
+      "lon": "0005139.78W"
+    },
+    {
+      "id": "NATEB",
+      "name": "NATEB",
+      "title": "NATEB",
+      "lat": "550218.41N",
+      "lon": "0014154.13W"
+    },
+    {
+      "id": "NATKO",
+      "name": "NATKO",
+      "title": "NATKO",
+      "lat": "532711.99N",
+      "lon": "0043806.92W"
+    },
+    {
+      "id": "NAVEL",
+      "name": "NAVEL",
+      "title": "NAVEL",
+      "lat": "553513.43N",
+      "lon": "0005030.70E"
+    },
+    {
+      "id": "NAVPI",
+      "name": "NAVPI",
+      "title": "NAVPI",
+      "lat": "523249.58N",
+      "lon": "0025025.80E"
+    },
+    {
+      "id": "NAVSO",
+      "name": "NAVSO",
+      "title": "NAVSO",
+      "lat": "551322.02N",
+      "lon": "0034848.63W"
+    },
+    {
+      "id": "NAXAT",
+      "name": "NAXAT",
+      "title": "NAXAT",
+      "lat": "514721N",
+      "lon": "0015756W"
+    },
+    {
+      "id": "NAXIL",
+      "name": "NAXIL",
+      "title": "NAXIL",
+      "lat": "565724N",
+      "lon": "0024326W"
+    },
+    {
+      "id": "NEDEX",
+      "name": "NEDEX",
+      "title": "NEDEX",
+      "lat": "515237.17N",
+      "lon": "0012819.67W"
+    },
+    {
+      "id": "NEDUL",
+      "name": "NEDUL",
+      "title": "NEDUL",
+      "lat": "503958.00N",
+      "lon": "0013251.86W"
+    },
+    {
+      "id": "NELBO",
+      "name": "NELBO",
+      "title": "NELBO",
+      "lat": "542924.15N",
+      "lon": "0051810.39W"
+    },
+    {
+      "id": "NELKO",
+      "name": "NELKO",
+      "title": "NELKO",
+      "lat": "504214.18N",
+      "lon": "0005717.79W"
+    },
+    {
+      "id": "NELSA",
+      "name": "NELSA",
+      "title": "NELSA",
+      "lat": "535148.00N",
+      "lon": "0021105.27W"
+    },
+    {
+      "id": "NEPNA",
+      "name": "NEPNA",
+      "title": "NEPNA",
+      "lat": "512958.33N",
+      "lon": "0002656.55E"
+    },
+    {
+      "id": "NERTU",
+      "name": "NERTU",
+      "title": "NERTU",
+      "lat": "490000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "NESDI",
+      "name": "NESDI",
+      "title": "NESDI",
+      "lat": "570718.00N",
+      "lon": "0040848.32W"
+    },
+    {
+      "id": "NETKI",
+      "name": "NETKI",
+      "title": "NETKI",
+      "lat": "550000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "NETVU",
+      "name": "NETVU",
+      "title": "NETVU",
+      "lat": "502445.00N",
+      "lon": "0002854.00E"
+    },
+    {
+      "id": "NEVIL",
+      "name": "NEVIL",
+      "title": "NEVIL",
+      "lat": "500000.00N",
+      "lon": "0002205.64W"
+    },
+    {
+      "id": "NEVIS",
+      "name": "NEVIS",
+      "title": "NEVIS",
+      "lat": "564143.27N",
+      "lon": "0043240.70W"
+    },
+    {
+      "id": "NEVRI",
+      "name": "NEVRI",
+      "title": "NEVRI",
+      "lat": "540406.03N",
+      "lon": "0061611.42W"
+    },
+    {
+      "id": "NEXUS",
+      "name": "NEXUS",
+      "title": "NEXUS",
+      "lat": "561243.34N",
+      "lon": "0015040.99W"
+    },
+    {
+      "id": "NIBDA",
+      "name": "NIBDA",
+      "title": "NIBDA",
+      "lat": "510052.20N",
+      "lon": "0005501.48W"
+    },
+    {
+      "id": "NIBOG",
+      "name": "NIBOG",
+      "title": "NIBOG",
+      "lat": "550000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "NICXI",
+      "name": "NICXI",
+      "title": "NICXI",
+      "lat": "520046.40N",
+      "lon": "0050317.78W"
+    },
+    {
+      "id": "NIDGO",
+      "name": "NIDGO",
+      "title": "NIDGO",
+      "lat": "505657.98N",
+      "lon": "0004607.77W"
+    },
+    {
+      "id": "NIGIT",
+      "name": "NIGIT",
+      "title": "NIGIT",
+      "lat": "511846.96N",
+      "lon": "0011014.71W"
+    },
+    {
+      "id": "NILAV",
+      "name": "NILAV",
+      "title": "NILAV",
+      "lat": "450000N",
+      "lon": "0132500W"
+    },
+    {
+      "id": "NILON",
+      "name": "NILON",
+      "title": "NILON",
+      "lat": "513546.46N",
+      "lon": "0003803.93E"
+    },
+    {
+      "id": "NIMAT",
+      "name": "NIMAT",
+      "title": "NIMAT",
+      "lat": "535754.10N",
+      "lon": "0054431.75W"
+    },
+    {
+      "id": "NINEB",
+      "name": "NINEB",
+      "title": "NINEB",
+      "lat": "540344.27N",
+      "lon": "0040741.84W"
+    },
+    {
+      "id": "NINEX",
+      "name": "NINEX",
+      "title": "NINEX",
+      "lat": "585119.55N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "NIPIT",
+      "name": "NIPIT",
+      "title": "NIPIT",
+      "lat": "542709.29N",
+      "lon": "0082409.78W"
+    },
+    {
+      "id": "NIRIF",
+      "name": "NIRIF",
+      "title": "NIRIF",
+      "lat": "521755.87N",
+      "lon": "0053404.33W"
+    },
+    {
+      "id": "NISBI",
+      "name": "NISBI",
+      "title": "NISBI",
+      "lat": "532129N",
+      "lon": "0003921W"
+    },
+    {
+      "id": "NISKA",
+      "name": "NISKA",
+      "title": "NISKA",
+      "lat": "541500.00N",
+      "lon": "0023033.35W"
+    },
+    {
+      "id": "NIVKO",
+      "name": "NIVKO",
+      "title": "NIVKO",
+      "lat": "505605.77N",
+      "lon": "0003227.54E"
+    },
+    {
+      "id": "NIVUN",
+      "name": "NIVUN",
+      "title": "NIVUN",
+      "lat": "573411.91N",
+      "lon": "0040812.72E"
+    },
+    {
+      "id": "NOBDO",
+      "name": "NOBDO",
+      "title": "NOBDO",
+      "lat": "550453.28N",
+      "lon": "0024747.63E"
+    },
+    {
+      "id": "NOCAD",
+      "name": "NOCAD",
+      "title": "NOCAD",
+      "lat": "535836.63N",
+      "lon": "0045913.06W"
+    },
+    {
+      "id": "NOKIN",
+      "name": "NOKIN",
+      "title": "NOKIN",
+      "lat": "530436.00N",
+      "lon": "0025258.25W"
+    },
+    {
+      "id": "NOMSU",
+      "name": "NOMSU",
+      "title": "NOMSU",
+      "lat": "532806.04N",
+      "lon": "0032603.79W"
+    },
+    {
+      "id": "NONVA",
+      "name": "NONVA",
+      "title": "NONVA",
+      "lat": "513846.45N",
+      "lon": "0012144.31E"
+    },
+    {
+      "id": "NOPKI",
+      "name": "NOPKI",
+      "title": "NOPKI",
+      "lat": "540515.93N",
+      "lon": "0042608.29W"
+    },
+    {
+      "id": "NORBO",
+      "name": "NORBO",
+      "title": "NORBO",
+      "lat": "553545.36N",
+      "lon": "0044543.46W"
+    },
+    {
+      "id": "NORLA",
+      "name": "NORLA",
+      "title": "NORLA",
+      "lat": "513708.84N",
+      "lon": "0065211.29W"
+    },
+    {
+      "id": "NORRY",
+      "name": "NORRY",
+      "title": "NORRY",
+      "lat": "512847.11N",
+      "lon": "0010724.13W"
+    },
+    {
+      "id": "NOSLO",
+      "name": "NOSLO",
+      "title": "NOSLO",
+      "lat": "532253.72N",
+      "lon": "0033841.89W"
+    },
+    {
+      "id": "NOTGI",
+      "name": "NOTGI",
+      "title": "NOTGI",
+      "lat": "503510.14N",
+      "lon": "0002502.94W"
+    },
+    {
+      "id": "NOVBA",
+      "name": "NOVBA",
+      "title": "NOVBA",
+      "lat": "561200N",
+      "lon": "0031051W"
+    },
+    {
+      "id": "NOVMA",
+      "name": "NOVMA",
+      "title": "NOVMA",
+      "lat": "510211.79N",
+      "lon": "0004514.92W"
+    },
+    {
+      "id": "NOZHU",
+      "name": "NOZHU",
+      "title": "NOZHU",
+      "lat": "494141.05N",
+      "lon": "0034552.48W"
+    },
+    {
+      "id": "NUBRI",
+      "name": "NUBRI",
+      "title": "NUBRI",
+      "lat": "512016.68N",
+      "lon": "0011355.99W"
+    },
+    {
+      "id": "NUCHU",
+      "name": "NUCHU",
+      "title": "NUCHU",
+      "lat": "512808.10N",
+      "lon": "0014035.43W"
+    },
+    {
+      "id": "NUDNA",
+      "name": "NUDNA",
+      "title": "NUDNA",
+      "lat": "520354.90N",
+      "lon": "0005016.56E"
+    },
+    {
+      "id": "NUGBO",
+      "name": "NUGBO",
+      "title": "NUGBO",
+      "lat": "515821.96N",
+      "lon": "0000412.09W"
+    },
+    {
+      "id": "NUGRA",
+      "name": "NUGRA",
+      "title": "NUGRA",
+      "lat": "530146.43N",
+      "lon": "0021813.52W"
+    },
+    {
+      "id": "NUKPE",
+      "name": "NUKPE",
+      "title": "NUKPE",
+      "lat": "540110.08N",
+      "lon": "0015839.48W"
+    },
+    {
+      "id": "NULGU",
+      "name": "NULGU",
+      "title": "NULGU",
+      "lat": "505216.60N",
+      "lon": "0015939.01W"
+    },
+    {
+      "id": "NUMPI",
+      "name": "NUMPI",
+      "title": "NUMPI",
+      "lat": "540840.17N",
+      "lon": "0053536.26W"
+    },
+    {
+      "id": "OBOXA",
+      "name": "OBOXA",
+      "title": "OBOXA",
+      "lat": "541035.55N",
+      "lon": "0015420.13W"
+    },
+    {
+      "id": "OBUBA",
+      "name": "OBUBA",
+      "title": "OBUBA",
+      "lat": "574640.41N",
+      "lon": "0073319.04W"
+    },
+    {
+      "id": "OBUNI",
+      "name": "OBUNI",
+      "title": "OBUNI",
+      "lat": "535440N",
+      "lon": "0024433W"
+    },
+    {
+      "id": "ODIGI",
+      "name": "ODIGI",
+      "title": "ODIGI",
+      "lat": "551144.28N",
+      "lon": "0032539.03W"
+    },
+    {
+      "id": "ODMIX",
+      "name": "ODMIX",
+      "title": "ODMIX",
+      "lat": "565812.06N",
+      "lon": "0012802.95E"
+    },
+    {
+      "id": "ODMOS",
+      "name": "ODMOS",
+      "title": "ODMOS",
+      "lat": "544526.32N",
+      "lon": "0030252.23E"
+    },
+    {
+      "id": "ODPEX",
+      "name": "ODPEX",
+      "title": "ODPEX",
+      "lat": "592435.66N",
+      "lon": "0093000.00W"
+    },
+    {
+      "id": "ODREP",
+      "name": "ODREP",
+      "title": "ODREP",
+      "lat": "500000.00N",
+      "lon": "0013007.46W"
+    },
+    {
+      "id": "ODROB",
+      "name": "ODROB",
+      "title": "ODROB",
+      "lat": "513915.11N",
+      "lon": "0015445.17E"
+    },
+    {
+      "id": "ODUKU",
+      "name": "ODUKU",
+      "title": "ODUKU",
+      "lat": "513531.78N",
+      "lon": "0001715.47E"
+    },
+    {
+      "id": "ODVIK",
+      "name": "ODVIK",
+      "title": "ODVIK",
+      "lat": "510957.40N",
+      "lon": "0002909.33E"
+    },
+    {
+      "id": "ODVOD",
+      "name": "ODVOD",
+      "title": "ODVOD",
+      "lat": "520755.98N",
+      "lon": "0000852.98E"
+    },
+    {
+      "id": "OFCOT",
+      "name": "OFCOT",
+      "title": "OFCOT",
+      "lat": "570253.47N",
+      "lon": "0024733.79W"
+    },
+    {
+      "id": "OFJES",
+      "name": "OFJES",
+      "title": "OFJES",
+      "lat": "521302.03N",
+      "lon": "0003929.77E"
+    },
+    {
+      "id": "OFSOX",
+      "name": "OFSOX",
+      "title": "OFSOX",
+      "lat": "520145.18N",
+      "lon": "0051143.62W"
+    },
+    {
+      "id": "OGTAW",
+      "name": "OGTAW",
+      "title": "OGTAW",
+      "lat": "524807.11N",
+      "lon": "0025512.39W"
+    },
+    {
+      "id": "OGTUG",
+      "name": "OGTUG",
+      "title": "OGTUG",
+      "lat": "534012N",
+      "lon": "0050850W"
+    },
+    {
+      "id": "OKPAL",
+      "name": "OKPAL",
+      "title": "OKPAL",
+      "lat": "564921N",
+      "lon": "0020435W"
+    },
+    {
+      "id": "OKSAW",
+      "name": "OKSAW",
+      "title": "OKSAW",
+      "lat": "514215.31N",
+      "lon": "0014108.54W"
+    },
+    {
+      "id": "OKTAD",
+      "name": "OKTAD",
+      "title": "OKTAD",
+      "lat": "514904.47N",
+      "lon": "0023246.30W"
+    },
+    {
+      "id": "OKVAP",
+      "name": "OKVAP",
+      "title": "OKVAP",
+      "lat": "505748.96N",
+      "lon": "0011955.98E"
+    },
+    {
+      "id": "OLGUD",
+      "name": "OLGUD",
+      "title": "OLGUD",
+      "lat": "504356.27N",
+      "lon": "0013121.75W"
+    },
+    {
+      "id": "OLNEY",
+      "name": "OLNEY",
+      "title": "OLNEY",
+      "lat": "520740.22N",
+      "lon": "0004403.32W"
+    },
+    {
+      "id": "OLPOP",
+      "name": "OLPOP",
+      "title": "OLPOP",
+      "lat": "540532N",
+      "lon": "0023208W"
+    },
+    {
+      "id": "OMENU",
+      "name": "OMENU",
+      "title": "OMENU",
+      "lat": "540115.84N",
+      "lon": "0013943.78W"
+    },
+    {
+      "id": "OMOKO",
+      "name": "OMOKO",
+      "title": "OMOKO",
+      "lat": "485020.30N",
+      "lon": "0120000.00W"
+    },
+    {
+      "id": "ORIST",
+      "name": "ORIST",
+      "title": "ORIST",
+      "lat": "500000N",
+      "lon": "0015042W"
+    },
+    {
+      "id": "ORSUM",
+      "name": "ORSUM",
+      "title": "ORSUM",
+      "lat": "570307.47N",
+      "lon": "0051741.00W"
+    },
+    {
+      "id": "ORTAC",
+      "name": "ORTAC",
+      "title": "ORTAC",
+      "lat": "495957.02N",
+      "lon": "0020018.02W"
+    },
+    {
+      "id": "ORTAV",
+      "name": "ORTAV",
+      "title": "ORTAV",
+      "lat": "593000.00N",
+      "lon": "0100000.00W"
+    },
+    {
+      "id": "ORVIK",
+      "name": "ORVIK",
+      "title": "ORVIK",
+      "lat": "593817.75N",
+      "lon": "0004008.65E"
+    },
+    {
+      "id": "ORVUL",
+      "name": "ORVUL",
+      "title": "ORVUL",
+      "lat": "551038.52N",
+      "lon": "0041007.02W"
+    },
+    {
+      "id": "ORZEB",
+      "name": "ORZEB",
+      "title": "ORZEB",
+      "lat": "512425.86N",
+      "lon": "0022753.73W"
+    },
+    {
+      "id": "OSBON",
+      "name": "OSBON",
+      "title": "OSBON",
+      "lat": "610000N",
+      "lon": "0050000W"
+    },
+    {
+      "id": "OSBOX",
+      "name": "OSBOX",
+      "title": "OSBOX",
+      "lat": "564823N",
+      "lon": "0124806W"
+    },
+    {
+      "id": "OSDEB",
+      "name": "OSDEB",
+      "title": "OSDEB",
+      "lat": "505654.53N",
+      "lon": "0002447.85E"
+    },
+    {
+      "id": "OSKOT",
+      "name": "OSKOT",
+      "title": "OSKOT",
+      "lat": "522029.96N",
+      "lon": "0020330.27W"
+    },
+    {
+      "id": "OSLEL",
+      "name": "OSLEL",
+      "title": "OSLEL",
+      "lat": "572858.48N",
+      "lon": "0013158.07W"
+    },
+    {
+      "id": "OSMEG",
+      "name": "OSMEG",
+      "title": "OSMEG",
+      "lat": "550826N",
+      "lon": "0040603W"
+    },
+    {
+      "id": "OSNUG",
+      "name": "OSNUG",
+      "title": "OSNUG",
+      "lat": "505336.26N",
+      "lon": "0020013.95W"
+    },
+    {
+      "id": "OSPOL",
+      "name": "OSPOL",
+      "title": "OSPOL",
+      "lat": "500900.00N",
+      "lon": "0001107.84W"
+    },
+    {
+      "id": "OSSEP",
+      "name": "OSSEP",
+      "title": "OSSEP",
+      "lat": "520317.32N",
+      "lon": "0024820.85W"
+    },
+    {
+      "id": "OSWEZ",
+      "name": "OSWEZ",
+      "title": "OSWEZ",
+      "lat": "524832.27N",
+      "lon": "0030915.07W"
+    },
+    {
+      "id": "OTBED",
+      "name": "OTBED",
+      "title": "OTBED",
+      "lat": "531716.71N",
+      "lon": "0000154.61E"
+    },
+    {
+      "id": "OTBUN",
+      "name": "OTBUN",
+      "title": "OTBUN",
+      "lat": "551650.10N",
+      "lon": "0022600.00W"
+    },
+    {
+      "id": "OTMET",
+      "name": "OTMET",
+      "title": "OTMET",
+      "lat": "504055.06N",
+      "lon": "0023053.37W"
+    },
+    {
+      "id": "OTSID",
+      "name": "OTSID",
+      "title": "OTSID",
+      "lat": "511022.54N",
+      "lon": "0001351.01W"
+    },
+    {
+      "id": "OVDAN",
+      "name": "OVDAN",
+      "title": "OVDAN",
+      "lat": "575320.66N",
+      "lon": "0001818.06E"
+    },
+    {
+      "id": "OVZOG",
+      "name": "OVZOG",
+      "title": "OVZOG",
+      "lat": "505106.32N",
+      "lon": "0071529.77W"
+    },
+    {
+      "id": "OXCUD",
+      "name": "OXCUD",
+      "title": "OXCUD",
+      "lat": "515423.03N",
+      "lon": "0024906.11W"
+    },
+    {
+      "id": "OXDUF",
+      "name": "OXDUF",
+      "title": "OXDUF",
+      "lat": "520636.20N",
+      "lon": "0001900.00E"
+    },
+    {
+      "id": "OXLOW",
+      "name": "OXLOW",
+      "title": "OXLOW",
+      "lat": "510154.80N",
+      "lon": "0020000.00W"
+    },
+    {
+      "id": "OZBOC",
+      "name": "OZBOC",
+      "title": "OZBOC",
+      "lat": "521523.66N",
+      "lon": "0021104.56W"
+    },
+    {
+      "id": "OZRAT",
+      "name": "OZRAT",
+      "title": "OZRAT",
+      "lat": "534835.01N",
+      "lon": "0044931.86W"
+    },
+    {
+      "id": "OZZIL",
+      "name": "OZZIL",
+      "title": "OZZIL",
+      "lat": "513821.34N",
+      "lon": "0022549.17W"
+    },
+    {
+      "id": "OZZOT",
+      "name": "OZZOT",
+      "title": "OZZOT",
+      "lat": "514028.93N",
+      "lon": "0000952.93W"
+    },
+    {
+      "id": "PAAVO",
+      "name": "PAAVO",
+      "title": "PAAVO",
+      "lat": "515149.03N",
+      "lon": "0005115.76E"
+    },
+    {
+      "id": "PACSE",
+      "name": "PACSE",
+      "title": "PACSE",
+      "lat": "512226.78N",
+      "lon": "0030650.70W"
+    },
+    {
+      "id": "PAVLO",
+      "name": "PAVLO",
+      "title": "PAVLO",
+      "lat": "505604.77N",
+      "lon": "0055344.28W"
+    },
+    {
+      "id": "PAWDE",
+      "name": "PAWDE",
+      "title": "PAWDE",
+      "lat": "511453.21N",
+      "lon": "0000216.94E"
+    },
+    {
+      "id": "PEDIG",
+      "name": "PEDIG",
+      "title": "PEDIG",
+      "lat": "524447.59N",
+      "lon": "0014309.97W"
+    },
+    {
+      "id": "PEGZA",
+      "name": "PEGZA",
+      "title": "PEGZA",
+      "lat": "513730.55N",
+      "lon": "0030609.50W"
+    },
+    {
+      "id": "PELET",
+      "name": "PELET",
+      "title": "PELET",
+      "lat": "543912.33N",
+      "lon": "0032551.54E"
+    },
+    {
+      "id": "PEMOB",
+      "name": "PEMOB",
+      "title": "PEMOB",
+      "lat": "520837.77N",
+      "lon": "0050941.13W"
+    },
+    {
+      "id": "PEMOS",
+      "name": "PEMOS",
+      "title": "PEMOS",
+      "lat": "610000N",
+      "lon": "0040000W"
+    },
+    {
+      "id": "PENIL",
+      "name": "PENIL",
+      "title": "PENIL",
+      "lat": "533657.47N",
+      "lon": "0033948.72W"
+    },
+    {
+      "id": "PENUN",
+      "name": "PENUN",
+      "title": "PENUN",
+      "lat": "570635.65N",
+      "lon": "0045010.79E"
+    },
+    {
+      "id": "PENUX",
+      "name": "PENUX",
+      "title": "PENUX",
+      "lat": "510632N",
+      "lon": "0003412E"
+    },
+    {
+      "id": "PENWU",
+      "name": "PENWU",
+      "title": "PENWU",
+      "lat": "514630.59N",
+      "lon": "0043510.52W"
+    },
+    {
+      "id": "PEPEG",
+      "name": "PEPEG",
+      "title": "PEPEG",
+      "lat": "540106.49N",
+      "lon": "0043105.30W"
+    },
+    {
+      "id": "PEPIN",
+      "name": "PEPIN",
+      "title": "PEPIN",
+      "lat": "595931.24N",
+      "lon": "0000054.01E"
+    },
+    {
+      "id": "PEPIS",
+      "name": "PEPIS",
+      "title": "PEPIS",
+      "lat": "511147.95N",
+      "lon": "0011437.22W"
+    },
+    {
+      "id": "PEPOD",
+      "name": "PEPOD",
+      "title": "PEPOD",
+      "lat": "541616.31N",
+      "lon": "0053409.26W"
+    },
+    {
+      "id": "PEPUL",
+      "name": "PEPUL",
+      "title": "PEPUL",
+      "lat": "521603.00N",
+      "lon": "0015314.37W"
+    },
+    {
+      "id": "PEPZE",
+      "name": "PEPZE",
+      "title": "PEPZE",
+      "lat": "523746.62N",
+      "lon": "0031952.98W"
+    },
+    {
+      "id": "PERUP",
+      "name": "PERUP",
+      "title": "PERUP",
+      "lat": "514233.95N",
+      "lon": "0025632.40W"
+    },
+    {
+      "id": "PETIL",
+      "name": "PETIL",
+      "title": "PETIL",
+      "lat": "555619.93N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "PETOX",
+      "name": "PETOX",
+      "title": "PETOX",
+      "lat": "573333N",
+      "lon": "0014902W"
+    },
+    {
+      "id": "PEWBI",
+      "name": "PEWBI",
+      "title": "PEWBI",
+      "lat": "511851.01N",
+      "lon": "0050146.28W"
+    },
+    {
+      "id": "PIBUX",
+      "name": "PIBUX",
+      "title": "PIBUX",
+      "lat": "513458.88N",
+      "lon": "0014657.42E"
+    },
+    {
+      "id": "PIGOT",
+      "name": "PIGOT",
+      "title": "PIGOT",
+      "lat": "522942.57N",
+      "lon": "0010407.08W"
+    },
+    {
+      "id": "PIKIL",
+      "name": "PIKIL",
+      "title": "PIKIL",
+      "lat": "560000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "PILIP",
+      "name": "PILIP",
+      "title": "PILIP",
+      "lat": "502003.05N",
+      "lon": "0010026.13W"
+    },
+    {
+      "id": "PIPAR",
+      "name": "PIPAR",
+      "title": "PIPAR",
+      "lat": "560700.00N",
+      "lon": "0031205.74W"
+    },
+    {
+      "id": "PIPEM",
+      "name": "PIPEM",
+      "title": "PIPEM",
+      "lat": "580922.55N",
+      "lon": "0034418.86W"
+    },
+    {
+      "id": "PIPIN",
+      "name": "PIPIN",
+      "title": "PIPIN",
+      "lat": "523636.06N",
+      "lon": "0005630.04W"
+    },
+    {
+      "id": "PIXAM",
+      "name": "PIXAM",
+      "title": "PIXAM",
+      "lat": "520447N",
+      "lon": "0015650E"
+    },
+    {
+      "id": "PIXUP",
+      "name": "PIXUP",
+      "title": "PIXUP",
+      "lat": "520151N",
+      "lon": "0010640W"
+    },
+    {
+      "id": "POMAX",
+      "name": "POMAX",
+      "title": "POMAX",
+      "lat": "513137.63N",
+      "lon": "0020452.42W"
+    },
+    {
+      "id": "POTON",
+      "name": "POTON",
+      "title": "POTON",
+      "lat": "520504.32N",
+      "lon": "0002537.78W"
+    },
+    {
+      "id": "PUFAX",
+      "name": "PUFAX",
+      "title": "PUFAX",
+      "lat": "521852.01N",
+      "lon": "0012042.20W"
+    },
+    {
+      "id": "QUSHI",
+      "name": "QUSHI",
+      "title": "QUSHI",
+      "lat": "530629.30N",
+      "lon": "0014629.41W"
+    },
+    {
+      "id": "RAMID",
+      "name": "RAMID",
+      "title": "RAMID",
+      "lat": "525727.79N",
+      "lon": "0023000.00E"
+    },
+    {
+      "id": "RAMOX",
+      "name": "RAMOX",
+      "title": "RAMOX",
+      "lat": "533936.72N",
+      "lon": "0045022.41W"
+    },
+    {
+      "id": "RAPIX",
+      "name": "RAPIX",
+      "title": "RAPIX",
+      "lat": "512638.39N",
+      "lon": "0020000.00E"
+    },
+    {
+      "id": "RAPUM",
+      "name": "RAPUM",
+      "title": "RAPUM",
+      "lat": "545518.28N",
+      "lon": "0015258.08W"
+    },
+    {
+      "id": "RATKA",
+      "name": "RATKA",
+      "title": "RATKA",
+      "lat": "493000N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "RATLO",
+      "name": "RATLO",
+      "title": "RATLO",
+      "lat": "515929.13N",
+      "lon": "0014055.18E"
+    },
+    {
+      "id": "RATSU",
+      "name": "RATSU",
+      "title": "RATSU",
+      "lat": "610000N",
+      "lon": "0100000W"
+    },
+    {
+      "id": "RAVDI",
+      "name": "RAVDI",
+      "title": "RAVDI",
+      "lat": "592957.26N",
+      "lon": "0012242.18W"
+    },
+    {
+      "id": "RAVLO",
+      "name": "RAVLO",
+      "title": "RAVLO",
+      "lat": "525501.21N",
+      "lon": "0030853.81E"
+    },
+    {
+      "id": "REDFA",
+      "name": "REDFA",
+      "title": "REDFA",
+      "lat": "520652.75N",
+      "lon": "0022916.81E"
+    },
+    {
+      "id": "REFQI",
+      "name": "REFQI",
+      "title": "REFQI",
+      "lat": "512846.15N",
+      "lon": "0012804.33W"
+    },
+    {
+      "id": "REGSI",
+      "name": "REGSI",
+      "title": "REGSI",
+      "lat": "525118.97N",
+      "lon": "0000151.04E"
+    },
+    {
+      "id": "REKNA",
+      "name": "REKNA",
+      "title": "REKNA",
+      "lat": "561029.10N",
+      "lon": "0033000.00E"
+    },
+    {
+      "id": "REMSI",
+      "name": "REMSI",
+      "title": "REMSI",
+      "lat": "535736.81N",
+      "lon": "0034931.80W"
+    },
+    {
+      "id": "RENEQ",
+      "name": "RENEQ",
+      "title": "RENEQ",
+      "lat": "541424.84N",
+      "lon": "0041759.87E"
+    },
+    {
+      "id": "RESNO",
+      "name": "RESNO",
+      "title": "RESNO",
+      "lat": "550000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "RETSI",
+      "name": "RETSI",
+      "title": "RETSI",
+      "lat": "523042.42N",
+      "lon": "0025232.93W"
+    },
+    {
+      "id": "REXAM",
+      "name": "REXAM",
+      "title": "REXAM",
+      "lat": "530400.00N",
+      "lon": "0030937.21W"
+    },
+    {
+      "id": "RIBEL",
+      "name": "RIBEL",
+      "title": "RIBEL",
+      "lat": "540058.00N",
+      "lon": "0021722.76W"
+    },
+    {
+      "id": "RIGVU",
+      "name": "RIGVU",
+      "title": "RIGVU",
+      "lat": "584735.84N",
+      "lon": "0020917.84E"
+    },
+    {
+      "id": "RIMOL",
+      "name": "RIMOL",
+      "title": "RIMOL",
+      "lat": "573233.45N",
+      "lon": "0040229.55W"
+    },
+    {
+      "id": "RIMTO",
+      "name": "RIMTO",
+      "title": "RIMTO",
+      "lat": "534303.25N",
+      "lon": "0012558.78W"
+    },
+    {
+      "id": "RIMUP",
+      "name": "RIMUP",
+      "title": "RIMUP",
+      "lat": "505149.08N",
+      "lon": "0004339.11W"
+    },
+    {
+      "id": "RIMVU",
+      "name": "RIMVU",
+      "title": "RIMVU",
+      "lat": "534511.14N",
+      "lon": "0050824.68W"
+    },
+    {
+      "id": "RINGA",
+      "name": "RINGA",
+      "title": "RINGA",
+      "lat": "542354.44N",
+      "lon": "0053415.66W"
+    },
+    {
+      "id": "RINIS",
+      "name": "RINIS",
+      "title": "RINIS",
+      "lat": "515429.66N",
+      "lon": "0021920.82E"
+    },
+    {
+      "id": "RINTI",
+      "name": "RINTI",
+      "title": "RINTI",
+      "lat": "510158.33N",
+      "lon": "0013655.91E"
+    },
+    {
+      "id": "RIPNO",
+      "name": "RIPNO",
+      "title": "RIPNO",
+      "lat": "545632N",
+      "lon": "0034415W"
+    },
+    {
+      "id": "RISDU",
+      "name": "RISDU",
+      "title": "RISDU",
+      "lat": "573631.42N",
+      "lon": "0014823.78W"
+    },
+    {
+      "id": "RISIN",
+      "name": "RISIN",
+      "title": "RISIN",
+      "lat": "514139.05N",
+      "lon": "0012627.64W"
+    },
+    {
+      "id": "RISLA",
+      "name": "RISLA",
+      "title": "RISLA",
+      "lat": "530151.39N",
+      "lon": "0025312.29W"
+    },
+    {
+      "id": "RITSI",
+      "name": "RITSI",
+      "title": "RITSI",
+      "lat": "554209.36N",
+      "lon": "0013925.50W"
+    },
+    {
+      "id": "RIVOT",
+      "name": "RIVOT",
+      "title": "RIVOT",
+      "lat": "562428.71N",
+      "lon": "0004637.49E"
+    },
+    {
+      "id": "RIXUN",
+      "name": "RIXUN",
+      "title": "RIXUN",
+      "lat": "610000N",
+      "lon": "0030000W"
+    },
+    {
+      "id": "ROBBO",
+      "name": "ROBBO",
+      "title": "ROBBO",
+      "lat": "555322.96N",
+      "lon": "0045436.56W"
+    },
+    {
+      "id": "ROBEM",
+      "name": "ROBEM",
+      "title": "ROBEM",
+      "lat": "552733.36N",
+      "lon": "0010113.69W"
+    },
+    {
+      "id": "ROBOP",
+      "name": "ROBOP",
+      "title": "ROBOP",
+      "lat": "542708.56N",
+      "lon": "0052005.35W"
+    },
+    {
+      "id": "RODEL",
+      "name": "RODEL",
+      "title": "RODEL",
+      "lat": "503000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "RODNI",
+      "name": "RODNI",
+      "title": "RODNI",
+      "lat": "514256.50N",
+      "lon": "0005141.83W"
+    },
+    {
+      "id": "RODOL",
+      "name": "RODOL",
+      "title": "RODOL",
+      "lat": "531417N",
+      "lon": "0015143W"
+    },
+    {
+      "id": "RODSI",
+      "name": "RODSI",
+      "title": "RODSI",
+      "lat": "544755.62N",
+      "lon": "0025335.05E"
+    },
+    {
+      "id": "ROGAG",
+      "name": "ROGAG",
+      "title": "ROGAG",
+      "lat": "531405.79N",
+      "lon": "0001745.46W"
+    },
+    {
+      "id": "ROGBI",
+      "name": "ROGBI",
+      "title": "ROGBI",
+      "lat": "521746.63N",
+      "lon": "0012006.37W"
+    },
+    {
+      "id": "ROKAN",
+      "name": "ROKAN",
+      "title": "ROKAN",
+      "lat": "533947.50N",
+      "lon": "0031119.84E"
+    },
+    {
+      "id": "ROKKE",
+      "name": "ROKKE",
+      "title": "ROKKE",
+      "lat": "510411.95N",
+      "lon": "0000241.82E"
+    },
+    {
+      "id": "ROKSI",
+      "name": "ROKSI",
+      "title": "ROKSI",
+      "lat": "503012.62N",
+      "lon": "0021251.28W"
+    },
+    {
+      "id": "ROKUP",
+      "name": "ROKUP",
+      "title": "ROKUP",
+      "lat": "530102.13N",
+      "lon": "0013057.29W"
+    },
+    {
+      "id": "ROLEX",
+      "name": "ROLEX",
+      "title": "ROLEX",
+      "lat": "532542.14N",
+      "lon": "0035803.85W"
+    },
+    {
+      "id": "ROLUM",
+      "name": "ROLUM",
+      "title": "ROLUM",
+      "lat": "541819.85N",
+      "lon": "0031831.29E"
+    },
+    {
+      "id": "ROPAL",
+      "name": "ROPAL",
+      "title": "ROPAL",
+      "lat": "550816.53N",
+      "lon": "0035642.67E"
+    },
+    {
+      "id": "ROPMU",
+      "name": "ROPMU",
+      "title": "ROPMU",
+      "lat": "520614.46N",
+      "lon": "0002917.16E"
+    },
+    {
+      "id": "ROSUN",
+      "name": "ROSUN",
+      "title": "ROSUN",
+      "lat": "534008.09N",
+      "lon": "0022057.26W"
+    },
+    {
+      "id": "ROTEV",
+      "name": "ROTEV",
+      "title": "ROTEV",
+      "lat": "540143.72N",
+      "lon": "0060358.39W"
+    },
+    {
+      "id": "ROTNO",
+      "name": "ROTNO",
+      "title": "ROTNO",
+      "lat": "505126.07N",
+      "lon": "0004641.20E"
+    },
+    {
+      "id": "ROVLA",
+      "name": "ROVLA",
+      "title": "ROVLA",
+      "lat": "552338.18N",
+      "lon": "0042824.96W"
+    },
+    {
+      "id": "ROXAT",
+      "name": "ROXAT",
+      "title": "ROXAT",
+      "lat": "532449.03N",
+      "lon": "0030000.00E"
+    },
+    {
+      "id": "ROXOG",
+      "name": "ROXOG",
+      "title": "ROXOG",
+      "lat": "501558.29N",
+      "lon": "0013344.41W"
+    },
+    {
+      "id": "RUBEX",
+      "name": "RUBEX",
+      "title": "RUBEX",
+      "lat": "551912.14N",
+      "lon": "0065607.21W"
+    },
+    {
+      "id": "RUDMO",
+      "name": "RUDMO",
+      "title": "RUDMO",
+      "lat": "504639.60N",
+      "lon": "0010127.00W"
+    },
+    {
+      "id": "RUGER",
+      "name": "RUGER",
+      "title": "RUGER",
+      "lat": "532857.75N",
+      "lon": "0032652.40W"
+    },
+    {
+      "id": "RUGID",
+      "name": "RUGID",
+      "title": "RUGID",
+      "lat": "572208.80N",
+      "lon": "0045354.84W"
+    },
+    {
+      "id": "RUHUN",
+      "name": "RUHUN",
+      "title": "RUHUN",
+      "lat": "513539.92N",
+      "lon": "0033541.28W"
+    },
+    {
+      "id": "RUKOH",
+      "name": "RUKOH",
+      "title": "RUKOH",
+      "lat": "521242.83N",
+      "lon": "0054417.55W"
+    },
+    {
+      "id": "RULAV",
+      "name": "RULAV",
+      "title": "RULAV",
+      "lat": "532614.35N",
+      "lon": "0051001.25W"
+    },
+    {
+      "id": "RUMKE",
+      "name": "RUMKE",
+      "title": "RUMKE",
+      "lat": "521735.37N",
+      "lon": "0025832.48W"
+    },
+    {
+      "id": "RUXIN",
+      "name": "RUXIN",
+      "title": "RUXIN",
+      "lat": "561655N",
+      "lon": "0120000W"
+    },
+    {
+      "id": "SABER",
+      "name": "SABER",
+      "title": "SABER",
+      "lat": "514213.76N",
+      "lon": "0005658.19E"
+    },
+    {
+      "id": "SALCO",
+      "name": "SALCO",
+      "title": "SALCO",
+      "lat": "494413.81N",
+      "lon": "0033146.40W"
+    },
+    {
+      "id": "SAMHO",
+      "name": "SAMHO",
+      "title": "SAMHO",
+      "lat": "532853.89N",
+      "lon": "0022043.51E"
+    },
+    {
+      "id": "SAMON",
+      "name": "SAMON",
+      "title": "SAMON",
+      "lat": "511921N",
+      "lon": "0072504W"
+    },
+    {
+      "id": "SANBA",
+      "name": "SANBA",
+      "title": "SANBA",
+      "lat": "530821.53N",
+      "lon": "0022002.98W"
+    },
+    {
+      "id": "SANDY",
+      "name": "SANDY",
+      "title": "SANDY",
+      "lat": "510350.81N",
+      "lon": "0010403.13E"
+    },
+    {
+      "id": "SAPCO",
+      "name": "SAPCO",
+      "title": "SAPCO",
+      "lat": "523225N",
+      "lon": "0012125W"
+    },
+    {
+      "id": "SAWPE",
+      "name": "SAWPE",
+      "title": "SAWPE",
+      "lat": "513504.67N",
+      "lon": "0013916.42W"
+    },
+    {
+      "id": "SAXBI",
+      "name": "SAXBI",
+      "title": "SAXBI",
+      "lat": "514504.03N",
+      "lon": "0001113.77W"
+    },
+    {
+      "id": "SEMMU",
+      "name": "SEMMU",
+      "title": "SEMMU",
+      "lat": "524641.00N",
+      "lon": "0040221.71W"
+    },
+    {
+      "id": "SETEL",
+      "name": "SETEL",
+      "title": "SETEL",
+      "lat": "540044.64N",
+      "lon": "0022608.71W"
+    },
+    {
+      "id": "SHAPP",
+      "name": "SHAPP",
+      "title": "SHAPP",
+      "lat": "543000.00N",
+      "lon": "0023738.33W"
+    },
+    {
+      "id": "SHIRI",
+      "name": "SHIRI",
+      "title": "SHIRI",
+      "lat": "502447.02N",
+      "lon": "0034044.14W"
+    },
+    {
+      "id": "SIDDI",
+      "name": "SIDDI",
+      "title": "SIDDI",
+      "lat": "503106.74N",
+      "lon": "0035801.98W"
+    },
+    {
+      "id": "SIDHO",
+      "name": "SIDHO",
+      "title": "SIDHO",
+      "lat": "504538.88N",
+      "lon": "0031417.65W"
+    },
+    {
+      "id": "SILVA",
+      "name": "SILVA",
+      "title": "SILVA",
+      "lat": "515051.34N",
+      "lon": "0010019.40W"
+    },
+    {
+      "id": "SIRGO",
+      "name": "SIRGO",
+      "title": "SIRGO",
+      "lat": "513745.56N",
+      "lon": "0003847.03E"
+    },
+    {
+      "id": "SIRIC",
+      "name": "SIRIC",
+      "title": "SIRIC",
+      "lat": "512036.17N",
+      "lon": "0013358.89W"
+    },
+    {
+      "id": "SITET",
+      "name": "SITET",
+      "title": "SITET",
+      "lat": "500600N",
+      "lon": "0000000E"
+    },
+    {
+      "id": "SITKU",
+      "name": "SITKU",
+      "title": "SITKU",
+      "lat": "534435.77N",
+      "lon": "0044954.26W"
+    },
+    {
+      "id": "SIVBU",
+      "name": "SIVBU",
+      "title": "SIVBU",
+      "lat": "532755N",
+      "lon": "0003444W"
+    },
+    {
+      "id": "SIVDA",
+      "name": "SIVDA",
+      "title": "SIVDA",
+      "lat": "522121.54N",
+      "lon": "0000147.01E"
+    },
+    {
+      "id": "SKERY",
+      "name": "SKERY",
+      "title": "SKERY",
+      "lat": "500000.00N",
+      "lon": "0031023.06W"
+    },
+    {
+      "id": "SKESO",
+      "name": "SKESO",
+      "title": "SKESO",
+      "lat": "494929.42N",
+      "lon": "0030202.60W"
+    },
+    {
+      "id": "SKINA",
+      "name": "SKINA",
+      "title": "SKINA",
+      "lat": "524817.04N",
+      "lon": "0014623.14W"
+    },
+    {
+      "id": "SLANY",
+      "name": "SLANY",
+      "title": "SLANY",
+      "lat": "520930.80N",
+      "lon": "0055031.67W"
+    },
+    {
+      "id": "SLYDA",
+      "name": "SLYDA",
+      "title": "SLYDA",
+      "lat": "541204.37N",
+      "lon": "0050515.07W"
+    },
+    {
+      "id": "SMOKI",
+      "name": "SMOKI",
+      "title": "SMOKI",
+      "lat": "574637.00N",
+      "lon": "0023555.62W"
+    },
+    {
+      "id": "SODVU",
+      "name": "SODVU",
+      "title": "SODVU",
+      "lat": "513515.48N",
+      "lon": "0003446.80E"
+    },
+    {
+      "id": "SOKDU",
+      "name": "SOKDU",
+      "title": "SOKDU",
+      "lat": "503939.22N",
+      "lon": "0020133.06W"
+    },
+    {
+      "id": "SOMAX",
+      "name": "SOMAX",
+      "title": "SOMAX",
+      "lat": "500000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "SOMVA",
+      "name": "SOMVA",
+      "title": "SOMVA",
+      "lat": "521826.00N",
+      "lon": "0023838.44E"
+    },
+    {
+      "id": "SONDO",
+      "name": "SONDO",
+      "title": "SONDO",
+      "lat": "520505.92N",
+      "lon": "0014842.35E"
+    },
+    {
+      "id": "SONEX",
+      "name": "SONEX",
+      "title": "SONEX",
+      "lat": "532952.70N",
+      "lon": "0021020.86W"
+    },
+    {
+      "id": "SONOG",
+      "name": "SONOG",
+      "title": "SONOG",
+      "lat": "520619.71N",
+      "lon": "0021610.08E"
+    },
+    {
+      "id": "SOPAX",
+      "name": "SOPAX",
+      "title": "SOPAX",
+      "lat": "533848.89N",
+      "lon": "0042708.06W"
+    },
+    {
+      "id": "SOPEK",
+      "name": "SOPEK",
+      "title": "SOPEK",
+      "lat": "530631.88N",
+      "lon": "0023000.00E"
+    },
+    {
+      "id": "SOPIT",
+      "name": "SOPIT",
+      "title": "SOPIT",
+      "lat": "515729.84N",
+      "lon": "0010626.35W"
+    },
+    {
+      "id": "SOPTO",
+      "name": "SOPTO",
+      "title": "SOPTO",
+      "lat": "551820.17N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "SOQQA",
+      "name": "SOQQA",
+      "title": "SOQQA",
+      "lat": "513623.75N",
+      "lon": "0002328.43E"
+    },
+    {
+      "id": "SOSAR",
+      "name": "SOSAR",
+      "title": "SOSAR",
+      "lat": "610000N",
+      "lon": "0020000W"
+    },
+    {
+      "id": "SOSIM",
+      "name": "SOSIM",
+      "title": "SOSIM",
+      "lat": "534855.75N",
+      "lon": "0043030.46W"
+    },
+    {
+      "id": "SOVAT",
+      "name": "SOVAT",
+      "title": "SOVAT",
+      "lat": "504645.67N",
+      "lon": "0012800.00E"
+    },
+    {
+      "id": "SOVED",
+      "name": "SOVED",
+      "title": "SOVED",
+      "lat": "560000N",
+      "lon": "0140000W"
+    },
+    {
+      "id": "SOXON",
+      "name": "SOXON",
+      "title": "SOXON",
+      "lat": "585806.22N",
+      "lon": "0035222.46W"
+    },
+    {
+      "id": "SOXUX",
+      "name": "SOXUX",
+      "title": "SOXUX",
+      "lat": "503546.32N",
+      "lon": "0005545.48E"
+    },
+    {
+      "id": "SPEAR",
+      "name": "SPEAR",
+      "title": "SPEAR",
+      "lat": "513433.79N",
+      "lon": "0004200.57E"
+    },
+    {
+      "id": "STAFA",
+      "name": "STAFA",
+      "title": "STAFA",
+      "lat": "525141.00N",
+      "lon": "0021434.55W"
+    },
+    {
+      "id": "STIRA",
+      "name": "STIRA",
+      "title": "STIRA",
+      "lat": "560802.11N",
+      "lon": "0035000.98W"
+    },
+    {
+      "id": "STOAT",
+      "name": "STOAT",
+      "title": "STOAT",
+      "lat": "520133.22N",
+      "lon": "0000115.37W"
+    },
+    {
+      "id": "SUBIP",
+      "name": "SUBIP",
+      "title": "SUBIP",
+      "lat": "502644N",
+      "lon": "0005306E"
+    },
+    {
+      "id": "SUBUK",
+      "name": "SUBUK",
+      "title": "SUBUK",
+      "lat": "542247.81N",
+      "lon": "0031710.85W"
+    },
+    {
+      "id": "SUDBY",
+      "name": "SUDBY",
+      "title": "SUDBY",
+      "lat": "551745.35N",
+      "lon": "0041606.05W"
+    },
+    {
+      "id": "SUMIN",
+      "name": "SUMIN",
+      "title": "SUMIN",
+      "lat": "551945.76N",
+      "lon": "0040318.17W"
+    },
+    {
+      "id": "SUMUM",
+      "name": "SUMUM",
+      "title": "SUMUM",
+      "lat": "513814.25N",
+      "lon": "0020627.77E"
+    },
+    {
+      "id": "SUNOT",
+      "name": "SUNOT",
+      "title": "SUNOT",
+      "lat": "570000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "SUNUP",
+      "name": "SUNUP",
+      "title": "SUNUP",
+      "lat": "512731.48N",
+      "lon": "0015226.63E"
+    },
+    {
+      "id": "SUPEL",
+      "name": "SUPEL",
+      "title": "SUPEL",
+      "lat": "531340.27N",
+      "lon": "0003528.02E"
+    },
+    {
+      "id": "SUPIT",
+      "name": "SUPIT",
+      "title": "SUPIT",
+      "lat": "571956.52N",
+      "lon": "0070505.94W"
+    },
+    {
+      "id": "SURAT",
+      "name": "SURAT",
+      "title": "SURAT",
+      "lat": "555455.53N",
+      "lon": "0033000.00E"
+    },
+    {
+      "id": "SUSIS",
+      "name": "SUSIS",
+      "title": "SUSIS",
+      "lat": "553617.06N",
+      "lon": "0002102.35W"
+    },
+    {
+      "id": "TABEN",
+      "name": "TABEN",
+      "title": "TABEN",
+      "lat": "512149.05N",
+      "lon": "0011022.46W"
+    },
+    {
+      "id": "TABIS",
+      "name": "TABIS",
+      "title": "TABIS",
+      "lat": "520031.75N",
+      "lon": "0002643.90E"
+    },
+    {
+      "id": "TACQI",
+      "name": "TACQI",
+      "title": "TACQI",
+      "lat": "510231.24N",
+      "lon": "0042846.93W"
+    },
+    {
+      "id": "TADAL",
+      "name": "TADAL",
+      "title": "TADAL",
+      "lat": "533513.83N",
+      "lon": "0030135.22W"
+    },
+    {
+      "id": "TADEX",
+      "name": "TADEX",
+      "title": "TADEX",
+      "lat": "545123.50N",
+      "lon": "0081401.49W"
+    },
+    {
+      "id": "TAKAS",
+      "name": "TAKAS",
+      "title": "TAKAS",
+      "lat": "490000N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "TALIG",
+      "name": "TALIG",
+      "title": "TALIG",
+      "lat": "493059.49N",
+      "lon": "0054804.31W"
+    },
+    {
+      "id": "TAMEL",
+      "name": "TAMEL",
+      "title": "TAMEL",
+      "lat": "484342.52N",
+      "lon": "0102949.80W"
+    },
+    {
+      "id": "TANET",
+      "name": "TANET",
+      "title": "TANET",
+      "lat": "512658.00N",
+      "lon": "0005531.99E"
+    },
+    {
+      "id": "TARTN",
+      "name": "TARTN",
+      "title": "TARTN",
+      "lat": "554301.89N",
+      "lon": "0030818.73W"
+    },
+    {
+      "id": "TEBRA",
+      "name": "TEBRA",
+      "title": "TEBRA",
+      "lat": "512920.30N",
+      "lon": "0013643.00E"
+    },
+    {
+      "id": "TEDSA",
+      "name": "TEDSA",
+      "title": "TEDSA",
+      "lat": "520303.10N",
+      "lon": "0010739.03E"
+    },
+    {
+      "id": "TELBA",
+      "name": "TELBA",
+      "title": "TELBA",
+      "lat": "523952.00N",
+      "lon": "0021906.97W"
+    },
+    {
+      "id": "TELTU",
+      "name": "TELTU",
+      "title": "TELTU",
+      "lat": "504839.92N",
+      "lon": "0004517.69W"
+    },
+    {
+      "id": "TENDO",
+      "name": "TENDO",
+      "title": "TENDO",
+      "lat": "540144.00N",
+      "lon": "0001446.72E"
+    },
+    {
+      "id": "TENSO",
+      "name": "TENSO",
+      "title": "TENSO",
+      "lat": "533601.89N",
+      "lon": "0021227.00W"
+    },
+    {
+      "id": "TERKO",
+      "name": "TERKO",
+      "title": "TERKO",
+      "lat": "513732.46N",
+      "lon": "0004448.08E"
+    },
+    {
+      "id": "TEVMO",
+      "name": "TEVMO",
+      "title": "TEVMO",
+      "lat": "511024.94N",
+      "lon": "0012459.14E"
+    },
+    {
+      "id": "TEVSI",
+      "name": "TEVSI",
+      "title": "TEVSI",
+      "lat": "512100.75N",
+      "lon": "0010301.26W"
+    },
+    {
+      "id": "TEWXI",
+      "name": "TEWXI",
+      "title": "TEWXI",
+      "lat": "514837.78N",
+      "lon": "0020145.31W"
+    },
+    {
+      "id": "THRED",
+      "name": "THRED",
+      "title": "THRED",
+      "lat": "502955.11N",
+      "lon": "0013950.03W"
+    },
+    {
+      "id": "TIBGA",
+      "name": "TIBGA",
+      "title": "TIBGA",
+      "lat": "522326.45N",
+      "lon": "0052705.01W"
+    },
+    {
+      "id": "TIGER",
+      "name": "TIGER",
+      "title": "TIGER",
+      "lat": "510401.82N",
+      "lon": "0002621.54E"
+    },
+    {
+      "id": "TIGGY",
+      "name": "TIGGY",
+      "title": "TIGGY",
+      "lat": "503700.54N",
+      "lon": "0005130.10W"
+    },
+    {
+      "id": "TIGWE",
+      "name": "TIGWE",
+      "title": "TIGWE",
+      "lat": "514822.73N",
+      "lon": "0031257.91W"
+    },
+    {
+      "id": "TIKCA",
+      "name": "TIKCA",
+      "title": "TIKCA",
+      "lat": "512933.57N",
+      "lon": "0052701.37W"
+    },
+    {
+      "id": "TILNI",
+      "name": "TILNI",
+      "title": "TILNI",
+      "lat": "543251.41N",
+      "lon": "0015117.89W"
+    },
+    {
+      "id": "TIMBA",
+      "name": "TIMBA",
+      "title": "TIMBA",
+      "lat": "505643.99N",
+      "lon": "0001542.25E"
+    },
+    {
+      "id": "TIMIS",
+      "name": "TIMIS",
+      "title": "TIMIS",
+      "lat": "535700.98N",
+      "lon": "0043556.41W"
+    },
+    {
+      "id": "TIMPO",
+      "name": "TIMPO",
+      "title": "TIMPO",
+      "lat": "523331.58N",
+      "lon": "0010949.71W"
+    },
+    {
+      "id": "TINAC",
+      "name": "TINAC",
+      "title": "TINAC",
+      "lat": "561502.96N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "TINAN",
+      "name": "TINAN",
+      "title": "TINAN",
+      "lat": "503959.79N",
+      "lon": "0032653.53W"
+    },
+    {
+      "id": "TIPAN",
+      "name": "TIPAN",
+      "title": "TIPAN",
+      "lat": "543554.13N",
+      "lon": "0042356.20E"
+    },
+    {
+      "id": "TIPIL",
+      "name": "TIPIL",
+      "title": "TIPIL",
+      "lat": "531000.00N",
+      "lon": "0014423.13W"
+    },
+    {
+      "id": "TIPOD",
+      "name": "TIPOD",
+      "title": "TIPOD",
+      "lat": "532608.20N",
+      "lon": "0031705.06W"
+    },
+    {
+      "id": "TIPTA",
+      "name": "TIPTA",
+      "title": "TIPTA",
+      "lat": "544812.54N",
+      "lon": "0013641.03W"
+    },
+    {
+      "id": "TIVER",
+      "name": "TIVER",
+      "title": "TIVER",
+      "lat": "504832.58N",
+      "lon": "0032525.65W"
+    },
+    {
+      "id": "TIXEX",
+      "name": "TIXEX",
+      "title": "TIXEX",
+      "lat": "520748.00N",
+      "lon": "0010043.20W"
+    },
+    {
+      "id": "TIZDU",
+      "name": "TIZDU",
+      "title": "TIZDU",
+      "lat": "514622.64N",
+      "lon": "0032337.75W"
+    },
+    {
+      "id": "TOBID",
+      "name": "TOBID",
+      "title": "TOBID",
+      "lat": "521259.55N",
+      "lon": "0012759.21W"
+    },
+    {
+      "id": "TOBIX",
+      "name": "TOBIX",
+      "title": "TOBIX",
+      "lat": "513617.39N",
+      "lon": "0011651.40E"
+    },
+    {
+      "id": "TOBMO",
+      "name": "TOBMO",
+      "title": "TOBMO",
+      "lat": "564538.16N",
+      "lon": "0062810.51W"
+    },
+    {
+      "id": "TOJAQ",
+      "name": "TOJAQ",
+      "title": "TOJAQ",
+      "lat": "502859.78N",
+      "lon": "0033956.26W"
+    },
+    {
+      "id": "TOLSA",
+      "name": "TOLSA",
+      "title": "TOLSA",
+      "lat": "530736.89N",
+      "lon": "0030629.38E"
+    },
+    {
+      "id": "TONQU",
+      "name": "TONQU",
+      "title": "TONQU",
+      "lat": "502309.42N",
+      "lon": "0031845.03W"
+    },
+    {
+      "id": "TOPPA",
+      "name": "TOPPA",
+      "title": "TOPPA",
+      "lat": "532408.99N",
+      "lon": "0033341.01E"
+    },
+    {
+      "id": "TORGO",
+      "name": "TORGO",
+      "title": "TORGO",
+      "lat": "530756.88N",
+      "lon": "0031558.78W"
+    },
+    {
+      "id": "TOSVA",
+      "name": "TOSVA",
+      "title": "TOSVA",
+      "lat": "514037.40N",
+      "lon": "0020426.34E"
+    },
+    {
+      "id": "TOTRI",
+      "name": "TOTRI",
+      "title": "TOTRI",
+      "lat": "514629.57N",
+      "lon": "0001147.72E"
+    },
+    {
+      "id": "TOVGU",
+      "name": "TOVGU",
+      "title": "TOVGU",
+      "lat": "514403.18N",
+      "lon": "0004537.55E"
+    },
+    {
+      "id": "TOWTE",
+      "name": "TOWTE",
+      "title": "TOWTE",
+      "lat": "544421.52N",
+      "lon": "0004001.72W"
+    },
+    {
+      "id": "TOXTA",
+      "name": "TOXTA",
+      "title": "TOXTA",
+      "lat": "551505.77N",
+      "lon": "0042704.69W"
+    },
+    {
+      "id": "TRIPO",
+      "name": "TRIPO",
+      "title": "TRIPO",
+      "lat": "514246.54N",
+      "lon": "0010457.56E"
+    },
+    {
+      "id": "TUBSU",
+      "name": "TUBSU",
+      "title": "TUBSU",
+      "lat": "520406N",
+      "lon": "0014028W"
+    },
+    {
+      "id": "TUFOZ",
+      "name": "TUFOZ",
+      "title": "TUFOZ",
+      "lat": "510101.01N",
+      "lon": "0003024.31W"
+    },
+    {
+      "id": "TUGPO",
+      "name": "TUGPO",
+      "title": "TUGPO",
+      "lat": "513709.84N",
+      "lon": "0005451.93E"
+    },
+    {
+      "id": "TUJAG",
+      "name": "TUJAG",
+      "title": "TUJAG",
+      "lat": "500200.00N",
+      "lon": "0012800.00W"
+    },
+    {
+      "id": "TULTA",
+      "name": "TULTA",
+      "title": "TULTA",
+      "lat": "483436.57N",
+      "lon": "0080000.00W"
+    },
+    {
+      "id": "TUMTI",
+      "name": "TUMTI",
+      "title": "TUMTI",
+      "lat": "530439.54N",
+      "lon": "0013615.16W"
+    },
+    {
+      "id": "TUNBY",
+      "name": "TUNBY",
+      "title": "TUNBY",
+      "lat": "511008N",
+      "lon": "0001929E"
+    },
+    {
+      "id": "TUNSO",
+      "name": "TUNSO",
+      "title": "TUNSO",
+      "lat": "550640.24N",
+      "lon": "0045740.78W"
+    },
+    {
+      "id": "TUPEM",
+      "name": "TUPEM",
+      "title": "TUPEM",
+      "lat": "535016.57N",
+      "lon": "0032854.85W"
+    },
+    {
+      "id": "TURLU",
+      "name": "TURLU",
+      "title": "TURLU",
+      "lat": "500435N",
+      "lon": "0080000W"
+    },
+    {
+      "id": "TUXOS",
+      "name": "TUXOS",
+      "title": "TUXOS",
+      "lat": "555824.08N",
+      "lon": "0073135.39W"
+    },
+    {
+      "id": "TUZLA",
+      "name": "TUZLA",
+      "title": "TUZLA",
+      "lat": "522040.55N",
+      "lon": "0010011.74E"
+    },
+    {
+      "id": "UBCAM",
+      "name": "UBCAM",
+      "title": "UBCAM",
+      "lat": "515704.18N",
+      "lon": "0030012.19W"
+    },
+    {
+      "id": "UDDIZ",
+      "name": "UDDIZ",
+      "title": "UDDIZ",
+      "lat": "521504.21N",
+      "lon": "0001111.43E"
+    },
+    {
+      "id": "UGBET",
+      "name": "UGBET",
+      "title": "UGBET",
+      "lat": "513701.15N",
+      "lon": "0000705.18W"
+    },
+    {
+      "id": "ULLAP",
+      "name": "ULLAP",
+      "title": "ULLAP",
+      "lat": "575400.00N",
+      "lon": "0051009.20W"
+    },
+    {
+      "id": "ULSAX",
+      "name": "ULSAX",
+      "title": "ULSAX",
+      "lat": "533554N",
+      "lon": "0015700W"
+    },
+    {
+      "id": "ULTIB",
+      "name": "ULTIB",
+      "title": "ULTIB",
+      "lat": "513935.57N",
+      "lon": "0001643.51W"
+    },
+    {
+      "id": "UMBAG",
+      "name": "UMBAG",
+      "title": "UMBAG",
+      "lat": "522052.37N",
+      "lon": "0004657.48E"
+    },
+    {
+      "id": "UMBUR",
+      "name": "UMBUR",
+      "title": "UMBUR",
+      "lat": "512733.00N",
+      "lon": "0000708.17E"
+    },
+    {
+      "id": "UMKIL",
+      "name": "UMKIL",
+      "title": "UMKIL",
+      "lat": "531105.53N",
+      "lon": "0023723.06W"
+    },
+    {
+      "id": "UMLAT",
+      "name": "UMLAT",
+      "title": "UMLAT",
+      "lat": "514019.70N",
+      "lon": "0004139.32W"
+    },
+    {
+      "id": "UMTUM",
+      "name": "UMTUM",
+      "title": "UMTUM",
+      "lat": "511227.30N",
+      "lon": "0010102.78E"
+    },
+    {
+      "id": "UNDUG",
+      "name": "UNDUG",
+      "title": "UNDUG",
+      "lat": "504723.71N",
+      "lon": "0002530.03E"
+    },
+    {
+      "id": "UNDUX",
+      "name": "UNDUX",
+      "title": "UNDUX",
+      "lat": "533830.25N",
+      "lon": "0041838.76W"
+    },
+    {
+      "id": "UNFIT",
+      "name": "UNFIT",
+      "title": "UNFIT",
+      "lat": "512520.28N",
+      "lon": "0041857.44W"
+    },
+    {
+      "id": "UNGAP",
+      "name": "UNGAP",
+      "title": "UNGAP",
+      "lat": "522129.49N",
+      "lon": "0012338.97W"
+    },
+    {
+      "id": "UNIGO",
+      "name": "UNIGO",
+      "title": "UNIGO",
+      "lat": "533340N",
+      "lon": "0013339W"
+    },
+    {
+      "id": "UNSAD",
+      "name": "UNSAD",
+      "title": "UNSAD",
+      "lat": "513340.24N",
+      "lon": "0005745.91E"
+    },
+    {
+      "id": "UNTAL",
+      "name": "UNTAL",
+      "title": "UNTAL",
+      "lat": "545435.20N",
+      "lon": "0014423.27W"
+    },
+    {
+      "id": "UNURO",
+      "name": "UNURO",
+      "title": "UNURO",
+      "lat": "552111N",
+      "lon": "0032102W"
+    },
+    {
+      "id": "UNZIB",
+      "name": "UNZIB",
+      "title": "UNZIB",
+      "lat": "512929.62N",
+      "lon": "0015920.96W"
+    },
+    {
+      "id": "UPCAB",
+      "name": "UPCAB",
+      "title": "UPCAB",
+      "lat": "505348.30N",
+      "lon": "0061901.57W"
+    },
+    {
+      "id": "UPDUK",
+      "name": "UPDUK",
+      "title": "UPDUK",
+      "lat": "523426.66N",
+      "lon": "0005630.11W"
+    },
+    {
+      "id": "UPGAS",
+      "name": "UPGAS",
+      "title": "UPGAS",
+      "lat": "551440.77N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "UPGET",
+      "name": "UPGET",
+      "title": "UPGET",
+      "lat": "563935N",
+      "lon": "0020050W"
+    },
+    {
+      "id": "UPJAX",
+      "name": "UPJAX",
+      "title": "UPJAX",
+      "lat": "545316.00N",
+      "lon": "0021538.00W"
+    },
+    {
+      "id": "UPNAL",
+      "name": "UPNAL",
+      "title": "UPNAL",
+      "lat": "552516.67N",
+      "lon": "0022451.00E"
+    },
+    {
+      "id": "UPTON",
+      "name": "UPTON",
+      "title": "UPTON",
+      "lat": "533513.00N",
+      "lon": "0011802.58W"
+    },
+    {
+      "id": "USEKA",
+      "name": "USEKA",
+      "title": "USEKA",
+      "lat": "534202.24N",
+      "lon": "0002645.13W"
+    },
+    {
+      "id": "UTAVA",
+      "name": "UTAVA",
+      "title": "UTAVA",
+      "lat": "515846.91N",
+      "lon": "0000418.79W"
+    },
+    {
+      "id": "UTFAV",
+      "name": "UTFAV",
+      "title": "UTFAV",
+      "lat": "510107.18N",
+      "lon": "0013307.11E"
+    },
+    {
+      "id": "UTOGU",
+      "name": "UTOGU",
+      "title": "UTOGU",
+      "lat": "550740N",
+      "lon": "0030443W"
+    },
+    {
+      "id": "UTUXA",
+      "name": "UTUXA",
+      "title": "UTUXA",
+      "lat": "530030.45N",
+      "lon": "0021312.52W"
+    },
+    {
+      "id": "UVAVU",
+      "name": "UVAVU",
+      "title": "UVAVU",
+      "lat": "542500.07N",
+      "lon": "0015345.95W"
+    },
+    {
+      "id": "UVPOK",
+      "name": "UVPOK",
+      "title": "UVPOK",
+      "lat": "535939.61N",
+      "lon": "0041235.26W"
+    },
+    {
+      "id": "VABIK",
+      "name": "VABIK",
+      "title": "VABIK",
+      "lat": "511447.30N",
+      "lon": "0020000.00E"
+    },
+    {
+      "id": "VABKA",
+      "name": "VABKA",
+      "title": "VABKA",
+      "lat": "531808.31N",
+      "lon": "0024410.02W"
+    },
+    {
+      "id": "VADNO",
+      "name": "VADNO",
+      "title": "VADNO",
+      "lat": "572711.05N",
+      "lon": "0033737.70W"
+    },
+    {
+      "id": "VAKPO",
+      "name": "VAKPO",
+      "title": "VAKPO",
+      "lat": "541125.09N",
+      "lon": "0052239.23W"
+    },
+    {
+      "id": "VALBO",
+      "name": "VALBO",
+      "title": "VALBO",
+      "lat": "550743.65N",
+      "lon": "0050000.00E"
+    },
+    {
+      "id": "VAMEB",
+      "name": "VAMEB",
+      "title": "VAMEB",
+      "lat": "540010N",
+      "lon": "0024832W"
+    },
+    {
+      "id": "VAPID",
+      "name": "VAPID",
+      "title": "VAPID",
+      "lat": "511513.97N",
+      "lon": "0010242.40W"
+    },
+    {
+      "id": "VAPPI",
+      "name": "VAPPI",
+      "title": "VAPPI",
+      "lat": "553138.92N",
+      "lon": "0034542.62W"
+    },
+    {
+      "id": "VASUX",
+      "name": "VASUX",
+      "title": "VASUX",
+      "lat": "503009.23N",
+      "lon": "0011516.99W"
+    },
+    {
+      "id": "VATON",
+      "name": "VATON",
+      "title": "VATON",
+      "lat": "512603.83N",
+      "lon": "0002056.10W"
+    },
+    {
+      "id": "VATRY",
+      "name": "VATRY",
+      "title": "VATRY",
+      "lat": "523316N",
+      "lon": "0053000W"
+    },
+    {
+      "id": "VAXIT",
+      "name": "VAXIT",
+      "title": "VAXIT",
+      "lat": "563215N",
+      "lon": "0050000E"
+    },
+    {
+      "id": "VEGAR",
+      "name": "VEGAR",
+      "title": "VEGAR",
+      "lat": "530233.76N",
+      "lon": "0015823.43W"
+    },
+    {
+      "id": "VEGUS",
+      "name": "VEGUS",
+      "title": "VEGUS",
+      "lat": "532400.54N",
+      "lon": "0002110.76W"
+    },
+    {
+      "id": "VELAG",
+      "name": "VELAG",
+      "title": "VELAG",
+      "lat": "522435.82N",
+      "lon": "0010049.56W"
+    },
+    {
+      "id": "VENAS",
+      "name": "VENAS",
+      "title": "VENAS",
+      "lat": "541819.85N",
+      "lon": "0033908.23E"
+    },
+    {
+      "id": "VENER",
+      "name": "VENER",
+      "title": "VENER",
+      "lat": "543000N",
+      "lon": "0150000W"
+    },
+    {
+      "id": "VEXEN",
+      "name": "VEXEN",
+      "title": "VEXEN",
+      "lat": "500821.98N",
+      "lon": "0014934.38W"
+    },
+    {
+      "id": "VEXUB",
+      "name": "VEXUB",
+      "title": "VEXUB",
+      "lat": "511409.00N",
+      "lon": "0003645.76W"
+    },
+    {
+      "id": "VIDOK",
+      "name": "VIDOK",
+      "title": "VIDOK",
+      "lat": "522439.05N",
+      "lon": "0020231.12W"
+    },
+    {
+      "id": "VOLFI",
+      "name": "VOLFI",
+      "title": "VOLFI",
+      "lat": "532035.13N",
+      "lon": "0032150.51W"
+    },
+    {
+      "id": "VOUGA",
+      "name": "VOUGA",
+      "title": "VOUGA",
+      "lat": "510332.85N",
+      "lon": "0005750.20W"
+    },
+    {
+      "id": "WAFFU",
+      "name": "WAFFU",
+      "title": "WAFFU",
+      "lat": "503456.89N",
+      "lon": "0002059.29E"
+    },
+    {
+      "id": "WAFIL",
+      "name": "WAFIL",
+      "title": "WAFIL",
+      "lat": "595243.00N",
+      "lon": "0011711.00W"
+    },
+    {
+      "id": "WEALD",
+      "name": "WEALD",
+      "title": "WEALD",
+      "lat": "511951.15N",
+      "lon": "0000205.32E"
+    },
+    {
+      "id": "WECOW",
+      "name": "WECOW",
+      "title": "WECOW",
+      "lat": "535916.41N",
+      "lon": "0035103.10E"
+    },
+    {
+      "id": "WELIN",
+      "name": "WELIN",
+      "title": "WELIN",
+      "lat": "521450.25N",
+      "lon": "0005108.41W"
+    },
+    {
+      "id": "WESUL",
+      "name": "WESUL",
+      "title": "WESUL",
+      "lat": "514015.29N",
+      "lon": "0002909.27E"
+    },
+    {
+      "id": "WETFI",
+      "name": "WETFI",
+      "title": "WETFI",
+      "lat": "534947.08N",
+      "lon": "0053000.00W"
+    },
+    {
+      "id": "WEVBE",
+      "name": "WEVBE",
+      "title": "WEVBE",
+      "lat": "520736.93N",
+      "lon": "0025921.14W"
+    },
+    {
+      "id": "WIGGU",
+      "name": "WIGGU",
+      "title": "WIGGU",
+      "lat": "511136.66N",
+      "lon": "0032027.75W"
+    },
+    {
+      "id": "WILLO",
+      "name": "WILLO",
+      "title": "WILLO",
+      "lat": "505905.88N",
+      "lon": "0001130.30W"
+    },
+    {
+      "id": "WIQID",
+      "name": "WIQID",
+      "title": "WIQID",
+      "lat": "520944.27N",
+      "lon": "0012214.94E"
+    },
+    {
+      "id": "WIZAD",
+      "name": "WIZAD",
+      "title": "WIZAD",
+      "lat": "510700.00N",
+      "lon": "0005711.09E"
+    },
+    {
+      "id": "WOBUN",
+      "name": "WOBUN",
+      "title": "WOBUN",
+      "lat": "520110.27N",
+      "lon": "0004400.00W"
+    },
+    {
+      "id": "XAMAB",
+      "name": "XAMAB",
+      "title": "XAMAB",
+      "lat": "501216.25N",
+      "lon": "0001552.83E"
+    },
+    {
+      "id": "XAMAN",
+      "name": "XAMAN",
+      "title": "XAMAN",
+      "lat": "514704.77N",
+      "lon": "0021326.94E"
+    },
+    {
+      "id": "XAPOS",
+      "name": "XAPOS",
+      "title": "XAPOS",
+      "lat": "531728.59N",
+      "lon": "0013751.25W"
+    },
+    {
+      "id": "XIDIL",
+      "name": "XIDIL",
+      "title": "XIDIL",
+      "lat": "502106.15N",
+      "lon": "0003829.37E"
+    },
+    {
+      "id": "YOHDA",
+      "name": "YOHDA",
+      "title": "YOHDA",
+      "lat": "521203.00N",
+      "lon": "0012736.28W"
+    },
+    {
+      "id": "YORQI",
+      "name": "YORQI",
+      "title": "YORQI",
+      "lat": "513118.51N",
+      "lon": "0022535.78W"
+    },
+    {
+      "id": "ZAGZO",
+      "name": "ZAGZO",
+      "title": "ZAGZO",
+      "lat": "521812.97N",
+      "lon": "0001352.54W"
+    },
+    {
+      "id": "ZEFIQ",
+      "name": "ZEFIQ",
+      "title": "ZEFIQ",
+      "lat": "502338.06N",
+      "lon": "0032314.11W"
+    },
+    {
+      "id": "ZESPE",
+      "name": "ZESPE",
+      "title": "ZESPE",
+      "lat": "513309.63N",
+      "lon": "0025314.43W"
+    },
+    {
+      "id": "ZIPWE",
+      "name": "ZIPWE",
+      "title": "ZIPWE",
+      "lat": "514235.40N",
+      "lon": "0033400.70W"
+    },
+    {
+      "id": "ZOFAT",
+      "name": "ZOFAT",
+      "title": "ZOFAT",
+      "lat": "553536.23N",
+      "lon": "0040208.03W"
+    },
+    {
+      "id": "ZOPHI",
+      "name": "ZOPHI",
+      "title": "ZOPHI",
+      "lat": "510126.60N",
+      "lon": "0000055.43W"
+    },
+    {
+      "id": "ZORFE",
+      "name": "ZORFE",
+      "title": "ZORFE",
+      "lat": "511256.13N",
+      "lon": "0003407.87E"
+    }
+  ]
+}

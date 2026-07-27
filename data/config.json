@@ -5,27 +5,27 @@
       "title": "Significant Points",
       "description": "",
       "type": "map",
-      "map": "Significant points - 15 references - All AIP.svg"
+      "data": [
+        "Significant Points/significant-points-belgium.json",
+        "Significant Points/significant-points-france.json",
+        "Significant Points/significant-points-germany.json",
+        "Significant Points/significant-points-netherlands.json",
+        "Significant Points/significant-points-uk.json"
+      ]
     },
     {
       "id": "radio-navigation-points",
       "title": "Radio Navigation Points",
       "description": "",
       "type": "map",
-      "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"
+      "data": []
     },
     {
       "id": "aerodromes",
       "title": "Aerodromes",
       "description": "",
       "type": "map",
-      "map": "TraT FIC DCL - Radio NAV points Blind - test.svg"
-    },
-    {
-      "id": "geo-svg-editor",
-      "title": "SVG georeferentie editor",
-      "description": "Upload een SVG en voeg objecten toe op geografische coordinaten.",
-      "type": "geo-svg"
+      "data": []
     }
   ]
 }
