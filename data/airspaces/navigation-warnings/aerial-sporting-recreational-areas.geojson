@@ -28,7 +28,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -353,7 +354,8 @@
         ],
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -474,7 +476,8 @@
         ],
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -626,7 +629,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -1078,7 +1082,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -1402,7 +1407,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -1727,7 +1733,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -2048,7 +2055,8 @@
         "effectiveDate": "08-AUG-2024",
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -2504,7 +2512,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -2828,7 +2837,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -3152,7 +3162,8 @@
           "(2) Any conflicting areas announced by NOTAM are excluded for aerobatic use during activation."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -3201,7 +3212,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -3526,7 +3538,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -3847,7 +3860,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -4168,7 +4182,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -4489,7 +4504,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -4813,7 +4829,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5138,7 +5155,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5190,7 +5208,8 @@
           "(2) HJ only. On request of the “Aero-Club Trier und Konz”. Activation can be checked with Luxembourg Radar on CH 120.885."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5242,7 +5261,8 @@
           "(2) HJ only. On request of the “Aero-Club Trier und Konz”. Activation can be checked with Luxembourg Radar on CH 120.885."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5294,7 +5314,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5618,7 +5639,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5945,7 +5967,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -5997,7 +6020,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -6321,7 +6345,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -6646,7 +6671,8 @@
         ],
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -6787,7 +6813,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -7110,7 +7137,8 @@
           "(1) Release between 2500FT AMSL and FL070 subject to approval from Luxembourg Radar (CH 120.885)."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -7163,7 +7191,8 @@
           "(3) Activation announced by NOTAM. Operator: Post: SKYDIVE2FLY Rue des 4 fils Aymon 0/P006 5000 Namur BELGIUM TEL: +32 (0) 475 27 89 12 (P.Marien)"
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -7567,7 +7596,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -7888,7 +7918,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -8213,7 +8244,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -8534,7 +8566,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -8978,7 +9011,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -9036,7 +9070,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -9085,7 +9120,8 @@
         "effectiveDate": "20-FEB-2025",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -9411,7 +9447,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -9808,7 +9845,8 @@
         "effectiveDate": "09-JUL-2026",
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -9957,7 +9995,8 @@
         "effectiveDate": "09-JUL-2026",
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -10283,7 +10322,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -10757,7 +10797,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -10867,7 +10908,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -10969,7 +11011,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11031,7 +11074,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11105,7 +11149,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11159,7 +11204,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11221,7 +11267,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11291,7 +11338,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11348,7 +11396,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Polygon",
@@ -11405,7 +11454,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",
@@ -11434,7 +11484,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",
@@ -11463,7 +11514,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",
@@ -11492,7 +11544,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",
@@ -11521,7 +11574,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",
@@ -11550,7 +11604,8 @@
         "effectiveDate": "14-MAY-2026",
         "geometryNote": "Published as a single location rather than an area boundary.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "recreational"
       },
       "geometry": {
         "type": "Point",

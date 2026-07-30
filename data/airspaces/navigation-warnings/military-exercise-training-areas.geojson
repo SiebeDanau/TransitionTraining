@@ -31,7 +31,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -96,7 +97,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -188,7 +190,8 @@
           "(2) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -262,7 +265,8 @@
           "(4) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -337,7 +341,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -407,7 +412,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -482,7 +488,8 @@
           "(1) AMC manageable area. Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -565,7 +572,8 @@
           "(1) Activation can be checked via EAUP/EUUP."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -648,7 +656,8 @@
           "(1) Activation can be checked via EAUP/EUUP."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -845,7 +854,8 @@
           "(3) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -904,7 +914,8 @@
           "(5) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -961,7 +972,8 @@
           "(3) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1022,7 +1034,8 @@
           "(3) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1085,7 +1098,8 @@
           "(5) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1150,7 +1164,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1211,7 +1226,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1266,7 +1282,8 @@
           "(1) Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04) or Brussels FIC."
         ],
         "color": "#778899",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1329,7 +1346,8 @@
           "(1) Activation can be checked with Paris UAC or Reims UAC (see AIP France). Detailed schedule is communicated via AUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1396,7 +1414,8 @@
           "(1) Activation can be checked via AUP/UUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1463,7 +1482,8 @@
           "(1) Activation can be checked with Paris UAC or Reims UAC (see AIP France). Detailed schedule is communicated via AUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1530,7 +1550,8 @@
           "(1) Activation can be checked via AUP/UUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1597,7 +1618,8 @@
           "(1) Activation can be checked with Paris UAC or Reims UAC (see AIP France). Detailed schedule is communicated via AUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1664,7 +1686,8 @@
           "(1) Activation can be checked via AUP/UUP France."
         ],
         "color": "#EEDD82",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -1733,7 +1756,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#A56100",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2059,7 +2083,8 @@
           "(4) Announced by NOTAM. May be active MON to FRI (HOL excl)."
         ],
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2118,7 +2143,8 @@
         ],
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2252,7 +2278,8 @@
           "(4) Announced by NOTAM. May be active MON to FRI (HOL excl)."
         ],
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2315,7 +2342,8 @@
           "(5) Announced by NOTAM. May be active MON to FRI (HOL excl)."
         ],
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2377,7 +2405,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2429,7 +2458,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#A56100",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2479,7 +2509,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#A56100",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2802,7 +2833,8 @@
           "(1) May be active during MIL OPR HR. Activation can be checked with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04)."
         ],
         "color": "#A56100",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2867,7 +2899,8 @@
           "(3) Activation can be checked with Steenokkerzeel ATCC."
         ],
         "color": "#780078",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2928,7 +2961,8 @@
           "(3) Activation can be checked with Steenokkerzeel ATCC."
         ],
         "color": "#FFD700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -2993,7 +3027,8 @@
           "(3) Activation can be checked with Steenokkerzeel ATCC."
         ],
         "color": "#FFD700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3056,7 +3091,8 @@
           "(5) Activation can be checked with Steenokkerzeel ATCC."
         ],
         "color": "#FFD700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3137,7 +3173,8 @@
           "(3) Announced by NOTAM. Activation can be checked with Steenokkerzeel ATCC."
         ],
         "color": "#5A5A5A",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3221,7 +3258,8 @@
         "amendment": "AIRAC AMDT 011/2025",
         "effectiveDate": "30-OCT-2025",
         "color": "#5A5A5A",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3310,7 +3348,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3362,7 +3401,8 @@
           "(2) Announced by NOTAM. Area will only be activated when TRA SA is active. Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04)."
         ],
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3418,7 +3458,8 @@
           "(2) Announced by NOTAM. Area will only be activated when TRA SA is active. Activation can be checked pre-flight with Steenokkerzeel ATCC (TEL +32 (0) 2 443 82 04)."
         ],
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3479,7 +3520,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3544,7 +3586,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3595,7 +3638,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3654,7 +3698,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3717,7 +3762,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -3784,7 +3830,8 @@
           "(1) Activated by AUP/UUP."
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4016,7 +4063,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4074,7 +4122,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4167,7 +4216,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4232,7 +4282,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4284,7 +4335,8 @@
           "(6) May not be active at the same time as TSA34A or TSA34B."
         ],
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4344,7 +4396,8 @@
           "(6) May not be active at the same time as TSA34A or TSA34B."
         ],
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4404,7 +4457,8 @@
           "(6) May not be active at the same time as TSA32A or TSA32B or TRA/TSA22."
         ],
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4472,7 +4526,8 @@
           "(6) May not be active at the same time as TSA32A or TSA32B or TRA/TSA22."
         ],
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4533,7 +4588,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4856,7 +4912,8 @@
           "(1) Activation announced by NOTAM."
         ],
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -4912,7 +4969,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -5281,7 +5339,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -5795,7 +5854,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -6499,7 +6559,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -6823,7 +6884,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7147,7 +7209,8 @@
         ],
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7470,7 +7533,8 @@
           "(1) Activated by NOTAM"
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7521,7 +7585,8 @@
           "(1) Activated by NOTAM"
         ],
         "color": null,
-        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart."
+        "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7574,7 +7639,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7855,7 +7921,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -7956,7 +8023,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8069,7 +8137,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8164,7 +8233,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8250,7 +8320,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8359,7 +8430,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8444,7 +8516,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8542,7 +8615,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8660,7 +8734,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -8744,7 +8819,8 @@
           "(1400) the day before activation). May be activated MON to FRI (HOL excl), 0700-2300 (0600- 2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -9637,7 +9713,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -10610,7 +10687,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -10696,7 +10774,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -10757,7 +10836,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -10810,7 +10890,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11019,7 +11100,8 @@
           "(1400) the day before activation). May be activated in VMC from MON to FRI (HOL excl), 0700- 2300 (0600-2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11503,7 +11585,8 @@
           "(1400) the day before activation). May be activated in VMC from MON to FRI (HOL excl), 0700- 2300 (0600-2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11592,7 +11675,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11661,7 +11745,8 @@
           "(1400) the day before activation). May be activated in VMC from MON to FRI (HOL excl), 0700- 2300 (0600-2200)."
         ],
         "color": "#CD853F",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11737,7 +11822,8 @@
           "(2) Activated by NOTAM. Can be activated MON to FRI (HOL excl), 0730-1100 (0630-1000) and 1230-1600 (1130-1500). No activation from 01 JUN till 15 SEP and during high intensity use of HTA Ardennes."
         ],
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11810,7 +11896,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11878,7 +11965,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11934,7 +12022,8 @@
           "(2) Activated by NOTAM. Can be activated MON to FRI (HOL excl), 0730-1100 (0630-1000) and 1230-1600 (1130-1500). No activation from 01 JUN till 15 SEP and during high intensity use of HTA Ardennes."
         ],
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -11990,7 +12079,8 @@
           "(2) Activated by NOTAM. Can be activated MON to FRI (HOL excl), 0730-1100 (0630-1000) and 1230-1600 (1130-1500). No activation from 01 JUN till 15 SEP and during high intensity use of HTA Ardennes."
         ],
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -12042,7 +12132,8 @@
           "(2) Activated by NOTAM. Can be activated MON to FRI (HOL excl), 0730-1100 (0630-1000) and 1230-1600 (1130-1500). No activation from 01 JUN till 15 SEP and during high intensity use of HTA Ardennes."
         ],
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -12098,7 +12189,8 @@
           "(2) Activated by NOTAM. Can be activated MON to FRI (HOL excl), 0730-1100 (0630-1000) and 1230-1600 (1130-1500). No activation from 01 JUN till 15 SEP and during high intensity use of HTA Ardennes."
         ],
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
@@ -12155,7 +12247,8 @@
         ],
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
-        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026"
+        "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
+        "areaType": "military"
       },
       "geometry": {
         "type": "Polygon",
