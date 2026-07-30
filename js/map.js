@@ -137,7 +137,7 @@ function addTrainingLayers() {
   if (!map.getSource("brussels-uir")) {
     map.addSource("brussels-uir", {
       type: "geojson",
-      data: "geo/brussels-uir.geojson?v=20260726-3",
+      data: "data/airspaces/brussels-uir.geojson?v=20260726-3",
     });
   }
   if (!map.getLayer("brussels-uir-outline")) {
@@ -164,7 +164,7 @@ function addTrainingLayers() {
       if (!map.getSource(sourceId)) {
         map.addSource(sourceId, {
           type: "geojson",
-          data: `geo/${encodeURIComponent(folder)}/${sourceId}.geojson`,
+          data: `data/airspaces/${encodeURIComponent(folder)}/${sourceId}.geojson`,
         });
       }
       if (!map.getLayer(layerId)) {
