@@ -12,7 +12,7 @@ const BLANK_STYLE = {
 
 const OSM_STYLE_URL = "https://tiles.openfreemap.org/styles/bright";
 const TMA_FILE_GROUPS = {
-  "Brussels TMA": [
+  "brussels-tma": [
     "brussels-tma-1",
     "brussels-tma-2",
     "brussels-tma-3a",
@@ -24,27 +24,27 @@ const TMA_FILE_GROUPS = {
     "brussels-tma-9a",
     "brussels-tma-9b",
   ],
-  "Charleroi TMA": [
+  "charleroi-tma": [
     "charleroi-tma-1",
     "charleroi-tma-2a",
     "charleroi-tma-2b",
     "charleroi-tma-3a",
     "charleroi-tma-3b",
   ],
-  "Liege TMA": [
+  "liege-tma": [
     "liege-tma-1",
     "liege-tma-2",
     "liege-tma-3",
     "liege-tma-4",
     "liege-tma-5",
   ],
-  "Luxembourg TMA": [
+  "luxembourg-tma": [
     "luxembourg-tma-1a",
     "luxembourg-tma-1b",
     "luxembourg-tma-5",
   ],
-  "Maastricht TMA": ["maastricht-tma-1"],
-  "Oostende TMA": ["oostende-tma-1", "oostende-tma-2"],
+  "maastricht-tma": ["maastricht-tma-1"],
+  "oostende-tma": ["oostende-tma-1", "oostende-tma-2"],
 };
 
 const state = {
@@ -450,12 +450,7 @@ async function initMap() {
       ...dataResponses.map((response) => response.json()),
     ]);
     const role = roleConfig.roles?.find((item) => item.id === activeRole.id);
-    const categoryAliases = {
-      "radio-navigation-points": "radio-navigation-aids",
-    };
-    const category =
-      role?.categories?.[moduleConfig.id] ||
-      role?.categories?.[categoryAliases[moduleConfig.id]];
+    const category = role?.categories?.[moduleConfig.id];
     state.allowedPointIds = new Set(
       (category?.pointIds || []).map(normalizePointId)
     );
@@ -595,7 +590,7 @@ function loadPoints(records) {
     if (!id || !Number.isFinite(lat) || !Number.isFinite(lon)) return;
     const label = record.name || id;
     const questionLabel =
-      moduleConfig.id === "radio-navigation-points" && record.station
+      moduleConfig.id === "radio-navigation-aids" && record.station
         ? `${label} (${record.station})`
         : label;
     uniquePoints.set(id, {

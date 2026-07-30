@@ -6,24 +6,24 @@
       "description": "",
       "type": "map",
       "data": [
-        "Significant Points/significant-points-belgium.json",
-        "Significant Points/significant-points-france.json",
-        "Significant Points/significant-points-germany.json",
-        "Significant Points/significant-points-netherlands.json",
-        "Significant Points/significant-points-uk.json"
+        "significant-points/significant-points-belgium.json",
+        "significant-points/significant-points-france.json",
+        "significant-points/significant-points-germany.json",
+        "significant-points/significant-points-netherlands.json",
+        "significant-points/significant-points-uk.json"
       ]
     },
     {
-      "id": "radio-navigation-points",
+      "id": "radio-navigation-aids",
       "title": "Radio Navigation Points",
       "description": "",
       "type": "map",
       "data": [
-        "Radio Navigation Aids/radio-navigation-aids-belgium.json",
-        "Radio Navigation Aids/radio-navigation-aids-france.json",
-        "Radio Navigation Aids/radio-navigation-aids-germany.json",
-        "Radio Navigation Aids/radio-navigation-aids-netherlands.json",
-        "Radio Navigation Aids/radio-navigation-aids-uk.json"
+        "radio-navigation-aids/radio-navigation-aids-belgium.json",
+        "radio-navigation-aids/radio-navigation-aids-france.json",
+        "radio-navigation-aids/radio-navigation-aids-germany.json",
+        "radio-navigation-aids/radio-navigation-aids-netherlands.json",
+        "radio-navigation-aids/radio-navigation-aids-uk.json"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "title": "Aerodromes",
       "description": "",
       "type": "map",
-      "data": ["Aerodromes/aerodromes-belgium.json"]
+      "data": ["aerodromes/aerodromes-belgium.json"]
     }
   ]
 }
