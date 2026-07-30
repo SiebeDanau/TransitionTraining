@@ -15,11 +15,11 @@
         "name": "TRA NA - TRA NORTH ALPHA",
         "chapter": "ENR 5.2",
         "upperLimit": "FL195",
-        "lowerLimit": "4500FTAMSL (2)",
-        "verticalLimits": "FL195 / 4500FTAMSL (2)",
-        "lateralLimits": "512908N0044913E- along the Belgian-Dutch border- 505000N0053854E- 510057N0051655E- 510251N0045955E- 511835N0043325E- 511807N0043011E- 512136N 0043011E - 512908N0044913E. (1)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾",
+        "verticalLimits": "FL195 / 4500FTAMSL ⁽²⁾",
+        "lateralLimits": "512908N0044913E- along the Belgian-Dutch border- 505000N0053854E- 510057N0051655E- 510251N0045955E- 511835N0043325E- 511807N0043011E- 512136N 0043011E - 512908N0044913E. ⁽¹⁾",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-1",
         "amendment": "AMDT 008/2025",
@@ -32,7 +32,21 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -85,8 +99,8 @@
         "lowerLimit": "FL195",
         "verticalLimits": "UNL / FL195",
         "lateralLimits": "511032N0042037E- 512049N0042812E- 512254N0043326E- 512649N0044320E- 512650N0044925E- along the Belgian-Dutch border- 512651N0050018E- 512651N0050400E- 512603N0050610E- 511857N0052158E- 511654N0052630E- along the Belgian-Dutch border- 510133N0054629E- 505729N0052350E- 505342N0050316E- 505830N0043650E- 511032N0042037E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-1",
         "amendment": "AMDT 008/2025",
@@ -98,7 +112,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -179,8 +201,8 @@
         "lowerLimit": "FL195",
         "verticalLimits": "UNL / FL195",
         "lateralLimits": "512254N0043326E- 511835N0043325E- 510251N0045955E- 510057N0051655E- 505729N0052350E- 505342N0050316E- 505830N0043650E- 511032N0042037E- 512049N0042812E- 512254N0043326E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-1",
         "amendment": "AMDT 008/2025",
@@ -191,7 +213,15 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -249,11 +279,11 @@
         "name": "TRA/TSA N2 - BALEN AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL075(1)(2)",
-        "verticalLimits": "UNL / FL075(1)(2)",
+        "lowerLimit": "FL075⁽¹⁾⁽²⁾",
+        "verticalLimits": "UNL / FL075⁽¹⁾⁽²⁾",
         "lateralLimits": "511857N0052158E- 512603N0050610E- 512651N0050400E- 512649N0044320E- 512254N0043326E- 511835N0043325E- 510251N0045955E- 510634N0045955E- 511551N0051647E- 511857N0052158E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).(3)",
-        "timeOfActivity": "HX(4)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).⁽³⁾",
+        "timeOfActivity": "HX⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-2",
         "amendment": "AMDT 008/2025",
@@ -266,7 +296,23 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2
+          ],
+          "lowerLimit": [
+            1,
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -324,11 +370,11 @@
         "name": "TRA/TSA N3 - MEEUWEN AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL075(1)(2)",
-        "verticalLimits": "UNL / FL075(1)(2)",
+        "lowerLimit": "FL075⁽¹⁾⁽²⁾",
+        "verticalLimits": "UNL / FL075⁽¹⁾⁽²⁾",
         "lateralLimits": "511857N0052158E- 511654N0052630E- along the Belgian-Dutch border- 510133N0054629E- 505729N0052350E- 510057N0051655E- 510251N0045955E- 510634N0045955E- 511551N0051647E- 511857N0052158E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).(3)",
-        "timeOfActivity": "HX(4)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).⁽³⁾",
+        "timeOfActivity": "HX⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-2",
         "amendment": "AMDT 008/2025",
@@ -342,7 +388,23 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2
+          ],
+          "lowerLimit": [
+            1,
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -396,11 +458,11 @@
         "name": "TRA SA - TRA SOUTH ALPHA",
         "chapter": "ENR 5.2",
         "upperLimit": "FL195",
-        "lowerLimit": "4500FTAMSL (1)(2)",
-        "verticalLimits": "FL195 / 4500FTAMSL (1)(2)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾⁽²⁾",
+        "verticalLimits": "FL195 / 4500FTAMSL ⁽¹⁾⁽²⁾",
         "lateralLimits": "503019N0035834E- 503039N0040151E- 504048N0043801E- 503001N0052456E- 502627N0053920E- 500426N0055210E- along the Belgian-Luxembourg border- 494738N0054729E- 494106N0053116E- 494038N0051741E- along the Belgian-French border- 502101N0040008E- 503019N0035834E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-2",
         "amendment": "AMDT 008/2025",
@@ -413,7 +475,20 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2
+          ],
+          "lowerLimit": [
+            1,
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -479,7 +554,7 @@
         "verticalLimits": "UNL / FL195",
         "lateralLimits": "494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E- 500853N0041028E- 503205N0040655E- 503335N0041212E- 503813N0043620E- 503519N0045040E- 500118N 0054241E- 494735N0054237E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-2",
         "amendment": "AMDT 008/2025",
@@ -489,7 +564,12 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -563,7 +643,7 @@
         "verticalLimits": "UNL / FL245",
         "lateralLimits": "494735N 0054237E - 494137N 0051624E - 494030N 0051133E - 494040N 0045055E - 494920N 0041830E - 495835N 0040853E - 500853N 0041028E - 503205N 0040655E - 503335N 0041212E - 503813N 0043620E - 503519N 0045040E - 500118N 0054241E - 494735N 0054237E",
         "restrictionOrHazard": "For IFR flight planning purposes only.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-3",
         "amendment": "AMDT 010/2025",
@@ -573,7 +653,12 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -839,11 +924,11 @@
         "name": "TRA/TSA S1 - NAMUR AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "4500FTAMSL (1)",
-        "verticalLimits": "UNL / 4500FTAMSL (1)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾",
+        "verticalLimits": "UNL / 4500FTAMSL ⁽¹⁾",
         "lateralLimits": "503705N0043024E- 503813N0043620E- 503519N0045040E- 501808N0051710E- 501208N0044021E- 503705N0043024E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC. (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC. ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-3",
         "amendment": "AMDT 010/2025",
@@ -855,7 +940,21 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -897,11 +996,11 @@
         "name": "TRA/TSA S2 - BEAURAING AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "4500FTAMSL (1)(2)",
-        "verticalLimits": "UNL / 4500FTAMSL (1)(2)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾⁽²⁾",
+        "verticalLimits": "UNL / 4500FTAMSL ⁽¹⁾⁽²⁾",
         "lateralLimits": "501208N0044021E- 501808N0051710E- 500118N0054241E- 495854N0054241E- 494927N0044914E- 501208N0044021E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).(3)(4)",
-        "timeOfActivity": "HX (5)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III).⁽³⁾⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-3",
         "amendment": "AMDT 010/2025",
@@ -915,7 +1014,24 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2
+          ],
+          "lowerLimit": [
+            1,
+            2
+          ],
+          "restrictionOrHazard": [
+            3,
+            4
+          ],
+          "timeOfActivity": [
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -957,11 +1073,11 @@
         "name": "TRA/TSA S3 - GIVET AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "4500FTAMSL (1)",
-        "verticalLimits": "UNL / 4500FTAMSL (1)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾",
+        "verticalLimits": "UNL / 4500FTAMSL ⁽¹⁾",
         "lateralLimits": "500703N0041011E- 501208N0044021E- 494927N0044914E- 494604N0043047E- 494920N0041830E- 495835N0040853E- 500703N0041011E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-4",
         "amendment": "AMDT 010/2025",
@@ -973,7 +1089,21 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1019,11 +1149,11 @@
         "name": "TRA/TSA S4 - CHARLEROI AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "4500FTAMSL (1)",
-        "verticalLimits": "UNL / 4500FTAMSL (1)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾",
+        "verticalLimits": "UNL / 4500FTAMSL ⁽¹⁾",
         "lateralLimits": "503205N0040655E- 503335N0041214E- 503705N0043024E- 501208N0044021E- 500703N0041011E- 500853N0041028E- 503205N0040655E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-4",
         "amendment": "AMDT 010/2025",
@@ -1035,7 +1165,21 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1081,11 +1225,11 @@
         "name": "TRA/TSA S5 - NEUFCHATEAU AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "4500FTAMSL (1) (2)",
-        "verticalLimits": "UNL / 4500FTAMSL (1) (2)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾ ⁽²⁾",
+        "verticalLimits": "UNL / 4500FTAMSL ⁽¹⁾ ⁽²⁾",
         "lateralLimits": "494604N0043047E- 495854N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494604N0043047E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). (3)(4)",
-        "timeOfActivity": "HX (5)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). ⁽³⁾⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-4",
         "amendment": "AMDT 010/2025",
@@ -1099,7 +1243,24 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2
+          ],
+          "lowerLimit": [
+            1,
+            2
+          ],
+          "restrictionOrHazard": [
+            3,
+            4
+          ],
+          "timeOfActivity": [
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1145,11 +1306,11 @@
         "name": "TRA/TSA S6 - DURBUY AREA",
         "chapter": "ENR 5.2",
         "upperLimit": "FL165",
-        "lowerLimit": "FL055 (1)(2)(3)",
-        "verticalLimits": "FL165 / FL055 (1)(2)(3)",
+        "lowerLimit": "FL055 ⁽¹⁾⁽²⁾⁽³⁾",
+        "verticalLimits": "FL165 / FL055 ⁽¹⁾⁽²⁾⁽³⁾",
         "lateralLimits": "502536N0050543E- 503001N0052456E- 502627N0053920E- 500426N0055210E- along the Belgian-Luxembourg border- 500120N0055102E- 500118N0054241E- 502536N0050543E.",
-        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). (4)(5)",
-        "timeOfActivity": "HX (6)",
+        "restrictionOrHazard": "Aerobatic area and UAS flights (NATO Class III). ⁽⁴⁾⁽⁵⁾",
+        "timeOfActivity": "HX ⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-4",
         "amendment": "AMDT 010/2025",
@@ -1165,7 +1326,26 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            2,
+            3
+          ],
+          "lowerLimit": [
+            1,
+            2,
+            3
+          ],
+          "restrictionOrHazard": [
+            4,
+            5
+          ],
+          "timeOfActivity": [
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1215,7 +1395,7 @@
         "verticalLimits": "UNL / 4500FTAMSL",
         "lateralLimits": "510056N0023429E- 510045N0023740E- 505152N0032551E- 505047N0032649E- 503549N0031628E- along the Belgian-French border- 510056N0023429E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1227,7 +1407,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1273,7 +1458,7 @@
         "verticalLimits": "UNL / FL195",
         "lateralLimits": "513036N0020000E- 512804N0022709E- 511622N0031752E- 510825N0033918E- 510047N0033351E- 511037N0024032E- 511243N0020000E- 513036N0020000E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Crossing clearance shall be requested in- flight from Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1283,7 +1468,12 @@
         ],
         "color": "#778899",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1337,7 +1527,7 @@
         "verticalLimits": "FL265 / FL195",
         "lateralLimits": "510117N 0020257E - 505907N 0024100E - 505612N 0025344E - 504517N 0030434E - 503403N 0025600E - 502550N 0024504E - 502550N 0023328E - 505517N 0015201E - 510117N 0020257E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1347,7 +1537,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1405,7 +1600,7 @@
         "verticalLimits": "FL265 / FL195",
         "lateralLimits": "505530N 0014624E - 510351N 0020137E - 510134N 0024152E - 505815N 0025621E - 504526N 0030903E - 503241N 0025918E - 502320N 0024652E - 502320N 0023143E - 505530N 0014624E.",
         "restrictionOrHazard": "FBZ. For IFR flight planning purposes only.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1415,7 +1610,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1473,7 +1673,7 @@
         "verticalLimits": "FL315 / FL265",
         "lateralLimits": "510117N 0020257E - 505907N 0024100E - 505612N 0025344E - 504517N 0030434E - 503403N 0025600E - 502550N 0024504E - 502550N 0023328E - 505517N 0015201E - 510117N 0020257E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1483,7 +1683,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1541,7 +1746,7 @@
         "verticalLimits": "FL315 / FL265",
         "lateralLimits": "505530N 0014624E - 510351N 0020137E - 510134N 0024152E - 505815N 0025621E - 504526N 0030903E - 503241N 0025918E - 502320N 0024652E - 502320N 0023143E - 505530N 0014624E.",
         "restrictionOrHazard": "FBZ. For IFR flight planning purposes only.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-5",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1551,7 +1756,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1609,7 +1819,7 @@
         "verticalLimits": "FL355 / FL315",
         "lateralLimits": "510117N 0020257E - 505907N 0024100E - 505612N 0025344E - 504517N 0030434E - 503403N 0025600E - 502550N 0024504E - 502550N 0023328E - 505517N 0015201E - 510117N 0020257E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-6",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1619,7 +1829,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1677,7 +1892,7 @@
         "verticalLimits": "FL355 / FL315",
         "lateralLimits": "505530N 0014624E - 510351N 0020137E - 510134N 0024152E - 505815N 0025621E - 504526N 0030903E - 503241N 0025918E - 502320N 0024652E - 502320N 0023143E - 505530N 0014624E.",
         "restrictionOrHazard": "FBZ. For IFR flight planning purposes only.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-6",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1687,7 +1902,12 @@
         ],
         "color": "#EEDD82",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1745,7 +1965,7 @@
         "verticalLimits": "4500FTAMSL / GND",
         "lateralLimits": "A circle, 5NM radius, centred on 510840N0032820E.",
         "restrictionOrHazard": "Air exercises and UAS flights. During UAS activity, prohibited to all manned aircraft. During air exercises, prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-6",
         "amendment": "AIRAC AMDT 011/2025",
@@ -1757,7 +1977,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#A56100",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2067,11 +2292,11 @@
         "name": "TRA/TSA13A - CHANNEL A",
         "chapter": "ENR 5.2",
         "upperLimit": "FL105",
-        "lowerLimit": "4500FTAMSL (2)",
-        "verticalLimits": "FL105 / 4500FTAMSL (2)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾",
+        "verticalLimits": "FL105 / 4500FTAMSL ⁽²⁾",
         "lateralLimits": "512907N0020500E- 512833N 0021630E- 512719N0023000E- 511820N0023000E- 511933N0020500E- 512907N0020500E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). (3)",
-        "timeOfActivity": "HX (4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). ⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-6",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2084,7 +2309,21 @@
         ],
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2126,11 +2365,11 @@
         "name": "TRA/TSA13B - CHANNEL B",
         "chapter": "ENR 5.2",
         "upperLimit": "FL105",
-        "lowerLimit": "4500FTAMSL (2)",
-        "verticalLimits": "FL105 / 4500FTAMSL (2)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾",
+        "verticalLimits": "FL105 / 4500FTAMSL ⁽²⁾",
         "lateralLimits": "512719N0023000E- 512521N0025114E- 512114N0024957E- an arc of circle, 12.8NM radius, centred on 510839N0024601E and traced counterclockwise to 511637N0023000E- 512719N0023000E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). (3)",
-        "timeOfActivity": "HX (4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). ⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-7",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2144,7 +2383,21 @@
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2262,11 +2515,11 @@
         "name": "TRA/TSA13C - CHANNEL C",
         "chapter": "ENR 5.2",
         "upperLimit": "FL105",
-        "lowerLimit": "4500FTAMSL (2)",
-        "verticalLimits": "FL105 / 4500FTAMSL (2)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾",
+        "verticalLimits": "FL105 / 4500FTAMSL ⁽²⁾",
         "lateralLimits": "512521N0025114E- 512309N0031403E- 512009N0031237E- 511946N0031105E- 511905N0030630E- 512114N0024957E- 512521N0025114E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). (3)",
-        "timeOfActivity": "HX (4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). ⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-7",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2279,7 +2532,21 @@
         ],
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2325,11 +2592,11 @@
         "name": "TRA/TSA13D - CHANNEL D",
         "chapter": "ENR 5.2",
         "upperLimit": "FL105",
-        "lowerLimit": "4500FTAMSL (2)(3)",
-        "verticalLimits": "FL105 / 4500FTAMSL (2)(3)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾⁽³⁾",
+        "verticalLimits": "FL105 / 4500FTAMSL ⁽²⁾⁽³⁾",
         "lateralLimits": "511646N0031603E- 511905N0030630E- 511946N0031105E- 512009N0031237E- 512309N0031403E- 512239N0031911E- 511646N0031603E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). (4)",
-        "timeOfActivity": "HX (5)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). ⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-7",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2343,7 +2610,23 @@
         ],
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "lowerLimit": [
+            2,
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2392,8 +2675,8 @@
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL095 / 4500FTAMSL",
         "lateralLimits": "510056N0023429E- 510045N0023740E- 505641N0030000E- 504548N0030000E- along the Belgian-French border- 510056N0023429E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During UAS activity, prohibited to all manned aircraft.(2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During UAS activity, prohibited to all manned aircraft.⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-7",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2406,7 +2689,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2448,7 +2739,7 @@
         "verticalLimits": "3500FTAMSL / 1500FTAMSL",
         "lateralLimits": "505957N0053955E- 505957N0054601E- along the Belgian-Dutch border- 505246N0053955E- 505957N0053955E.",
         "restrictionOrHazard": "Procedural airspace for AWACS IFR approach on ETNG RWY 09. Crossing clearance shall be obtained from Beek APP (see AIP the Netherlands).",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-8",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2459,7 +2750,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#A56100",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2497,7 +2793,7 @@
         "verticalLimits": "4500FTAMSL / GND",
         "lateralLimits": "A circle, 5NM radius, centred on 495333N0051325E.",
         "restrictionOrHazard": "Air exercises and UAS flights. During UAS activity, prohibited to all manned aircraft. During air exercises, prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX (2)(3)",
+        "timeOfActivity": "HX ⁽²⁾⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-8",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2510,7 +2806,13 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#A56100",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2,
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2824,7 +3126,7 @@
         "verticalLimits": "FL090 / 4500FTAMSL",
         "lateralLimits": "502323N0051322E- 502112N0045247E- 502316N0045220E- 502900N0045106E- 503053N0045743E- 503353N0050818E- 503231N0051326E- 502323N0051322E.",
         "restrictionOrHazard": "VMC training sector for EBBE based aircraft. Flights in this area shall maintain two-way radio contact with Steenokkerzeel ATCC.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-8",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2834,7 +3136,12 @@
         ],
         "color": "#A56100",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2884,11 +3191,11 @@
         "name": "TSA24 - ARDENNES 02",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL095 (1)",
-        "verticalLimits": "UNL / FL095 (1)",
+        "lowerLimit": "FL095 ⁽¹⁾",
+        "verticalLimits": "UNL / FL095 ⁽¹⁾",
         "lateralLimits": "503705N0043024E- 503813N0043620E- 503519N0045040E- 500118N0054241E- 495854N0054241E- 494927N0044914E- 503705N0043024E.",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-8",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2900,7 +3207,21 @@
         ],
         "color": "#780078",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2946,11 +3267,11 @@
         "name": "TSA25A - ARDENNES 03A",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL095 (1)",
-        "verticalLimits": "UNL / FL095 (1)",
+        "lowerLimit": "FL095 ⁽¹⁾",
+        "verticalLimits": "UNL / FL095 ⁽¹⁾",
         "lateralLimits": "495854N0054241E- 500118N0054241E- 501808N0051710E- 500703N0041011E- 495835N0040853E- 494920N0041830E- 494604N0043047E- 495854N0054241E.",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-8",
         "amendment": "AIRAC AMDT 011/2025",
@@ -2962,7 +3283,21 @@
         ],
         "color": "#FFD700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3012,11 +3347,11 @@
         "name": "TSA25B - ARDENNES 03B",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL095 (1)",
-        "verticalLimits": "UNL / FL095 (1)",
+        "lowerLimit": "FL095 ⁽¹⁾",
+        "verticalLimits": "UNL / FL095 ⁽¹⁾",
         "lateralLimits": "494604N0043047E- 495854N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494604N0043047E.",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-9",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3028,7 +3363,21 @@
         ],
         "color": "#FFD700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3074,11 +3423,11 @@
         "name": "TSA25C - ARDENNES 03C",
         "chapter": "ENR 5.2",
         "upperLimit": "FL095",
-        "lowerLimit": "4500FTAMSL (2) (3)",
-        "verticalLimits": "FL095 / 4500FTAMSL (2) (3)",
-        "lateralLimits": "495854N 0054241E - 500118N 0054241E - 501808N 0051710E - 500703N 0041011E - 495835N 0040853E - 494920N 0041830E - 494604N 0043047E - 494040N 0045055E - 494030N 0051133E - 494137N 0051624E - 494735N 0054237E - 495854N 0054241E. (1)",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (4)",
-        "timeOfActivity": "HX (5)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾ ⁽³⁾",
+        "verticalLimits": "FL095 / 4500FTAMSL ⁽²⁾ ⁽³⁾",
+        "lateralLimits": "495854N 0054241E - 500118N 0054241E - 501808N 0051710E - 500703N 0041011E - 495835N 0040853E - 494920N 0041830E - 494604N 0043047E - 494040N 0045055E - 494030N 0051133E - 494137N 0051624E - 494735N 0054237E - 495854N 0054241E. ⁽¹⁾",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-9",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3092,7 +3441,26 @@
         ],
         "color": "#FFD700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "lowerLimit": [
+            2,
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3158,11 +3526,11 @@
         "name": "TSA26A - ARDENNES 01",
         "chapter": "ENR 5.2",
         "upperLimit": "UNL",
-        "lowerLimit": "FL095 (1)",
-        "verticalLimits": "UNL / FL095 (1)",
+        "lowerLimit": "FL095 ⁽¹⁾",
+        "verticalLimits": "UNL / FL095 ⁽¹⁾",
         "lateralLimits": "495854N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E- 500853N0041028E- 503205N0040655E- 503335N0041214E- 503813N0043620E- 503519N0045040E- 500118N0054241E- 495854N0054241E.",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-9",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3174,7 +3542,21 @@
         ],
         "color": "#5A5A5A",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3248,18 +3630,37 @@
         "name": "TSA26B - ARDENNES 04",
         "chapter": "ENR 5.2",
         "upperLimit": "FL095",
-        "lowerLimit": "4500FTAMSL (2)(3)",
-        "verticalLimits": "FL095 / 4500FTAMSL (2)(3)",
-        "lateralLimits": "495854N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E- 500853N0041028E- 503205N0040655E- 503335N0041214E- 503813N0043620E- 503519N0045040E- 500118N0054241E- 495854N0054241E. (1)",
-        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). (4)",
-        "timeOfActivity": "HX (5)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾⁽³⁾",
+        "verticalLimits": "FL095 / 4500FTAMSL ⁽²⁾⁽³⁾",
+        "lateralLimits": "495854N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E- 500853N0041028E- 503205N0040655E- 503335N0041214E- 503813N0043620E- 503519N0045040E- 500118N0054241E- 495854N0054241E. ⁽¹⁾",
+        "restrictionOrHazard": "High performance flights and UAS flights (NATO Class III). ⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-9",
         "amendment": "AIRAC AMDT 011/2025",
         "effectiveDate": "30-OCT-2025",
         "color": "#5A5A5A",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "lowerLimit": [
+            2,
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3336,8 +3737,8 @@
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL095 / 4500FTAMSL",
         "lateralLimits": "495854N0054241E- 494735N0054237E- 494137N0051624E- along the Belgian-French border- 494957N0045159E- 495854N0054241E.",
-        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-10",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3349,7 +3750,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3390,8 +3799,8 @@
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL095 / 4500FTAMSL",
         "lateralLimits": "502125N0051209E- 501416N0052304E- 500613N0053516E- 495734N0053456E- 495313N0051015E- 502125N0051209E.",
-        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-10",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3402,7 +3811,15 @@
         ],
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3447,8 +3864,8 @@
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL095 / 4500FTAMSL",
         "lateralLimits": "502125N0051209E- 502441N0052449E- 502236N0053314E- 500618N0054251E- 500613N0053516E- 501416N0052304E- 502125N0051209E.",
-        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-10",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3459,7 +3876,15 @@
         ],
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3508,8 +3933,8 @@
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL095 / 4500FTAMSL",
         "lateralLimits": "502108N 0045210E - 502300N 0050943E - 502125N 0051209E - 495313N 0051015E - 494957N 0045200E - along the Belgian-French border - 500913N 0045232E - 501912N 0045235E - 502108N 0045210E.",
-        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-10",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3521,7 +3946,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3574,8 +4007,8 @@
         "lowerLimit": "4500FT AMSL",
         "verticalLimits": "FL095 / 4500FT AMSL",
         "lateralLimits": "500206N 0040902E - 500545N 0044211E - along the Belgian-French border - 500007N 0040903E - 500206N 0040902E",
-        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "UAS flights (NATO Class III). Prohibited to all manned aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-11",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3587,7 +4020,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3624,8 +4065,8 @@
         "lowerLimit": "GND",
         "verticalLimits": "FL105 / GND",
         "lateralLimits": "503420N 0055956E - 503754N 0061308E along border BELGIUM_GERMANY - 502557N 0062234E - 502557N 0060648E - 503042N 0055956E - 503420N 0055956E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft. (1)(2)(3)",
-        "timeOfActivity": "HX (4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft. ⁽¹⁾⁽²⁾⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-11",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3639,7 +4080,17 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1,
+            2,
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3684,8 +4135,8 @@
         "lowerLimit": "GND",
         "verticalLimits": "FL105 / GND",
         "lateralLimits": "503042N 0055956E - 502557N 0060648E - 502557N 0062234E along border BELGIUM_GERMANY - 501328N 0061006E - 501328N 0060341E - 501955N 0055956E - 503042N 0055956E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft.(1)(2)(3)",
-        "timeOfActivity": "HX (4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft.⁽¹⁾⁽²⁾⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-11",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3699,7 +4150,17 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1,
+            2,
+            3
+          ],
+          "timeOfActivity": [
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3748,8 +4209,8 @@
         "lowerLimit": "FL 095",
         "verticalLimits": "FL 175 / FL 095",
         "lateralLimits": "502913N 0055429E - 503235N 0061041E along border BELGIUM_GERMANY - 502221N 0062130E - 501911N 0061910E along border BELGIUM_GERMANY - 501616N 0061656E - 501555N 0061133E - 501741N 0060114E - 501955N 0055956E - 502913N 0055429E.",
-        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft. (1)",
-        "timeOfActivity": "HX (2)(3)(4)",
+        "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). During air exercises, prohibited to non- participating aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾⁽³⁾⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-12",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3763,7 +4224,17 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2,
+            3,
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3821,7 +4292,7 @@
         "verticalLimits": "FL 175 / FL 095",
         "lateralLimits": "503738N 0061041E - 503235N 0061041E - 503115N 0061218E - 503052N 0061240E - 503030N 0061300E - 503025N 0061305E - 502958N 0061330E - 502947N 0061341E - 502957N 0061510E - 503005N 0061620E - 503010N 0061704E - 502956N 0061805E - 502916N 0062052E - 502830N 0062048E - 502744N 0062043E - 502700N 0062237E - 502610N 0062241E - 502557N 0062234E - 502500N 0062202E - 502300N 0062100E - 502221N 0062131E - 501918N 0061900E - 501811N 0061757E - 501715N 0061725E - 501700N 0061800E - 501607N 0061700E - 501604N 0061630E - 501539N 0061325E - 501114N 0061239E - 501114N 0061127E - 501249N 0060150E - 501343N 0055628E - 501409N 0055542E - 501438N 0055501E - 501511N 0055427E - 501546N 0055400E - 501623N 0055340E - 502755N 0054654E - 502834N 0054642E - 502913N 0054637E - 502952N 0054642E - 503031N 0054654E - 503108N 0054713E - 503143N 0054741E - 503216N 0054815E - 503245N 0054856E - 503311N 0054942E - 503333N 0055033E - 503738N 0061041E.",
         "restrictionOrHazard": "For flight planning purposes only.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-12",
         "amendment": "AIRAC AMDT 011/2025",
@@ -3831,7 +4302,12 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4045,11 +4521,11 @@
         "name": "TSA28D - ELSENBORN 05",
         "chapter": "ENR 5.2",
         "upperLimit": "FL 105",
-        "lowerLimit": "GND (1)(5)",
-        "verticalLimits": "FL 105 / GND (1)(5)",
+        "lowerLimit": "GND ⁽¹⁾⁽⁵⁾",
+        "verticalLimits": "FL 105 / GND ⁽¹⁾⁽⁵⁾",
         "lateralLimits": "503420N 0055956E - 503754N 0061308E along border BELGIUM_GERMANY - 501328N 0061006E - 501328N 0060341E - 501955N 0055956E - 503420N 0055956E.",
-        "restrictionOrHazard": "UAS flights (NATO Class I Small or higher). Entry prohibited to non- participating aircraft. (2)(3) Tactical UAS exercise area.",
-        "timeOfActivity": "HX (4)(5)",
+        "restrictionOrHazard": "UAS flights (NATO Class I Small or higher). Entry prohibited to non- participating aircraft. ⁽²⁾⁽³⁾ Tactical UAS exercise area.",
+        "timeOfActivity": "HX ⁽⁴⁾⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-12",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4064,7 +4540,25 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#00F0F0",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1,
+            5
+          ],
+          "lowerLimit": [
+            1,
+            5
+          ],
+          "restrictionOrHazard": [
+            2,
+            3
+          ],
+          "timeOfActivity": [
+            4,
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4106,11 +4600,11 @@
         "name": "TSA29A - ARDENNES 06",
         "chapter": "ENR 5.2",
         "upperLimit": "FL145",
-        "lowerLimit": "4500FTAMSL (2)",
-        "verticalLimits": "FL145 / 4500FTAMSL (2)",
-        "lateralLimits": "495835N0040853E- 500338N0040939E- 501425N0043911E- 502231N0045226E- 503001N0052456E- 502627N0053920E- 500426N0055210E- along the Belgian-Luxembourg border- 500120N0055102E- 500118N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E. (1)",
+        "lowerLimit": "4500FTAMSL ⁽²⁾",
+        "verticalLimits": "FL145 / 4500FTAMSL ⁽²⁾",
+        "lateralLimits": "495835N0040853E- 500338N0040939E- 501425N0043911E- 502231N0045226E- 503001N0052456E- 502627N0053920E- 500426N0055210E- along the Belgian-Luxembourg border- 500120N0055102E- 500118N0054241E- 494735N0054237E- 494137N0051624E- 494030N0051133E- 494040N0045055E- 494920N0041830E- 495835N0040853E. ⁽¹⁾",
         "restrictionOrHazard": "CSAR exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-13",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4123,7 +4617,21 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4201,11 +4709,11 @@
         "name": "TSA29B - ARDENNES 07",
         "chapter": "ENR 5.2",
         "upperLimit": "FL095",
-        "lowerLimit": "4500FTAMSL (1)",
-        "verticalLimits": "FL095 / 4500FTAMSL (1)",
+        "lowerLimit": "4500FTAMSL ⁽¹⁾",
+        "verticalLimits": "FL095 / 4500FTAMSL ⁽¹⁾",
         "lateralLimits": "502627N0053920E- 503042N0055956E- 501955N0055956E- 501324N0060343E- 501011N0060832E- along the Belgian-German border- 500748N0060816E- along the Belgian- Luxembourg border- 500426N0055210E- 502627N0053920E.",
         "restrictionOrHazard": "CSAR exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-13",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4217,7 +4725,18 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4267,11 +4786,11 @@
         "name": "TSA29C - LUXEMBOURG",
         "chapter": "ENR 5.2",
         "upperLimit": "FL095",
-        "lowerLimit": "3500FTAMSL (1)",
-        "verticalLimits": "FL095 / 3500FTAMSL (1)",
+        "lowerLimit": "3500FTAMSL ⁽¹⁾",
+        "verticalLimits": "FL095 / 3500FTAMSL ⁽¹⁾",
         "lateralLimits": "500748N0060816E- along the German-Luxembourg border- 500118N0060843E- 500120N0055102E- along the Belgian-Luxembourg border- 500748N0060816E.",
         "restrictionOrHazard": "COMAO exercises and UAS flights (NATO Class III).",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-13",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4283,7 +4802,18 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#FF1493",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4316,12 +4846,12 @@
         "id": "TSA32A",
         "name": "TSA32A - LIBRAMONT WEST",
         "chapter": "ENR 5.2",
-        "upperLimit": "4500FTAMSL (2)",
-        "lowerLimit": "GND (3)",
-        "verticalLimits": "4500FTAMSL (2) / GND (3)",
+        "upperLimit": "4500FTAMSL ⁽²⁾",
+        "lowerLimit": "GND ⁽³⁾",
+        "verticalLimits": "4500FTAMSL ⁽²⁾ / GND ⁽³⁾",
         "lateralLimits": "495900N 0050700E - 495900N 0052200E - 494700N 0052200E - 494700N 0050700E - 495300N 0050400E - 495900N 0050700E.",
-        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.(4)",
-        "timeOfActivity": "HX (5)(6)",
+        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-13",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4336,7 +4866,26 @@
         ],
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "upperLimit": [
+            2
+          ],
+          "lowerLimit": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4377,12 +4926,12 @@
         "id": "TSA32B",
         "name": "TSA32B - LIBRAMONT EAST",
         "chapter": "ENR 5.2",
-        "upperLimit": "4500FTAMSL (2)",
-        "lowerLimit": "GND (3)",
-        "verticalLimits": "4500FTAMSL (2) / GND (3)",
+        "upperLimit": "4500FTAMSL ⁽²⁾",
+        "lowerLimit": "GND ⁽³⁾",
+        "verticalLimits": "4500FTAMSL ⁽²⁾ / GND ⁽³⁾",
         "lateralLimits": "495900N 0052200E - 495900N 0053700E - 495300N 0054000E - 494700N 0053700E - 494700N 0052200E - 495900N 0052200E.",
-        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.(4)",
-        "timeOfActivity": "HX (5)(6)",
+        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-14",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4397,7 +4946,26 @@
         ],
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "upperLimit": [
+            2
+          ],
+          "lowerLimit": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4438,12 +5006,12 @@
         "id": "TSA34A",
         "name": "TSA34A - CHAMPLON WEST",
         "chapter": "ENR 5.2",
-        "upperLimit": "4500FTAMSL (2)",
-        "lowerLimit": "GND (3)",
-        "verticalLimits": "4500FTAMSL (2) / GND (3)",
+        "upperLimit": "4500FTAMSL ⁽²⁾",
+        "lowerLimit": "GND ⁽³⁾",
+        "verticalLimits": "4500FTAMSL ⁽²⁾ / GND ⁽³⁾",
         "lateralLimits": "501500N 0051200E - 501400N 0052700E - 500500N 0052700E - 500500N 0052200E - 500300N 0051900E - 500300N 0051200E - 500900N 0050900E - 501500N 0051200E.",
-        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.(4)",
-        "timeOfActivity": "HX (5)(6)",
+        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-14",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4458,7 +5026,26 @@
         ],
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "upperLimit": [
+            2
+          ],
+          "lowerLimit": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4507,12 +5094,12 @@
         "id": "TSA34B",
         "name": "TSA34B - CHAMPLON EAST",
         "chapter": "ENR 5.2",
-        "upperLimit": "4500FTAMSL (2)",
-        "lowerLimit": "GND (3)",
-        "verticalLimits": "4500FTAMSL (2) / GND (3)",
+        "upperLimit": "4500FTAMSL ⁽²⁾",
+        "lowerLimit": "GND ⁽³⁾",
+        "verticalLimits": "4500FTAMSL ⁽²⁾ / GND ⁽³⁾",
         "lateralLimits": "501400N 0052700E - 501500N 0054200E - 500900N 0054500E - 500300N 0054200E - 500300N 0052900E - 500500N 0052700E - 501400N 0052700E.",
-        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.(4)",
-        "timeOfActivity": "HX (5)(6)",
+        "restrictionOrHazard": "CAS exercises target zone. Prohibited to non-participating aircraft.⁽⁴⁾",
+        "timeOfActivity": "HX ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-14",
         "amendment": "AIRAC AMDT 011/2025",
@@ -4527,7 +5114,26 @@
         ],
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2,
+            3
+          ],
+          "upperLimit": [
+            2
+          ],
+          "lowerLimit": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4577,7 +5183,7 @@
         "verticalLimits": "1000 FT AGL / GND",
         "lateralLimits": "A circle radius 2 NM centered on 500214N 0052434E.",
         "restrictionOrHazard": "BVLOS military UAS training zone. Entry prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX(1)(2)",
+        "timeOfActivity": "HX⁽¹⁾⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-15",
         "amendment": "AIRAC AMDT 007/2025",
@@ -4589,7 +5195,13 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1,
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4903,7 +5515,7 @@
         "verticalLimits": "500 FT AGL / GND",
         "lateralLimits": "502818N 0044834E - 502809N 0044908E - 502751N 0044908E - 502739N 0044815E - 502801N 0044758E - 502818N 0044834E.",
         "restrictionOrHazard": "BVLOS military UAS training zone. Entry prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-15",
         "amendment": "AIRAC AMDT 007/2025",
@@ -4913,7 +5525,12 @@
         ],
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4959,7 +5576,7 @@
         "verticalLimits": "4500 AMSL / GND",
         "lateralLimits": "512450N 0044947E along border BELGIUM_NETHERLANDS - 512816N 0050037E then a clockwise arc radius 5 NM centered on 512339N 0045733E - 512451N 0050519E along border BELGIUM_NETHERLANDS - 512247N 0050525E then a clockwise arc radius 5 NM centered on 512339N 0045733E - 512450N 0044947E.",
         "restrictionOrHazard": "Air exercises and UAS flights. Entry prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-15",
         "amendment": "AIRAC AMDT 007/2025",
@@ -4970,7 +5587,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5328,7 +5950,7 @@
         "verticalLimits": "4500 AMSL / 1500 AMSL",
         "lateralLimits": "511932N 0044132E - 512232N 0043953E - 512452N 0045023E along border BELGIUM_NETHERLANDS - 511915N 0051217E - 511833N 0051239E - 511505N 0045653E then a counter-clockwise arc radius 26 NM centered on 505408N 0043217E - 511932N 0044132E.",
         "restrictionOrHazard": "Air exercises and UAS flights. Entry prohibited to non- participating aircraft.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-15",
         "amendment": "AIRAC AMDT 007/2025",
@@ -5340,7 +5962,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5838,11 +6465,11 @@
         "name": "TRA/TSA37C - WEELDE",
         "chapter": "ENR 5.2",
         "upperLimit": "FL095",
-        "lowerLimit": "4500 AMSL(2)",
-        "verticalLimits": "FL095 / 4500 AMSL(2)",
+        "lowerLimit": "4500 AMSL⁽²⁾",
+        "verticalLimits": "FL095 / 4500 AMSL⁽²⁾",
         "lateralLimits": "511811N 0044813E then a clockwise arc radius 8 NM centered on 512339N 0045733E - 512656N 0044553E - 512656N 0044926E along border BELGIUM_NETHERLANDS - 512656N 0050018E - 512656N 0050536E along border BELGIUM_NETHERLANDS - 511905N 0050803E then a clockwise arc radius 8 NM centered on 512339N 0045733E - 511546N 0045518E then a counter-clockwise arc radius 26 NM centered on 505408N 0043217E - 511811N 0044813E.",
         "restrictionOrHazard": "Air exercises and UAS flights (NATO Class III). Entry prohibited to non-participating aircraft.",
-        "timeOfActivity": "HX(3)",
+        "timeOfActivity": "HX⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -5855,7 +6482,18 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#1E90FF",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -6549,7 +7187,7 @@
         "verticalLimits": "3500FTAMSL / GND",
         "lateralLimits": "A circle, 1NM radius, centred on 500515N0055444E.",
         "restrictionOrHazard": "RPAS flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -6560,7 +7198,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -6874,7 +7517,7 @@
         "verticalLimits": "3500FTAMSL / GND",
         "lateralLimits": "A circle, 1NM radius, centred on 500629N0055747E.",
         "restrictionOrHazard": "RPAS flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -6885,7 +7528,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7199,7 +7847,7 @@
         "verticalLimits": "3500FTAMSL / GND",
         "lateralLimits": "A circle, 1NM radius, centred on 500804N0060233E.",
         "restrictionOrHazard": "RPAS flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -7210,7 +7858,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7524,7 +8177,7 @@
         "verticalLimits": "3000FTAMSL / GND",
         "lateralLimits": "495644N0060433E - 495752N0061003E - 495451N0061158E - 495341N0060625E - 495644N0060433E.",
         "restrictionOrHazard": "RPAS flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -7534,7 +8187,12 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7576,7 +8234,7 @@
         "verticalLimits": "3000FTAMSL / GND",
         "lateralLimits": "495341N0060625E - 495451N0061158E - 495203N0061142E - 495115N0060756E - 495341N0060625E.",
         "restrictionOrHazard": "RPAS flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-16",
         "amendment": "AIRAC AMDT 007/2025",
@@ -7586,7 +8244,12 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7626,9 +8289,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "502240N 0045228E - 502057N 0045113E - 501918N 0045328E - 501320N 0045527E - 501603N 0050204E - 501715N 0050528E - 501536N 0050755E - 501457N 0051552E - 501222N 0051905E - 501317N 0052037E - 502635N 0052036E - 503001N 0052335E then a clockwise arc radius 5 NM centered on 503447N 0052110E - 503057N 0051606E then a clockwise arc radius 1 NM centered on 503157N 0051556E - 503136N 0051428E - 502935N 0050415E - 502804N 0045453E - 502730N 0045125E - 502240N 0045228E.(1)",
+        "lateralLimits": "502240N 0045228E - 502057N 0045113E - 501918N 0045328E - 501320N 0045527E - 501603N 0050204E - 501715N 0050528E - 501536N 0050755E - 501457N 0051552E - 501222N 0051905E - 501317N 0052037E - 502635N 0052036E - 503001N 0052335E then a clockwise arc radius 5 NM centered on 503447N 0052110E - 503057N 0051606E then a clockwise arc radius 1 NM centered on 503157N 0051556E - 503136N 0051428E - 502935N 0050415E - 502804N 0045453E - 502730N 0045125E - 502240N 0045228E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-22",
         "amendment": "AIRAC AMDT 004/2026",
@@ -7640,7 +8303,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7908,9 +8579,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "501317N 0052037E - 501006N 0052221E - 500855N 0052638E - 500625N 0052825E - 500754N 0052903E - 500949N 0053334E - 501137N 0053423E - 501300N 0053623E - 501223N 0053754E - 501453N 0054353E - 502339N 0054046E - 502852N 0054302E - 502931N 0053638E - 503218N 0053352E - 503001N 0052335E - 502635N 0052036E - 501317N 0052037E.(1)",
+        "lateralLimits": "501317N 0052037E - 501006N 0052221E - 500855N 0052638E - 500625N 0052825E - 500754N 0052903E - 500949N 0053334E - 501137N 0053423E - 501300N 0053623E - 501223N 0053754E - 501453N 0054353E - 502339N 0054046E - 502852N 0054302E - 502931N 0053638E - 503218N 0053352E - 503001N 0052335E - 502635N 0052036E - 501317N 0052037E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-22",
         "amendment": "AIRAC AMDT 004/2026",
@@ -7922,7 +8593,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8012,7 +8691,7 @@
         "verticalLimits": "250FTAGL / GND",
         "lateralLimits": "502852N 0054302E - 502815N 0054428E - 502533N 0054343E - 502354N 0055244E - 502220N 0055224E - 502021N 0055410E - 501306N 0055504E - 501149N 0055702E - 501023N 0055756E along border BELGIUM_LUXEMBOURG - 495917N 0055021E - 495848N 0054651E - 495939N 0054319E - 500011N 0054102E - 500556N 0054532E - 500725N 0054517E - 500916N 0054750E - 501344N 0054611E - 501453N 0054353E - 502339N 0054046E - 502852N 0054302E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-23",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8024,7 +8703,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8126,7 +8810,7 @@
         "verticalLimits": "250FTAGL / GND",
         "lateralLimits": "502220N 0055224E - 502347N 0055625E - 502335N 0055853E - 502005N 0060523E - 501753N 0060451E - 501544N 0060750E - 501536N 0060955E - 501411N 0061050E along border BELGIUM_GERMANY - 501026N 0060839E - 501014N 0060609E along border BELGIUM_LUXEMBOURG - 501023N 0055756E - 501149N 0055702E - 501306N 0055504E - 502021N 0055410E - 502220N 0055224E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-23",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8138,7 +8822,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8218,9 +8907,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "501320N 0045527E - 501241N 0044918E - 501009N 0044927E - along the Belgian-French border - 494540N 0050418E - 495128N 0050550E - 495158N 0051323E - 495407N 0051935E - 495522N 0051415E - 495853N 0051417E - 500357N 0051134E - 500730N 0050530E - 501603N 0050204E - 501320N 0045527E. (1)(2)",
+        "lateralLimits": "501320N 0045527E - 501241N 0044918E - 501009N 0044927E - along the Belgian-French border - 494540N 0050418E - 495128N 0050550E - 495158N 0051323E - 495407N 0051935E - 495522N 0051415E - 495853N 0051417E - 500357N 0051134E - 500730N 0050530E - 501603N 0050204E - 501320N 0045527E. ⁽¹⁾⁽²⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-23",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8234,7 +8923,16 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1,
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8306,9 +9004,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "495407N 0051935E - 495445N 0052113E - 495647N 0052047E - 495753N 0052215E - 500232N 0052316E - 500625N 0052825E - 500855N 0052638E - 501006N 0052221E - 501317N 0052037E - 501222N 0051905E - 501457N 0051552E - 501536N 0050755E - 501715N 0050528E - 501603N 0050204E - 500730N 0050530E - 500357N 0051134E - 495853N 0051417E - 495522N 0051415E - 495407N 0051935E. (1)(2)",
+        "lateralLimits": "495407N 0051935E - 495445N 0052113E - 495647N 0052047E - 495753N 0052215E - 500232N 0052316E - 500625N 0052825E - 500855N 0052638E - 501006N 0052221E - 501317N 0052037E - 501222N 0051905E - 501457N 0051552E - 501536N 0050755E - 501715N 0050528E - 501603N 0050204E - 500730N 0050530E - 500357N 0051134E - 495853N 0051417E - 495522N 0051415E - 495407N 0051935E. ⁽¹⁾⁽²⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-23",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8321,7 +9019,16 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1,
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8417,9 +9124,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "495407N 0051935E - 495146N 0053025E - 495711N 0053906E - 500011N 0054102E - 500308N 0053238E - 500529N 0053205E - 500535N 0052920E - 500625N 0052825E - 500232N 0052316E - 495753N 0052215E - 495647N 0052047E - 495445N 0052113E - 495407N 0051935E.(1)",
+        "lateralLimits": "495407N 0051935E - 495146N 0053025E - 495711N 0053906E - 500011N 0054102E - 500308N 0053238E - 500529N 0053205E - 500535N 0052920E - 500625N 0052825E - 500232N 0052316E - 495753N 0052215E - 495647N 0052047E - 495445N 0052113E - 495407N 0051935E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-24",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8431,7 +9138,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8503,9 +9218,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "500011N 0054102E - 500556N 0054532E - 500725N 0054517E - 500916N 0054750E - 501344N 0054611E - 501453N 0054353E - 501223N 0053754E - 501300N 0053623E - 501137N 0053423E - 500949N 0053334E - 500754N 0052903E - 500625N 0052825E - 500535N 0052920E - 500529N 0053205E - 500308N 0053238E - 500011N 0054102E.(1)",
+        "lateralLimits": "500011N 0054102E - 500556N 0054532E - 500725N 0054517E - 500916N 0054750E - 501344N 0054611E - 501453N 0054353E - 501223N 0053754E - 501300N 0053623E - 501137N 0053423E - 500949N 0053334E - 500754N 0052903E - 500625N 0052825E - 500535N 0052920E - 500529N 0053205E - 500308N 0053238E - 500011N 0054102E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-24",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8517,7 +9232,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8601,9 +9324,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "494540N 0050418E along border BELGIUM_FRANCE - 494546N 0050541E - 494514N 0051219E - 494157N 0051620E - 494149N 0051916E - 493751N 0052047E along border BELGIUM_FRANCE - 493657N 0052353E - 493724N 0052726E - 493329N 0053019E - 493526N 0053733E - 493745N 0054236E - 493939N 0054601E - 494018N 0054641E - 494118N 0054430E - 494304N 0053517E - 494904N 0053055E - 495146N 0053025E - 495407N 0051935E - 495158N 0051323E - 495128N 0050550E - 494540N 0050418E. (1)",
+        "lateralLimits": "494540N 0050418E along border BELGIUM_FRANCE - 494546N 0050541E - 494514N 0051219E - 494157N 0051620E - 494149N 0051916E - 493751N 0052047E along border BELGIUM_FRANCE - 493657N 0052353E - 493724N 0052726E - 493329N 0053019E - 493526N 0053733E - 493745N 0054236E - 493939N 0054601E - 494018N 0054641E - 494118N 0054430E - 494304N 0053517E - 494904N 0053055E - 495146N 0053025E - 495407N 0051935E - 495158N 0051323E - 495128N 0050550E - 494540N 0050418E. ⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-24",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8616,7 +9339,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8720,9 +9451,9 @@
         "upperLimit": "250FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "250FTAGL / GND",
-        "lateralLimits": "494018N 0054641E - 494202N 0054829E - 494729N 0054519E along border BELGIUM_LUXEMBOURG - 495020N 0054428E - 495321N 0054159E - 495939N 0054319E - 500011N 0054102E - 495711N 0053906E - 495146N 0053025E - 494904N 0053055E - 494304N 0053517E - 494118N 0054430E - 494018N 0054641E.(1)",
+        "lateralLimits": "494018N 0054641E - 494202N 0054829E - 494729N 0054519E along border BELGIUM_LUXEMBOURG - 495020N 0054428E - 495321N 0054159E - 495939N 0054319E - 500011N 0054102E - 495711N 0053906E - 495146N 0053025E - 494904N 0053055E - 494304N 0053517E - 494118N 0054430E - 494018N 0054641E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-24",
         "amendment": "AIRAC AMDT 004/2026",
@@ -8735,7 +9466,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8809,7 +9548,7 @@
         "verticalLimits": "500FTAGL / GND",
         "lateralLimits": "502804N 0045453E - 503201N 0045220E - 503706N 0044557E - 503941N 0044955E - 504157N 0045525E - 504332N 0045844E - 504157N 0051009E - 504225N 0051445E - 504201N 0052128E - 503821N 0051538E then a counter-clockwise arc radius 5 NM centered on 503447N 0052110E - 503213N 0051425E then a counter-clockwise arc radius 1 NM centered on 503157N 0051556E - 503136N 0051428E - 502935N 0050415E - 502804N 0045453E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-25",
         "amendment": "AMDT 005/2025",
@@ -8820,7 +9559,12 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -9702,7 +10446,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "511635N 0032236E - 510500N 0031500E - 510357N 0025825E - 505900N 0024917E - 510131N 0023419E along the Belgian-French border - 510521N 0023244E along the coastline - 510859N 0024257E - 510635N 0025022E - 510812N 0030119E then a counter- clockwise arc radius 5 NM centered on 511305N 0025929E - 511412N 0030716E then a counter- clockwise arc radius 8 NM centered on 511221N 0025450E - 511749N 0030411E along the coastline - 511952N 0031055E - 511939N 0031105E - 511938N 0031052E - 511902N 0031037E - 511800N 0031136E - 511842N 0031144E - 511827N 0031207E - 511612N 0031241E - 511607N 0031203E - 511446N 0031222E - 511415N 0031243E - 511325N 0031254E - 511320N 0031325E - 511332N 0031340E - 511438N 0031325E - 511440N 0031340E - 511502N 0031338E - 511458N 0031312E - 511623N 0031250E - 511752N 0031540E - 511934N 0031347E - 512025N 0031344E along the coastline - 512223N 0032147E along border Belgian- Dutch - 511635N 0032236E.",
         "restrictionOrHazard": "Training area for helicopters.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-25",
         "amendment": "AMDT 005/2025",
@@ -9714,7 +10458,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10676,7 +11425,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "511635N 0032236E - 510500N 0031500E - 510357N 0025825E - 505334N 0032421E - 510314N 0032818E - 510838N 0034420E - 511014N 0034517E - 511050N 0034529E - 511137N 0034646E - 511141N 0034702E - 511133N 0034755E - 511238N 0034804E along the Belgian-Dutch border - 511635N 0032236E.",
         "restrictionOrHazard": "Training area for helicopters.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-25",
         "amendment": "AMDT 005/2025",
@@ -10688,7 +11437,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10760,9 +11514,9 @@
         "upperLimit": "500 FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "500 FTAGL / GND",
-        "lateralLimits": "510131N 0023419E - 505900N 0024917E - 510357N 0025825E - 505334N 0032421E - 505120N 0032729E - 504532N 0031017E - along the Belgian-French border - 510131N 0023419E. (1)",
+        "lateralLimits": "510131N 0023419E - 505900N 0024917E - 510357N 0025825E - 505334N 0032421E - 505120N 0032729E - 504532N 0031017E - along the Belgian-French border - 510131N 0023419E. ⁽¹⁾",
         "restrictionOrHazard": "Training area for helicopters.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-25",
         "amendment": "AMDT 005/2025",
@@ -10775,7 +11529,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10825,7 +11587,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "504532N 0031017E - 505120N 0032729E - 504028N 0034236E - 503147N 0032913E - along the Belgian- French border - 504532N 0031017E.",
         "restrictionOrHazard": "Training area for helicopters.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-26",
         "amendment": "AMDT 005/2025",
@@ -10837,7 +11599,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10879,7 +11646,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "510859N 0024257E along the coastline - 511749N 0030411E then a clockwise arc radius 8 NM centered on 511221N 0025450E - 511412N 0030716E then a clockwise arc radius 5 NM centered on 511305N 0025929E - 510812N 0030119E - 510635N 0025022E - 510859N 0024257E.",
         "restrictionOrHazard": "Training area for helicopters.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-26",
         "amendment": "AMDT 005/2025",
@@ -10891,7 +11658,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11087,9 +11859,9 @@
         "upperLimit": "500 FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "500 FTAGL / GND",
-        "lateralLimits": "504836N 0050925 E - 504928N 0051342E - 505104N 0051436E - 505429N 0052029E - 505220N 0052946E - 504803E 0053112E -504634N 0053321E then a counter-clockwise arc radius 5 NM centred on 504137N 0053205E - 504512N 0052633E - 504201N 0052128E - 504225N 0051445E - 504157N 0051009E - 504332E 0045844E - 504836N 0050925E. (1)",
+        "lateralLimits": "504836N 0050925 E - 504928N 0051342E - 505104N 0051436E - 505429N 0052029E - 505220N 0052946E - 504803E 0053112E -504634N 0053321E then a counter-clockwise arc radius 5 NM centred on 504137N 0053205E - 504512N 0052633E - 504201N 0052128E - 504225N 0051445E - 504157N 0051009E - 504332E 0045844E - 504836N 0050925E. ⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-26",
         "amendment": "AMDT 005/2025",
@@ -11101,7 +11873,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11575,7 +12355,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "505713N 0045955E - 505752N 0044910E - 505921N 0044837E - 510008N 0045002E - 510756N 0043625E - 511005N 0044746E - 511019N 0044902E - 510625N 0050313E - 510536N 0050817E - 510443N 0050817E - 510156N 0051153E - 510005N 0051255E - 505635N 0050132E - 505713N 0045955E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-26",
         "amendment": "AMDT 005/2025",
@@ -11586,7 +12366,12 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11664,7 +12449,7 @@
         "verticalLimits": "500 FTAGL / GND",
         "lateralLimits": "511435N 0044200E - 512058N 0044536E - 512329N 0044518E - 512454N 0044616E along border BELGIUM_NETHERLANDS - 511856N 0050804E - 511801N 0050834E - 511738N 0045212E - 511441N 0044700E - 511435N 0044200E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (1)",
+        "timeOfActivity": "HX ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-27",
         "amendment": "AIRAC AMDT 004/2026",
@@ -11676,7 +12461,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11732,9 +12522,9 @@
         "upperLimit": "500 FTAGL",
         "lowerLimit": "GND",
         "verticalLimits": "500 FTAGL / GND",
-        "lateralLimits": "511400N 0044110E - 511435N 0044200E - 511441N 0044700E - 511738N 0045212E - 511801N 0050834E - 511224N 0051036E - 510536N 0050817E - 510625N 0050313E - 511019N 0044902E - 511005N 0044746E - 511400N 0044110E. (1)",
+        "lateralLimits": "511400N 0044110E - 511435N 0044200E - 511441N 0044700E - 511738N 0045212E - 511801N 0050834E - 511224N 0051036E - 510536N 0050817E - 510625N 0050313E - 511019N 0044902E - 511005N 0044746E - 511400N 0044110E. ⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX (2)",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-27",
         "amendment": "AIRAC AMDT 004/2026",
@@ -11746,7 +12536,15 @@
         ],
         "color": "#CD853F",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11810,9 +12608,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL / 250FTAGL",
-        "lateralLimits": "502231N0045226E- 502723N0051325E- 503001N0052456E- 502845N0053003E- 502846N0053517E- 501008N0051653E- 500954N0045424E- 501320N0045527E- 501918N0045328E- 502231N0045226E.(1)",
+        "lateralLimits": "502231N0045226E- 502723N0051325E- 503001N0052456E- 502845N0053003E- 502846N0053517E- 501008N0051653E- 500954N0045424E- 501320N0045527E- 501918N0045328E- 502231N0045226E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-28",
         "amendment": "AIRAC AMDT 004/2026",
@@ -11823,7 +12621,15 @@
         ],
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11883,9 +12689,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL / 250FTAGL",
-        "lateralLimits": "502846N0053517E- 502846N0054240E- 502237N0055236E- 501030N0055833E- along the Belgian-Luxembourg border- 495959N0054917E- 500000N0054318E- 501059N0053428E- 501008N0051653E- 502846N0053517E.(1)",
+        "lateralLimits": "502846N0053517E- 502846N0054240E- 502237N0055236E- 501030N0055833E- along the Belgian-Luxembourg border- 495959N0054917E- 500000N0054318E- 501059N0053428E- 501008N0051653E- 502846N0053517E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-28",
         "amendment": "AIRAC AMDT 004/2026",
@@ -11897,7 +12703,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11955,7 +12769,7 @@
         "verticalLimits": "500FTAGL / 250FTAGL",
         "lateralLimits": "502237N0055236E- 502534N0060141E- 502542N0062226E- along the Belgian-German border- 500748N0060816E- along the Belgian- Luxembourg border- 501030N0055833E- 502237N0055236E.",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(1)",
+        "timeOfActivity": "HX⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-28",
         "amendment": "AIRAC AMDT 004/2026",
@@ -11966,7 +12780,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -12010,9 +12829,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL / 250FTAGL",
-        "lateralLimits": "500954N0045424E- 501008N0051653E- 495442N0052348E- 494714N0050434E- 495410N0045336E- 500954N0045424E. (1)",
+        "lateralLimits": "500954N0045424E- 501008N0051653E- 495442N0052348E- 494714N0050434E- 495410N0045336E- 500954N0045424E. ⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-28",
         "amendment": "AIRAC AMDT 004/2026",
@@ -12023,7 +12842,15 @@
         ],
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -12067,9 +12894,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL / 250FTAGL",
-        "lateralLimits": "501008N0051653E- 501059N0053428E- 500000N0054318E- 495442N0052348E- 501008N0051653E.(1)",
+        "lateralLimits": "501008N0051653E- 501059N0053428E- 500000N0054318E- 495442N0052348E- 501008N0051653E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-29",
         "amendment": "AIRAC AMDT 004/2026",
@@ -12080,7 +12907,15 @@
         ],
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -12120,9 +12955,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL/ 250FTAGL",
-        "lateralLimits": "494714N0050434E- 495442N0052348E- 493826N0053833E- 493514N0053041E- 494520N0051208E- 494714N0050434E. (1)",
+        "lateralLimits": "494714N0050434E- 495442N0052348E- 493826N0053833E- 493514N0053041E- 494520N0051208E- 494714N0050434E. ⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-29",
         "amendment": "AIRAC AMDT 004/2026",
@@ -12133,7 +12968,15 @@
         ],
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -12177,9 +13020,9 @@
         "upperLimit": "500FTAGL",
         "lowerLimit": "250FTAGL",
         "verticalLimits": "500FTAGL / 250FTAGL",
-        "lateralLimits": "495442N0052348E- 500000N0054318E- 495117N0054157E- 494211N0054751E- 493826N0053833E- 495442N0052348E.(1)",
+        "lateralLimits": "495442N0052348E- 500000N0054318E- 495117N0054157E- 494211N0054751E- 493826N0053833E- 495442N0052348E.⁽¹⁾",
         "restrictionOrHazard": "Low level flights.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-29",
         "amendment": "AIRAC AMDT 004/2026",
@@ -12190,7 +13033,15 @@
         ],
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "lateralLimits": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -12235,8 +13086,8 @@
         "lowerLimit": "10FTAMSL",
         "verticalLimits": "500FTAMSL / 10FTAMSL",
         "lateralLimits": "510521N 0023244E - 510700N 0020000E - 513000N 0020000E - 512223N 0032147E along the coastline - 512025N 0031344E - 512136N 0031339E - 512153N 0031118E - 512103N 0030959E - 511952N 0031055E along the coastline - 510521N 0023244E.",
-        "restrictionOrHazard": "Training area for helicopters and fixed-wing aircraft. (1)",
-        "timeOfActivity": "HX (2)",
+        "restrictionOrHazard": "Training area for helicopters and fixed-wing aircraft. ⁽¹⁾",
+        "timeOfActivity": "HX ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.2",
         "aipPage": "ENR 5.2-29",
         "amendment": "AIRAC AMDT 004/2026",
@@ -12248,7 +13099,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": "#878700",
         "colorSource": "AIM Belgium Brussels FIR Structure, 09 JUL 2026",
-        "areaType": "military"
+        "areaType": "military",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",

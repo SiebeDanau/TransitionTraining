@@ -18,7 +18,7 @@
         "verticalLimits": "2500FTAMSL/ GND",
         "lateralLimits": "A circle, 2NM radius, centred on 511051N0051315E.",
         "restrictionOrHazard": "Glider activity. Glider towing. Glider winching up to 2200FT AMSL.",
-        "timeOfActivity": "HX. In VMC only (1)",
+        "timeOfActivity": "HX. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-1",
         "amendment": "AMDT 008/2024",
@@ -29,7 +29,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -343,7 +348,7 @@
         "verticalLimits": "4500 FT AMSL / 3500 FT AMSL",
         "lateralLimits": "504139N0045603E- an arc of circle, 40NM radius, centred on position 510954N0041102E and traced clockwise to 503810N0044949E- 504354N0044405E- 504702N0044759E- 504825N0045614E- an arc of circle, 1.7NM radius, centred on position 504654N0045728E and traced counterclockwise to 504740N0045503E- 504341N0045156E- 504139N0045603E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-1",
         "amendment": "AMDT 008/2024",
@@ -355,7 +360,12 @@
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -465,7 +475,7 @@
         "verticalLimits": "FL 055 / 3500 FT AMSL",
         "lateralLimits": "504848N0050505E- an arc of circle, 40NM radius, centred on position 510954N0041102E and traced clockwise to 504138N0045603E- 504341N0045156E- 504740N0045503E- an arc of circle, 1.7NM radius, centred on position 504654N0045728E and traced clockwise to 504836N0045721E- 504848N0050505E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX(2)",
+        "timeOfActivity": "HX⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-1",
         "amendment": "AMDT 008/2024",
@@ -477,7 +487,12 @@
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -619,7 +634,7 @@
         "verticalLimits": "1000FTAGL / GND",
         "lateralLimits": "502945N0033156E- an arc of circle, 8NM radius, centred on position 503250N0034333E and traced clockwise to 502506N0034014E- along the Belgian- French border- 502945N0033156E.",
         "restrictionOrHazard": "Training area for free manned balloons.",
-        "timeOfActivity": "HJ. In VMC only (1)",
+        "timeOfActivity": "HJ. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-1",
         "amendment": "AMDT 008/2024",
@@ -630,7 +645,12 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1072,7 +1092,7 @@
         "verticalLimits": "4500FTAMSL / GND",
         "lateralLimits": "A circle, 10NM radius, centred on 495330N0051326E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX. In VMC only(1)",
+        "timeOfActivity": "HX. In VMC only⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-2",
         "amendment": "AMDT 008/2024",
@@ -1083,7 +1103,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1393,8 +1418,8 @@
         "name": "BRASSCHAAT",
         "chapter": "ENR 5.5",
         "upperLimit": "2500FTAMSL",
-        "lowerLimit": "GND (1)",
-        "verticalLimits": "2500FTAMSL / GND (1)",
+        "lowerLimit": "GND ⁽¹⁾",
+        "verticalLimits": "2500FTAMSL / GND ⁽¹⁾",
         "lateralLimits": "A circle, 3NM radius, centred on 512027N0043015E.",
         "restrictionOrHazard": "Glider activity. Glider towing. Glider winching up to 2500FT AMSL",
         "timeOfActivity": "HJ (SAT, SUN and HOL). In VMC only",
@@ -1408,7 +1433,15 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -1718,11 +1751,11 @@
         "name": "CERFONTAINE AREA ONE",
         "chapter": "ENR 5.5",
         "upperLimit": "FL 145",
-        "lowerLimit": "GND (1)",
-        "verticalLimits": "FL 145 / GND (1)",
+        "lowerLimit": "GND ⁽¹⁾",
+        "verticalLimits": "FL 145 / GND ⁽¹⁾",
         "lateralLimits": "A circle radius 4 KM centered on 500910N 0042314E",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "HJ. In VMC only (2)",
+        "timeOfActivity": "HJ. In VMC only ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-2",
         "amendment": "AMDT 008/2024",
@@ -1734,7 +1767,18 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2502,7 +2546,7 @@
         "verticalLimits": "1500FTAMSL / GND",
         "lateralLimits": "A circle, 4NM radius, centred on 503933N0043051E.",
         "restrictionOrHazard": "Training area for free manned balloons.",
-        "timeOfActivity": "HJ. In VMC only (1)",
+        "timeOfActivity": "HJ. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-2",
         "amendment": "AMDT 008/2024",
@@ -2513,7 +2557,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -2827,7 +2876,7 @@
         "verticalLimits": "FL150 / GND",
         "lateralLimits": "A circle, 1.5NM radius, centred on 505957N0050355E.",
         "restrictionOrHazard": "Parachuting, glider towing and winching activity. Glider winching up to 2500FTAMSL",
-        "timeOfActivity": "SAT, SUN and HOL, SR- SS + 30MIN. In VMC only (1)",
+        "timeOfActivity": "SAT, SUN and HOL, SR- SS + 30MIN. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-3",
         "amendment": "AMDT 002/2025",
@@ -2838,7 +2887,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3148,11 +3202,11 @@
         "name": "FEITSCH",
         "chapter": "ENR 5.5",
         "upperLimit": "FL070",
-        "lowerLimit": "3500FTAMSL (1)",
-        "verticalLimits": "FL070 / 3500FTAMSL (1)",
+        "lowerLimit": "3500FTAMSL ⁽¹⁾",
+        "verticalLimits": "FL070 / 3500FTAMSL ⁽¹⁾",
         "lateralLimits": "500242N0055346E- 500105N0055334E- 500108N0055244E- 500244N0055256E- 500242N0055346E.",
         "restrictionOrHazard": "Aerobatic sector for light aircraft.",
-        "timeOfActivity": "HX. In VMC only(2)",
+        "timeOfActivity": "HX. In VMC only⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-3",
         "amendment": "AMDT 002/2025",
@@ -3163,7 +3217,18 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -3523,8 +3588,8 @@
         "name": "GERAARDSBERGEN",
         "chapter": "ENR 5.5",
         "upperLimit": "2500FTAMSL",
-        "lowerLimit": "GND (2)",
-        "verticalLimits": "2500FTAMSL / GND (2)",
+        "lowerLimit": "GND ⁽²⁾",
+        "verticalLimits": "2500FTAMSL / GND ⁽²⁾",
         "lateralLimits": "A circle, 2NM radius, centred on 504517N0035145E.",
         "restrictionOrHazard": "Glider activity. Glider towing. Glider winching up to 1600FT AMSL.",
         "timeOfActivity": "SAT, SUN and HOL, HJ (daily from APR to OCT). In VMC only.",
@@ -3539,7 +3604,15 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            2
+          ],
+          "lowerLimit": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -4819,7 +4892,7 @@
         "verticalLimits": "FL130 / GND",
         "lateralLimits": "A circle, 2NM radius, centred on 511820N0042313E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "HJ. In VMC only(1)",
+        "timeOfActivity": "HJ. In VMC only⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-4",
         "amendment": "AMDT 002/2025",
@@ -4830,7 +4903,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5140,11 +5218,11 @@
         "name": "KONZ / KÖNEN GLIDER SECTOR NORTH",
         "chapter": "ENR 5.5",
         "upperLimit": "4000FT AMSL",
-        "lowerLimit": "1000FT AGL (1)",
-        "verticalLimits": "4000FT AMSL / 1000FT AGL (1)",
+        "lowerLimit": "1000FT AGL ⁽¹⁾",
+        "verticalLimits": "4000FT AMSL / 1000FT AGL ⁽¹⁾",
         "lateralLimits": "494801N0063129E- 494708N0063341E- 494203N0063405E- 494203N0063022E - along the German-Luxembourg border - 494801N 0063129E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX. In VMC only(2)",
+        "timeOfActivity": "HX. In VMC only⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-4",
         "amendment": "AMDT 002/2025",
@@ -5156,7 +5234,18 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5194,11 +5283,11 @@
         "name": "KONZ / KÖNEN GLIDER SECTOR SOUTH",
         "chapter": "ENR 5.5",
         "upperLimit": "4000FT AMSL",
-        "lowerLimit": "1000FT AGL (1)",
-        "verticalLimits": "4000FT AMSL / 1000FT AGL (1)",
+        "lowerLimit": "1000FT AGL ⁽¹⁾",
+        "verticalLimits": "4000FT AMSL / 1000FT AGL ⁽¹⁾",
         "lateralLimits": "494203N0063022E- 494203N0063405E- 493212N0063453E- 493018N0063000E - 494203N 0063022E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX. In VMC only(2)",
+        "timeOfActivity": "HX. In VMC only⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-4",
         "amendment": "AMDT 002/2025",
@@ -5209,7 +5298,18 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5247,11 +5347,11 @@
         "name": "KONZ / KÖNEN AEROBATICS SECTOR",
         "chapter": "ENR 5.5",
         "upperLimit": "5000FT AMSL",
-        "lowerLimit": "1000FT AGL (1)",
-        "verticalLimits": "5000FT AMSL / 1000FT AGL (1)",
+        "lowerLimit": "1000FT AGL ⁽¹⁾",
+        "verticalLimits": "5000FT AMSL / 1000FT AGL ⁽¹⁾",
         "lateralLimits": "494203N0063405E- 493900N0063420E- 493858N0063015E- 494203N0063022E - 494203N 0063405E.",
         "restrictionOrHazard": "Aerobatics.",
-        "timeOfActivity": "HX. In VMC only(2)",
+        "timeOfActivity": "HX. In VMC only⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-4",
         "amendment": "AMDT 002/2025",
@@ -5262,7 +5362,18 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5304,7 +5415,7 @@
         "verticalLimits": "FL100 / GND",
         "lateralLimits": "A circle, 3NM radius, centred on 510712N0051825E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "SAT, SUN and HOL, HJ. In VMC only (1)",
+        "timeOfActivity": "SAT, SUN and HOL, HJ. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-5",
         "amendment": "AMDT 002/2025",
@@ -5315,7 +5426,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -5953,8 +6069,8 @@
         "lowerLimit": "3500FTAMSL",
         "verticalLimits": "FL050 / 3500FTAMSL",
         "lateralLimits": "500336N 0060645E - 495635N 0055817E - 495326N 0060551E - 495426N 0061353E - along the German- Luxembourg border - 500336N 0060645E.",
-        "restrictionOrHazard": "Paragliding. (2)",
-        "timeOfActivity": "HX(3)(4)",
+        "restrictionOrHazard": "Paragliding. ⁽²⁾",
+        "timeOfActivity": "HX⁽³⁾⁽⁴⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-5",
         "amendment": "AMDT 002/2025",
@@ -5968,7 +6084,16 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3,
+            4
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -6335,7 +6460,7 @@
         "verticalLimits": "FL135 / GND",
         "lateralLimits": "A circle, 2NM radius, centred on 502917N0044626E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "FRI BTN 1500 and SS, outside MIL activities. SAT, SUN and HOL, HJ. In VMC only (1)",
+        "timeOfActivity": "FRI BTN 1500 and SS, outside MIL activities. SAT, SUN and HOL, HJ. In VMC only ⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-6",
         "amendment": "AMDT 002/2025",
@@ -6346,7 +6471,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -6656,11 +6786,11 @@
         "name": "NAMUR AREA TWO",
         "chapter": "ENR 5.5",
         "upperLimit": "2500FTAMSL",
-        "lowerLimit": "GND (1)",
-        "verticalLimits": "2500FTAMSL / GND (1)",
+        "lowerLimit": "GND ⁽¹⁾",
+        "verticalLimits": "2500FTAMSL / GND ⁽¹⁾",
         "lateralLimits": "502928N 0044201E - 503121N 0045022E - 502320N 0045219E - 502147N 0044008E - 502259N 0044043E - 502332N 0044040E - 502428N 0044015E - 502437N 0044006E - an arc of circle, 5.5NM radius, centred on 502817N 0043335E and traced counterclockwise to 502928N 0044201E.",
         "restrictionOrHazard": "Glider activity. Glider towing. Glider winching up to 2000 FT AMSL.",
-        "timeOfActivity": "MON to THU, 0800-1900 (0700-1800). FRI to SUN and HOL, 0800 (0700)- SS. In VMC only (2)",
+        "timeOfActivity": "MON to THU, 0800-1900 (0700-1800). FRI to SUN and HOL, 0800 (0700)- SS. In VMC only ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-6",
         "amendment": "AMDT 002/2025",
@@ -6672,7 +6802,18 @@
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -6798,11 +6939,11 @@
         "name": "NOERTRANGE",
         "chapter": "ENR 5.5",
         "upperLimit": "FL145",
-        "lowerLimit": "GND (1)",
-        "verticalLimits": "FL145 / GND (1)",
+        "lowerLimit": "GND ⁽¹⁾",
+        "verticalLimits": "FL145 / GND ⁽¹⁾",
         "lateralLimits": "A circle, 2NM radius, centred on 495847N0055456E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "HJ. In VMC only (2)",
+        "timeOfActivity": "HJ. In VMC only ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-6",
         "amendment": "AMDT 002/2025",
@@ -6814,7 +6955,18 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7124,8 +7276,8 @@
         "name": "RIPPWEILER",
         "chapter": "ENR 5.5",
         "upperLimit": "FL070",
-        "lowerLimit": "2500FTAMSL (1)",
-        "verticalLimits": "FL070 / 2500FTAMSL (1)",
+        "lowerLimit": "2500FTAMSL ⁽¹⁾",
+        "verticalLimits": "FL070 / 2500FTAMSL ⁽¹⁾",
         "lateralLimits": "494532N0055753E- 494506N0055723E- 494601N0055521E- 494628N0055548E- 494532N0055753E.",
         "restrictionOrHazard": "Aerobatic sector for gliders.",
         "timeOfActivity": "HX. In VMC only",
@@ -7138,7 +7290,15 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7175,12 +7335,12 @@
         "id": "ENR5-5-SAINT-GHISLAIN",
         "name": "SAINT-GHISLAIN",
         "chapter": "ENR 5.5",
-        "upperLimit": "4500 FT AMSL (1)",
+        "upperLimit": "4500 FT AMSL ⁽¹⁾",
         "lowerLimit": "GND",
-        "verticalLimits": "4500 FT AMSL (1) / GND",
+        "verticalLimits": "4500 FT AMSL ⁽¹⁾ / GND",
         "lateralLimits": "502758N 0035215E then a clockwise arc radius 2 NM centered on 502727N 0034913E - 502924N 0034829E - 502758N 0035215E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "During EBSG OPR HR. In VMC only.(2)(3)",
+        "timeOfActivity": "During EBSG OPR HR. In VMC only.⁽²⁾⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-7",
         "amendment": "AMDT 002/2025",
@@ -7192,7 +7352,19 @@
         ],
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "upperLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2,
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7586,7 +7758,7 @@
         "verticalLimits": "4500FT AMSL/ GND",
         "lateralLimits": "A circle, 10NM radius, centred on 500209N0052415E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "During EBSH OPR HR. In VMC only.(1)",
+        "timeOfActivity": "During EBSH OPR HR. In VMC only.⁽¹⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-7",
         "amendment": "AMDT 002/2025",
@@ -7597,7 +7769,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8229,11 +8406,11 @@
         "name": "SPA",
         "chapter": "ENR 5.5",
         "upperLimit": "FL145",
-        "lowerLimit": "GND (1)",
-        "verticalLimits": "FL145 / GND (1)",
+        "lowerLimit": "GND ⁽¹⁾",
+        "verticalLimits": "FL145 / GND ⁽¹⁾",
         "lateralLimits": "A circle, 2NM radius, centred on 502857N0055437E.",
         "restrictionOrHazard": "Parachuting.",
-        "timeOfActivity": "During EBSP OPR HR. In VMC only (2)",
+        "timeOfActivity": "During EBSP OPR HR. In VMC only ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-7",
         "amendment": "AMDT 002/2025",
@@ -8245,7 +8422,18 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "verticalLimits": [
+            1
+          ],
+          "lowerLimit": [
+            1
+          ],
+          "timeOfActivity": [
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -8995,9 +9183,9 @@
         "upperLimit": "FL065",
         "lowerLimit": "3500FT AMSL",
         "verticalLimits": "FL065 / 3500FT AMSL",
-        "lateralLimits": "494738N0054729E- along the Belgian-Luxembourg border- 500748N 0060816E - along the German- Luxembourg border - 495656N 0061151E - 495422N 0055755E - 494804N 0060000E - 494738N 0054729E (2).",
-        "restrictionOrHazard": "Glider activity. (3)",
-        "timeOfActivity": "HX (4)(5)",
+        "lateralLimits": "494738N0054729E- along the Belgian-Luxembourg border- 500748N 0060816E - along the German- Luxembourg border - 495656N 0061151E - 495422N 0055755E - 494804N 0060000E - 494738N 0054729E ⁽²⁾.",
+        "restrictionOrHazard": "Glider activity. ⁽³⁾",
+        "timeOfActivity": "HX ⁽⁴⁾⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-8",
         "amendment": "AMDT 002/2025",
@@ -9012,7 +9200,19 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4,
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -9057,8 +9257,8 @@
         "lowerLimit": "2500FTAMSL",
         "verticalLimits": "5000 FT AMSL / 2500FTAMSL",
         "lateralLimits": "494738N0054729E- 494804N0060000E- 494430N 0060000E - 494430N 0054958E - along the Belgian- Luxembourg border- 494738N0054729E.",
-        "restrictionOrHazard": "Glider activity. (2)",
-        "timeOfActivity": "HX (3)",
+        "restrictionOrHazard": "Glider activity. ⁽²⁾",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-8",
         "amendment": "AMDT 002/2025",
@@ -9071,7 +9271,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "restrictionOrHazard": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -9435,7 +9643,7 @@
         "verticalLimits": "3500FTAMSL / GND",
         "lateralLimits": "512620N 0045943E - an arc of circle, 3NM radius, centred on 512339N 0045733E and traced clockwise to 512455N 0045311E - along the Belgian-Dutch border - 512620N 0045943E.",
         "restrictionOrHazard": "Glider activity. Glider towing. Glider winching up to 3000FTAMSL",
-        "timeOfActivity": "HJ. In VMC only (1) (2)",
+        "timeOfActivity": "HJ. In VMC only ⁽¹⁾ ⁽²⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-8",
         "amendment": "AMDT 002/2025",
@@ -9448,7 +9656,13 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1,
+            2
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -9838,7 +10052,7 @@
         "verticalLimits": "2500FTAMSL / GND",
         "lateralLimits": "511837N 0043336E- 511938N 0044052E- an arc of circle, 26NM radius, centred on 505408N 0043217E and traced clockwise to 511332N 0045955E- 511253N 0045955E- 511253N 0044512E - an arc of circle, 3NM radius, centred on 511553N 0044512E and traced clockwise to 511342N0044156E - 511837N 0043336E.",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "SAT, SUN and HOL, HJ. In JUL and AUG, HJ. FRI, 1600 (1500)-SS. In VMC only",
+        "timeOfActivity": "SAT, SUN and HOL, HJ. In JUL and AUG, HJ. FRI, 1600 ⁽¹⁵⁰⁰⁾-SS. In VMC only",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-9",
         "amendment": "AMDT 007/2026",
@@ -9846,7 +10060,12 @@
         "geometryNote": "Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1500
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -9988,7 +10207,7 @@
         "verticalLimits": "3000FTAMSL / GND",
         "lateralLimits": "A circle, 5NM radius, centred on 505651N0053526E.",
         "restrictionOrHazard": "Glider activity. Winch launching up to 2300FT AGL.",
-        "timeOfActivity": "FRI, 1600 (1500)- SS+30MIN. SAT, SUN and HOL, SR-30MIN until SS+30MIN. In VMC only",
+        "timeOfActivity": "FRI, 1600 ⁽¹⁵⁰⁰⁾- SS+30MIN. SAT, SUN and HOL, SR-30MIN until SS+30MIN. In VMC only",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-9",
         "amendment": "AMDT 007/2026",
@@ -9996,7 +10215,12 @@
         "geometryNote": "Circle sampled every 5 degrees from the published centre and radius.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "timeOfActivity": [
+            1500
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10308,9 +10532,9 @@
         "upperLimit": "FL055",
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL055 / 4500FTAMSL",
-        "lateralLimits": "511635N0032236E- 510500N0031500E- 510357N0025825E- 505900N0024917E- 510043N0023905E- 510059N0023428E- along the Belgian-French border- 493232N0054520E- 493537N0054356E- 494032N0054956E- 494328N0054956E- along the Belgian-Luxembourg border- 500748N0060816E- along the Belgian- German border- 504515N0060116E- 504259N0055149E- 503917N 0054900E - 502426N 0052347E - an arc of circle, 6.5NM radius, centred on 502912N0051650E and traced clockwise to 503101N0050701E- 503814N0050408E- 504817N0051953E- 505150N0052933E- 505223N0053407E- 505000N0053854E- along the Belgian-Dutch border- 512844N0043011E- 511807N0043011E- 511835N0043325E- 511938N0044052E- an arc of circle, 26NM radius, centred on 505408N0043217E and traced clockwise to 511332N0045955E- 510605N0051000E- 510122N0051315E- an arc of circle, 40NM radius, centred on 510954N0041102E and traced clockwise to 503810N0044949E- 503640N 0045629E - 502407N 0045910E - 501842N 0041627E - 502920N 0034840E - 503059N 0034410E - 504012N 0033609E - 505334N 0032421E - 510314N 0032818E - 511257N 0035731E - along the Belgian-Dutch border - 511635N 0032236E. (2)",
+        "lateralLimits": "511635N0032236E- 510500N0031500E- 510357N0025825E- 505900N0024917E- 510043N0023905E- 510059N0023428E- along the Belgian-French border- 493232N0054520E- 493537N0054356E- 494032N0054956E- 494328N0054956E- along the Belgian-Luxembourg border- 500748N0060816E- along the Belgian- German border- 504515N0060116E- 504259N0055149E- 503917N 0054900E - 502426N 0052347E - an arc of circle, 6.5NM radius, centred on 502912N0051650E and traced clockwise to 503101N0050701E- 503814N0050408E- 504817N0051953E- 505150N0052933E- 505223N0053407E- 505000N0053854E- along the Belgian-Dutch border- 512844N0043011E- 511807N0043011E- 511835N0043325E- 511938N0044052E- an arc of circle, 26NM radius, centred on 505408N0043217E and traced clockwise to 511332N0045955E- 510605N0051000E- 510122N0051315E- an arc of circle, 40NM radius, centred on 510954N0041102E and traced clockwise to 503810N0044949E- 503640N 0045629E - 502407N 0045910E - 501842N 0041627E - 502920N 0034840E - 503059N 0034410E - 504012N 0033609E - 505334N 0032421E - 510314N 0032818E - 511257N 0035731E - along the Belgian-Dutch border - 511635N 0032236E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HJ (outside ATCC OPR HR) (3)",
+        "timeOfActivity": "HJ (outside ATCC OPR HR) ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-10",
         "amendment": "AMDT 007/2026",
@@ -10323,7 +10547,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10783,9 +11015,9 @@
         "upperLimit": "FL075",
         "lowerLimit": "FL055",
         "verticalLimits": "FL075/ FL055",
-        "lateralLimits": "512844N0043011E- 511807N0043011E- 511835N0043325E- 511938N0044052E- an arc of circle, 26NM radius, centred on 505408N0043217E and traced clockwise to 511332N0045955E- 510605N0051000E- 510122N 0051315E - 510057N 0051655E - 505000N0053854E- along the Belgian- Dutch border- 512844N0043011E. (2)",
+        "lateralLimits": "512844N0043011E- 511807N0043011E- 511835N0043325E- 511938N0044052E- an arc of circle, 26NM radius, centred on 505408N0043217E and traced clockwise to 511332N0045955E- 510605N0051000E- 510122N 0051315E - 510057N 0051655E - 505000N0053854E- along the Belgian- Dutch border- 512844N0043011E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-10",
         "amendment": "AMDT 007/2026",
@@ -10798,7 +11030,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10894,9 +11134,9 @@
         "upperLimit": "FL075",
         "lowerLimit": "FL055",
         "verticalLimits": "FL075/ FL055",
-        "lateralLimits": "500206N 0040901E - 502317N 0052111E - an arc of circle, 6.5NM radius, centred on 502912N 0051650E and traced counterclockwise to 502426N 0052347E - 503029N 0053401E - 503053N 0053725E - 503726N 0061055E - along the Belgian-German border - 500748N 0060816E - along the Belgian-Luxembourg border - 494328N 0054955E - 494032N 0054956E - 493702N 0054540E - 493258N 0052644E - along the Belgian-French border - 500206N 0040901E. (2)",
+        "lateralLimits": "500206N 0040901E - 502317N 0052111E - an arc of circle, 6.5NM radius, centred on 502912N 0051650E and traced counterclockwise to 502426N 0052347E - 503029N 0053401E - 503053N 0053725E - 503726N 0061055E - along the Belgian-German border - 500748N 0060816E - along the Belgian-Luxembourg border - 494328N 0054955E - 494032N 0054956E - 493702N 0054540E - 493258N 0052644E - along the Belgian-French border - 500206N 0040901E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-11",
         "amendment": "AMDT 003/2025",
@@ -10909,7 +11149,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points. Published circular arcs are geodesically sampled at maximum 3 degrees.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -10997,9 +11245,9 @@
         "upperLimit": "FL075",
         "lowerLimit": "FL055",
         "verticalLimits": "FL075/ FL055",
-        "lateralLimits": "510059N0023428E- 510043N0023905E- 505900N0024917E- 505334N0032421E- 503548N0033959E- 503119N0033107E- along the Belgian-French border- 510059N0023428E. (2)",
+        "lateralLimits": "510059N0023428E- 510043N0023905E- 505900N0024917E- 505334N0032421E- 503548N0033959E- 503119N0033107E- along the Belgian-French border- 510059N0023428E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-11",
         "amendment": "AMDT 003/2025",
@@ -11012,7 +11260,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11060,9 +11316,9 @@
         "upperLimit": "FL065",
         "lowerLimit": "4500FTAMSL",
         "verticalLimits": "FL065/ 4500FTAMSL",
-        "lateralLimits": "503053N0053725E- 503343N0055152E- 503420N 0055956E - 501955N 0055956E - 501324N 0060343E - 501011N 0060832E- along the Belgian-German border- 500748N 0060816E - along the Belgian- Luxembourg border - 500426N0055210E- 502810N 0053819E - 503053N0053725E. (2)",
+        "lateralLimits": "503053N0053725E- 503343N0055152E- 503420N 0055956E - 501955N 0055956E - 501324N 0060343E - 501011N 0060832E- along the Belgian-German border- 500748N 0060816E - along the Belgian- Luxembourg border - 500426N0055210E- 502810N 0053819E - 503053N0053725E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-11",
         "amendment": "AMDT 003/2025",
@@ -11075,7 +11331,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11135,9 +11399,9 @@
         "upperLimit": "FL095",
         "lowerLimit": "FL075",
         "verticalLimits": "FL095/ FL075",
-        "lateralLimits": "503318N0055610E- 503754N0061308E- along the Belgian-German border- 502134N0062204E- 502240N0061131E- 503318N0055610E. (2)",
+        "lateralLimits": "503318N0055610E- 503754N0061308E- along the Belgian-German border- 502134N0062204E- 502240N0061131E- 503318N0055610E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-11",
         "amendment": "AMDT 003/2025",
@@ -11150,7 +11414,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11190,9 +11462,9 @@
         "upperLimit": "FL095",
         "lowerLimit": "FL075",
         "verticalLimits": "FL095/ FL075",
-        "lateralLimits": "500206N0040901E- 502810N0053819E- 500426N0055210E- along the Belgian-Luxembourg border- 494809N0054507E- 494137N0051624E- along the Belgian-French border- 500206N0040901E. (2)",
+        "lateralLimits": "500206N0040901E- 502810N0053819E- 500426N0055210E- along the Belgian-Luxembourg border- 494809N0054507E- 494137N0051624E- along the Belgian-French border- 500206N0040901E. ⁽²⁾",
         "restrictionOrHazard": "Glider activity.",
-        "timeOfActivity": "HX (3)",
+        "timeOfActivity": "HX ⁽³⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-12",
         "amendment": "AMDT 003/2025",
@@ -11205,7 +11477,15 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "timeOfActivity": [
+            3
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11249,9 +11529,9 @@
         "upperLimit": "FL 065",
         "lowerLimit": "4500 FT AMSL",
         "verticalLimits": "FL 065 / 4500 FT AMSL",
-        "lateralLimits": "500557N 0045210E - 500657N 0050553E - 501252N 0052512E - 495757N 0054744E- along the Belgian- Luxembourg border- 494738N 0054729E - 494106N 0053116E - 494038N 0051741E - along the Belgian- French border - 500557N 0045210E. (3)",
-        "restrictionOrHazard": "Glider activity. (4)",
-        "timeOfActivity": "by NOTAM (5)(6)",
+        "lateralLimits": "500557N 0045210E - 500657N 0050553E - 501252N 0052512E - 495757N 0054744E- along the Belgian- Luxembourg border- 494738N 0054729E - 494106N 0053116E - 494038N 0051741E - along the Belgian- French border - 500557N 0045210E. ⁽³⁾",
+        "restrictionOrHazard": "Glider activity. ⁽⁴⁾",
+        "timeOfActivity": "by NOTAM ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-13",
         "amendment": "AMDT 003/2026",
@@ -11268,7 +11548,19 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11320,9 +11612,9 @@
         "upperLimit": "FL 065",
         "lowerLimit": "4500 FT AMSL",
         "verticalLimits": "FL 065 / 4500 FT AMSL",
-        "lateralLimits": "501252N 0052512E - 501654N 0054455E - 500426N 0055210E - along the Belgian-Luxembourg border- 495757N 0054744E - 501252N 0052512E. (3)",
-        "restrictionOrHazard": "Glider activity. (4)",
-        "timeOfActivity": "by NOTAM (5)(6)",
+        "lateralLimits": "501252N 0052512E - 501654N 0054455E - 500426N 0055210E - along the Belgian-Luxembourg border- 495757N 0054744E - 501252N 0052512E. ⁽³⁾",
+        "restrictionOrHazard": "Glider activity. ⁽⁴⁾",
+        "timeOfActivity": "by NOTAM ⁽⁵⁾⁽⁶⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-13",
         "amendment": "AMDT 003/2026",
@@ -11339,7 +11631,19 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            3
+          ],
+          "restrictionOrHazard": [
+            4
+          ],
+          "timeOfActivity": [
+            5,
+            6
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -11379,9 +11683,9 @@
         "upperLimit": "FL 065",
         "lowerLimit": "4500 FT AMSL",
         "verticalLimits": "FL 065 / 4500 FT AMSL",
-        "lateralLimits": "501654N 0054455E - 501955N 0055956E - 503420N 0055956E - 503754N 0061308E- along the Belgian- German border- 500748N 0060816E - along the Belgian-Luxembourg - 500426N 0055210E - 501654N 0054455E. (2)",
-        "restrictionOrHazard": "Glider activity. (3)",
-        "timeOfActivity": "by NOTAM (4)(5)",
+        "lateralLimits": "501654N 0054455E - 501955N 0055956E - 503420N 0055956E - 503754N 0061308E- along the Belgian- German border- 500748N 0060816E - along the Belgian-Luxembourg - 500426N 0055210E - 501654N 0054455E. ⁽²⁾",
+        "restrictionOrHazard": "Glider activity. ⁽³⁾",
+        "timeOfActivity": "by NOTAM ⁽⁴⁾⁽⁵⁾",
         "aipSource": "Belgium and Luxembourg AIP ENR 5.5",
         "aipPage": "ENR 5.5-13",
         "amendment": "AMDT 003/2026",
@@ -11397,7 +11701,19 @@
         "geometryNote": "Published border/coastline/river segments are represented by straight joins between their published anchor points.",
         "color": null,
         "colorNote": "No matching colour classification identified on the Brussels FIR Structure chart.",
-        "areaType": "recreational"
+        "areaType": "recreational",
+        "footnoteReferences": {
+          "lateralLimits": [
+            2
+          ],
+          "restrictionOrHazard": [
+            3
+          ],
+          "timeOfActivity": [
+            4,
+            5
+          ]
+        }
       },
       "geometry": {
         "type": "Polygon",

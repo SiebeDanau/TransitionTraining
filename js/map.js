@@ -43,7 +43,7 @@ const TMA_FILE_GROUPS = {
     "luxembourg-tma-1b",
     "luxembourg-tma-5",
   ],
-  "maastricht-tma": ["maastricht-tma-1"],
+  "maastricht-tma": ["maastricht-tma-1", "maastricht-tma-2"],
   "oostende-tma": ["oostende-tma-1", "oostende-tma-2"],
 };
 
@@ -145,6 +145,30 @@ function addTrainingLayers() {
       id: "brussels-uir-outline",
       type: "line",
       source: "brussels-uir",
+      layout: {
+        visibility: "visible",
+        "line-cap": "round",
+        "line-join": "round",
+      },
+      paint: {
+        "line-color": "#000000",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 5, 3, 9, 5],
+        "line-opacity": 1,
+      },
+    });
+  }
+
+  if (!map.getSource("amsterdam-fir")) {
+    map.addSource("amsterdam-fir", {
+      type: "geojson",
+      data: "data/airspaces/amsterdam-fir.geojson",
+    });
+  }
+  if (!map.getLayer("amsterdam-fir-outline")) {
+    map.addLayer({
+      id: "amsterdam-fir-outline",
+      type: "line",
+      source: "amsterdam-fir",
       layout: {
         visibility: "visible",
         "line-cap": "round",
