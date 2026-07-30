@@ -1,4 +1,5 @@
 {
+  "source": "AIP Belgium and Luxembourg AD, AMDT 007/2026, effective 09 JUL 2026",
   "points": [
     {
       "id": "EBAW",
@@ -51,6 +52,16 @@
       "lon": "0052634E"
     },
     {
+      "id": "ELLX",
+      "name": "ELLX",
+      "title": "LUXEMBOURG / Luxembourg",
+      "type": "public",
+      "elevation": "1234 FT",
+      "traffic": "IFR/VFR",
+      "lat": "493724N",
+      "lon": "0061216E"
+    },
+    {
       "id": "EBOS",
       "name": "EBOS",
       "title": "OOSTENDE-BRUGGE / Oostende",
@@ -75,7 +86,7 @@
       "name": "EBBX",
       "title": "BERTRIX / Jehonville",
       "type": "military",
-      "elevation": "1 FT",
+      "elevation": "1503 FT",
       "traffic": "VFR",
       "lat": "495330N",
       "lon": "0051326E"
@@ -145,7 +156,7 @@
       "name": "EBSU",
       "title": "SAINT-HUBERT",
       "type": "military",
-      "elevation": "1 FT",
+      "elevation": "1922 FT",
       "traffic": "VFR",
       "lat": "500203N",
       "lon": "0052624E"
@@ -311,6 +322,16 @@
       "lon": "0044608E"
     },
     {
+      "id": "ELNT",
+      "name": "ELNT",
+      "title": "NOERTRANGE",
+      "type": "private",
+      "elevation": "1502 FT",
+      "traffic": "VFR",
+      "lat": "495852N",
+      "lon": "0055505E"
+    },
+    {
       "id": "EBSG",
       "name": "EBSG",
       "title": "SAINT-GHISLAIN",
@@ -325,7 +346,7 @@
       "name": "EBSH",
       "title": "SAINT-HUBERT / Saint-Hubert",
       "type": "private",
-      "elevation": "1 FT",
+      "elevation": "1839 FT",
       "traffic": "VFR",
       "lat": "500209N",
       "lon": "0052415E"
@@ -345,7 +366,7 @@
       "name": "EBSP",
       "title": "SPA / La Sauvenière",
       "type": "private",
-      "elevation": "1 FT",
+      "elevation": "1534 FT",
       "traffic": "VFR",
       "lat": "502857N",
       "lon": "0055437E"
@@ -359,6 +380,16 @@
       "traffic": "VFR",
       "lat": "503147N",
       "lon": "0032940E"
+    },
+    {
+      "id": "ELUS",
+      "name": "ELUS",
+      "title": "USELDANGE",
+      "type": "private",
+      "elevation": "925 FT",
+      "traffic": "VFR",
+      "lat": "494604N",
+      "lon": "0055803E"
     },
     {
       "id": "EBTX",
@@ -395,7 +426,7 @@
       "name": "EBAR",
       "title": "ARLON / Sterpenich",
       "type": "ulm",
-      "elevation": "1 FT",
+      "elevation": "1130 FT",
       "traffic": "VFR",
       "lat": "493946N",
       "lon": "0055313E"
@@ -425,7 +456,7 @@
       "name": "EBBN",
       "title": "BÜLLINGEN",
       "type": "ulm",
-      "elevation": "2 FT",
+      "elevation": "2059 FT",
       "traffic": "VFR",
       "lat": "502454N",
       "lon": "0061635E"
@@ -581,6 +612,26 @@
       "lon": "0033204E"
     },
     {
+      "id": "ELEA",
+      "name": "ELEA",
+      "title": "ESCH-SUR-ALZETTE / Centre Hospitalier Emile Mayrisch",
+      "type": "hospital heliport",
+      "elevation": "966 FT",
+      "traffic": "VFR",
+      "lat": "493003N",
+      "lon": "0055856E"
+    },
+    {
+      "id": "ELET",
+      "name": "ELET",
+      "title": "ETTELBRUCK / Centre Hospitalier du Nord CHdN",
+      "type": "hospital heliport",
+      "elevation": "682 FT",
+      "traffic": "VFR",
+      "lat": "495116N",
+      "lon": "0060540E"
+    },
+    {
       "id": "EBGT",
       "name": "EBGT",
       "title": "GENT / UZ Gent",
@@ -679,6 +730,36 @@
       "traffic": "VFR",
       "lat": "502549N",
       "lon": "0042618E"
+    },
+    {
+      "id": "ELLC",
+      "name": "ELLC",
+      "title": "LUXEMBOURG / Centre Hospitalier de Luxembourg (CHL)",
+      "type": "hospital heliport",
+      "elevation": "1079 FT",
+      "traffic": "VFR",
+      "lat": "493709N",
+      "lon": "0060609E"
+    },
+    {
+      "id": "ELLZ",
+      "name": "ELLZ",
+      "title": "LUXEMBOURG / ZITHAKLINIK S.A. Hôpitaux Robert Schuman",
+      "type": "hospital heliport",
+      "elevation": "1029 FT",
+      "traffic": "VFR",
+      "lat": "493612N",
+      "lon": "0060741E"
+    },
+    {
+      "id": "ELLK",
+      "name": "ELLK",
+      "title": "LUXEMBOURG / Hôpital Kirchberg",
+      "type": "hospital heliport",
+      "elevation": "1220 FT",
+      "traffic": "VFR",
+      "lat": "493758N",
+      "lon": "0061038E"
     },
     {
       "id": "EBMT",
@@ -795,7 +876,7 @@
       "name": "EBFR",
       "title": "FRANCORCHAMPS",
       "type": "private heliport",
-      "elevation": "1 FT",
+      "elevation": "1567 FT",
       "traffic": "VFR",
       "lat": "502722N",
       "lon": "0055714E"
@@ -853,7 +934,7 @@
     {
       "id": "EBHF",
       "name": "EBHF",
-      "title": "KALLO",
+      "title": "KALLO / De Perel",
       "type": "private heliport",
       "elevation": "27 FT",
       "traffic": "VFR",
@@ -945,7 +1026,7 @@
       "name": "EBMS",
       "title": "LIERNEUX / Bra",
       "type": "private heliport",
-      "elevation": "1 FT",
+      "elevation": "1222 FT",
       "traffic": "VFR",
       "lat": "501918N",
       "lon": "0054351E"

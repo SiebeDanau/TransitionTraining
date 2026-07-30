@@ -1,0 +1,295 @@
+{
+  "source": "Netherlands eAIP and Netherlands MilAIP, AIRAC 09 JUL 2026 (LVNL / Ministry of Defence)",
+  "points": [
+    {
+      "id": "EHAL",
+      "name": "EHAL",
+      "title": "AMELAND/Ameland",
+      "type": "aerodrome",
+      "elevation": "11 FT",
+      "traffic": "NTL / VFR / NS/G",
+      "lat": "532706N",
+      "lon": "0054038E"
+    },
+    {
+      "id": "EHAM",
+      "name": "EHAM",
+      "title": "AMSTERDAM/Schiphol",
+      "type": "aerodrome",
+      "elevation": "-11 FT",
+      "traffic": "INTL/NTL / IFR/VFR / S/NS/G",
+      "lat": "521829N",
+      "lon": "0044551E"
+    },
+    {
+      "id": "EHBD",
+      "name": "EHBD",
+      "title": "WEERT/Budel",
+      "type": "aerodrome",
+      "elevation": "115 FT",
+      "traffic": "INTL/NTL / IFR/VFR / NS/G",
+      "lat": "511516N",
+      "lon": "0053603E"
+    },
+    {
+      "id": "EHBK",
+      "name": "EHBK",
+      "title": "MAASTRICHT/Maastricht Aachen",
+      "type": "aerodrome",
+      "elevation": "375 FT",
+      "traffic": "INTL/NTL / IFR/VFR / S/NS/G",
+      "lat": "505457N",
+      "lon": "0054637E"
+    },
+    {
+      "id": "EHDL",
+      "name": "EHDL",
+      "title": "ARNHEM/Deelen",
+      "type": "military aerodrome",
+      "elevation": "158 FT",
+      "traffic": "MIL / IFR/VFR",
+      "lat": "520335N",
+      "lon": "0055219E"
+    },
+    {
+      "id": "EHDR",
+      "name": "EHDR",
+      "title": "DRACHTEN/Drachten",
+      "type": "aerodrome",
+      "elevation": "14 FT",
+      "traffic": "NTL / VFR / NS/G",
+      "lat": "530705N",
+      "lon": "0060745E"
+    },
+    {
+      "id": "EHEH",
+      "name": "EHEH",
+      "title": "EINDHOVEN/Eindhoven",
+      "type": "aerodrome",
+      "elevation": "74 FT",
+      "traffic": "INTL/NTL / IFR/VFR / S/NS/G",
+      "lat": "512700N",
+      "lon": "0052228E"
+    },
+    {
+      "id": "EHGG",
+      "name": "EHGG",
+      "title": "GRONINGEN/Eelde",
+      "type": "aerodrome",
+      "elevation": "18 FT",
+      "traffic": "INTL/NTL / IFR/VFR / S/NS/G",
+      "lat": "530730N",
+      "lon": "0063500E"
+    },
+    {
+      "id": "EHGR",
+      "name": "EHGR",
+      "title": "BREDA/Gilze Rijen",
+      "type": "military aerodrome",
+      "elevation": "49 FT",
+      "traffic": "MIL / IFR/VFR",
+      "lat": "513403N",
+      "lon": "0045555E"
+    },
+    {
+      "id": "EHHA",
+      "name": "EHHA",
+      "title": "AMSTERDAM HELIPORT",
+      "type": "heliport",
+      "elevation": "",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "522453N",
+      "lon": "0044817E"
+    },
+    {
+      "id": "EHHE",
+      "name": "EHHE",
+      "title": "EEMSHAVEN HELIPORT",
+      "type": "heliport",
+      "elevation": "",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "532739N",
+      "lon": "0064852E"
+    },
+    {
+      "id": "EHHO",
+      "name": "EHHO",
+      "title": "HOOGEVEEN/Hoogeveen",
+      "type": "aerodrome",
+      "elevation": "40 FT",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "524351N",
+      "lon": "0063058E"
+    },
+    {
+      "id": "EHHV",
+      "name": "EHHV",
+      "title": "HILVERSUM/Hilversum",
+      "type": "aerodrome",
+      "elevation": "3 FT",
+      "traffic": "NTL / VFR / NS/G",
+      "lat": "521131N",
+      "lon": "0050849E"
+    },
+    {
+      "id": "EHJR",
+      "name": "EHJR",
+      "title": "K13-A (PLATFORM)",
+      "type": "heliport",
+      "elevation": "",
+      "traffic": "NTL / IFR/VFR / NS/G",
+      "lat": "531304N",
+      "lon": "0031306E"
+    },
+    {
+      "id": "EHKD",
+      "name": "EHKD",
+      "title": "DEN HELDER/De Kooy",
+      "type": "aerodrome",
+      "elevation": "4 FT",
+      "traffic": "INTL/NTL / IFR/VFR / NS/G",
+      "lat": "525525N",
+      "lon": "0044650E"
+    },
+    {
+      "id": "EHLE",
+      "name": "EHLE",
+      "title": "LELYSTAD/Lelystad",
+      "type": "aerodrome",
+      "elevation": "-12 FT",
+      "traffic": "INTL/NTL / IFR/VFR / NS/G",
+      "lat": "522712N",
+      "lon": "0053050E"
+    },
+    {
+      "id": "EHLW",
+      "name": "EHLW",
+      "title": "LEEUWARDEN/Leeuwarden",
+      "type": "military aerodrome",
+      "elevation": "3 FT",
+      "traffic": "MIL / IFR/VFR",
+      "lat": "531331N",
+      "lon": "0054509E"
+    },
+    {
+      "id": "EHMM",
+      "name": "EHMM",
+      "title": "MIDDENMEER/Middenmeer",
+      "type": "aerodrome",
+      "elevation": "-14 FT",
+      "traffic": "NTL / VFR / NS/G",
+      "lat": "524854N",
+      "lon": "0050116E"
+    },
+    {
+      "id": "EHMZ",
+      "name": "EHMZ",
+      "title": "MIDDELBURG/Midden-Zeeland",
+      "type": "aerodrome",
+      "elevation": "6 FT",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "513044N",
+      "lon": "0034352E"
+    },
+    {
+      "id": "EHOW",
+      "name": "EHOW",
+      "title": "OOSTWOLD/Oostwold",
+      "type": "aerodrome",
+      "elevation": "0 FT",
+      "traffic": "NTL / VFR / NS/G",
+      "lat": "531231N",
+      "lon": "0070158E"
+    },
+    {
+      "id": "EHRD",
+      "name": "EHRD",
+      "title": "ROTTERDAM/Rotterdam",
+      "type": "aerodrome",
+      "elevation": "-14 FT",
+      "traffic": "INTL/NTL / IFR/VFR / S/NS/G",
+      "lat": "515725N",
+      "lon": "0042614E"
+    },
+    {
+      "id": "EHSE",
+      "name": "EHSE",
+      "title": "BREDA/Seppe",
+      "type": "aerodrome",
+      "elevation": "30 FT",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "513317N",
+      "lon": "0043309E"
+    },
+    {
+      "id": "EHST",
+      "name": "EHST",
+      "title": "STADSKANAAL",
+      "type": "aerodrome",
+      "elevation": "14 FT",
+      "traffic": "NTL / VFR / G",
+      "lat": "525955N",
+      "lon": "0070122E"
+    },
+    {
+      "id": "EHTE",
+      "name": "EHTE",
+      "title": "DEVENTER/Teuge",
+      "type": "aerodrome",
+      "elevation": "17 FT",
+      "traffic": "NTL / IFR/VFR / NS/G",
+      "lat": "521441N",
+      "lon": "0060248E"
+    },
+    {
+      "id": "EHTL",
+      "name": "EHTL",
+      "title": "TERLET",
+      "type": "aerodrome",
+      "elevation": "276 FT",
+      "traffic": "NTL / VFR / G",
+      "lat": "520326N",
+      "lon": "0055528E"
+    },
+    {
+      "id": "EHTW",
+      "name": "EHTW",
+      "title": "ENSCHEDE/Twente",
+      "type": "aerodrome",
+      "elevation": "115 FT",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "521633N",
+      "lon": "0065321E"
+    },
+    {
+      "id": "EHTX",
+      "name": "EHTX",
+      "title": "TEXEL/Texel",
+      "type": "aerodrome",
+      "elevation": "2 FT",
+      "traffic": "INTL/NTL / VFR / NS/G",
+      "lat": "530655N",
+      "lon": "0045001E"
+    },
+    {
+      "id": "EHVK",
+      "name": "EHVK",
+      "title": "UDEN/Volkel",
+      "type": "military aerodrome",
+      "elevation": "73 FT",
+      "traffic": "MIL / IFR/VFR",
+      "lat": "513926N",
+      "lon": "0054228E"
+    },
+    {
+      "id": "EHWO",
+      "name": "EHWO",
+      "title": "BERGEN OP ZOOM/Woensdrecht",
+      "type": "military aerodrome",
+      "elevation": "63 FT",
+      "traffic": "MIL / IFR/VFR",
+      "lat": "512656N",
+      "lon": "0042032E"
+    }
+  ]
+}

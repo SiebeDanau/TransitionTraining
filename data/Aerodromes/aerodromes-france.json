@@ -1,0 +1,4415 @@
+{
+  "source": "French AIP AD 1.3, AIRAC 09 JUL 2026 (SIA France)",
+  "points": [
+    {
+      "id": "LFAB",
+      "name": "LFAB",
+      "title": "DIEPPE SAINT AUBIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "344 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "495257N",
+      "lon": "0010507E"
+    },
+    {
+      "id": "LFAC",
+      "name": "LFAC",
+      "title": "CALAIS DUNKERQUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "12 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "505739N",
+      "lon": "0015705E"
+    },
+    {
+      "id": "LFAD",
+      "name": "LFAD",
+      "title": "COMPIEGNE MARGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "316 FT",
+      "traffic": "NTL VFR P",
+      "lat": "492601N",
+      "lon": "0024817E"
+    },
+    {
+      "id": "LFAE",
+      "name": "LFAE",
+      "title": "EU MERS LE TREPORT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "328 FT",
+      "traffic": "NTL VFR P",
+      "lat": "500409N",
+      "lon": "0012536E"
+    },
+    {
+      "id": "LFAF",
+      "name": "LFAF",
+      "title": "LAON CHAMBRY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "258 FT",
+      "traffic": "NTL VFR P",
+      "lat": "493541N",
+      "lon": "0033749E"
+    },
+    {
+      "id": "LFAG",
+      "name": "LFAG",
+      "title": "PERONNE SAINT QUENTIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "295 FT",
+      "traffic": "NTL VFR P",
+      "lat": "495208N",
+      "lon": "0030147E"
+    },
+    {
+      "id": "LFAI",
+      "name": "LFAI",
+      "title": "NANGIS LES LOGES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "428 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483549N",
+      "lon": "0030029E"
+    },
+    {
+      "id": "LFAJ",
+      "name": "LFAJ",
+      "title": "ARGENTAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "581 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484234N",
+      "lon": "0000010E"
+    },
+    {
+      "id": "LFAK",
+      "name": "LFAK",
+      "title": "DUNKERQUE LES MOERES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "-3 FT",
+      "traffic": "NTL VFR P",
+      "lat": "510222N",
+      "lon": "0023256E"
+    },
+    {
+      "id": "LFAL",
+      "name": "LFAL",
+      "title": "LA FLECHE THOREE LES PINS",
+      "type": "Civil / Restreint",
+      "elevation": "120 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474134N",
+      "lon": "0000007W"
+    },
+    {
+      "id": "LFAM",
+      "name": "LFAM",
+      "title": "BERCK SUR MER",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "32 FT",
+      "traffic": "NTL VFR P",
+      "lat": "502523N",
+      "lon": "0013531E"
+    },
+    {
+      "id": "LFAO",
+      "name": "LFAO",
+      "title": "BAGNOLES DE L'ORNE COUTERNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "714 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483241N",
+      "lon": "0002306W"
+    },
+    {
+      "id": "LFAP",
+      "name": "LFAP",
+      "title": "RETHEL PERTHES",
+      "type": "Civil / Restreint",
+      "elevation": "416 FT",
+      "traffic": "NTL VFR P",
+      "lat": "492852N",
+      "lon": "0042148E"
+    },
+    {
+      "id": "LFAQ",
+      "name": "LFAQ",
+      "title": "ALBERT BRAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "363 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "495812N",
+      "lon": "0024133E"
+    },
+    {
+      "id": "LFAR",
+      "name": "LFAR",
+      "title": "MONTDIDIER",
+      "type": "Civil / Restreint",
+      "elevation": "358 FT",
+      "traffic": "NTL VFR P",
+      "lat": "494023N",
+      "lon": "0023409E"
+    },
+    {
+      "id": "LFAS",
+      "name": "LFAS",
+      "title": "FALAISE MONTS D'ERAINES",
+      "type": "Civil / Restreint",
+      "elevation": "513 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485537N",
+      "lon": "0000841W"
+    },
+    {
+      "id": "LFAT",
+      "name": "LFAT",
+      "title": "LE TOUQUET ELIZABETH II",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "21 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "503053N",
+      "lon": "0013739E"
+    },
+    {
+      "id": "LFAU",
+      "name": "LFAU",
+      "title": "VAUVILLE",
+      "type": "Civil / Restreint",
+      "elevation": "458 FT",
+      "traffic": "NTL VFR P",
+      "lat": "493722N",
+      "lon": "0014948W"
+    },
+    {
+      "id": "LFAV",
+      "name": "LFAV",
+      "title": "VALENCIENNES DENAIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "172 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "501929N",
+      "lon": "0032756E"
+    },
+    {
+      "id": "LFAW",
+      "name": "LFAW",
+      "title": "VILLERUPT",
+      "type": "Civil / Restreint",
+      "elevation": "1303 FT",
+      "traffic": "NTL VFR P",
+      "lat": "492438N",
+      "lon": "0055321E"
+    },
+    {
+      "id": "LFAX",
+      "name": "LFAX",
+      "title": "MORTAGNE AU PERCHE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "886 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483223N",
+      "lon": "0003203E"
+    },
+    {
+      "id": "LFAY",
+      "name": "LFAY",
+      "title": "AMIENS-GLISY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "208 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "495223N",
+      "lon": "0022313E"
+    },
+    {
+      "id": "LFBA",
+      "name": "LFBA",
+      "title": "AGEN LA GARENNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "204 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "441029N",
+      "lon": "0003526E"
+    },
+    {
+      "id": "LFBC",
+      "name": "LFBC",
+      "title": "CAZAUX",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "85 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "443206N",
+      "lon": "0010753W"
+    },
+    {
+      "id": "LFBD",
+      "name": "LFBD",
+      "title": "BORDEAUX MERIGNAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "166 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "444943N",
+      "lon": "0004255W"
+    },
+    {
+      "id": "LFBE",
+      "name": "LFBE",
+      "title": "BERGERAC DORDOGNE PERIGORD",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "172 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "444928N",
+      "lon": "0003114E"
+    },
+    {
+      "id": "LFBF",
+      "name": "LFBF",
+      "title": "TOULOUSE FRANCAZAL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "535 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "433257N",
+      "lon": "0012126E"
+    },
+    {
+      "id": "LFBG",
+      "name": "LFBG",
+      "title": "COGNAC CHATEAUBERNARD",
+      "type": "Militaire / Restreint",
+      "elevation": "103 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "453930N",
+      "lon": "0001903W"
+    },
+    {
+      "id": "LFBH",
+      "name": "LFBH",
+      "title": "LA ROCHELLE ILE DE RE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "74 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "461045N",
+      "lon": "0011143W"
+    },
+    {
+      "id": "LFBI",
+      "name": "LFBI",
+      "title": "POITIERS BIARD",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "423 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "463515N",
+      "lon": "0001824E"
+    },
+    {
+      "id": "LFBJ",
+      "name": "LFBJ",
+      "title": "SAINT JUNIEN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "903 FT",
+      "traffic": "NTL VFR P",
+      "lat": "455409N",
+      "lon": "0005508E"
+    },
+    {
+      "id": "LFBK",
+      "name": "LFBK",
+      "title": "MONTLUCON GUERET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1367 FT",
+      "traffic": "NTL IFR/VFR S/NS/P",
+      "lat": "461334N",
+      "lon": "0022146E"
+    },
+    {
+      "id": "LFBL",
+      "name": "LFBL",
+      "title": "LIMOGES BELLEGARDE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1300 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "455139N",
+      "lon": "0011049E"
+    },
+    {
+      "id": "LFBM",
+      "name": "LFBM",
+      "title": "MONT DE MARSAN",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "203 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "435441N",
+      "lon": "0003036W"
+    },
+    {
+      "id": "LFBN",
+      "name": "LFBN",
+      "title": "NIORT MARAIS POITEVIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "201 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "461848N",
+      "lon": "0002340W"
+    },
+    {
+      "id": "LFBO",
+      "name": "LFBO",
+      "title": "TOULOUSE BLAGNAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "499 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "433806N",
+      "lon": "0012204E"
+    },
+    {
+      "id": "LFBP",
+      "name": "LFBP",
+      "title": "PAU PYRENEES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "616 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "432248N",
+      "lon": "0002507W"
+    },
+    {
+      "id": "LFBR",
+      "name": "LFBR",
+      "title": "MURET LHERM",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "623 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "432657N",
+      "lon": "0011549E"
+    },
+    {
+      "id": "LFBS",
+      "name": "LFBS",
+      "title": "BISCARROSSE PARENTIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "100 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "442205N",
+      "lon": "0010756W"
+    },
+    {
+      "id": "LFBT",
+      "name": "LFBT",
+      "title": "TARBES LOURDES PYRENEES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1260 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "431108N",
+      "lon": "0000010W"
+    },
+    {
+      "id": "LFBU",
+      "name": "LFBU",
+      "title": "ANGOULEME BRIE CHAMPNIERS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "436 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "454346N",
+      "lon": "0001309E"
+    },
+    {
+      "id": "LFBX",
+      "name": "LFBX",
+      "title": "PERIGUEUX BASSILLAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "328 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "451151N",
+      "lon": "0004855E"
+    },
+    {
+      "id": "LFBY",
+      "name": "LFBY",
+      "title": "DAX SEYRESSE",
+      "type": "Militaire / Restreint",
+      "elevation": "102 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434121N",
+      "lon": "0010408W"
+    },
+    {
+      "id": "LFBZ",
+      "name": "LFBZ",
+      "title": "BIARRITZ PAYS BASQUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "245 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "432806N",
+      "lon": "0013152W"
+    },
+    {
+      "id": "LFCA",
+      "name": "LFCA",
+      "title": "CHATELLERAULT TARGE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "210 FT",
+      "traffic": "NTL VFR P",
+      "lat": "464649N",
+      "lon": "0003302E"
+    },
+    {
+      "id": "LFCB",
+      "name": "LFCB",
+      "title": "BAGNERES DE LUCHON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2028 FT",
+      "traffic": "NTL VFR P",
+      "lat": "424802N",
+      "lon": "0003604E"
+    },
+    {
+      "id": "LFCC",
+      "name": "LFCC",
+      "title": "CAHORS LALBENQUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "912 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "442102N",
+      "lon": "0012843E"
+    },
+    {
+      "id": "LFCD",
+      "name": "LFCD",
+      "title": "ANDERNOS LES BAINS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "65 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444518N",
+      "lon": "0010354W"
+    },
+    {
+      "id": "LFCE",
+      "name": "LFCE",
+      "title": "GUERET SAINT LAURENT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1208 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461032N",
+      "lon": "0015711E"
+    },
+    {
+      "id": "LFCF",
+      "name": "LFCF",
+      "title": "FIGEAC LIVERNON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1085 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444021N",
+      "lon": "0014717E"
+    },
+    {
+      "id": "LFCG",
+      "name": "LFCG",
+      "title": "SAINT GIRONS ANTICHAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1376 FT",
+      "traffic": "NTL VFR P",
+      "lat": "430028N",
+      "lon": "0010611E"
+    },
+    {
+      "id": "LFCH",
+      "name": "LFCH",
+      "title": "ARCACHON LA TESTE DE BUCH",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "52 FT",
+      "traffic": "NTL VFR P",
+      "lat": "443549N",
+      "lon": "0010650W"
+    },
+    {
+      "id": "LFCI",
+      "name": "LFCI",
+      "title": "ALBI LE SEQUESTRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "565 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "435448N",
+      "lon": "0020700E"
+    },
+    {
+      "id": "LFCJ",
+      "name": "LFCJ",
+      "title": "JONZAC NEULLES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "118 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452859N",
+      "lon": "0002523W"
+    },
+    {
+      "id": "LFCK",
+      "name": "LFCK",
+      "title": "CASTRES MAZAMET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "785 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "433318N",
+      "lon": "0021726E"
+    },
+    {
+      "id": "LFCL",
+      "name": "LFCL",
+      "title": "TOULOUSE LASBORDES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "460 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433516N",
+      "lon": "0012955E"
+    },
+    {
+      "id": "LFCM",
+      "name": "LFCM",
+      "title": "MILLAU LARZAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2606 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435921N",
+      "lon": "0031100E"
+    },
+    {
+      "id": "LFCN",
+      "name": "LFCN",
+      "title": "NOGARO",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "304 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434608N",
+      "lon": "0000205W"
+    },
+    {
+      "id": "LFCO",
+      "name": "LFCO",
+      "title": "OLORON HERRERE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "984 FT",
+      "traffic": "NTL VFR P",
+      "lat": "430953N",
+      "lon": "0003337W"
+    },
+    {
+      "id": "LFCP",
+      "name": "LFCP",
+      "title": "PONS AVY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "117 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453357N",
+      "lon": "0003049W"
+    },
+    {
+      "id": "LFCQ",
+      "name": "LFCQ",
+      "title": "GRAULHET MONTDRAGON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "583 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434607N",
+      "lon": "0020028E"
+    },
+    {
+      "id": "LFCR",
+      "name": "LFCR",
+      "title": "RODEZ AVEYRON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1910 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "442427N",
+      "lon": "0022900E"
+    },
+    {
+      "id": "LFCS",
+      "name": "LFCS",
+      "title": "BORDEAUX LEOGNAN SAUCATS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "192 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444157N",
+      "lon": "0003550W"
+    },
+    {
+      "id": "LFCT",
+      "name": "LFCT",
+      "title": "THOUARS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "341 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465743N",
+      "lon": "0000910W"
+    },
+    {
+      "id": "LFCU",
+      "name": "LFCU",
+      "title": "USSEL THALAMY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2427 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453209N",
+      "lon": "0022529E"
+    },
+    {
+      "id": "LFCV",
+      "name": "LFCV",
+      "title": "VILLEFRANCHE DE ROUERGUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1104 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442208N",
+      "lon": "0020137E"
+    },
+    {
+      "id": "LFCW",
+      "name": "LFCW",
+      "title": "VILLENEUVE SUR LOT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "193 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442357N",
+      "lon": "0004534E"
+    },
+    {
+      "id": "LFCX",
+      "name": "LFCX",
+      "title": "CASTELSARRASIN MOISSAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "243 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440509N",
+      "lon": "0010737E"
+    },
+    {
+      "id": "LFCY",
+      "name": "LFCY",
+      "title": "ROYAN MEDIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "72 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "453752N",
+      "lon": "0005832W"
+    },
+    {
+      "id": "LFCZ",
+      "name": "LFCZ",
+      "title": "MIMIZAN ASSOLLANT LEFEVRE ET LOTTI",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "165 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440845N",
+      "lon": "0010953W"
+    },
+    {
+      "id": "LFDA",
+      "name": "LFDA",
+      "title": "AIRE SUR L'ADOUR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "266 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434231N",
+      "lon": "0001450W"
+    },
+    {
+      "id": "LFDB",
+      "name": "LFDB",
+      "title": "MONTAUBAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "353 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440136N",
+      "lon": "0012237E"
+    },
+    {
+      "id": "LFDC",
+      "name": "LFDC",
+      "title": "MONTENDRE MARCILLAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "145 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451625N",
+      "lon": "0002712W"
+    },
+    {
+      "id": "LFDE",
+      "name": "LFDE",
+      "title": "EGLETONS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1859 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452514N",
+      "lon": "0020404E"
+    },
+    {
+      "id": "LFDF",
+      "name": "LFDF",
+      "title": "SAINTE FOY LA GRANDE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "282 FT",
+      "traffic": "NTL VFR P",
+      "lat": "445109N",
+      "lon": "0001032E"
+    },
+    {
+      "id": "LFDG",
+      "name": "LFDG",
+      "title": "GAILLAC LISLE SUR TARN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "441 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435259N",
+      "lon": "0015227E"
+    },
+    {
+      "id": "LFDH",
+      "name": "LFDH",
+      "title": "AUCH GERS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "411 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "434113N",
+      "lon": "0003600E"
+    },
+    {
+      "id": "LFDI",
+      "name": "LFDI",
+      "title": "LIBOURNE ARTIGUES DE LUSSAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "157 FT",
+      "traffic": "NTL VFR P",
+      "lat": "445903N",
+      "lon": "0000814W"
+    },
+    {
+      "id": "LFDJ",
+      "name": "LFDJ",
+      "title": "PAMIERS LES PUJOLS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1114 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "430526N",
+      "lon": "0014145E"
+    },
+    {
+      "id": "LFDK",
+      "name": "LFDK",
+      "title": "SOULAC SUR MER",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "11 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452938N",
+      "lon": "0010502W"
+    },
+    {
+      "id": "LFDL",
+      "name": "LFDL",
+      "title": "LOUDUN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "313 FT",
+      "traffic": "NTL VFR P",
+      "lat": "470210N",
+      "lon": "0000603E"
+    },
+    {
+      "id": "LFDM",
+      "name": "LFDM",
+      "title": "MARMANDE VIRAZEIL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "110 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442957N",
+      "lon": "0001201E"
+    },
+    {
+      "id": "LFDN",
+      "name": "LFDN",
+      "title": "ROCHEFORT CHARENTE MARITIME",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "60 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "455322N",
+      "lon": "0005856W"
+    },
+    {
+      "id": "LFDP",
+      "name": "LFDP",
+      "title": "SAINT PIERRE D'OLERON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "22 FT",
+      "traffic": "NTL VFR P",
+      "lat": "455728N",
+      "lon": "0011841W"
+    },
+    {
+      "id": "LFDQ",
+      "name": "LFDQ",
+      "title": "CASTELNAU MAGNOAC",
+      "type": "Civil / Restreint",
+      "elevation": "992 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431639N",
+      "lon": "0003110E"
+    },
+    {
+      "id": "LFDR",
+      "name": "LFDR",
+      "title": "LA REOLE FLOUDES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "44 FT",
+      "traffic": "NTL VFR P",
+      "lat": "443401N",
+      "lon": "0000326W"
+    },
+    {
+      "id": "LFDS",
+      "name": "LFDS",
+      "title": "SARLAT DOMME",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "979 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444732N",
+      "lon": "0011437E"
+    },
+    {
+      "id": "LFDT",
+      "name": "LFDT",
+      "title": "TARBES LALOUBERE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1075 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431254N",
+      "lon": "0000439E"
+    },
+    {
+      "id": "LFDU",
+      "name": "LFDU",
+      "title": "LESPARRE SAINT LAURENT MEDOC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "105 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451147N",
+      "lon": "0005305W"
+    },
+    {
+      "id": "LFDV",
+      "name": "LFDV",
+      "title": "COUHE VERAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "500 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461614N",
+      "lon": "0001118E"
+    },
+    {
+      "id": "LFDW",
+      "name": "LFDW",
+      "title": "CHAUVIGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "442 FT",
+      "traffic": "NTL VFR P",
+      "lat": "463500N",
+      "lon": "0003832E"
+    },
+    {
+      "id": "LFDX",
+      "name": "LFDX",
+      "title": "FUMEL MONTAYRAL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "692 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442733N",
+      "lon": "0010026E"
+    },
+    {
+      "id": "LFDY",
+      "name": "LFDY",
+      "title": "BORDEAUX YVRAC",
+      "type": "Civil / Restreint",
+      "elevation": "240 FT",
+      "traffic": "NTL VFR P",
+      "lat": "445238N",
+      "lon": "0002845W"
+    },
+    {
+      "id": "LFEA",
+      "name": "LFEA",
+      "title": "BELLE ILE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "177 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471934N",
+      "lon": "0031156W"
+    },
+    {
+      "id": "LFEB",
+      "name": "LFEB",
+      "title": "DINAN TRELIVAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "393 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482636N",
+      "lon": "0020612W"
+    },
+    {
+      "id": "LFEC",
+      "name": "LFEC",
+      "title": "OUESSANT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "142 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "482748N",
+      "lon": "0050349W"
+    },
+    {
+      "id": "LFED",
+      "name": "LFED",
+      "title": "PONTIVY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "406 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480325N",
+      "lon": "0025524W"
+    },
+    {
+      "id": "LFEF",
+      "name": "LFEF",
+      "title": "AMBOISE DIERRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "177 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472026N",
+      "lon": "0005628E"
+    },
+    {
+      "id": "LFEG",
+      "name": "LFEG",
+      "title": "ARGENTON SUR CREUSE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "666 FT",
+      "traffic": "NTL VFR P",
+      "lat": "463545N",
+      "lon": "0013604E"
+    },
+    {
+      "id": "LFEH",
+      "name": "LFEH",
+      "title": "AUBIGNY SUR NERE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "630 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472847N",
+      "lon": "0022334E"
+    },
+    {
+      "id": "LFEI",
+      "name": "LFEI",
+      "title": "BRIARE CHATILLON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "539 FT",
+      "traffic": "NTL VFR P",
+      "lat": "473652N",
+      "lon": "0024655E"
+    },
+    {
+      "id": "LFEJ",
+      "name": "LFEJ",
+      "title": "CHATEAUROUX VILLERS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "542 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465027N",
+      "lon": "0013712E"
+    },
+    {
+      "id": "LFEK",
+      "name": "LFEK",
+      "title": "ISSOUDUN LE FAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "531 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465319N",
+      "lon": "0020229E"
+    },
+    {
+      "id": "LFEL",
+      "name": "LFEL",
+      "title": "LE BLANC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "382 FT",
+      "traffic": "NTL VFR P",
+      "lat": "463712N",
+      "lon": "0010509E"
+    },
+    {
+      "id": "LFEM",
+      "name": "LFEM",
+      "title": "MONTARGIS VIMORY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "308 FT",
+      "traffic": "NTL VFR P",
+      "lat": "475738N",
+      "lon": "0024109E"
+    },
+    {
+      "id": "LFEN",
+      "name": "LFEN",
+      "title": "TOURS SORIGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "299 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471559N",
+      "lon": "0004157E"
+    },
+    {
+      "id": "LFEP",
+      "name": "LFEP",
+      "title": "POUILLY MACONGE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1413 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471314N",
+      "lon": "0043337E"
+    },
+    {
+      "id": "LFEQ",
+      "name": "LFEQ",
+      "title": "QUIBERON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "38 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472853N",
+      "lon": "0030606W"
+    },
+    {
+      "id": "LFER",
+      "name": "LFER",
+      "title": "REDON BAINS SUR OUST",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "225 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474155N",
+      "lon": "0020217W"
+    },
+    {
+      "id": "LFES",
+      "name": "LFES",
+      "title": "GUISCRIFF SCAER",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "574 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480313N",
+      "lon": "0033951W"
+    },
+    {
+      "id": "LFET",
+      "name": "LFET",
+      "title": "TIL CHATEL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "939 FT",
+      "traffic": "NTL VFR P",
+      "lat": "473247N",
+      "lon": "0051239E"
+    },
+    {
+      "id": "LFEU",
+      "name": "LFEU",
+      "title": "BAR LE DUC LES HAUTS DE CHEE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "899 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485204N",
+      "lon": "0051103E"
+    },
+    {
+      "id": "LFEV",
+      "name": "LFEV",
+      "title": "GRAY SAINT ADRIEN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "689 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "472556N",
+      "lon": "0053717E"
+    },
+    {
+      "id": "LFEW",
+      "name": "LFEW",
+      "title": "SAULIEU LIERNAIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1710 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471419N",
+      "lon": "0041552E"
+    },
+    {
+      "id": "LFEX",
+      "name": "LFEX",
+      "title": "NANCY AZELOT",
+      "type": "Civil / Restreint",
+      "elevation": "958 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483531N",
+      "lon": "0061423E"
+    },
+    {
+      "id": "LFEY",
+      "name": "LFEY",
+      "title": "ILE D'YEU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "79 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "464303N",
+      "lon": "0022333W"
+    },
+    {
+      "id": "LFEZ",
+      "name": "LFEZ",
+      "title": "NANCY MALZEVILLE",
+      "type": "Civil / Restreint",
+      "elevation": "1247 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484325N",
+      "lon": "0061223E"
+    },
+    {
+      "id": "LFFB",
+      "name": "LFFB",
+      "title": "BUNO BONNEVAUX",
+      "type": "Civil / Restreint",
+      "elevation": "419 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482101N",
+      "lon": "0022528E"
+    },
+    {
+      "id": "LFFC",
+      "name": "LFFC",
+      "title": "MANTES CHERENCE",
+      "type": "Civil / Restreint",
+      "elevation": "485 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490441N",
+      "lon": "0014118E"
+    },
+    {
+      "id": "LFFD",
+      "name": "LFFD",
+      "title": "SAINT ANDRE DE L'EURE",
+      "type": "Civil / Restreint",
+      "elevation": "491 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485351N",
+      "lon": "0011503E"
+    },
+    {
+      "id": "LFFE",
+      "name": "LFFE",
+      "title": "ENGHIEN MOISSELLES",
+      "type": "Civil / Restreint",
+      "elevation": "337 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490244N",
+      "lon": "0022107E"
+    },
+    {
+      "id": "LFFG",
+      "name": "LFFG",
+      "title": "LA FERTE GAUCHER",
+      "type": "Civil / Restreint",
+      "elevation": "536 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484527N",
+      "lon": "0031644E"
+    },
+    {
+      "id": "LFFH",
+      "name": "LFFH",
+      "title": "CHATEAU THIERRY BELLEAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "723 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490400N",
+      "lon": "0032120E"
+    },
+    {
+      "id": "LFFI",
+      "name": "LFFI",
+      "title": "ANCENIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "109 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472426N",
+      "lon": "0011044W"
+    },
+    {
+      "id": "LFFJ",
+      "name": "LFFJ",
+      "title": "JOINVILLE MUSSEY",
+      "type": "Civil / Restreint",
+      "elevation": "1030 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482307N",
+      "lon": "0050836E"
+    },
+    {
+      "id": "LFFK",
+      "name": "LFFK",
+      "title": "FONTENAY LE COMTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "80 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "462627N",
+      "lon": "0004738W"
+    },
+    {
+      "id": "LFFL",
+      "name": "LFFL",
+      "title": "BAILLEAU ARMENONVILLE",
+      "type": "Civil / Restreint",
+      "elevation": "508 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483053N",
+      "lon": "0013819E"
+    },
+    {
+      "id": "LFFN",
+      "name": "LFFN",
+      "title": "BRIENNE LE CHATEAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "376 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482547N",
+      "lon": "0042856E"
+    },
+    {
+      "id": "LFFO",
+      "name": "LFFO",
+      "title": "BEAUVOIR FROMENTINE",
+      "type": "Civil / Restreint",
+      "elevation": "10 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465326N",
+      "lon": "0020519W"
+    },
+    {
+      "id": "LFFP",
+      "name": "LFFP",
+      "title": "PITHIVIERS",
+      "type": "Civil / Restreint",
+      "elevation": "391 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480923N",
+      "lon": "0021128E"
+    },
+    {
+      "id": "LFFQ",
+      "name": "LFFQ",
+      "title": "LA FERTE ALAIS",
+      "type": "Civil / Restreint",
+      "elevation": "454 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482958N",
+      "lon": "0021948E"
+    },
+    {
+      "id": "LFFR",
+      "name": "LFFR",
+      "title": "BAR SUR SEINE",
+      "type": "Civil / Restreint",
+      "elevation": "938 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480358N",
+      "lon": "0042445E"
+    },
+    {
+      "id": "LFFT",
+      "name": "LFFT",
+      "title": "NEUFCHATEAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1228 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482142N",
+      "lon": "0054313E"
+    },
+    {
+      "id": "LFFU",
+      "name": "LFFU",
+      "title": "CHATEAUNEUF SUR CHER",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "551 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465216N",
+      "lon": "0022237E"
+    },
+    {
+      "id": "LFFV",
+      "name": "LFFV",
+      "title": "VIERZON MEREAU",
+      "type": "Civil / Restreint",
+      "elevation": "430 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471141N",
+      "lon": "0020400E"
+    },
+    {
+      "id": "LFFW",
+      "name": "LFFW",
+      "title": "MONTAIGU SAINT GEORGES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "186 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465556N",
+      "lon": "0011938W"
+    },
+    {
+      "id": "LFFX",
+      "name": "LFFX",
+      "title": "TOURNUS CUISERY",
+      "type": "Civil / Restreint",
+      "elevation": "689 FT",
+      "traffic": "NTL VFR P",
+      "lat": "463341N",
+      "lon": "0045831E"
+    },
+    {
+      "id": "LFFY",
+      "name": "LFFY",
+      "title": "ETREPAGNY",
+      "type": "Civil / Restreint",
+      "elevation": "313 FT",
+      "traffic": "NTL VFR P",
+      "lat": "491819N",
+      "lon": "0013816E"
+    },
+    {
+      "id": "LFFZ",
+      "name": "LFFZ",
+      "title": "SEZANNE SAINT REMY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "355 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484234N",
+      "lon": "0034546E"
+    },
+    {
+      "id": "LFGA",
+      "name": "LFGA",
+      "title": "COLMAR HOUSSEN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "627 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "480637N",
+      "lon": "0072133E"
+    },
+    {
+      "id": "LFGB",
+      "name": "LFGB",
+      "title": "MULHOUSE HABSHEIM",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "789 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474414N",
+      "lon": "0072547E"
+    },
+    {
+      "id": "LFGC",
+      "name": "LFGC",
+      "title": "STRASBOURG NEUHOF",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "459 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483313N",
+      "lon": "0074639E"
+    },
+    {
+      "id": "LFGE",
+      "name": "LFGE",
+      "title": "AVALLON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "786 FT",
+      "traffic": "NTL VFR P",
+      "lat": "473007N",
+      "lon": "0035354E"
+    },
+    {
+      "id": "LFGF",
+      "name": "LFGF",
+      "title": "BEAUNE CHALLANGES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "656 FT",
+      "traffic": "NTL VFR P",
+      "lat": "470037N",
+      "lon": "0045347E"
+    },
+    {
+      "id": "LFGG",
+      "name": "LFGG",
+      "title": "BELFORT CHAUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1367 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474204N",
+      "lon": "0064951E"
+    },
+    {
+      "id": "LFGH",
+      "name": "LFGH",
+      "title": "COSNE SUR LOIRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "580 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472137N",
+      "lon": "0025506E"
+    },
+    {
+      "id": "LFGI",
+      "name": "LFGI",
+      "title": "DIJON DAROIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1586 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472307N",
+      "lon": "0045649E"
+    },
+    {
+      "id": "LFGJ",
+      "name": "LFGJ",
+      "title": "DOLE TAVAUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "645 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "470234N",
+      "lon": "0052606E"
+    },
+    {
+      "id": "LFGK",
+      "name": "LFGK",
+      "title": "JOIGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "732 FT",
+      "traffic": "NTL VFR P",
+      "lat": "475940N",
+      "lon": "0032327E"
+    },
+    {
+      "id": "LFGL",
+      "name": "LFGL",
+      "title": "LONS LE SAUNIER COURLAOUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "762 FT",
+      "traffic": "NTL VFR P",
+      "lat": "464030N",
+      "lon": "0052809E"
+    },
+    {
+      "id": "LFGM",
+      "name": "LFGM",
+      "title": "MONTCEAU LES MINES POUILLOUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1032 FT",
+      "traffic": "NTL VFR P",
+      "lat": "463612N",
+      "lon": "0041958E"
+    },
+    {
+      "id": "LFGN",
+      "name": "LFGN",
+      "title": "PARAY LE MONIAL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1003 FT",
+      "traffic": "NTL VFR P",
+      "lat": "462800N",
+      "lon": "0040759E"
+    },
+    {
+      "id": "LFGO",
+      "name": "LFGO",
+      "title": "PONT SUR YONNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "232 FT",
+      "traffic": "NTL VFR P",
+      "lat": "481722N",
+      "lon": "0031456E"
+    },
+    {
+      "id": "LFGP",
+      "name": "LFGP",
+      "title": "SAINT FLORENTIN CHEU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "355 FT",
+      "traffic": "NTL VFR P",
+      "lat": "475853N",
+      "lon": "0034637E"
+    },
+    {
+      "id": "LFGQ",
+      "name": "LFGQ",
+      "title": "SEMUR EN AUXOIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1051 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472852N",
+      "lon": "0042035E"
+    },
+    {
+      "id": "LFGR",
+      "name": "LFGR",
+      "title": "DONCOURT LES CONFLANS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "809 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490907N",
+      "lon": "0055553E"
+    },
+    {
+      "id": "LFGS",
+      "name": "LFGS",
+      "title": "LONGUYON VILLETTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1153 FT",
+      "traffic": "NTL VFR P",
+      "lat": "492901N",
+      "lon": "0053419E"
+    },
+    {
+      "id": "LFGT",
+      "name": "LFGT",
+      "title": "SARREBOURG BUHL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "873 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484306N",
+      "lon": "0070448E"
+    },
+    {
+      "id": "LFGU",
+      "name": "LFGU",
+      "title": "SARREGUEMINES NEUNKIRCH",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "863 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490739N",
+      "lon": "0070624E"
+    },
+    {
+      "id": "LFGW",
+      "name": "LFGW",
+      "title": "VERDUN SOMMEDIEUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1236 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490720N",
+      "lon": "0052815E"
+    },
+    {
+      "id": "LFGX",
+      "name": "LFGX",
+      "title": "CHAMPAGNOLE CROTENAY",
+      "type": "Civil / Restreint",
+      "elevation": "1745 FT",
+      "traffic": "NTL VFR P",
+      "lat": "464548N",
+      "lon": "0054911E"
+    },
+    {
+      "id": "LFGY",
+      "name": "LFGY",
+      "title": "SAINT DIE REMOMEIX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1187 FT",
+      "traffic": "NTL VFR P",
+      "lat": "481559N",
+      "lon": "0070027E"
+    },
+    {
+      "id": "LFGZ",
+      "name": "LFGZ",
+      "title": "NUITS SAINT GEORGES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "794 FT",
+      "traffic": "NTL VFR P",
+      "lat": "470832N",
+      "lon": "0045806E"
+    },
+    {
+      "id": "LFHA",
+      "name": "LFHA",
+      "title": "ISSOIRE LE BROC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1240 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453050N",
+      "lon": "0031558E"
+    },
+    {
+      "id": "LFHB",
+      "name": "LFHB",
+      "title": "BISCARROSSE HYDROBASE",
+      "type": "Civil / Restreint",
+      "elevation": "69 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "442136N",
+      "lon": "0011004W"
+    },
+    {
+      "id": "LFHC",
+      "name": "LFHC",
+      "title": "PEROUGES MEXIMIEUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "703 FT",
+      "traffic": "NTL VFR P",
+      "lat": "455207N",
+      "lon": "0051110E"
+    },
+    {
+      "id": "LFHD",
+      "name": "LFHD",
+      "title": "PIERRELATTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "195 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442352N",
+      "lon": "0044301E"
+    },
+    {
+      "id": "LFHE",
+      "name": "LFHE",
+      "title": "ROMANS SAINT PAUL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "595 FT",
+      "traffic": "NTL VFR P",
+      "lat": "450353N",
+      "lon": "0050605E"
+    },
+    {
+      "id": "LFHF",
+      "name": "LFHF",
+      "title": "RUOMS",
+      "type": "Civil / Restreint",
+      "elevation": "353 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442641N",
+      "lon": "0041958E"
+    },
+    {
+      "id": "LFHG",
+      "name": "LFHG",
+      "title": "SAINT CHAMOND L'HORME",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1307 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452931N",
+      "lon": "0043204E"
+    },
+    {
+      "id": "LFHH",
+      "name": "LFHH",
+      "title": "VIENNE REVENTIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "720 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452746N",
+      "lon": "0044940E"
+    },
+    {
+      "id": "LFHI",
+      "name": "LFHI",
+      "title": "MORESTEL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "803 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454113N",
+      "lon": "0052709E"
+    },
+    {
+      "id": "LFHJ",
+      "name": "LFHJ",
+      "title": "LYON CORBAS",
+      "type": "Civil / Restreint",
+      "elevation": "652 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453910N",
+      "lon": "0045444E"
+    },
+    {
+      "id": "LFHL",
+      "name": "LFHL",
+      "title": "LANGOGNE LESPERON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "3339 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444220N",
+      "lon": "0035314E"
+    },
+    {
+      "id": "LFHM",
+      "name": "LFHM",
+      "title": "MEGEVE",
+      "type": "Civil / Restreint",
+      "elevation": "4830 FT",
+      "traffic": "INTL/NTL VFR NS/P",
+      "lat": "454928N",
+      "lon": "0063854E"
+    },
+    {
+      "id": "LFHN",
+      "name": "LFHN",
+      "title": "BELLEGARDE VOUVRAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1626 FT",
+      "traffic": "NTL VFR P",
+      "lat": "460724N",
+      "lon": "0054817E"
+    },
+    {
+      "id": "LFHO",
+      "name": "LFHO",
+      "title": "AUBENAS ARDECHE MERIDIONALE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "923 FT",
+      "traffic": "NTL VFR P",
+      "lat": "443222N",
+      "lon": "0042218E"
+    },
+    {
+      "id": "LFHP",
+      "name": "LFHP",
+      "title": "LE PUY LOUDES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2731 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "450447N",
+      "lon": "0034548E"
+    },
+    {
+      "id": "LFHQ",
+      "name": "LFHQ",
+      "title": "SAINT FLOUR COLTINES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "3218 FT",
+      "traffic": "NTL VFR P",
+      "lat": "450430N",
+      "lon": "0025933E"
+    },
+    {
+      "id": "LFHR",
+      "name": "LFHR",
+      "title": "BRIOUDE BEAUMONT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1487 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451926N",
+      "lon": "0032130E"
+    },
+    {
+      "id": "LFHS",
+      "name": "LFHS",
+      "title": "BOURG CEYZERIAT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "857 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461220N",
+      "lon": "0051730E"
+    },
+    {
+      "id": "LFHT",
+      "name": "LFHT",
+      "title": "AMBERT LE POYET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1848 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453056N",
+      "lon": "0034442E"
+    },
+    {
+      "id": "LFHU",
+      "name": "LFHU",
+      "title": "L'ALPE D'HUEZ",
+      "type": "Civil / Restreint",
+      "elevation": "6103 FT",
+      "traffic": "NTL VFR P",
+      "lat": "450515N",
+      "lon": "0060501E"
+    },
+    {
+      "id": "LFHV",
+      "name": "LFHV",
+      "title": "VILLEFRANCHE TARARE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1076 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "455512N",
+      "lon": "0043806E"
+    },
+    {
+      "id": "LFHW",
+      "name": "LFHW",
+      "title": "BELLEVILLE VILLIE MORGON",
+      "type": "Civil / Restreint",
+      "elevation": "705 FT",
+      "traffic": "NTL VFR P",
+      "lat": "460828N",
+      "lon": "0044250E"
+    },
+    {
+      "id": "LFHX",
+      "name": "LFHX",
+      "title": "LAPALISSE PERIGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1045 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461511N",
+      "lon": "0033515E"
+    },
+    {
+      "id": "LFHY",
+      "name": "LFHY",
+      "title": "MOULINS MONTBEUGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "915 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "463204N",
+      "lon": "0032518E"
+    },
+    {
+      "id": "LFIB",
+      "name": "LFIB",
+      "title": "BELVES SAINT PARDOUX",
+      "type": "Civil / Restreint",
+      "elevation": "791 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444653N",
+      "lon": "0005727E"
+    },
+    {
+      "id": "LFID",
+      "name": "LFID",
+      "title": "CONDOM VALENCE SUR BAISE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "444 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435433N",
+      "lon": "0002310E"
+    },
+    {
+      "id": "LFIF",
+      "name": "LFIF",
+      "title": "SAINT AFFRIQUE BELMONT",
+      "type": "Civil / Restreint",
+      "elevation": "1686 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434922N",
+      "lon": "0024450E"
+    },
+    {
+      "id": "LFIG",
+      "name": "LFIG",
+      "title": "CASSAGNES BEGONHES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2025 FT",
+      "traffic": "NTL VFR P",
+      "lat": "441042N",
+      "lon": "0023104E"
+    },
+    {
+      "id": "LFIH",
+      "name": "LFIH",
+      "title": "CHALAIS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "299 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451601N",
+      "lon": "0000057E"
+    },
+    {
+      "id": "LFIK",
+      "name": "LFIK",
+      "title": "RIBERAC-TOURETTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "353 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451422N",
+      "lon": "0001557E"
+    },
+    {
+      "id": "LFIL",
+      "name": "LFIL",
+      "title": "RION DES LANDES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "256 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435457N",
+      "lon": "0005657W"
+    },
+    {
+      "id": "LFIM",
+      "name": "LFIM",
+      "title": "SAINT GAUDENS MONTREJEAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1320 FT",
+      "traffic": "NTL VFR P",
+      "lat": "430627N",
+      "lon": "0003709E"
+    },
+    {
+      "id": "LFIP",
+      "name": "LFIP",
+      "title": "PEYRESOURDE BALESTAS",
+      "type": "Civil / Restreint",
+      "elevation": "5193 FT",
+      "traffic": "NTL VFR P",
+      "lat": "424749N",
+      "lon": "0002602E"
+    },
+    {
+      "id": "LFIR",
+      "name": "LFIR",
+      "title": "REVEL MONTGEY",
+      "type": "Civil / Restreint",
+      "elevation": "643 FT",
+      "traffic": "NTL VFR P",
+      "lat": "432849N",
+      "lon": "0015844E"
+    },
+    {
+      "id": "LFIS",
+      "name": "LFIS",
+      "title": "SAINT INGLEVERT LES DEUX CAPS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "443 FT",
+      "traffic": "NTL VFR P",
+      "lat": "505257N",
+      "lon": "0014410E"
+    },
+    {
+      "id": "LFIT",
+      "name": "LFIT",
+      "title": "TOULOUSE BOURG SAINT BERNARD",
+      "type": "Civil / Restreint",
+      "elevation": "526 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433640N",
+      "lon": "0014327E"
+    },
+    {
+      "id": "LFIV",
+      "name": "LFIV",
+      "title": "VENDAYS MONTALIVET",
+      "type": "Civil / Restreint",
+      "elevation": "16 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452250N",
+      "lon": "0010657W"
+    },
+    {
+      "id": "LFIX",
+      "name": "LFIX",
+      "title": "ITXASSOU",
+      "type": "Civil / Restreint",
+      "elevation": "607 FT",
+      "traffic": "NTL VFR P",
+      "lat": "432011N",
+      "lon": "0012524W"
+    },
+    {
+      "id": "LFIY",
+      "name": "LFIY",
+      "title": "SAINT JEAN D'ANGELY ESSOUVERT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "245 FT",
+      "traffic": "NTL VFR P",
+      "lat": "455755N",
+      "lon": "0003128W"
+    },
+    {
+      "id": "LFJA",
+      "name": "LFJA",
+      "title": "CHAUMONT SEMOUTIERS",
+      "type": "Militaire / Restreint",
+      "elevation": "1004 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480530N",
+      "lon": "0050300E"
+    },
+    {
+      "id": "LFJB",
+      "name": "LFJB",
+      "title": "MAULEON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "568 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465411N",
+      "lon": "0004151W"
+    },
+    {
+      "id": "LFJC",
+      "name": "LFJC",
+      "title": "CLAMECY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "714 FT",
+      "traffic": "NTL VFR P",
+      "lat": "472615N",
+      "lon": "0033027E"
+    },
+    {
+      "id": "LFJD",
+      "name": "LFJD",
+      "title": "CORLIER",
+      "type": "Civil / Restreint",
+      "elevation": "2770 FT",
+      "traffic": "NTL VFR P",
+      "lat": "460223N",
+      "lon": "0052946E"
+    },
+    {
+      "id": "LFJE",
+      "name": "LFJE",
+      "title": "LA MOTTE CHALANCON",
+      "type": "Civil / Restreint",
+      "elevation": "2883 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442948N",
+      "lon": "0052412E"
+    },
+    {
+      "id": "LFJF",
+      "name": "LFJF",
+      "title": "AUBENASSON",
+      "type": "Civil / Restreint",
+      "elevation": "807 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444143N",
+      "lon": "0050914E"
+    },
+    {
+      "id": "LFJH",
+      "name": "LFJH",
+      "title": "CAZERES PALAMINY",
+      "type": "Civil / Restreint",
+      "elevation": "816 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431203N",
+      "lon": "0010300E"
+    },
+    {
+      "id": "LFJI",
+      "name": "LFJI",
+      "title": "MARENNES",
+      "type": "Civil / Restreint",
+      "elevation": "29 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454926N",
+      "lon": "0010438W"
+    },
+    {
+      "id": "LFJL",
+      "name": "LFJL",
+      "title": "METZ NANCY LORRAINE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "870 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "485842N",
+      "lon": "0061448E"
+    },
+    {
+      "id": "LFJR",
+      "name": "LFJR",
+      "title": "ANGERS MARCE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "194 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "473337N",
+      "lon": "0001844W"
+    },
+    {
+      "id": "LFJS",
+      "name": "LFJS",
+      "title": "SOISSONS COURMELLES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "518 FT",
+      "traffic": "NTL VFR P",
+      "lat": "492042N",
+      "lon": "0031659E"
+    },
+    {
+      "id": "LFJT",
+      "name": "LFJT",
+      "title": "TOURS LE LOUROUX",
+      "type": "Civil / Restreint",
+      "elevation": "413 FT",
+      "traffic": "NTL VFR P",
+      "lat": "470900N",
+      "lon": "0004246E"
+    },
+    {
+      "id": "LFJU",
+      "name": "LFJU",
+      "title": "LURCY LEVIS",
+      "type": "Civil / Restreint",
+      "elevation": "747 FT",
+      "traffic": "NTL VFR P",
+      "lat": "464244N",
+      "lon": "0025641E"
+    },
+    {
+      "id": "LFJV",
+      "name": "LFJV",
+      "title": "LASCLAVERIES",
+      "type": "Civil / Restreint",
+      "elevation": "843 FT",
+      "traffic": "NTL VFR P",
+      "lat": "432531N",
+      "lon": "0001713W"
+    },
+    {
+      "id": "LFJY",
+      "name": "LFJY",
+      "title": "CHAMBLEY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "866 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "490132N",
+      "lon": "0055234E"
+    },
+    {
+      "id": "LFKA",
+      "name": "LFKA",
+      "title": "ALBERTVILLE GENERAL PIERRE DELACHENAL",
+      "type": "Civil / Restreint",
+      "elevation": "1035 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453735N",
+      "lon": "0061944E"
+    },
+    {
+      "id": "LFKB",
+      "name": "LFKB",
+      "title": "BASTIA PORETTA",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "26 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "423300N",
+      "lon": "0092905E"
+    },
+    {
+      "id": "LFKC",
+      "name": "LFKC",
+      "title": "CALVI SAINTE CATHERINE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "210 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "423128N",
+      "lon": "0084735E"
+    },
+    {
+      "id": "LFKD",
+      "name": "LFKD",
+      "title": "SOLLIERES SARDIERES",
+      "type": "Civil / Restreint",
+      "elevation": "4255 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451514N",
+      "lon": "0064804E"
+    },
+    {
+      "id": "LFKE",
+      "name": "LFKE",
+      "title": "SAINT JEAN EN ROYANS",
+      "type": "Civil / Restreint",
+      "elevation": "872 FT",
+      "traffic": "NTL VFR P",
+      "lat": "450135N",
+      "lon": "0051833E"
+    },
+    {
+      "id": "LFKF",
+      "name": "LFKF",
+      "title": "FIGARI SUD CORSE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "85 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "413008N",
+      "lon": "0090548E"
+    },
+    {
+      "id": "LFKG",
+      "name": "LFKG",
+      "title": "GHISONACCIA ALZITONE",
+      "type": "Civil / Restreint",
+      "elevation": "177 FT",
+      "traffic": "NTL VFR P",
+      "lat": "420316N",
+      "lon": "0092401E"
+    },
+    {
+      "id": "LFKH",
+      "name": "LFKH",
+      "title": "SAINT JEAN D'AVELANNE",
+      "type": "Civil / Restreint",
+      "elevation": "964 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453057N",
+      "lon": "0054046E"
+    },
+    {
+      "id": "LFKJ",
+      "name": "LFKJ",
+      "title": "AJACCIO NAPOLEON BONAPARTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "19 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "415526N",
+      "lon": "0084809E"
+    },
+    {
+      "id": "LFKL",
+      "name": "LFKL",
+      "title": "LYON BRINDAS",
+      "type": "Civil / Restreint",
+      "elevation": "1040 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454238N",
+      "lon": "0044148E"
+    },
+    {
+      "id": "LFKM",
+      "name": "LFKM",
+      "title": "SAINT GALMIER",
+      "type": "Civil / Restreint",
+      "elevation": "1269 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453623N",
+      "lon": "0041818E"
+    },
+    {
+      "id": "LFKO",
+      "name": "LFKO",
+      "title": "PROPRIANO",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "16 FT",
+      "traffic": "NTL VFR P",
+      "lat": "413937N",
+      "lon": "0085338E"
+    },
+    {
+      "id": "LFKP",
+      "name": "LFKP",
+      "title": "LA TOUR DU PIN CESSIEU",
+      "type": "Civil / Restreint",
+      "elevation": "1055 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453332N",
+      "lon": "0052302E"
+    },
+    {
+      "id": "LFKR",
+      "name": "LFKR",
+      "title": "SAINT REMY DE MAURIENNE",
+      "type": "Civil / Restreint",
+      "elevation": "1399 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452230N",
+      "lon": "0061640E"
+    },
+    {
+      "id": "LFKS",
+      "name": "LFKS",
+      "title": "SOLENZARA",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "29 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "415535N",
+      "lon": "0092419E"
+    },
+    {
+      "id": "LFKT",
+      "name": "LFKT",
+      "title": "CORTE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1130 FT",
+      "traffic": "NTL VFR P",
+      "lat": "421725N",
+      "lon": "0091133E"
+    },
+    {
+      "id": "LFKX",
+      "name": "LFKX",
+      "title": "MERIBEL ROBERT MERLOZ",
+      "type": "Civil / Restreint",
+      "elevation": "5639 FT",
+      "traffic": "NTL VFR P",
+      "lat": "452427N",
+      "lon": "0063439E"
+    },
+    {
+      "id": "LFKY",
+      "name": "LFKY",
+      "title": "BELLEY-PEYRIEU",
+      "type": "Civil / Restreint",
+      "elevation": "739 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454138N",
+      "lon": "0054130E"
+    },
+    {
+      "id": "LFLA",
+      "name": "LFLA",
+      "title": "AUXERRE BRANCHES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "523 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "475047N",
+      "lon": "0032948E"
+    },
+    {
+      "id": "LFLB",
+      "name": "LFLB",
+      "title": "CHAMBERY AIX LES BAINS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "779 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "453821N",
+      "lon": "0055248E"
+    },
+    {
+      "id": "LFLC",
+      "name": "LFLC",
+      "title": "CLERMONT FERRAND AUVERGNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1092 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "454710N",
+      "lon": "0030945E"
+    },
+    {
+      "id": "LFLD",
+      "name": "LFLD",
+      "title": "BOURGES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "529 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "470339N",
+      "lon": "0022212E"
+    },
+    {
+      "id": "LFLE",
+      "name": "LFLE",
+      "title": "CHAMBERY CHALLES LES EAUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "973 FT",
+      "traffic": "NTL VFR P",
+      "lat": "453338N",
+      "lon": "0055833E"
+    },
+    {
+      "id": "LFLG",
+      "name": "LFLG",
+      "title": "GRENOBLE LE VERSOUD",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "724 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451305N",
+      "lon": "0055055E"
+    },
+    {
+      "id": "LFLH",
+      "name": "LFLH",
+      "title": "CHALON CHAMPFORGEUIL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "623 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "464942N",
+      "lon": "0044901E"
+    },
+    {
+      "id": "LFLI",
+      "name": "LFLI",
+      "title": "ANNEMASSE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1620 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461131N",
+      "lon": "0061606E"
+    },
+    {
+      "id": "LFLJ",
+      "name": "LFLJ",
+      "title": "COURCHEVEL",
+      "type": "Civil / Restreint",
+      "elevation": "6583 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "452345N",
+      "lon": "0063757E"
+    },
+    {
+      "id": "LFLL",
+      "name": "LFLL",
+      "title": "LYON SAINT EXUPERY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "821 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "454332N",
+      "lon": "0050452E"
+    },
+    {
+      "id": "LFLM",
+      "name": "LFLM",
+      "title": "MACON CHARNAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "729 FT",
+      "traffic": "NTL VFR P",
+      "lat": "461745N",
+      "lon": "0044745E"
+    },
+    {
+      "id": "LFLN",
+      "name": "LFLN",
+      "title": "SAINT YAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "797 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "462424N",
+      "lon": "0040116E"
+    },
+    {
+      "id": "LFLO",
+      "name": "LFLO",
+      "title": "ROANNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1106 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "460310N",
+      "lon": "0035959E"
+    },
+    {
+      "id": "LFLP",
+      "name": "LFLP",
+      "title": "ANNECY MEYTHET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1521 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "455551N",
+      "lon": "0060623E"
+    },
+    {
+      "id": "LFLQ",
+      "name": "LFLQ",
+      "title": "MONTELIMAR ANCONE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "241 FT",
+      "traffic": "NTL VFR P",
+      "lat": "443449N",
+      "lon": "0044421E"
+    },
+    {
+      "id": "LFLR",
+      "name": "LFLR",
+      "title": "SAINT RAMBERT D'ALBON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "509 FT",
+      "traffic": "NTL VFR P",
+      "lat": "451518N",
+      "lon": "0044929E"
+    },
+    {
+      "id": "LFLS",
+      "name": "LFLS",
+      "title": "GRENOBLE ALPES ISERE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1302 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "452147N",
+      "lon": "0051958E"
+    },
+    {
+      "id": "LFLT",
+      "name": "LFLT",
+      "title": "MONTLUCON DOMERAT",
+      "type": "Civil / Restreint",
+      "elevation": "771 FT",
+      "traffic": "NTL VFR P",
+      "lat": "462110N",
+      "lon": "0023414E"
+    },
+    {
+      "id": "LFLU",
+      "name": "LFLU",
+      "title": "VALENCE CHABEUIL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "525 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "445456N",
+      "lon": "0045807E"
+    },
+    {
+      "id": "LFLV",
+      "name": "LFLV",
+      "title": "VICHY CHARMEIL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "817 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "461018N",
+      "lon": "0032415E"
+    },
+    {
+      "id": "LFLW",
+      "name": "LFLW",
+      "title": "AURILLAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2096 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "445351N",
+      "lon": "0022500E"
+    },
+    {
+      "id": "LFLX",
+      "name": "LFLX",
+      "title": "CHATEAUROUX DEOLS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "529 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "465137N",
+      "lon": "0014316E"
+    },
+    {
+      "id": "LFLY",
+      "name": "LFLY",
+      "title": "LYON BRON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "659 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "454346N",
+      "lon": "0045620E"
+    },
+    {
+      "id": "LFLZ",
+      "name": "LFLZ",
+      "title": "FEURS CHAMBEON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1095 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454224N",
+      "lon": "0041149E"
+    },
+    {
+      "id": "LFMA",
+      "name": "LFMA",
+      "title": "AIX LES MILLES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "368 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "433019N",
+      "lon": "0052202E"
+    },
+    {
+      "id": "LFMC",
+      "name": "LFMC",
+      "title": "LE LUC LE CANNET",
+      "type": "Militaire / Restreint",
+      "elevation": "265 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "432305N",
+      "lon": "0062313E"
+    },
+    {
+      "id": "LFMD",
+      "name": "LFMD",
+      "title": "CANNES MANDELIEU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "14 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "433247N",
+      "lon": "0065715E"
+    },
+    {
+      "id": "LFME",
+      "name": "LFME",
+      "title": "NIMES COURBESSAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "197 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435111N",
+      "lon": "0042452E"
+    },
+    {
+      "id": "LFMF",
+      "name": "LFMF",
+      "title": "FAYENCE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "738 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433629N",
+      "lon": "0064206E"
+    },
+    {
+      "id": "LFMG",
+      "name": "LFMG",
+      "title": "MONTAGNE NOIRE",
+      "type": "Civil / Restreint",
+      "elevation": "1468 FT",
+      "traffic": "NTL VFR P",
+      "lat": "432423N",
+      "lon": "0015921E"
+    },
+    {
+      "id": "LFMH",
+      "name": "LFMH",
+      "title": "SAINT ETIENNE LOIRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1325 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "453203N",
+      "lon": "0041750E"
+    },
+    {
+      "id": "LFMI",
+      "name": "LFMI",
+      "title": "ISTRES LE TUBE",
+      "type": "Militaire / Restreint",
+      "elevation": "82 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "433121N",
+      "lon": "0045527E"
+    },
+    {
+      "id": "LFMK",
+      "name": "LFMK",
+      "title": "CARCASSONNE SALVAZA",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "434 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "431257N",
+      "lon": "0021831E"
+    },
+    {
+      "id": "LFML",
+      "name": "LFML",
+      "title": "MARSEILLE PROVENCE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "70 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "432612N",
+      "lon": "0051254E"
+    },
+    {
+      "id": "LFMN",
+      "name": "LFMN",
+      "title": "NICE COTE D'AZUR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "12 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "433955N",
+      "lon": "0071254E"
+    },
+    {
+      "id": "LFMO",
+      "name": "LFMO",
+      "title": "ORANGE CARITAT",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "195 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "440824N",
+      "lon": "0045207E"
+    },
+    {
+      "id": "LFMP",
+      "name": "LFMP",
+      "title": "PERPIGNAN RIVESALTES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "144 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "424427N",
+      "lon": "0025211E"
+    },
+    {
+      "id": "LFMQ",
+      "name": "LFMQ",
+      "title": "LE CASTELLET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1391 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "431508N",
+      "lon": "0054710E"
+    },
+    {
+      "id": "LFMR",
+      "name": "LFMR",
+      "title": "BARCELONNETTE SAINT PONS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "3714 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442314N",
+      "lon": "0063633E"
+    },
+    {
+      "id": "LFMS",
+      "name": "LFMS",
+      "title": "ALES CEVENNES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "668 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440422N",
+      "lon": "0040835E"
+    },
+    {
+      "id": "LFMT",
+      "name": "LFMT",
+      "title": "MONTPELLIER MEDITERRANEE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "17 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "433500N",
+      "lon": "0035741E"
+    },
+    {
+      "id": "LFMU",
+      "name": "LFMU",
+      "title": "BEZIERS VIAS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "56 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "431924N",
+      "lon": "0032112E"
+    },
+    {
+      "id": "LFMV",
+      "name": "LFMV",
+      "title": "AVIGNON CAUMONT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "124 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "435424N",
+      "lon": "0045407E"
+    },
+    {
+      "id": "LFMW",
+      "name": "LFMW",
+      "title": "CASTELNAUDARY VILLENEUVE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "553 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431840N",
+      "lon": "0015512E"
+    },
+    {
+      "id": "LFMX",
+      "name": "LFMX",
+      "title": "CHATEAU ARNOUX SAINT AUBAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1507 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440331N",
+      "lon": "0055927E"
+    },
+    {
+      "id": "LFMY",
+      "name": "LFMY",
+      "title": "SALON DE PROVENCE",
+      "type": "Militaire / Restreint",
+      "elevation": "197 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "433611N",
+      "lon": "0050630E"
+    },
+    {
+      "id": "LFMZ",
+      "name": "LFMZ",
+      "title": "LEZIGNAN CORBIERES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "204 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431030N",
+      "lon": "0024358E"
+    },
+    {
+      "id": "LFNA",
+      "name": "LFNA",
+      "title": "GAP TALLARD",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1966 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "442714N",
+      "lon": "0060212E"
+    },
+    {
+      "id": "LFNB",
+      "name": "LFNB",
+      "title": "MENDE BRENOUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "3362 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "443015N",
+      "lon": "0033139E"
+    },
+    {
+      "id": "LFNC",
+      "name": "LFNC",
+      "title": "MONT DAUPHIN SAINT CREPIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2963 FT",
+      "traffic": "NTL VFR P",
+      "lat": "444202N",
+      "lon": "0063557E"
+    },
+    {
+      "id": "LFNE",
+      "name": "LFNE",
+      "title": "SALON EYGUIERES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "247 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433927N",
+      "lon": "0050046E"
+    },
+    {
+      "id": "LFNF",
+      "name": "LFNF",
+      "title": "VINON",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "903 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434411N",
+      "lon": "0054659E"
+    },
+    {
+      "id": "LFNG",
+      "name": "LFNG",
+      "title": "MONTPELLIER CANDILLARGUES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "5 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433637N",
+      "lon": "0040413E"
+    },
+    {
+      "id": "LFNH",
+      "name": "LFNH",
+      "title": "CARPENTRAS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "388 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440121N",
+      "lon": "0050524E"
+    },
+    {
+      "id": "LFNJ",
+      "name": "LFNJ",
+      "title": "ASPRES SUR BUECH",
+      "type": "Civil / Restreint",
+      "elevation": "2727 FT",
+      "traffic": "NTL VFR P",
+      "lat": "443104N",
+      "lon": "0054410E"
+    },
+    {
+      "id": "LFNL",
+      "name": "LFNL",
+      "title": "SAINT MARTIN DE LONDRES",
+      "type": "Civil / Restreint",
+      "elevation": "602 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434801N",
+      "lon": "0034654E"
+    },
+    {
+      "id": "LFNN",
+      "name": "LFNN",
+      "title": "NARBONNE",
+      "type": "Civil / Restreint",
+      "elevation": "10 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431139N",
+      "lon": "0030306E"
+    },
+    {
+      "id": "LFNO",
+      "name": "LFNO",
+      "title": "FLORAC SAINTE ENIMIE",
+      "type": "Civil / Restreint",
+      "elevation": "3055 FT",
+      "traffic": "NTL VFR P",
+      "lat": "441708N",
+      "lon": "0032756E"
+    },
+    {
+      "id": "LFNQ",
+      "name": "LFNQ",
+      "title": "LA LLAGONNE LA QUILLANE",
+      "type": "Civil / Restreint",
+      "elevation": "5612 FT",
+      "traffic": "NTL VFR P",
+      "lat": "423236N",
+      "lon": "0020712E"
+    },
+    {
+      "id": "LFNR",
+      "name": "LFNR",
+      "title": "BERRE LA FARE",
+      "type": "Civil / Restreint",
+      "elevation": "108 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433212N",
+      "lon": "0051039E"
+    },
+    {
+      "id": "LFNS",
+      "name": "LFNS",
+      "title": "SISTERON VAUMEILH",
+      "type": "Civil / Restreint",
+      "elevation": "1778 FT",
+      "traffic": "NTL VFR P",
+      "lat": "441712N",
+      "lon": "0055545E"
+    },
+    {
+      "id": "LFNT",
+      "name": "LFNT",
+      "title": "AVIGNON PUJAUT",
+      "type": "Civil / Restreint",
+      "elevation": "146 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435946N",
+      "lon": "0044516E"
+    },
+    {
+      "id": "LFNU",
+      "name": "LFNU",
+      "title": "UZES",
+      "type": "Civil / Restreint",
+      "elevation": "884 FT",
+      "traffic": "NTL VFR P",
+      "lat": "440501N",
+      "lon": "0042338E"
+    },
+    {
+      "id": "LFNV",
+      "name": "LFNV",
+      "title": "VALREAS VISAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "472 FT",
+      "traffic": "NTL VFR P",
+      "lat": "442009N",
+      "lon": "0045425E"
+    },
+    {
+      "id": "LFNW",
+      "name": "LFNW",
+      "title": "PUIVERT",
+      "type": "Civil / Restreint",
+      "elevation": "1610 FT",
+      "traffic": "NTL VFR P",
+      "lat": "425437N",
+      "lon": "0020317E"
+    },
+    {
+      "id": "LFNX",
+      "name": "LFNX",
+      "title": "BEDARIEUX LA TOUR SUR ORB",
+      "type": "Civil / Restreint",
+      "elevation": "1247 FT",
+      "traffic": "NTL VFR P",
+      "lat": "433823N",
+      "lon": "0030841E"
+    },
+    {
+      "id": "LFNZ",
+      "name": "LFNZ",
+      "title": "LE MAZET DE ROMANIN",
+      "type": "Civil / Restreint",
+      "elevation": "395 FT",
+      "traffic": "NTL VFR P",
+      "lat": "434615N",
+      "lon": "0045340E"
+    },
+    {
+      "id": "LFOA",
+      "name": "LFOA",
+      "title": "AVORD",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "578 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "470325N",
+      "lon": "0023820E"
+    },
+    {
+      "id": "LFOB",
+      "name": "LFOB",
+      "title": "BEAUVAIS TILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "359 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "492716N",
+      "lon": "0020646E"
+    },
+    {
+      "id": "LFOC",
+      "name": "LFOC",
+      "title": "CHATEAUDUN",
+      "type": "Civil / Restreint",
+      "elevation": "431 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480328N",
+      "lon": "0012247E"
+    },
+    {
+      "id": "LFOD",
+      "name": "LFOD",
+      "title": "SAUMUR SAINT FLORENT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "269 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471524N",
+      "lon": "0000649W"
+    },
+    {
+      "id": "LFOE",
+      "name": "LFOE",
+      "title": "EVREUX FAUVILLE",
+      "type": "Militaire / Restreint",
+      "elevation": "465 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "490143N",
+      "lon": "0011312E"
+    },
+    {
+      "id": "LFOF",
+      "name": "LFOF",
+      "title": "ALENCON VALFRAMBERT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "476 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482648N",
+      "lon": "0000630E"
+    },
+    {
+      "id": "LFOG",
+      "name": "LFOG",
+      "title": "FLERS SAINT PAUL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "663 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484459N",
+      "lon": "0003541W"
+    },
+    {
+      "id": "LFOH",
+      "name": "LFOH",
+      "title": "LE HAVRE OCTEVILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "313 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "493202N",
+      "lon": "0000517E"
+    },
+    {
+      "id": "LFOI",
+      "name": "LFOI",
+      "title": "ABBEVILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "220 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "500832N",
+      "lon": "0014952E"
+    },
+    {
+      "id": "LFOJ",
+      "name": "LFOJ",
+      "title": "ORLEANS BRICY",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "412 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "475916N",
+      "lon": "0014538E"
+    },
+    {
+      "id": "LFOK",
+      "name": "LFOK",
+      "title": "CHALONS VATRY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "586 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "484624N",
+      "lon": "0041222E"
+    },
+    {
+      "id": "LFOL",
+      "name": "LFOL",
+      "title": "L'AIGLE SAINT MICHEL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "787 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484532N",
+      "lon": "0003928E"
+    },
+    {
+      "id": "LFOM",
+      "name": "LFOM",
+      "title": "LESSAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "96 FT",
+      "traffic": "NTL VFR P",
+      "lat": "491212N",
+      "lon": "0013017W"
+    },
+    {
+      "id": "LFON",
+      "name": "LFON",
+      "title": "DREUX VERNOUILLET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "445 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484221N",
+      "lon": "0012141E"
+    },
+    {
+      "id": "LFOO",
+      "name": "LFOO",
+      "title": "LES SABLES D'OLONNE TALMONT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "104 FT",
+      "traffic": "NTL VFR P",
+      "lat": "462832N",
+      "lon": "0014330W"
+    },
+    {
+      "id": "LFOP",
+      "name": "LFOP",
+      "title": "ROUEN VALLEE DE SEINE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "512 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "492327N",
+      "lon": "0011102E"
+    },
+    {
+      "id": "LFOQ",
+      "name": "LFOQ",
+      "title": "BLOIS LE BREUIL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "398 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "474047N",
+      "lon": "0011221E"
+    },
+    {
+      "id": "LFOR",
+      "name": "LFOR",
+      "title": "CHARTRES METROPOLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "509 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482732N",
+      "lon": "0013126E"
+    },
+    {
+      "id": "LFOS",
+      "name": "LFOS",
+      "title": "SAINT VALERY VITTEFLEUR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "269 FT",
+      "traffic": "NTL VFR P",
+      "lat": "495007N",
+      "lon": "0003920E"
+    },
+    {
+      "id": "LFOT",
+      "name": "LFOT",
+      "title": "TOURS VAL DE LOIRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "357 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "472555N",
+      "lon": "0004323E"
+    },
+    {
+      "id": "LFOU",
+      "name": "LFOU",
+      "title": "CHOLET LE PONTREAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "443 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "470455N",
+      "lon": "0005238W"
+    },
+    {
+      "id": "LFOV",
+      "name": "LFOV",
+      "title": "LAVAL ENTRAMMES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "330 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "480156N",
+      "lon": "0004434W"
+    },
+    {
+      "id": "LFOW",
+      "name": "LFOW",
+      "title": "SAINT QUENTIN ROUPY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "325 FT",
+      "traffic": "NTL VFR P",
+      "lat": "494858N",
+      "lon": "0031221E"
+    },
+    {
+      "id": "LFOX",
+      "name": "LFOX",
+      "title": "ETAMPES MONDESIR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "494 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482252N",
+      "lon": "0020426E"
+    },
+    {
+      "id": "LFOY",
+      "name": "LFOY",
+      "title": "LE HAVRE SAINT ROMAIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "423 FT",
+      "traffic": "NTL VFR P",
+      "lat": "493238N",
+      "lon": "0002135E"
+    },
+    {
+      "id": "LFOZ",
+      "name": "LFOZ",
+      "title": "ORLEANS SAINT DENIS DE L'HOTEL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "397 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "475351N",
+      "lon": "0020951E"
+    },
+    {
+      "id": "LFPA",
+      "name": "LFPA",
+      "title": "PERSAN BEAUMONT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "149 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490954N",
+      "lon": "0021842E"
+    },
+    {
+      "id": "LFPB",
+      "name": "LFPB",
+      "title": "PARIS LE BOURGET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "220 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "485810N",
+      "lon": "0022629E"
+    },
+    {
+      "id": "LFPD",
+      "name": "LFPD",
+      "title": "BERNAY SAINT MARTIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "555 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490609N",
+      "lon": "0003356E"
+    },
+    {
+      "id": "LFPE",
+      "name": "LFPE",
+      "title": "MEAUX ESBLY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "220 FT",
+      "traffic": "NTL VFR NS/P",
+      "lat": "485537N",
+      "lon": "0025002E"
+    },
+    {
+      "id": "LFPF",
+      "name": "LFPF",
+      "title": "BEYNES THIVERVAL",
+      "type": "Civil / Restreint",
+      "elevation": "371 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485034N",
+      "lon": "0015427E"
+    },
+    {
+      "id": "LFPG",
+      "name": "LFPG",
+      "title": "PARIS CHARLES DE GAULLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "392 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS",
+      "lat": "490035N",
+      "lon": "0023252E"
+    },
+    {
+      "id": "LFPH",
+      "name": "LFPH",
+      "title": "CHELLES LE PIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "208 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485348N",
+      "lon": "0023622E"
+    },
+    {
+      "id": "LFPI",
+      "name": "LFPI",
+      "title": "PARIS ISSY LES MOULINEAUX VALERIE ANDRE",
+      "type": "heliport",
+      "elevation": "109 FT",
+      "traffic": "Circulation aérienne publique",
+      "lat": "485000N",
+      "lon": "0021622E"
+    },
+    {
+      "id": "LFPK",
+      "name": "LFPK",
+      "title": "COULOMMIERS VOISINS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "470 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485015N",
+      "lon": "0030052E"
+    },
+    {
+      "id": "LFPL",
+      "name": "LFPL",
+      "title": "LOGNES EMERAINVILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "359 FT",
+      "traffic": "INTL/NTL VFR S/NS/P",
+      "lat": "484919N",
+      "lon": "0023722E"
+    },
+    {
+      "id": "LFPM",
+      "name": "LFPM",
+      "title": "MELUN VILLAROCHE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "304 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "483619N",
+      "lon": "0024015E"
+    },
+    {
+      "id": "LFPN",
+      "name": "LFPN",
+      "title": "PARIS SACLAY VERSAILLES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "538 FT",
+      "traffic": "NTL IFR/VFR NS/P",
+      "lat": "484459N",
+      "lon": "0020640E"
+    },
+    {
+      "id": "LFPO",
+      "name": "LFPO",
+      "title": "PARIS ORLY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "291 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS",
+      "lat": "484324N",
+      "lon": "0022246E"
+    },
+    {
+      "id": "LFPP",
+      "name": "LFPP",
+      "title": "LE PLESSIS BELLEVILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "387 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490633N",
+      "lon": "0024413E"
+    },
+    {
+      "id": "LFPQ",
+      "name": "LFPQ",
+      "title": "FONTENAY TRESIGNY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "371 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484222N",
+      "lon": "0025410E"
+    },
+    {
+      "id": "LFPR",
+      "name": "LFPR",
+      "title": "ORANGE PLAN DE DIEU",
+      "type": "Militaire / Restreint",
+      "elevation": "312 FT",
+      "traffic": "NTL VFR P",
+      "lat": "441046N",
+      "lon": "0045508E"
+    },
+    {
+      "id": "LFPT",
+      "name": "LFPT",
+      "title": "PONTOISE CORMEILLES EN VEXIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "325 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "490548N",
+      "lon": "0020227E"
+    },
+    {
+      "id": "LFPU",
+      "name": "LFPU",
+      "title": "MORET EPISY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "253 FT",
+      "traffic": "NTL VFR P",
+      "lat": "482027N",
+      "lon": "0024752E"
+    },
+    {
+      "id": "LFPV",
+      "name": "LFPV",
+      "title": "VILLACOUBLAY VELIZY",
+      "type": "Militaire / Restreint",
+      "elevation": "585 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "484627N",
+      "lon": "0021129E"
+    },
+    {
+      "id": "LFPX",
+      "name": "LFPX",
+      "title": "CHAVENAY VILLEPREUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "424 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485032N",
+      "lon": "0015849E"
+    },
+    {
+      "id": "LFPZ",
+      "name": "LFPZ",
+      "title": "SAINT CYR L'ECOLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "372 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484837N",
+      "lon": "0020424E"
+    },
+    {
+      "id": "LFQA",
+      "name": "LFQA",
+      "title": "REIMS PRUNAY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "313 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "491231N",
+      "lon": "0040924E"
+    },
+    {
+      "id": "LFQB",
+      "name": "LFQB",
+      "title": "TROYES BARBEREY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "389 FT",
+      "traffic": "NTL IFR/VFR S/NS/P",
+      "lat": "481918N",
+      "lon": "0040100E"
+    },
+    {
+      "id": "LFQC",
+      "name": "LFQC",
+      "title": "LUNEVILLE CROISMARE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "790 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483537N",
+      "lon": "0063232E"
+    },
+    {
+      "id": "LFQD",
+      "name": "LFQD",
+      "title": "ARRAS ROCLINCOURT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "338 FT",
+      "traffic": "NTL VFR P",
+      "lat": "501926N",
+      "lon": "0024810E"
+    },
+    {
+      "id": "LFQE",
+      "name": "LFQE",
+      "title": "ETAIN ROUVRES",
+      "type": "Militaire / Restreint",
+      "elevation": "760 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "491345N",
+      "lon": "0054034E"
+    },
+    {
+      "id": "LFQF",
+      "name": "LFQF",
+      "title": "AUTUN BELLEVUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1001 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465816N",
+      "lon": "0041540E"
+    },
+    {
+      "id": "LFQG",
+      "name": "LFQG",
+      "title": "NEVERS FOURCHAMBAULT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "602 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "470013N",
+      "lon": "0030639E"
+    },
+    {
+      "id": "LFQH",
+      "name": "LFQH",
+      "title": "CHATILLON SUR SEINE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "906 FT",
+      "traffic": "NTL VFR P",
+      "lat": "475043N",
+      "lon": "0043446E"
+    },
+    {
+      "id": "LFQJ",
+      "name": "LFQJ",
+      "title": "MAUBEUGE ELESMES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "452 FT",
+      "traffic": "NTL VFR P",
+      "lat": "501830N",
+      "lon": "0040148E"
+    },
+    {
+      "id": "LFQK",
+      "name": "LFQK",
+      "title": "CHALONS ECURY SUR COOLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "321 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485420N",
+      "lon": "0042110E"
+    },
+    {
+      "id": "LFQL",
+      "name": "LFQL",
+      "title": "LENS BENIFONTAINE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "170 FT",
+      "traffic": "NTL VFR P",
+      "lat": "502759N",
+      "lon": "0024911E"
+    },
+    {
+      "id": "LFQM",
+      "name": "LFQM",
+      "title": "BESANCON LA VEZE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1270 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "471219N",
+      "lon": "0060450E"
+    },
+    {
+      "id": "LFQN",
+      "name": "LFQN",
+      "title": "SAINT OMER WIZERNES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "249 FT",
+      "traffic": "NTL VFR P",
+      "lat": "504344N",
+      "lon": "0021404E"
+    },
+    {
+      "id": "LFQO",
+      "name": "LFQO",
+      "title": "LILLE MARCQ EN BAROEUL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "70 FT",
+      "traffic": "NTL VFR P",
+      "lat": "504114N",
+      "lon": "0030432E"
+    },
+    {
+      "id": "LFQP",
+      "name": "LFQP",
+      "title": "PHALSBOURG BOURSCHEID",
+      "type": "Militaire / Restreint",
+      "elevation": "1018 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "484605N",
+      "lon": "0071218E"
+    },
+    {
+      "id": "LFQQ",
+      "name": "LFQQ",
+      "title": "LILLE LESQUIN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "157 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "503348N",
+      "lon": "0030513E"
+    },
+    {
+      "id": "LFQT",
+      "name": "LFQT",
+      "title": "MERVILLE CALONNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "61 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "503700N",
+      "lon": "0023824E"
+    },
+    {
+      "id": "LFQU",
+      "name": "LFQU",
+      "title": "SARRE UNION",
+      "type": "Civil / Restreint",
+      "elevation": "842 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485703N",
+      "lon": "0070435E"
+    },
+    {
+      "id": "LFQV",
+      "name": "LFQV",
+      "title": "CHARLEVILLE MEZIERES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "492 FT",
+      "traffic": "NTL VFR P",
+      "lat": "494706N",
+      "lon": "0043834E"
+    },
+    {
+      "id": "LFQW",
+      "name": "LFQW",
+      "title": "VESOUL FROTEY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1249 FT",
+      "traffic": "NTL VFR NS/P",
+      "lat": "473819N",
+      "lon": "0061215E"
+    },
+    {
+      "id": "LFQX",
+      "name": "LFQX",
+      "title": "JUVANCOURT",
+      "type": "Civil / Restreint",
+      "elevation": "1147 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480650N",
+      "lon": "0044910E"
+    },
+    {
+      "id": "LFQY",
+      "name": "LFQY",
+      "title": "SAVERNE STEINBOURG",
+      "type": "Civil / Restreint",
+      "elevation": "623 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484512N",
+      "lon": "0072533E"
+    },
+    {
+      "id": "LFQZ",
+      "name": "LFQZ",
+      "title": "DIEUZE GUEBLANGE",
+      "type": "Civil / Restreint",
+      "elevation": "718 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484628N",
+      "lon": "0064251E"
+    },
+    {
+      "id": "LFRB",
+      "name": "LFRB",
+      "title": "BREST BRETAGNE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "325 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "482650N",
+      "lon": "0042518W"
+    },
+    {
+      "id": "LFRC",
+      "name": "LFRC",
+      "title": "CHERBOURG MANCHE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "459 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "493903N",
+      "lon": "0012831W"
+    },
+    {
+      "id": "LFRD",
+      "name": "LFRD",
+      "title": "DINARD PLEURTUIT SAINT MALO",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "219 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "483516N",
+      "lon": "0020448W"
+    },
+    {
+      "id": "LFRE",
+      "name": "LFRE",
+      "title": "LA BAULE ESCOUBLAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "106 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471718N",
+      "lon": "0022049W"
+    },
+    {
+      "id": "LFRF",
+      "name": "LFRF",
+      "title": "GRANVILLE-MONT SAINT MICHEL",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "45 FT",
+      "traffic": "NTL VFR NS/P",
+      "lat": "485258N",
+      "lon": "0013350W"
+    },
+    {
+      "id": "LFRG",
+      "name": "LFRG",
+      "title": "DEAUVILLE NORMANDIE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "479 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "492148N",
+      "lon": "0000936E"
+    },
+    {
+      "id": "LFRH",
+      "name": "LFRH",
+      "title": "LORIENT LANN BIHOUE",
+      "type": "Militaire / Restreint",
+      "elevation": "159 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "474538N",
+      "lon": "0032624W"
+    },
+    {
+      "id": "LFRI",
+      "name": "LFRI",
+      "title": "LA ROCHE SUR YON LES AJONCS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "299 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "464209N",
+      "lon": "0012254W"
+    },
+    {
+      "id": "LFRJ",
+      "name": "LFRJ",
+      "title": "LANDIVISIAU",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "348 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "483149N",
+      "lon": "0040906W"
+    },
+    {
+      "id": "LFRK",
+      "name": "LFRK",
+      "title": "CAEN CARPIQUET",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "243 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "491024N",
+      "lon": "0002700W"
+    },
+    {
+      "id": "LFRL",
+      "name": "LFRL",
+      "title": "LANVEOC POULMIC",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "287 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "481657N",
+      "lon": "0042637W"
+    },
+    {
+      "id": "LFRM",
+      "name": "LFRM",
+      "title": "LE MANS ARNAGE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "194 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "475655N",
+      "lon": "0001206E"
+    },
+    {
+      "id": "LFRN",
+      "name": "LFRN",
+      "title": "RENNES SAINT JACQUES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "124 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "480419N",
+      "lon": "0014356W"
+    },
+    {
+      "id": "LFRO",
+      "name": "LFRO",
+      "title": "LANNION",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "290 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "484516N",
+      "lon": "0032819W"
+    },
+    {
+      "id": "LFRP",
+      "name": "LFRP",
+      "title": "PLOERMEL LOYAT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "237 FT",
+      "traffic": "NTL VFR P",
+      "lat": "480007N",
+      "lon": "0022243W"
+    },
+    {
+      "id": "LFRQ",
+      "name": "LFRQ",
+      "title": "QUIMPER PLUGUFFAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "297 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "475830N",
+      "lon": "0041004W"
+    },
+    {
+      "id": "LFRS",
+      "name": "LFRS",
+      "title": "NANTES ATLANTIQUE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "90 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "470925N",
+      "lon": "0013628W"
+    },
+    {
+      "id": "LFRT",
+      "name": "LFRT",
+      "title": "SAINT BRIEUC ARMOR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "452 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "483215N",
+      "lon": "0025124W"
+    },
+    {
+      "id": "LFRU",
+      "name": "LFRU",
+      "title": "MORLAIX PLOUJEAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "278 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "483603N",
+      "lon": "0034900W"
+    },
+    {
+      "id": "LFRV",
+      "name": "LFRV",
+      "title": "VANNES GOLFE DU MORBIHAN",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "440 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "474309N",
+      "lon": "0024324W"
+    },
+    {
+      "id": "LFRW",
+      "name": "LFRW",
+      "title": "AVRANCHES LE VAL SAINT PERE",
+      "type": "Civil / Restreint",
+      "elevation": "25 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483939N",
+      "lon": "0012421W"
+    },
+    {
+      "id": "LFRZ",
+      "name": "LFRZ",
+      "title": "SAINT NAZAIRE MONTOIR",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "13 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "471838N",
+      "lon": "0020924W"
+    },
+    {
+      "id": "LFSA",
+      "name": "LFSA",
+      "title": "BESANCON THISE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "807 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471625N",
+      "lon": "0060459E"
+    },
+    {
+      "id": "LFSB",
+      "name": "LFSB",
+      "title": "BALE-MULHOUSE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "885 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "473524N",
+      "lon": "0073145E"
+    },
+    {
+      "id": "LFSD",
+      "name": "LFSD",
+      "title": "DIJON-LONGVIC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "728 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "471557N",
+      "lon": "0050542E"
+    },
+    {
+      "id": "LFSE",
+      "name": "LFSE",
+      "title": "EPINAL DOGNEVILLE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1041 FT",
+      "traffic": "NTL VFR P",
+      "lat": "481241N",
+      "lon": "0062654E"
+    },
+    {
+      "id": "LFSG",
+      "name": "LFSG",
+      "title": "EPINAL MIRECOURT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1084 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "481930N",
+      "lon": "0060400E"
+    },
+    {
+      "id": "LFSH",
+      "name": "LFSH",
+      "title": "HAGUENAU",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "491 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "484749N",
+      "lon": "0074909E"
+    },
+    {
+      "id": "LFSI",
+      "name": "LFSI",
+      "title": "SAINT DIZIER ROBINSON",
+      "type": "Militaire / Restreint",
+      "elevation": "459 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "483801N",
+      "lon": "0045429E"
+    },
+    {
+      "id": "LFSJ",
+      "name": "LFSJ",
+      "title": "SEDAN DOUZY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "513 FT",
+      "traffic": "NTL VFR P",
+      "lat": "493932N",
+      "lon": "0050212E"
+    },
+    {
+      "id": "LFSK",
+      "name": "LFSK",
+      "title": "VITRY LE FRANCOIS VAUCLERC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "411 FT",
+      "traffic": "NTL VFR P",
+      "lat": "484208N",
+      "lon": "0044100E"
+    },
+    {
+      "id": "LFSL",
+      "name": "LFSL",
+      "title": "BRIVE SOUILLAC",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1016 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "450223N",
+      "lon": "0012908E"
+    },
+    {
+      "id": "LFSM",
+      "name": "LFSM",
+      "title": "MONTBELIARD COURCELLES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1041 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "472912N",
+      "lon": "0064729E"
+    },
+    {
+      "id": "LFSN",
+      "name": "LFSN",
+      "title": "NANCY ESSEY",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "757 FT",
+      "traffic": "INTL/NTL IFR/VFR NS/P",
+      "lat": "484132N",
+      "lon": "0061334E"
+    },
+    {
+      "id": "LFSO",
+      "name": "LFSO",
+      "title": "NANCY OCHEY",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "1106 FT",
+      "traffic": "NTL IFR/VFR",
+      "lat": "483459N",
+      "lon": "0055716E"
+    },
+    {
+      "id": "LFSP",
+      "name": "LFSP",
+      "title": "PONTARLIER",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "2683 FT",
+      "traffic": "NTL VFR P",
+      "lat": "465430N",
+      "lon": "0061945E"
+    },
+    {
+      "id": "LFSS",
+      "name": "LFSS",
+      "title": "SAINT SULPICE DES LANDES",
+      "type": "Civil / Restreint",
+      "elevation": "312 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474730N",
+      "lon": "0013837W"
+    },
+    {
+      "id": "LFST",
+      "name": "LFST",
+      "title": "STRASBOURG ENTZHEIM",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "505 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "483231N",
+      "lon": "0073804E"
+    },
+    {
+      "id": "LFSU",
+      "name": "LFSU",
+      "title": "LANGRES ROLAMPONT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "1375 FT",
+      "traffic": "NTL VFR P",
+      "lat": "475751N",
+      "lon": "0051737E"
+    },
+    {
+      "id": "LFSV",
+      "name": "LFSV",
+      "title": "PONT SAINT VINCENT",
+      "type": "Civil / Restreint",
+      "elevation": "1339 FT",
+      "traffic": "NTL VFR P",
+      "lat": "483600N",
+      "lon": "0060323E"
+    },
+    {
+      "id": "LFSW",
+      "name": "LFSW",
+      "title": "EPERNAY PLIVOT",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "291 FT",
+      "traffic": "NTL VFR P",
+      "lat": "490016N",
+      "lon": "0040507E"
+    },
+    {
+      "id": "LFSX",
+      "name": "LFSX",
+      "title": "LUXEUIL SAINT SAUVEUR",
+      "type": "Militaire / Restreint",
+      "elevation": "885 FT",
+      "traffic": "NTL IFR/VFR P",
+      "lat": "474714N",
+      "lon": "0062154E"
+    },
+    {
+      "id": "LFTA",
+      "name": "LFTA",
+      "title": "LA-TRANCHE-SUR-MER",
+      "type": "Civil / Restreint",
+      "elevation": "9 FT",
+      "traffic": "NTL VFR P",
+      "lat": "462156N",
+      "lon": "0012539W"
+    },
+    {
+      "id": "LFTB",
+      "name": "LFTB",
+      "title": "MARIGNANE BERRE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "0 FT",
+      "traffic": "INTL/NTL VFR P",
+      "lat": "432700N",
+      "lon": "0051300E"
+    },
+    {
+      "id": "LFTF",
+      "name": "LFTF",
+      "title": "CUERS PIERREFEU",
+      "type": "Mixte / Ouvert à la CAP",
+      "elevation": "269 FT",
+      "traffic": "NTL VFR P",
+      "lat": "431451N",
+      "lon": "0060738E"
+    },
+    {
+      "id": "LFTG",
+      "name": "LFTG",
+      "title": "HELISTATION TERRA GUINDALDES",
+      "type": "heliport",
+      "elevation": "4100 FT",
+      "traffic": "Transport public à la demande",
+      "lat": "423248N",
+      "lon": "0013107E"
+    },
+    {
+      "id": "LFTH",
+      "name": "LFTH",
+      "title": "HYERES LE PALYVESTRE",
+      "type": "Militaire / Restreint",
+      "elevation": "13 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "430550N",
+      "lon": "0060846E"
+    },
+    {
+      "id": "LFTL",
+      "name": "LFTL",
+      "title": "CANNES QUAI DU LARGE",
+      "type": "heliport",
+      "elevation": "10 FT",
+      "traffic": "Transport public à la demande",
+      "lat": "433242N",
+      "lon": "0070102E"
+    },
+    {
+      "id": "LFTM",
+      "name": "LFTM",
+      "title": "SERRES LA BATIE MONTSALEON",
+      "type": "Privé",
+      "elevation": "2328 FT",
+      "traffic": "VFR P",
+      "lat": "442726N",
+      "lon": "0054338E"
+    },
+    {
+      "id": "LFTN",
+      "name": "LFTN",
+      "title": "LA GRAND'COMBE",
+      "type": "Civil / Restreint",
+      "elevation": "1623 FT",
+      "traffic": "NTL VFR P",
+      "lat": "441435N",
+      "lon": "0040040E"
+    },
+    {
+      "id": "LFTP",
+      "name": "LFTP",
+      "title": "PUIMOISSON",
+      "type": "Civil / Restreint",
+      "elevation": "2469 FT",
+      "traffic": "NTL VFR P",
+      "lat": "435208N",
+      "lon": "0060946E"
+    },
+    {
+      "id": "LFTQ",
+      "name": "LFTQ",
+      "title": "CHATEAUBRIANT POUANCE",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "322 FT",
+      "traffic": "NTL VFR P",
+      "lat": "474422N",
+      "lon": "0011125W"
+    },
+    {
+      "id": "LFTW",
+      "name": "LFTW",
+      "title": "NIMES GARONS",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "309 FT",
+      "traffic": "INTL/NTL IFR/VFR S/NS/P",
+      "lat": "434527N",
+      "lon": "0042459E"
+    },
+    {
+      "id": "LFTX",
+      "name": "LFTX",
+      "title": "HELISTATION HOSPITAL NOSTRA SENYORA DE MERITXELL",
+      "type": "heliport",
+      "elevation": "3503 FT",
+      "traffic": "Usage restreint",
+      "lat": "423041N",
+      "lon": "0013201E"
+    },
+    {
+      "id": "LFTZ",
+      "name": "LFTZ",
+      "title": "LA MOLE",
+      "type": "Civil / Restreint",
+      "elevation": "63 FT",
+      "traffic": "INTL/NTL IFR/VFR P",
+      "lat": "431219N",
+      "lon": "0062855E"
+    },
+    {
+      "id": "LFWD",
+      "name": "LFWD",
+      "title": "DREUX CENTRE HOSPITALIER",
+      "type": "heliport",
+      "elevation": "451 FT",
+      "traffic": "Transport public à la demande",
+      "lat": "484339N",
+      "lon": "0012305E"
+    },
+    {
+      "id": "LFWF",
+      "name": "LFWF",
+      "title": "BREST CENTRE HOSPITALIER LA CAVALE BLANCHE",
+      "type": "heliport",
+      "elevation": "121 FT",
+      "traffic": "Transport public à la demande",
+      "lat": "482412N",
+      "lon": "0043146W"
+    },
+    {
+      "id": "LFWH",
+      "name": "LFWH",
+      "title": "STRASBOURG HAUTEPIERRE",
+      "type": "heliport",
+      "elevation": "487 FT",
+      "traffic": "Usage restreint",
+      "lat": "483536N",
+      "lon": "0074218E"
+    },
+    {
+      "id": "LFWM",
+      "name": "LFWM",
+      "title": "COLMAR HOPITAL PASTEUR",
+      "type": "heliport",
+      "elevation": "709 FT",
+      "traffic": "Usage restreint",
+      "lat": "480426N",
+      "lon": "0072017E"
+    },
+    {
+      "id": "LFWN",
+      "name": "LFWN",
+      "title": "STRASBOURG N.H.C.",
+      "type": "heliport",
+      "elevation": "540 FT",
+      "traffic": "Usage restreint",
+      "lat": "483433N",
+      "lon": "0074426E"
+    },
+    {
+      "id": "LFWO",
+      "name": "LFWO",
+      "title": "MULHOUSE CENTRE HOSPITALIER DE MOENCHSBERG",
+      "type": "heliport",
+      "elevation": "1081 FT",
+      "traffic": "Transport public à la demande",
+      "lat": "474331N",
+      "lon": "0072042E"
+    },
+    {
+      "id": "LFXA",
+      "name": "LFXA",
+      "title": "AMBERIEU",
+      "type": "Mixte / Ouvert à la CAP",
+      "elevation": "812 FT",
+      "traffic": "NTL VFR P",
+      "lat": "455847N",
+      "lon": "0052016E"
+    },
+    {
+      "id": "LFXB",
+      "name": "LFXB",
+      "title": "SAINTES THENAC",
+      "type": "Militaire / Restreint",
+      "elevation": "118 FT",
+      "traffic": "NTL VFR P",
+      "lat": "454207N",
+      "lon": "0003810W"
+    },
+    {
+      "id": "LFXQ",
+      "name": "LFXQ",
+      "title": "COETQUIDAN",
+      "type": "Militaire / Réservé à l'Etat",
+      "elevation": "499 FT",
+      "traffic": "NTL VFR",
+      "lat": "475638N",
+      "lon": "0021055W"
+    },
+    {
+      "id": "LFXU",
+      "name": "LFXU",
+      "title": "LES MUREAUX",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "91 FT",
+      "traffic": "NTL VFR P",
+      "lat": "485955N",
+      "lon": "0015630E"
+    },
+    {
+      "id": "LFYG",
+      "name": "LFYG",
+      "title": "CAMBRAI NIERGNIES",
+      "type": "Civil / Ouvert à la CAP",
+      "elevation": "324 FT",
+      "traffic": "NTL VFR P",
+      "lat": "500829N",
+      "lon": "0031549E"
+    },
+    {
+      "id": "LFYR",
+      "name": "LFYR",
+      "title": "ROMORANTIN PRUNIERS",
+      "type": "Militaire / Restreint",
+      "elevation": "289 FT",
+      "traffic": "NTL VFR P",
+      "lat": "471915N",
+      "lon": "0014120E"
+    },
+    {
+      "id": "LFYS",
+      "name": "LFYS",
+      "title": "SAINTE LEOCADIE",
+      "type": "Militaire / Restreint",
+      "elevation": "4331 FT",
+      "traffic": "NTL VFR P",
+      "lat": "422650N",
+      "lon": "0020039E"
+    },
+    {
+      "id": "LFYV",
+      "name": "LFYV",
+      "title": "YVETOT-BAONS LE COMTE",
+      "type": "Civil / Restreint",
+      "elevation": "472 FT",
+      "traffic": "NTL VFR P",
+      "lat": "493819N",
+      "lon": "0004357E"
+    }
+  ]
+}

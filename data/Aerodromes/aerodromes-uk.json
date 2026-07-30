@@ -1,0 +1,1225 @@
+{
+  "source": "UK AIP AD 1.3 and AD 2/3, AIRAC 09 JUL 2026 (NATS AIS)",
+  "points": [
+    {
+      "id": "EGAA",
+      "name": "EGAA",
+      "title": "Belfast Aldergrove",
+      "type": "aerodrome",
+      "elevation": "268 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "543927N",
+      "lon": "0061257W"
+    },
+    {
+      "id": "EGAB",
+      "name": "EGAB",
+      "title": "Enniskillen/St Angelo",
+      "type": "aerodrome",
+      "elevation": "159 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "542355N",
+      "lon": "0073907W"
+    },
+    {
+      "id": "EGAC",
+      "name": "EGAC",
+      "title": "Belfast/City",
+      "type": "aerodrome",
+      "elevation": "15 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "543705N",
+      "lon": "0055221W"
+    },
+    {
+      "id": "EGAD",
+      "name": "EGAD",
+      "title": "Newtownards",
+      "type": "aerodrome",
+      "elevation": "9 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "543452N",
+      "lon": "0054131W"
+    },
+    {
+      "id": "EGAE",
+      "name": "EGAE",
+      "title": "Londonderry/Eglinton",
+      "type": "aerodrome",
+      "elevation": "23 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "550234N",
+      "lon": "0070943W"
+    },
+    {
+      "id": "EGBB",
+      "name": "EGBB",
+      "title": "Birmingham",
+      "type": "aerodrome",
+      "elevation": "339 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "522714N",
+      "lon": "0014453W"
+    },
+    {
+      "id": "EGBC",
+      "name": "EGBC",
+      "title": "Cheltenham Heliport",
+      "type": "heliport",
+      "elevation": "200 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "515533N",
+      "lon": "0020316W"
+    },
+    {
+      "id": "EGBD",
+      "name": "EGBD",
+      "title": "Derby",
+      "type": "aerodrome",
+      "elevation": "175 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "525135N",
+      "lon": "0013703W"
+    },
+    {
+      "id": "EGBG",
+      "name": "EGBG",
+      "title": "Leicester",
+      "type": "aerodrome",
+      "elevation": "469 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "523628N",
+      "lon": "0010155W"
+    },
+    {
+      "id": "EGBJ",
+      "name": "EGBJ",
+      "title": "Gloucestershire",
+      "type": "aerodrome",
+      "elevation": "101 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "515339N",
+      "lon": "0021002W"
+    },
+    {
+      "id": "EGBM",
+      "name": "EGBM",
+      "title": "Tatenhill",
+      "type": "aerodrome",
+      "elevation": "439 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "524851N",
+      "lon": "0014553W"
+    },
+    {
+      "id": "EGBN",
+      "name": "EGBN",
+      "title": "Nottingham",
+      "type": "aerodrome",
+      "elevation": "138 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "525512N",
+      "lon": "0010445W"
+    },
+    {
+      "id": "EGBO",
+      "name": "EGBO",
+      "title": "Wolverhampton/Halfpenny Green",
+      "type": "aerodrome",
+      "elevation": "283 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "523104N",
+      "lon": "0021535W"
+    },
+    {
+      "id": "EGBP",
+      "name": "EGBP",
+      "title": "Kemble",
+      "type": "aerodrome",
+      "elevation": "436 FT",
+      "traffic": "NTL / IFR/VFR / NS, P",
+      "lat": "514005N",
+      "lon": "0020325W"
+    },
+    {
+      "id": "EGBS",
+      "name": "EGBS",
+      "title": "Shobdon",
+      "type": "aerodrome",
+      "elevation": "317 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "521430N",
+      "lon": "0025252W"
+    },
+    {
+      "id": "EGBW",
+      "name": "EGBW",
+      "title": "Wellesbourne Mountford",
+      "type": "aerodrome",
+      "elevation": "159 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "521132N",
+      "lon": "0013652W"
+    },
+    {
+      "id": "EGCB",
+      "name": "EGCB",
+      "title": "Manchester Barton",
+      "type": "aerodrome",
+      "elevation": "73 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "532818N",
+      "lon": "0022323W"
+    },
+    {
+      "id": "EGCC",
+      "name": "EGCC",
+      "title": "Manchester",
+      "type": "aerodrome",
+      "elevation": "257 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "532113N",
+      "lon": "0021630W"
+    },
+    {
+      "id": "EGCF",
+      "name": "EGCF",
+      "title": "Sandtoft",
+      "type": "aerodrome",
+      "elevation": "13 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "533335N",
+      "lon": "0005130W"
+    },
+    {
+      "id": "EGCJ",
+      "name": "EGCJ",
+      "title": "Sherburn-In-Elmet",
+      "type": "aerodrome",
+      "elevation": "26 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "534703N",
+      "lon": "0011304W"
+    },
+    {
+      "id": "EGCK",
+      "name": "EGCK",
+      "title": "Caernarfon",
+      "type": "aerodrome",
+      "elevation": "14 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "530607N",
+      "lon": "0042015W"
+    },
+    {
+      "id": "EGCL",
+      "name": "EGCL",
+      "title": "Fenland",
+      "type": "aerodrome",
+      "elevation": "6 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "524422N",
+      "lon": "0000148W"
+    },
+    {
+      "id": "EGCM",
+      "name": "EGCM",
+      "title": "Leeds East",
+      "type": "aerodrome",
+      "elevation": "29 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "535004N",
+      "lon": "0011144W"
+    },
+    {
+      "id": "EGCV",
+      "name": "EGCV",
+      "title": "Sleap",
+      "type": "aerodrome",
+      "elevation": "275 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "525002N",
+      "lon": "0024618W"
+    },
+    {
+      "id": "EGCW",
+      "name": "EGCW",
+      "title": "Welshpool",
+      "type": "aerodrome",
+      "elevation": "235 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "523743N",
+      "lon": "0030912W"
+    },
+    {
+      "id": "EGDP",
+      "name": "EGDP",
+      "title": "Portland Heliport",
+      "type": "heliport",
+      "elevation": "9 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "503404N",
+      "lon": "0022658W"
+    },
+    {
+      "id": "EGEC",
+      "name": "EGEC",
+      "title": "Campbeltown",
+      "type": "aerodrome",
+      "elevation": "42 FT",
+      "traffic": "NTL / IFR/VFR / P",
+      "lat": "552615N",
+      "lon": "0054117W"
+    },
+    {
+      "id": "EGED",
+      "name": "EGED",
+      "title": "Eday",
+      "type": "aerodrome",
+      "elevation": "13 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "591125N",
+      "lon": "0024621W"
+    },
+    {
+      "id": "EGEF",
+      "name": "EGEF",
+      "title": "Fair Isle",
+      "type": "aerodrome",
+      "elevation": "237 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "593205N",
+      "lon": "0013743W"
+    },
+    {
+      "id": "EGEL",
+      "name": "EGEL",
+      "title": "Coll",
+      "type": "aerodrome",
+      "elevation": "20 FT",
+      "traffic": "NTL / VFR / S, P",
+      "lat": "563607N",
+      "lon": "0063704W"
+    },
+    {
+      "id": "EGEN",
+      "name": "EGEN",
+      "title": "North Ronaldsay",
+      "type": "aerodrome",
+      "elevation": "56 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "592203N",
+      "lon": "0022604W"
+    },
+    {
+      "id": "EGEO",
+      "name": "EGEO",
+      "title": "Oban",
+      "type": "aerodrome",
+      "elevation": "24 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "562749N",
+      "lon": "0052400W"
+    },
+    {
+      "id": "EGEP",
+      "name": "EGEP",
+      "title": "Papa Westray",
+      "type": "aerodrome",
+      "elevation": "92 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "592104N",
+      "lon": "0025401W"
+    },
+    {
+      "id": "EGER",
+      "name": "EGER",
+      "title": "Stronsay",
+      "type": "aerodrome",
+      "elevation": "39 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "590919N",
+      "lon": "0023829W"
+    },
+    {
+      "id": "EGES",
+      "name": "EGES",
+      "title": "Sanday",
+      "type": "aerodrome",
+      "elevation": "62 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "591501N",
+      "lon": "0023430W"
+    },
+    {
+      "id": "EGET",
+      "name": "EGET",
+      "title": "Lerwick/Tingwall",
+      "type": "aerodrome",
+      "elevation": "46 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "601131N",
+      "lon": "0011437W"
+    },
+    {
+      "id": "EGEW",
+      "name": "EGEW",
+      "title": "Westray",
+      "type": "aerodrome",
+      "elevation": "30 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "592100N",
+      "lon": "0025701W"
+    },
+    {
+      "id": "EGEY",
+      "name": "EGEY",
+      "title": "Colonsay",
+      "type": "aerodrome",
+      "elevation": "44 FT",
+      "traffic": "NTL / VFR / S, P",
+      "lat": "560327N",
+      "lon": "0061435W"
+    },
+    {
+      "id": "EGFA",
+      "name": "EGFA",
+      "title": "West Wales/Aberporth",
+      "type": "aerodrome",
+      "elevation": "428 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "520653N",
+      "lon": "0043334W"
+    },
+    {
+      "id": "EGFE",
+      "name": "EGFE",
+      "title": "Haverfordwest",
+      "type": "aerodrome",
+      "elevation": "160 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "515000N",
+      "lon": "0045739W"
+    },
+    {
+      "id": "EGFF",
+      "name": "EGFF",
+      "title": "Cardiff",
+      "type": "aerodrome",
+      "elevation": "220 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "512348N",
+      "lon": "0032036W"
+    },
+    {
+      "id": "EGFH",
+      "name": "EGFH",
+      "title": "Swansea",
+      "type": "aerodrome",
+      "elevation": "298 FT",
+      "traffic": "INTL-NTL / VFR / S, NS, P",
+      "lat": "513618N",
+      "lon": "0040405W"
+    },
+    {
+      "id": "EGGD",
+      "name": "EGGD",
+      "title": "Bristol",
+      "type": "aerodrome",
+      "elevation": "622 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "512258N",
+      "lon": "0024309W"
+    },
+    {
+      "id": "EGGP",
+      "name": "EGGP",
+      "title": "Liverpool",
+      "type": "aerodrome",
+      "elevation": "81 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "532001N",
+      "lon": "0025059W"
+    },
+    {
+      "id": "EGGW",
+      "name": "EGGW",
+      "title": "London Luton",
+      "type": "aerodrome",
+      "elevation": "527 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "515229N",
+      "lon": "0002206W"
+    },
+    {
+      "id": "EGHA",
+      "name": "EGHA",
+      "title": "Compton Abbas",
+      "type": "aerodrome",
+      "elevation": "811 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "505802N",
+      "lon": "0020913W"
+    },
+    {
+      "id": "EGHC",
+      "name": "EGHC",
+      "title": "Land'S End",
+      "type": "aerodrome",
+      "elevation": "398 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "500610N",
+      "lon": "0054014W"
+    },
+    {
+      "id": "EGHE",
+      "name": "EGHE",
+      "title": "Scilly Isles/St Mary'S",
+      "type": "aerodrome",
+      "elevation": "121 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "495448N",
+      "lon": "0061730W"
+    },
+    {
+      "id": "EGHF",
+      "name": "EGHF",
+      "title": "Lee-On-Solent",
+      "type": "aerodrome",
+      "elevation": "33 FT",
+      "traffic": "INTL-NTL / VFR / NS, P",
+      "lat": "504856N",
+      "lon": "0011224W"
+    },
+    {
+      "id": "EGHG",
+      "name": "EGHG",
+      "title": "Yeovil/Westland",
+      "type": "aerodrome",
+      "elevation": "202 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "505624N",
+      "lon": "0023932W"
+    },
+    {
+      "id": "EGHH",
+      "name": "EGHH",
+      "title": "Bournemouth",
+      "type": "aerodrome",
+      "elevation": "38 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "504648N",
+      "lon": "0015033W"
+    },
+    {
+      "id": "EGHI",
+      "name": "EGHI",
+      "title": "Southampton",
+      "type": "aerodrome",
+      "elevation": "44 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "505701N",
+      "lon": "0012124W"
+    },
+    {
+      "id": "EGHK",
+      "name": "EGHK",
+      "title": "Penzance Heliport",
+      "type": "heliport",
+      "elevation": "21 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "500750N",
+      "lon": "0053044W"
+    },
+    {
+      "id": "EGHO",
+      "name": "EGHO",
+      "title": "Thruxton",
+      "type": "aerodrome",
+      "elevation": "319 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "511238N",
+      "lon": "0013600W"
+    },
+    {
+      "id": "EGHQ",
+      "name": "EGHQ",
+      "title": "Newquay",
+      "type": "aerodrome",
+      "elevation": "390 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "502627N",
+      "lon": "0045943W"
+    },
+    {
+      "id": "EGHR",
+      "name": "EGHR",
+      "title": "Chichester/Goodwood",
+      "type": "aerodrome",
+      "elevation": "111 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "505134N",
+      "lon": "0004533W"
+    },
+    {
+      "id": "EGHT",
+      "name": "EGHT",
+      "title": "Tresco Heliport",
+      "type": "heliport",
+      "elevation": "20 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "495644N",
+      "lon": "0061953W"
+    },
+    {
+      "id": "EGJA",
+      "name": "EGJA",
+      "title": "Alderney",
+      "type": "aerodrome",
+      "elevation": "290 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "494224N",
+      "lon": "0021252W"
+    },
+    {
+      "id": "EGJB",
+      "name": "EGJB",
+      "title": "Guernsey",
+      "type": "aerodrome",
+      "elevation": "336 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "492606N",
+      "lon": "0023610W"
+    },
+    {
+      "id": "EGJJ",
+      "name": "EGJJ",
+      "title": "Jersey",
+      "type": "aerodrome",
+      "elevation": "277 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "491229N",
+      "lon": "0021144W"
+    },
+    {
+      "id": "EGKA",
+      "name": "EGKA",
+      "title": "Shoreham",
+      "type": "aerodrome",
+      "elevation": "7 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "505008N",
+      "lon": "0001750W"
+    },
+    {
+      "id": "EGKB",
+      "name": "EGKB",
+      "title": "Biggin Hill",
+      "type": "aerodrome",
+      "elevation": "584 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "511951N",
+      "lon": "0000157E"
+    },
+    {
+      "id": "EGKH",
+      "name": "EGKH",
+      "title": "Lashenden/Headcorn",
+      "type": "aerodrome",
+      "elevation": "70 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "510923N",
+      "lon": "0003840E"
+    },
+    {
+      "id": "EGKK",
+      "name": "EGKK",
+      "title": "London Gatwick",
+      "type": "aerodrome",
+      "elevation": "203 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "510853N",
+      "lon": "0001125W"
+    },
+    {
+      "id": "EGKR",
+      "name": "EGKR",
+      "title": "Redhill",
+      "type": "aerodrome",
+      "elevation": "222 FT",
+      "traffic": "INTL-NTL / VFR / S, NS, P",
+      "lat": "511249N",
+      "lon": "0000819W"
+    },
+    {
+      "id": "EGLC",
+      "name": "EGLC",
+      "title": "London City",
+      "type": "aerodrome",
+      "elevation": "20 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "513019N",
+      "lon": "0000319E"
+    },
+    {
+      "id": "EGLD",
+      "name": "EGLD",
+      "title": "Denham",
+      "type": "aerodrome",
+      "elevation": "249 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "513518N",
+      "lon": "0003047W"
+    },
+    {
+      "id": "EGLF",
+      "name": "EGLF",
+      "title": "Farnborough",
+      "type": "aerodrome",
+      "elevation": "238 FT",
+      "traffic": "INTL-NTL / IFR/VFR / NS, P",
+      "lat": "511631N",
+      "lon": "0004639W"
+    },
+    {
+      "id": "EGLJ",
+      "name": "EGLJ",
+      "title": "Chalgrove",
+      "type": "aerodrome",
+      "elevation": "240 FT",
+      "traffic": "NTL / IFR/VFR / P",
+      "lat": "514028N",
+      "lon": "0010507W"
+    },
+    {
+      "id": "EGLK",
+      "name": "EGLK",
+      "title": "Blackbushe",
+      "type": "aerodrome",
+      "elevation": "325 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "511926N",
+      "lon": "0005051W"
+    },
+    {
+      "id": "EGLL",
+      "name": "EGLL",
+      "title": "London Heathrow",
+      "type": "aerodrome",
+      "elevation": "83 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "512839N",
+      "lon": "0002741W"
+    },
+    {
+      "id": "EGLM",
+      "name": "EGLM",
+      "title": "White Waltham",
+      "type": "aerodrome",
+      "elevation": "133 FT",
+      "traffic": "INTL-NTL / VFR / S, NS, P",
+      "lat": "513002N",
+      "lon": "0004629W"
+    },
+    {
+      "id": "EGLW",
+      "name": "EGLW",
+      "title": "London Heliport",
+      "type": "heliport",
+      "elevation": "18 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "512812N",
+      "lon": "0001046W"
+    },
+    {
+      "id": "EGMC",
+      "name": "EGMC",
+      "title": "Southend",
+      "type": "aerodrome",
+      "elevation": "58 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "513413N",
+      "lon": "0004136E"
+    },
+    {
+      "id": "EGMD",
+      "name": "EGMD",
+      "title": "Lydd",
+      "type": "aerodrome",
+      "elevation": "13 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "505722N",
+      "lon": "0005620E"
+    },
+    {
+      "id": "EGNE",
+      "name": "EGNE",
+      "title": "Retford/Gamston",
+      "type": "aerodrome",
+      "elevation": "87 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "531650N",
+      "lon": "0005705W"
+    },
+    {
+      "id": "EGNF",
+      "name": "EGNF",
+      "title": "Netherthorpe",
+      "type": "aerodrome",
+      "elevation": "248 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "531901N",
+      "lon": "0011146W"
+    },
+    {
+      "id": "EGNH",
+      "name": "EGNH",
+      "title": "Blackpool",
+      "type": "aerodrome",
+      "elevation": "34 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "534618N",
+      "lon": "0030143W"
+    },
+    {
+      "id": "EGNJ",
+      "name": "EGNJ",
+      "title": "Humberside",
+      "type": "aerodrome",
+      "elevation": "121 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "533424N",
+      "lon": "0002105W"
+    },
+    {
+      "id": "EGNL",
+      "name": "EGNL",
+      "title": "Walney",
+      "type": "aerodrome",
+      "elevation": "44 FT",
+      "traffic": "NTL / IFR/VFR / P",
+      "lat": "540743N",
+      "lon": "0031603W"
+    },
+    {
+      "id": "EGNM",
+      "name": "EGNM",
+      "title": "Leeds Bradford",
+      "type": "aerodrome",
+      "elevation": "682 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "535158N",
+      "lon": "0013939W"
+    },
+    {
+      "id": "EGNO",
+      "name": "EGNO",
+      "title": "Warton",
+      "type": "aerodrome",
+      "elevation": "54 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "534442N",
+      "lon": "0025300W"
+    },
+    {
+      "id": "EGNR",
+      "name": "EGNR",
+      "title": "Hawarden",
+      "type": "aerodrome",
+      "elevation": "45 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "531041N",
+      "lon": "0025840W"
+    },
+    {
+      "id": "EGNS",
+      "name": "EGNS",
+      "title": "Isle Of Man",
+      "type": "aerodrome",
+      "elevation": "53 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "540500N",
+      "lon": "0043724W"
+    },
+    {
+      "id": "EGNT",
+      "name": "EGNT",
+      "title": "Newcastle",
+      "type": "aerodrome",
+      "elevation": "266 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "550217N",
+      "lon": "0014123W"
+    },
+    {
+      "id": "EGNV",
+      "name": "EGNV",
+      "title": "Teesside International",
+      "type": "aerodrome",
+      "elevation": "120 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "543033N",
+      "lon": "0012546W"
+    },
+    {
+      "id": "EGNW",
+      "name": "EGNW",
+      "title": "Wickenby",
+      "type": "aerodrome",
+      "elevation": "84 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "531901N",
+      "lon": "0002056W"
+    },
+    {
+      "id": "EGNX",
+      "name": "EGNX",
+      "title": "East Midlands",
+      "type": "aerodrome",
+      "elevation": "306 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "524952N",
+      "lon": "0011940W"
+    },
+    {
+      "id": "EGPA",
+      "name": "EGPA",
+      "title": "Kirkwall",
+      "type": "aerodrome",
+      "elevation": "58 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "585729N",
+      "lon": "0025402W"
+    },
+    {
+      "id": "EGPB",
+      "name": "EGPB",
+      "title": "Sumburgh",
+      "type": "aerodrome",
+      "elevation": "24 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "595253N",
+      "lon": "0011738W"
+    },
+    {
+      "id": "EGPC",
+      "name": "EGPC",
+      "title": "Wick",
+      "type": "aerodrome",
+      "elevation": "126 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "582732N",
+      "lon": "0030535W"
+    },
+    {
+      "id": "EGPD",
+      "name": "EGPD",
+      "title": "Aberdeen/Dyce",
+      "type": "aerodrome",
+      "elevation": "215 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "571209N",
+      "lon": "0021153W"
+    },
+    {
+      "id": "EGPE",
+      "name": "EGPE",
+      "title": "Inverness",
+      "type": "aerodrome",
+      "elevation": "31 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "573233N",
+      "lon": "0040251W"
+    },
+    {
+      "id": "EGPF",
+      "name": "EGPF",
+      "title": "Glasgow",
+      "type": "aerodrome",
+      "elevation": "26 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "555219N",
+      "lon": "0042559W"
+    },
+    {
+      "id": "EGPG",
+      "name": "EGPG",
+      "title": "Cumbernauld",
+      "type": "aerodrome",
+      "elevation": "348 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "555829N",
+      "lon": "0035832W"
+    },
+    {
+      "id": "EGPH",
+      "name": "EGPH",
+      "title": "Edinburgh",
+      "type": "aerodrome",
+      "elevation": "112 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "555700N",
+      "lon": "0032221W"
+    },
+    {
+      "id": "EGPI",
+      "name": "EGPI",
+      "title": "Islay",
+      "type": "aerodrome",
+      "elevation": "56 FT",
+      "traffic": "NTL / IFR/VFR / S, NS, P",
+      "lat": "554100N",
+      "lon": "0061535W"
+    },
+    {
+      "id": "EGPK",
+      "name": "EGPK",
+      "title": "Prestwick",
+      "type": "aerodrome",
+      "elevation": "65 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "553034N",
+      "lon": "0043540W"
+    },
+    {
+      "id": "EGPL",
+      "name": "EGPL",
+      "title": "Benbecula",
+      "type": "aerodrome",
+      "elevation": "19 FT",
+      "traffic": "NTL / IFR/VFR / S, NS, P",
+      "lat": "572850N",
+      "lon": "0072150W"
+    },
+    {
+      "id": "EGPN",
+      "name": "EGPN",
+      "title": "Dundee",
+      "type": "aerodrome",
+      "elevation": "17 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "562709N",
+      "lon": "0030133W"
+    },
+    {
+      "id": "EGPO",
+      "name": "EGPO",
+      "title": "Stornoway",
+      "type": "aerodrome",
+      "elevation": "26 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "581256N",
+      "lon": "0061952W"
+    },
+    {
+      "id": "EGPR",
+      "name": "EGPR",
+      "title": "Barra",
+      "type": "aerodrome",
+      "elevation": "5 FT",
+      "traffic": "NTL / IFR/VFR / P",
+      "lat": "570125N",
+      "lon": "0072630W"
+    },
+    {
+      "id": "EGPT",
+      "name": "EGPT",
+      "title": "Perth/Scone",
+      "type": "aerodrome",
+      "elevation": "395 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "562628N",
+      "lon": "0032226W"
+    },
+    {
+      "id": "EGPU",
+      "name": "EGPU",
+      "title": "Tiree",
+      "type": "aerodrome",
+      "elevation": "38 FT",
+      "traffic": "NTL / IFR/VFR / S, NS, P",
+      "lat": "562957N",
+      "lon": "0065209W"
+    },
+    {
+      "id": "EGSC",
+      "name": "EGSC",
+      "title": "Cambridge",
+      "type": "aerodrome",
+      "elevation": "48 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "521218N",
+      "lon": "0001030E"
+    },
+    {
+      "id": "EGSG",
+      "name": "EGSG",
+      "title": "Stapleford",
+      "type": "aerodrome",
+      "elevation": "185 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "513909N",
+      "lon": "0000922E"
+    },
+    {
+      "id": "EGSH",
+      "name": "EGSH",
+      "title": "Norwich",
+      "type": "aerodrome",
+      "elevation": "118 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "524033N",
+      "lon": "0011658E"
+    },
+    {
+      "id": "EGSL",
+      "name": "EGSL",
+      "title": "Andrewsfield",
+      "type": "aerodrome",
+      "elevation": "286 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "515342N",
+      "lon": "0002657E"
+    },
+    {
+      "id": "EGSR",
+      "name": "EGSR",
+      "title": "Earls Colne",
+      "type": "aerodrome",
+      "elevation": "229 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "515452N",
+      "lon": "0004057E"
+    },
+    {
+      "id": "EGSS",
+      "name": "EGSS",
+      "title": "London Stansted",
+      "type": "aerodrome",
+      "elevation": "348 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "515306N",
+      "lon": "0001406E"
+    },
+    {
+      "id": "EGSU",
+      "name": "EGSU",
+      "title": "Duxford",
+      "type": "aerodrome",
+      "elevation": "126 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "520526N",
+      "lon": "0000753E"
+    },
+    {
+      "id": "EGSV",
+      "name": "EGSV",
+      "title": "Old Buckenham",
+      "type": "aerodrome",
+      "elevation": "195 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "522951N",
+      "lon": "0010307E"
+    },
+    {
+      "id": "EGSY",
+      "name": "EGSY",
+      "title": "St Athan",
+      "type": "aerodrome",
+      "elevation": "164 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "512417N",
+      "lon": "0032609W"
+    },
+    {
+      "id": "EGTB",
+      "name": "EGTB",
+      "title": "Wycombe Air Park/Booker",
+      "type": "aerodrome",
+      "elevation": "516 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "513642N",
+      "lon": "0004830W"
+    },
+    {
+      "id": "EGTC",
+      "name": "EGTC",
+      "title": "Cranfield",
+      "type": "aerodrome",
+      "elevation": "360 FT",
+      "traffic": "INTL-NTL / IFR/VFR / P",
+      "lat": "520420N",
+      "lon": "0003700W"
+    },
+    {
+      "id": "EGTE",
+      "name": "EGTE",
+      "title": "Exeter",
+      "type": "aerodrome",
+      "elevation": "102 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "504403N",
+      "lon": "0032450W"
+    },
+    {
+      "id": "EGTF",
+      "name": "EGTF",
+      "title": "Fairoaks",
+      "type": "aerodrome",
+      "elevation": "80 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "512053N",
+      "lon": "0003331W"
+    },
+    {
+      "id": "EGTH",
+      "name": "EGTH",
+      "title": "Old Warden",
+      "type": "aerodrome",
+      "elevation": "127 FT",
+      "traffic": "NTL / VFR / P",
+      "lat": "520512N",
+      "lon": "0001907W"
+    },
+    {
+      "id": "EGTK",
+      "name": "EGTK",
+      "title": "Oxford",
+      "type": "aerodrome",
+      "elevation": "263 FT",
+      "traffic": "INTL-NTL / IFR/VFR / S, NS, P",
+      "lat": "515013N",
+      "lon": "0011912W"
+    },
+    {
+      "id": "EGTO",
+      "name": "EGTO",
+      "title": "Rochester",
+      "type": "aerodrome",
+      "elevation": "420 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "512107N",
+      "lon": "0003010E"
+    },
+    {
+      "id": "EGTR",
+      "name": "EGTR",
+      "title": "Elstree",
+      "type": "aerodrome",
+      "elevation": "332 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "513921N",
+      "lon": "0001933W"
+    },
+    {
+      "id": "EGTU",
+      "name": "EGTU",
+      "title": "Dunkeswell",
+      "type": "aerodrome",
+      "elevation": "839 FT",
+      "traffic": "INTL-NTL / VFR / P",
+      "lat": "505136N",
+      "lon": "0031405W"
+    }
+  ]
+}

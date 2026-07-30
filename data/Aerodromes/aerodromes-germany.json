@@ -1,0 +1,5094 @@
+{
+  "source": "DFS AIP data set: ED AirportHeliport AIXM 5.1.1, and Military AIP Germany AD 2; AIRAC 09 JUL 2026. DOD FLIP aerodromes using public replacement data are explicitly marked per record.",
+  "points": [
+    {
+      "id": "EDAB",
+      "name": "EDAB",
+      "title": "Bautzen",
+      "type": "AD",
+      "elevation": "569 FT",
+      "traffic": "CIVIL",
+      "lat": "511137N",
+      "lon": "0143111E"
+    },
+    {
+      "id": "EDAC",
+      "name": "EDAC",
+      "title": "Leipzig-Altenburg Airport",
+      "type": "AD",
+      "elevation": "640 FT",
+      "traffic": "CIVIL",
+      "lat": "505855N",
+      "lon": "0123023E"
+    },
+    {
+      "id": "EDAD",
+      "name": "EDAD",
+      "title": "Dessau",
+      "type": "AD",
+      "elevation": "187 FT",
+      "traffic": "CIVIL",
+      "lat": "514956N",
+      "lon": "0121109E"
+    },
+    {
+      "id": "EDAE",
+      "name": "EDAE",
+      "title": "Eisenhuettenstadt",
+      "type": "AD",
+      "elevation": "149 FT",
+      "traffic": "CIVIL",
+      "lat": "521140N",
+      "lon": "0143517E"
+    },
+    {
+      "id": "EDAG",
+      "name": "EDAG",
+      "title": "Grossrueckerswalde",
+      "type": "AD",
+      "elevation": "2161 FT",
+      "traffic": "CIVIL",
+      "lat": "503838N",
+      "lon": "0130735E"
+    },
+    {
+      "id": "EDAH",
+      "name": "EDAH",
+      "title": "Heringsdorf",
+      "type": "AD",
+      "elevation": "94 FT",
+      "traffic": "CIVIL",
+      "lat": "535243N",
+      "lon": "0140908E"
+    },
+    {
+      "id": "EDAJ",
+      "name": "EDAJ",
+      "title": "Gera-Leumnitz",
+      "type": "AD",
+      "elevation": "1015 FT",
+      "traffic": "CIVIL",
+      "lat": "505253N",
+      "lon": "0120807E"
+    },
+    {
+      "id": "EDAK",
+      "name": "EDAK",
+      "title": "Grossenhain",
+      "type": "AD",
+      "elevation": "417 FT",
+      "traffic": "CIVIL",
+      "lat": "511829N",
+      "lon": "0133319E"
+    },
+    {
+      "id": "EDAM",
+      "name": "EDAM",
+      "title": "Merseburg",
+      "type": "AD",
+      "elevation": "340 FT",
+      "traffic": "CIVIL",
+      "lat": "512147N",
+      "lon": "0115627E"
+    },
+    {
+      "id": "EDAN",
+      "name": "EDAN",
+      "title": "Neustadt-Glewe",
+      "type": "AD",
+      "elevation": "115 FT",
+      "traffic": "CIVIL",
+      "lat": "532140N",
+      "lon": "0113655E"
+    },
+    {
+      "id": "EDAO",
+      "name": "EDAO",
+      "title": "Nordhausen",
+      "type": "AD",
+      "elevation": "689 FT",
+      "traffic": "CIVIL",
+      "lat": "512935N",
+      "lon": "0105000E"
+    },
+    {
+      "id": "EDAP",
+      "name": "EDAP",
+      "title": "Neuhausen",
+      "type": "AD",
+      "elevation": "279 FT",
+      "traffic": "CIVIL",
+      "lat": "514105N",
+      "lon": "0142523E"
+    },
+    {
+      "id": "EDAQ",
+      "name": "EDAQ",
+      "title": "Halle-Oppin",
+      "type": "AD",
+      "elevation": "350 FT",
+      "traffic": "CIVIL",
+      "lat": "513308N",
+      "lon": "0120314E"
+    },
+    {
+      "id": "EDAR",
+      "name": "EDAR",
+      "title": "Pirna-Pratzschwitz",
+      "type": "AD",
+      "elevation": "402 FT",
+      "traffic": "CIVIL",
+      "lat": "505847N",
+      "lon": "0135431E"
+    },
+    {
+      "id": "EDAS",
+      "name": "EDAS",
+      "title": "Finsterwalde-Heinrichsruh",
+      "type": "AD",
+      "elevation": "384 FT",
+      "traffic": "CIVIL",
+      "lat": "513804N",
+      "lon": "0134018E"
+    },
+    {
+      "id": "EDAT",
+      "name": "EDAT",
+      "title": "Nardt",
+      "type": "AD",
+      "elevation": "382 FT",
+      "traffic": "CIVIL",
+      "lat": "512706N",
+      "lon": "0141209E"
+    },
+    {
+      "id": "EDAU",
+      "name": "EDAU",
+      "title": "Riesa-Goehlis",
+      "type": "AD",
+      "elevation": "322 FT",
+      "traffic": "CIVIL",
+      "lat": "511735N",
+      "lon": "0132126E"
+    },
+    {
+      "id": "EDAV",
+      "name": "EDAV",
+      "title": "Eberswalde-Finow",
+      "type": "AD",
+      "elevation": "116 FT",
+      "traffic": "CIVIL",
+      "lat": "524935N",
+      "lon": "0134205E"
+    },
+    {
+      "id": "EDAW",
+      "name": "EDAW",
+      "title": "Roitzschjora",
+      "type": "AD",
+      "elevation": "289 FT",
+      "traffic": "CIVIL",
+      "lat": "513436N",
+      "lon": "0122945E"
+    },
+    {
+      "id": "EDAX",
+      "name": "EDAX",
+      "title": "Mueritz Airpark",
+      "type": "AD",
+      "elevation": "220 FT",
+      "traffic": "CIVIL",
+      "lat": "531819N",
+      "lon": "0124508E"
+    },
+    {
+      "id": "EDAY",
+      "name": "EDAY",
+      "title": "Strausberg",
+      "type": "AD",
+      "elevation": "262 FT",
+      "traffic": "CIVIL",
+      "lat": "523449N",
+      "lon": "0135454E"
+    },
+    {
+      "id": "EDAZ",
+      "name": "EDAZ",
+      "title": "Schoenhagen",
+      "type": "AD",
+      "elevation": "152 FT",
+      "traffic": "CIVIL",
+      "lat": "521214N",
+      "lon": "0130936E"
+    },
+    {
+      "id": "EDBA",
+      "name": "EDBA",
+      "title": "Arnstadt-Alkersleben",
+      "type": "AD",
+      "elevation": "1145 FT",
+      "traffic": "CIVIL",
+      "lat": "505031N",
+      "lon": "0110412E"
+    },
+    {
+      "id": "EDBC",
+      "name": "EDBC",
+      "title": "Magdeburg/Cochstedt",
+      "type": "AD",
+      "elevation": "599 FT",
+      "traffic": "CIVIL",
+      "lat": "515121N",
+      "lon": "0112505E"
+    },
+    {
+      "id": "EDBE",
+      "name": "EDBE",
+      "title": "Brandenburg-Muehlenfeld",
+      "type": "AD",
+      "elevation": "100 FT",
+      "traffic": "CIVIL",
+      "lat": "522611N",
+      "lon": "0123526E"
+    },
+    {
+      "id": "EDBF",
+      "name": "EDBF",
+      "title": "Fehrbellin",
+      "type": "AD",
+      "elevation": "135 FT",
+      "traffic": "CIVIL",
+      "lat": "524736N",
+      "lon": "0124537E"
+    },
+    {
+      "id": "EDBG",
+      "name": "EDBG",
+      "title": "Burg",
+      "type": "AD",
+      "elevation": "173 FT",
+      "traffic": "CIVIL",
+      "lat": "521430N",
+      "lon": "0115122E"
+    },
+    {
+      "id": "EDBH",
+      "name": "EDBH",
+      "title": "Barth",
+      "type": "AD",
+      "elevation": "23 FT",
+      "traffic": "CIVIL",
+      "lat": "542017N",
+      "lon": "0124236E"
+    },
+    {
+      "id": "EDBI",
+      "name": "EDBI",
+      "title": "Zwickau",
+      "type": "AD",
+      "elevation": "1050 FT",
+      "traffic": "CIVIL",
+      "lat": "504205N",
+      "lon": "0122710E"
+    },
+    {
+      "id": "EDBJ",
+      "name": "EDBJ",
+      "title": "Jena-Schoengleina",
+      "type": "AD",
+      "elevation": "1228 FT",
+      "traffic": "CIVIL",
+      "lat": "505456N",
+      "lon": "0114251E"
+    },
+    {
+      "id": "EDBK",
+      "name": "EDBK",
+      "title": "Kyritz",
+      "type": "AD",
+      "elevation": "130 FT",
+      "traffic": "CIVIL",
+      "lat": "525508N",
+      "lon": "0122531E"
+    },
+    {
+      "id": "EDBL",
+      "name": "EDBL",
+      "title": "Laucha",
+      "type": "AD",
+      "elevation": "738 FT",
+      "traffic": "CIVIL",
+      "lat": "511445N",
+      "lon": "0114135E"
+    },
+    {
+      "id": "EDBM",
+      "name": "EDBM",
+      "title": "Magdeburg/City",
+      "type": "AD",
+      "elevation": "268 FT",
+      "traffic": "CIVIL",
+      "lat": "520425N",
+      "lon": "0113735E"
+    },
+    {
+      "id": "EDBN",
+      "name": "EDBN",
+      "title": "Neubrandenburg",
+      "type": "AD",
+      "elevation": "228 FT",
+      "traffic": "CIVIL",
+      "lat": "533608N",
+      "lon": "0131822E"
+    },
+    {
+      "id": "EDBO",
+      "name": "EDBO",
+      "title": "Oehna",
+      "type": "AD",
+      "elevation": "287 FT",
+      "traffic": "CIVIL",
+      "lat": "515356N",
+      "lon": "0130321E"
+    },
+    {
+      "id": "EDBP",
+      "name": "EDBP",
+      "title": "Pinnow",
+      "type": "AD",
+      "elevation": "144 FT",
+      "traffic": "CIVIL",
+      "lat": "533654N",
+      "lon": "0113340E"
+    },
+    {
+      "id": "EDBQ",
+      "name": "EDBQ",
+      "title": "Bronkow",
+      "type": "AD",
+      "elevation": "428 FT",
+      "traffic": "CIVIL",
+      "lat": "514019N",
+      "lon": "0135743E"
+    },
+    {
+      "id": "EDBR",
+      "name": "EDBR",
+      "title": "Rothenburg/Goerlitz",
+      "type": "AD",
+      "elevation": "515 FT",
+      "traffic": "CIVIL",
+      "lat": "512155N",
+      "lon": "0145703E"
+    },
+    {
+      "id": "EDBS",
+      "name": "EDBS",
+      "title": "Soemmerda-Dermsdorf",
+      "type": "AD",
+      "elevation": "451 FT",
+      "traffic": "CIVIL",
+      "lat": "511156N",
+      "lon": "0111133E"
+    },
+    {
+      "id": "EDBT",
+      "name": "EDBT",
+      "title": "Allstedt",
+      "type": "AD",
+      "elevation": "932 FT",
+      "traffic": "CIVIL",
+      "lat": "512250N",
+      "lon": "0112648E"
+    },
+    {
+      "id": "EDBU",
+      "name": "EDBU",
+      "title": "Pritzwalk-Sommersberg",
+      "type": "AD",
+      "elevation": "289 FT",
+      "traffic": "CIVIL",
+      "lat": "531050N",
+      "lon": "0121108E"
+    },
+    {
+      "id": "EDBV",
+      "name": "EDBV",
+      "title": "Stralsund",
+      "type": "AD",
+      "elevation": "49 FT",
+      "traffic": "CIVIL",
+      "lat": "542019N",
+      "lon": "0130249E"
+    },
+    {
+      "id": "EDBW",
+      "name": "EDBW",
+      "title": "Werneuchen",
+      "type": "AD",
+      "elevation": "265 FT",
+      "traffic": "CIVIL",
+      "lat": "523759N",
+      "lon": "0134601E"
+    },
+    {
+      "id": "EDBX",
+      "name": "EDBX",
+      "title": "Goerlitz",
+      "type": "AD",
+      "elevation": "776 FT",
+      "traffic": "CIVIL",
+      "lat": "510932N",
+      "lon": "0145701E"
+    },
+    {
+      "id": "EDBY",
+      "name": "EDBY",
+      "title": "Schmoldow",
+      "type": "AD",
+      "elevation": "105 FT",
+      "traffic": "CIVIL",
+      "lat": "535814N",
+      "lon": "0132039E"
+    },
+    {
+      "id": "EDBZ",
+      "name": "EDBZ",
+      "title": "Schwarzheide/Schipkau",
+      "type": "AD",
+      "elevation": "329 FT",
+      "traffic": "CIVIL",
+      "lat": "512930N",
+      "lon": "0135246E"
+    },
+    {
+      "id": "EDCA",
+      "name": "EDCA",
+      "title": "Anklam",
+      "type": "AD",
+      "elevation": "18 FT",
+      "traffic": "CIVIL",
+      "lat": "534954N",
+      "lon": "0134023E"
+    },
+    {
+      "id": "EDCB",
+      "name": "EDCB",
+      "title": "Ballenstedt",
+      "type": "AD",
+      "elevation": "502 FT",
+      "traffic": "CIVIL",
+      "lat": "514447N",
+      "lon": "0111352E"
+    },
+    {
+      "id": "EDCE",
+      "name": "EDCE",
+      "title": "Eggersdorf",
+      "type": "AD",
+      "elevation": "223 FT",
+      "traffic": "CIVIL",
+      "lat": "522858N",
+      "lon": "0140527E"
+    },
+    {
+      "id": "EDCG",
+      "name": "EDCG",
+      "title": "Ruegen",
+      "type": "AD",
+      "elevation": "69 FT",
+      "traffic": "CIVIL",
+      "lat": "542302N",
+      "lon": "0131933E"
+    },
+    {
+      "id": "EDCH",
+      "name": "EDCH",
+      "title": "Sprossen",
+      "type": "AD",
+      "elevation": "672 FT",
+      "traffic": "CIVIL",
+      "lat": "510235N",
+      "lon": "0121359E"
+    },
+    {
+      "id": "EDCI",
+      "name": "EDCI",
+      "title": "Klix",
+      "type": "AD",
+      "elevation": "485 FT",
+      "traffic": "CIVIL",
+      "lat": "511617N",
+      "lon": "0143020E"
+    },
+    {
+      "id": "EDCJ",
+      "name": "EDCJ",
+      "title": "Chemnitz/Jahnsdorf",
+      "type": "AD",
+      "elevation": "1202 FT",
+      "traffic": "CIVIL",
+      "lat": "504451N",
+      "lon": "0125014E"
+    },
+    {
+      "id": "EDCK",
+      "name": "EDCK",
+      "title": "Koethen",
+      "type": "LS",
+      "elevation": "304 FT",
+      "traffic": "CIVIL",
+      "lat": "514321N",
+      "lon": "0115650E"
+    },
+    {
+      "id": "EDCL",
+      "name": "EDCL",
+      "title": "Klietz/Scharlibbe",
+      "type": "AD",
+      "elevation": "95 FT",
+      "traffic": "CIVIL",
+      "lat": "524234N",
+      "lon": "0120424E"
+    },
+    {
+      "id": "EDCM",
+      "name": "EDCM",
+      "title": "Kamenz",
+      "type": "AD",
+      "elevation": "495 FT",
+      "traffic": "CIVIL",
+      "lat": "511749N",
+      "lon": "0140739E"
+    },
+    {
+      "id": "EDCO",
+      "name": "EDCO",
+      "title": "Obermehler/Schlotheim",
+      "type": "AD",
+      "elevation": "909 FT",
+      "traffic": "CIVIL",
+      "lat": "511604N",
+      "lon": "0103805E"
+    },
+    {
+      "id": "EDCP",
+      "name": "EDCP",
+      "title": "Peenemuende Test- Und Forschungsflugfeld",
+      "type": "AD",
+      "elevation": "7 FT",
+      "traffic": "CIVIL",
+      "lat": "540928N",
+      "lon": "0134621E"
+    },
+    {
+      "id": "EDCQ",
+      "name": "EDCQ",
+      "title": "Aschersleben",
+      "type": "AD",
+      "elevation": "525 FT",
+      "traffic": "CIVIL",
+      "lat": "514555N",
+      "lon": "0112955E"
+    },
+    {
+      "id": "EDCR",
+      "name": "EDCR",
+      "title": "Rerik-Zweedorf",
+      "type": "AD",
+      "elevation": "30 FT",
+      "traffic": "CIVIL",
+      "lat": "540456N",
+      "lon": "0113918E"
+    },
+    {
+      "id": "EDCS",
+      "name": "EDCS",
+      "title": "Saarmund",
+      "type": "AD",
+      "elevation": "174 FT",
+      "traffic": "CIVIL",
+      "lat": "521833N",
+      "lon": "0130602E"
+    },
+    {
+      "id": "EDCT",
+      "name": "EDCT",
+      "title": "Taucha",
+      "type": "AD",
+      "elevation": "492 FT",
+      "traffic": "CIVIL",
+      "lat": "512341N",
+      "lon": "0123213E"
+    },
+    {
+      "id": "EDCU",
+      "name": "EDCU",
+      "title": "Guestrow",
+      "type": "AD",
+      "elevation": "46 FT",
+      "traffic": "CIVIL",
+      "lat": "534821N",
+      "lon": "0121354E"
+    },
+    {
+      "id": "EDCV",
+      "name": "EDCV",
+      "title": "Pasewalk",
+      "type": "AD",
+      "elevation": "72 FT",
+      "traffic": "CIVIL",
+      "lat": "533020N",
+      "lon": "0135654E"
+    },
+    {
+      "id": "EDCW",
+      "name": "EDCW",
+      "title": "Wismar",
+      "type": "AD",
+      "elevation": "43 FT",
+      "traffic": "CIVIL",
+      "lat": "535453N",
+      "lon": "0113004E"
+    },
+    {
+      "id": "EDCX",
+      "name": "EDCX",
+      "title": "Purkshof",
+      "type": "AD",
+      "elevation": "66 FT",
+      "traffic": "CIVIL",
+      "lat": "540939N",
+      "lon": "0121454E"
+    },
+    {
+      "id": "EDCY",
+      "name": "EDCY",
+      "title": "Welzow",
+      "type": "AD",
+      "elevation": "375 FT",
+      "traffic": "CIVIL",
+      "lat": "513437N",
+      "lon": "0140813E"
+    },
+    {
+      "id": "EDDB",
+      "name": "EDDB",
+      "title": "Berlin Brandenburg",
+      "type": "AD",
+      "elevation": "156 FT",
+      "traffic": "CIVIL",
+      "lat": "522144N",
+      "lon": "0133002E"
+    },
+    {
+      "id": "EDDC",
+      "name": "EDDC",
+      "title": "Dresden",
+      "type": "AD",
+      "elevation": "754 FT",
+      "traffic": "CIVIL",
+      "lat": "510804N",
+      "lon": "0134605E"
+    },
+    {
+      "id": "EDDE",
+      "name": "EDDE",
+      "title": "Erfurt-Weimar",
+      "type": "AD",
+      "elevation": "1034 FT",
+      "traffic": "CIVIL",
+      "lat": "505847N",
+      "lon": "0105729E"
+    },
+    {
+      "id": "EDDF",
+      "name": "EDDF",
+      "title": "Frankfurt Main",
+      "type": "AD",
+      "elevation": "363 FT",
+      "traffic": "CIVIL",
+      "lat": "500200N",
+      "lon": "0083414E"
+    },
+    {
+      "id": "EDDG",
+      "name": "EDDG",
+      "title": "Muenster/Osnabrueck",
+      "type": "AD",
+      "elevation": "159 FT",
+      "traffic": "CIVIL",
+      "lat": "520805N",
+      "lon": "0074105E"
+    },
+    {
+      "id": "EDDH",
+      "name": "EDDH",
+      "title": "Hamburg",
+      "type": "AD",
+      "elevation": "53 FT",
+      "traffic": "CIVIL",
+      "lat": "533749N",
+      "lon": "0095918E"
+    },
+    {
+      "id": "EDDK",
+      "name": "EDDK",
+      "title": "Koeln/Bonn",
+      "type": "AD",
+      "elevation": "301 FT",
+      "traffic": "CIVIL",
+      "lat": "505157N",
+      "lon": "0070834E"
+    },
+    {
+      "id": "EDDL",
+      "name": "EDDL",
+      "title": "Duesseldorf",
+      "type": "AD",
+      "elevation": "147 FT",
+      "traffic": "CIVIL",
+      "lat": "511651N",
+      "lon": "0064526E"
+    },
+    {
+      "id": "EDDM",
+      "name": "EDDM",
+      "title": "Muenchen",
+      "type": "AD",
+      "elevation": "1487 FT",
+      "traffic": "CIVIL",
+      "lat": "482114N",
+      "lon": "0114710E"
+    },
+    {
+      "id": "EDDN",
+      "name": "EDDN",
+      "title": "Nuernberg",
+      "type": "AD",
+      "elevation": "1044 FT",
+      "traffic": "CIVIL",
+      "lat": "492955N",
+      "lon": "0110441E"
+    },
+    {
+      "id": "EDDP",
+      "name": "EDDP",
+      "title": "Leipzig/Halle",
+      "type": "AD",
+      "elevation": "470 FT",
+      "traffic": "CIVIL",
+      "lat": "512526N",
+      "lon": "0121411E"
+    },
+    {
+      "id": "EDDR",
+      "name": "EDDR",
+      "title": "Saarbruecken",
+      "type": "AD",
+      "elevation": "1058 FT",
+      "traffic": "CIVIL",
+      "lat": "491252N",
+      "lon": "0070634E"
+    },
+    {
+      "id": "EDDS",
+      "name": "EDDS",
+      "title": "Stuttgart",
+      "type": "AD",
+      "elevation": "1276 FT",
+      "traffic": "CIVIL",
+      "lat": "484124N",
+      "lon": "0091319E"
+    },
+    {
+      "id": "EDDV",
+      "name": "EDDV",
+      "title": "Hannover",
+      "type": "AD",
+      "elevation": "183 FT",
+      "traffic": "CIVIL",
+      "lat": "522737N",
+      "lon": "0094101E"
+    },
+    {
+      "id": "EDDW",
+      "name": "EDDW",
+      "title": "Bremen",
+      "type": "AD",
+      "elevation": "14 FT",
+      "traffic": "CIVIL",
+      "lat": "530251N",
+      "lon": "0084712E"
+    },
+    {
+      "id": "EDEB",
+      "name": "EDEB",
+      "title": "Bad Langensalza",
+      "type": "AD",
+      "elevation": "650 FT",
+      "traffic": "CIVIL",
+      "lat": "510745N",
+      "lon": "0103718E"
+    },
+    {
+      "id": "EDEG",
+      "name": "EDEG",
+      "title": "Gotha-Ost",
+      "type": "AD",
+      "elevation": "1010 FT",
+      "traffic": "CIVIL",
+      "lat": "505814N",
+      "lon": "0104341E"
+    },
+    {
+      "id": "EDEH",
+      "name": "EDEH",
+      "title": "Herrenteich",
+      "type": "AD",
+      "elevation": "308 FT",
+      "traffic": "CIVIL",
+      "lat": "492042N",
+      "lon": "0082916E"
+    },
+    {
+      "id": "EDEL",
+      "name": "EDEL",
+      "title": "Langenlonsheim",
+      "type": "AD",
+      "elevation": "295 FT",
+      "traffic": "CIVIL",
+      "lat": "495430N",
+      "lon": "0075428E"
+    },
+    {
+      "id": "EDEM",
+      "name": "EDEM",
+      "title": "Mosenberg",
+      "type": "AD",
+      "elevation": "1315 FT",
+      "traffic": "CIVIL",
+      "lat": "510346N",
+      "lon": "0092519E"
+    },
+    {
+      "id": "EDEN",
+      "name": "EDEN",
+      "title": "Bad Hersfeld",
+      "type": "AD",
+      "elevation": "971 FT",
+      "traffic": "CIVIL",
+      "lat": "505040N",
+      "lon": "0094226E"
+    },
+    {
+      "id": "EDEP",
+      "name": "EDEP",
+      "title": "Heppenheim",
+      "type": "AD",
+      "elevation": "315 FT",
+      "traffic": "CIVIL",
+      "lat": "493717N",
+      "lon": "0083730E"
+    },
+    {
+      "id": "EDEQ",
+      "name": "EDEQ",
+      "title": "Muehlhausen",
+      "type": "AD",
+      "elevation": "814 FT",
+      "traffic": "CIVIL",
+      "lat": "511252N",
+      "lon": "0103233E"
+    },
+    {
+      "id": "EDER",
+      "name": "EDER",
+      "title": "Wasserkuppe",
+      "type": "AD",
+      "elevation": "2958 FT",
+      "traffic": "CIVIL",
+      "lat": "502952N",
+      "lon": "0095658E"
+    },
+    {
+      "id": "EDES",
+      "name": "EDES",
+      "title": "Darmstadt/Griesheim",
+      "type": "AD",
+      "elevation": "337 FT",
+      "traffic": "CIVIL",
+      "lat": "495117N",
+      "lon": "0083512E"
+    },
+    {
+      "id": "EDEW",
+      "name": "EDEW",
+      "title": "Wallduern",
+      "type": "AD",
+      "elevation": "1322 FT",
+      "traffic": "CIVIL",
+      "lat": "493454N",
+      "lon": "0092408E"
+    },
+    {
+      "id": "EDFA",
+      "name": "EDFA",
+      "title": "Anspach/Taunus",
+      "type": "AD",
+      "elevation": "1102 FT",
+      "traffic": "CIVIL",
+      "lat": "501720N",
+      "lon": "0083207E"
+    },
+    {
+      "id": "EDFB",
+      "name": "EDFB",
+      "title": "Reichelsheim",
+      "type": "AD",
+      "elevation": "398 FT",
+      "traffic": "CIVIL",
+      "lat": "502019N",
+      "lon": "0085243E"
+    },
+    {
+      "id": "EDFC",
+      "name": "EDFC",
+      "title": "Aschaffenburg",
+      "type": "AD",
+      "elevation": "410 FT",
+      "traffic": "CIVIL",
+      "lat": "495620N",
+      "lon": "0090345E"
+    },
+    {
+      "id": "EDFD",
+      "name": "EDFD",
+      "title": "Bad Neustadt/Saale-Grasberg",
+      "type": "AD",
+      "elevation": "997 FT",
+      "traffic": "CIVIL",
+      "lat": "501820N",
+      "lon": "0101336E"
+    },
+    {
+      "id": "EDFE",
+      "name": "EDFE",
+      "title": "Frankfurt-Egelsbach",
+      "type": "AD",
+      "elevation": "385 FT",
+      "traffic": "CIVIL",
+      "lat": "495739N",
+      "lon": "0083829E"
+    },
+    {
+      "id": "EDFG",
+      "name": "EDFG",
+      "title": "Gelnhausen",
+      "type": "AD",
+      "elevation": "413 FT",
+      "traffic": "CIVIL",
+      "lat": "501150N",
+      "lon": "0091012E"
+    },
+    {
+      "id": "EDFH",
+      "name": "EDFH",
+      "title": "Frankfurt-Hahn",
+      "type": "AD",
+      "elevation": "1649 FT",
+      "traffic": "CIVIL",
+      "lat": "495645N",
+      "lon": "0071540E"
+    },
+    {
+      "id": "EDFI",
+      "name": "EDFI",
+      "title": "Hirzenhain",
+      "type": "AD",
+      "elevation": "1706 FT",
+      "traffic": "CIVIL",
+      "lat": "504715N",
+      "lon": "0082331E"
+    },
+    {
+      "id": "EDFJ",
+      "name": "EDFJ",
+      "title": "Lager Hammelburg",
+      "type": "AD",
+      "elevation": "1133 FT",
+      "traffic": "CIVIL",
+      "lat": "500555N",
+      "lon": "0095301E"
+    },
+    {
+      "id": "EDFK",
+      "name": "EDFK",
+      "title": "Bad Kissingen",
+      "type": "AD",
+      "elevation": "653 FT",
+      "traffic": "CIVIL",
+      "lat": "501238N",
+      "lon": "0100408E"
+    },
+    {
+      "id": "EDFL",
+      "name": "EDFL",
+      "title": "Giessen-Luetzellinden",
+      "type": "AD",
+      "elevation": "756 FT",
+      "traffic": "CIVIL",
+      "lat": "503238N",
+      "lon": "0083524E"
+    },
+    {
+      "id": "EDFM",
+      "name": "EDFM",
+      "title": "Mannheim City",
+      "type": "AD",
+      "elevation": "309 FT",
+      "traffic": "CIVIL",
+      "lat": "492822N",
+      "lon": "0083051E"
+    },
+    {
+      "id": "EDFN",
+      "name": "EDFN",
+      "title": "Marburg-Schoenstadt",
+      "type": "AD",
+      "elevation": "833 FT",
+      "traffic": "CIVIL",
+      "lat": "505228N",
+      "lon": "0084854E"
+    },
+    {
+      "id": "EDFO",
+      "name": "EDFO",
+      "title": "Michelstadt/Odw.",
+      "type": "AD",
+      "elevation": "1143 FT",
+      "traffic": "CIVIL",
+      "lat": "494043N",
+      "lon": "0085820E"
+    },
+    {
+      "id": "EDFP",
+      "name": "EDFP",
+      "title": "Ober-Moerlen",
+      "type": "AD",
+      "elevation": "812 FT",
+      "traffic": "CIVIL",
+      "lat": "502143N",
+      "lon": "0084238E"
+    },
+    {
+      "id": "EDFQ",
+      "name": "EDFQ",
+      "title": "Allendorf/Eder",
+      "type": "AD",
+      "elevation": "1164 FT",
+      "traffic": "CIVIL",
+      "lat": "510207N",
+      "lon": "0084051E"
+    },
+    {
+      "id": "EDFR",
+      "name": "EDFR",
+      "title": "Rothenburg O.D.T.",
+      "type": "AD",
+      "elevation": "1309 FT",
+      "traffic": "CIVIL",
+      "lat": "492326N",
+      "lon": "0101308E"
+    },
+    {
+      "id": "EDFS",
+      "name": "EDFS",
+      "title": "Schweinfurt-Sued",
+      "type": "AD",
+      "elevation": "685 FT",
+      "traffic": "CIVIL",
+      "lat": "500038N",
+      "lon": "0101505E"
+    },
+    {
+      "id": "EDFT",
+      "name": "EDFT",
+      "title": "Lauterbach",
+      "type": "AD",
+      "elevation": "1210 FT",
+      "traffic": "CIVIL",
+      "lat": "504100N",
+      "lon": "0092437E"
+    },
+    {
+      "id": "EDFU",
+      "name": "EDFU",
+      "title": "Mainbullau",
+      "type": "AD",
+      "elevation": "1500 FT",
+      "traffic": "CIVIL",
+      "lat": "494142N",
+      "lon": "0091055E"
+    },
+    {
+      "id": "EDFV",
+      "name": "EDFV",
+      "title": "Worms",
+      "type": "AD",
+      "elevation": "295 FT",
+      "traffic": "CIVIL",
+      "lat": "493623N",
+      "lon": "0082201E"
+    },
+    {
+      "id": "EDFW",
+      "name": "EDFW",
+      "title": "Wuerzburg-Schenkenturm",
+      "type": "AD",
+      "elevation": "991 FT",
+      "traffic": "CIVIL",
+      "lat": "494905N",
+      "lon": "0095350E"
+    },
+    {
+      "id": "EDFX",
+      "name": "EDFX",
+      "title": "Hockenheim",
+      "type": "AD",
+      "elevation": "315 FT",
+      "traffic": "CIVIL",
+      "lat": "491931N",
+      "lon": "0083143E"
+    },
+    {
+      "id": "EDFY",
+      "name": "EDFY",
+      "title": "Elz",
+      "type": "AD",
+      "elevation": "699 FT",
+      "traffic": "CIVIL",
+      "lat": "502536N",
+      "lon": "0080039E"
+    },
+    {
+      "id": "EDFZ",
+      "name": "EDFZ",
+      "title": "Mainz/Finthen",
+      "type": "AD",
+      "elevation": "760 FT",
+      "traffic": "JOINT",
+      "lat": "495807N",
+      "lon": "0080853E"
+    },
+    {
+      "id": "EDGA",
+      "name": "EDGA",
+      "title": "Ailertchen",
+      "type": "AD",
+      "elevation": "1542 FT",
+      "traffic": "CIVIL",
+      "lat": "503534N",
+      "lon": "0075641E"
+    },
+    {
+      "id": "EDGB",
+      "name": "EDGB",
+      "title": "Breitscheid",
+      "type": "AD",
+      "elevation": "1833 FT",
+      "traffic": "CIVIL",
+      "lat": "504038N",
+      "lon": "0081014E"
+    },
+    {
+      "id": "EDGE",
+      "name": "EDGE",
+      "title": "Eisenach-Kindel",
+      "type": "AD",
+      "elevation": "1101 FT",
+      "traffic": "CIVIL",
+      "lat": "505932N",
+      "lon": "0102834E"
+    },
+    {
+      "id": "EDGF",
+      "name": "EDGF",
+      "title": "Fulda-Jossa",
+      "type": "AD",
+      "elevation": "1558 FT",
+      "traffic": "CIVIL",
+      "lat": "502833N",
+      "lon": "0092631E"
+    },
+    {
+      "id": "EDGH",
+      "name": "EDGH",
+      "title": "Hettstadt",
+      "type": "AD",
+      "elevation": "1050 FT",
+      "traffic": "CIVIL",
+      "lat": "494755N",
+      "lon": "0095013E"
+    },
+    {
+      "id": "EDGI",
+      "name": "EDGI",
+      "title": "Ingelfingen-Buehlhof",
+      "type": "AD",
+      "elevation": "1375 FT",
+      "traffic": "CIVIL",
+      "lat": "491918N",
+      "lon": "0093949E"
+    },
+    {
+      "id": "EDGJ",
+      "name": "EDGJ",
+      "title": "Ochsenfurt",
+      "type": "AD",
+      "elevation": "814 FT",
+      "traffic": "CIVIL",
+      "lat": "494027N",
+      "lon": "0100418E"
+    },
+    {
+      "id": "EDGK",
+      "name": "EDGK",
+      "title": "Korbach",
+      "type": "AD",
+      "elevation": "1280 FT",
+      "traffic": "CIVIL",
+      "lat": "511514N",
+      "lon": "0085234E"
+    },
+    {
+      "id": "EDGL",
+      "name": "EDGL",
+      "title": "Ludwigshafen Berufsgen. Klinik",
+      "type": "HP",
+      "elevation": "315 FT",
+      "traffic": "",
+      "lat": "492911N",
+      "lon": "0082321E"
+    },
+    {
+      "id": "EDGM",
+      "name": "EDGM",
+      "title": "Mosbach-Lohrbach",
+      "type": "AD",
+      "elevation": "1083 FT",
+      "traffic": "CIVIL",
+      "lat": "492356N",
+      "lon": "0090726E"
+    },
+    {
+      "id": "EDGO",
+      "name": "EDGO",
+      "title": "Oedheim",
+      "type": "HP",
+      "elevation": "515 FT",
+      "traffic": "",
+      "lat": "491429N",
+      "lon": "0091404E"
+    },
+    {
+      "id": "EDGP",
+      "name": "EDGP",
+      "title": "Oppenheim",
+      "type": "AD",
+      "elevation": "279 FT",
+      "traffic": "CIVIL",
+      "lat": "495028N",
+      "lon": "0082233E"
+    },
+    {
+      "id": "EDGQ",
+      "name": "EDGQ",
+      "title": "Schameder",
+      "type": "AD",
+      "elevation": "1788 FT",
+      "traffic": "CIVIL",
+      "lat": "510000N",
+      "lon": "0081825E"
+    },
+    {
+      "id": "EDGR",
+      "name": "EDGR",
+      "title": "Giessen-Reiskirchen",
+      "type": "AD",
+      "elevation": "702 FT",
+      "traffic": "CIVIL",
+      "lat": "503401N",
+      "lon": "0085211E"
+    },
+    {
+      "id": "EDGS",
+      "name": "EDGS",
+      "title": "Siegerland",
+      "type": "AD",
+      "elevation": "1966 FT",
+      "traffic": "CIVIL",
+      "lat": "504228N",
+      "lon": "0080459E"
+    },
+    {
+      "id": "EDGT",
+      "name": "EDGT",
+      "title": "Bottenhorn",
+      "type": "AD",
+      "elevation": "1747 FT",
+      "traffic": "CIVIL",
+      "lat": "504743N",
+      "lon": "0082731E"
+    },
+    {
+      "id": "EDGU",
+      "name": "EDGU",
+      "title": "Unterschuepf",
+      "type": "AD",
+      "elevation": "1154 FT",
+      "traffic": "CIVIL",
+      "lat": "493056N",
+      "lon": "0094006E"
+    },
+    {
+      "id": "EDGW",
+      "name": "EDGW",
+      "title": "Wolfhagen \"Graner Berg\"",
+      "type": "AD",
+      "elevation": "1027 FT",
+      "traffic": "CIVIL",
+      "lat": "511825N",
+      "lon": "0091031E"
+    },
+    {
+      "id": "EDGX",
+      "name": "EDGX",
+      "title": "Walldorf",
+      "type": "AD",
+      "elevation": "346 FT",
+      "traffic": "CIVIL",
+      "lat": "491814N",
+      "lon": "0083932E"
+    },
+    {
+      "id": "EDGY",
+      "name": "EDGY",
+      "title": "Kitzingen",
+      "type": "AD",
+      "elevation": "666 FT",
+      "traffic": "CIVIL",
+      "lat": "494439N",
+      "lon": "0101227E"
+    },
+    {
+      "id": "EDGZ",
+      "name": "EDGZ",
+      "title": "Weinheim/Bergstrasse",
+      "type": "AD",
+      "elevation": "317 FT",
+      "traffic": "CIVIL",
+      "lat": "493403N",
+      "lon": "0083640E"
+    },
+    {
+      "id": "EDHB",
+      "name": "EDHB",
+      "title": "Grube",
+      "type": "AD",
+      "elevation": "6 FT",
+      "traffic": "CIVIL",
+      "lat": "541443N",
+      "lon": "0110129E"
+    },
+    {
+      "id": "EDHC",
+      "name": "EDHC",
+      "title": "Luechow-Rehbeck",
+      "type": "AD",
+      "elevation": "50 FT",
+      "traffic": "CIVIL",
+      "lat": "530058N",
+      "lon": "0110844E"
+    },
+    {
+      "id": "EDHD",
+      "name": "EDHD",
+      "title": "Eichsfeld",
+      "type": "AD",
+      "elevation": "1195 FT",
+      "traffic": "CIVIL",
+      "lat": "512427N",
+      "lon": "0100843E"
+    },
+    {
+      "id": "EDHE",
+      "name": "EDHE",
+      "title": "Uetersen/Heist",
+      "type": "AD",
+      "elevation": "22 FT",
+      "traffic": "CIVIL",
+      "lat": "533849N",
+      "lon": "0094215E"
+    },
+    {
+      "id": "EDHF",
+      "name": "EDHF",
+      "title": "Itzehoe/Hungriger Wolf",
+      "type": "AD",
+      "elevation": "82 FT",
+      "traffic": "CIVIL",
+      "lat": "535940N",
+      "lon": "0093443E"
+    },
+    {
+      "id": "EDHG",
+      "name": "EDHG",
+      "title": "Lueneburg",
+      "type": "AD",
+      "elevation": "161 FT",
+      "traffic": "CIVIL",
+      "lat": "531454N",
+      "lon": "0102731E"
+    },
+    {
+      "id": "EDHI",
+      "name": "EDHI",
+      "title": "Hamburg-Finkenwerder",
+      "type": "AD",
+      "elevation": "21 FT",
+      "traffic": "CIVIL",
+      "lat": "533202N",
+      "lon": "0094956E"
+    },
+    {
+      "id": "EDHK",
+      "name": "EDHK",
+      "title": "Kiel-Holtenau",
+      "type": "AD",
+      "elevation": "101 FT",
+      "traffic": "JOINT",
+      "lat": "542246N",
+      "lon": "0100843E"
+    },
+    {
+      "id": "EDHL",
+      "name": "EDHL",
+      "title": "Luebeck-Blankensee",
+      "type": "AD",
+      "elevation": "55 FT",
+      "traffic": "CIVIL",
+      "lat": "534819N",
+      "lon": "0104309E"
+    },
+    {
+      "id": "EDHM",
+      "name": "EDHM",
+      "title": "Hartenholm",
+      "type": "AD",
+      "elevation": "108 FT",
+      "traffic": "CIVIL",
+      "lat": "535454N",
+      "lon": "0100226E"
+    },
+    {
+      "id": "EDHN",
+      "name": "EDHN",
+      "title": "Neumuenster",
+      "type": "AD",
+      "elevation": "72 FT",
+      "traffic": "CIVIL",
+      "lat": "540443N",
+      "lon": "0095626E"
+    },
+    {
+      "id": "EDHO",
+      "name": "EDHO",
+      "title": "Ahrenlohe",
+      "type": "AD",
+      "elevation": "33 FT",
+      "traffic": "CIVIL",
+      "lat": "534159N",
+      "lon": "0094426E"
+    },
+    {
+      "id": "EDHP",
+      "name": "EDHP",
+      "title": "Pellworm",
+      "type": "LS",
+      "elevation": "2 FT",
+      "traffic": "CIVIL",
+      "lat": "543209N",
+      "lon": "0084054E"
+    },
+    {
+      "id": "EDHR",
+      "name": "EDHR",
+      "title": "Helgoland Suedhafen",
+      "type": "HP",
+      "elevation": "15 FT",
+      "traffic": "",
+      "lat": "541030N",
+      "lon": "0075324E"
+    },
+    {
+      "id": "EDHS",
+      "name": "EDHS",
+      "title": "Stade",
+      "type": "AD",
+      "elevation": "63 FT",
+      "traffic": "CIVIL",
+      "lat": "533341N",
+      "lon": "0092954E"
+    },
+    {
+      "id": "EDHT",
+      "name": "EDHT",
+      "title": "Sommerland",
+      "type": "HP",
+      "elevation": "2 FT",
+      "traffic": "",
+      "lat": "534733N",
+      "lon": "0093258E"
+    },
+    {
+      "id": "EDHU",
+      "name": "EDHU",
+      "title": "Lauenbrueck",
+      "type": "AD",
+      "elevation": "98 FT",
+      "traffic": "CIVIL",
+      "lat": "531226N",
+      "lon": "0093426E"
+    },
+    {
+      "id": "EDHW",
+      "name": "EDHW",
+      "title": "Wahlstedt",
+      "type": "AD",
+      "elevation": "128 FT",
+      "traffic": "CIVIL",
+      "lat": "535810N",
+      "lon": "0101318E"
+    },
+    {
+      "id": "EDHX",
+      "name": "EDHX",
+      "title": "Bad Bramstedt",
+      "type": "HP",
+      "elevation": "115 FT",
+      "traffic": "",
+      "lat": "535634N",
+      "lon": "0095412E"
+    },
+    {
+      "id": "EDHY",
+      "name": "EDHY",
+      "title": "Hoya",
+      "type": "AD",
+      "elevation": "53 FT",
+      "traffic": "CIVIL",
+      "lat": "524844N",
+      "lon": "0090948E"
+    },
+    {
+      "id": "EDJA",
+      "name": "EDJA",
+      "title": "Memmingen",
+      "type": "AD",
+      "elevation": "2079 FT",
+      "traffic": "CIVIL",
+      "lat": "475920N",
+      "lon": "0101422E"
+    },
+    {
+      "id": "EDJG",
+      "name": "EDJG",
+      "title": "Grabenstaett",
+      "type": "AD",
+      "elevation": "1762 FT",
+      "traffic": "CIVIL",
+      "lat": "475111N",
+      "lon": "0123302E"
+    },
+    {
+      "id": "EDKA",
+      "name": "EDKA",
+      "title": "Aachen-Merzbrueck",
+      "type": "AD",
+      "elevation": "623 FT",
+      "traffic": "JOINT",
+      "lat": "504918N",
+      "lon": "0061103E"
+    },
+    {
+      "id": "EDKB",
+      "name": "EDKB",
+      "title": "Bonn-Hangelar",
+      "type": "AD",
+      "elevation": "197 FT",
+      "traffic": "CIVIL",
+      "lat": "504608N",
+      "lon": "0070950E"
+    },
+    {
+      "id": "EDKD",
+      "name": "EDKD",
+      "title": "Altena-Hegenscheid",
+      "type": "AD",
+      "elevation": "1552 FT",
+      "traffic": "CIVIL",
+      "lat": "511847N",
+      "lon": "0074213E"
+    },
+    {
+      "id": "EDKF",
+      "name": "EDKF",
+      "title": "Bergneustadt/Auf Dem Duempel",
+      "type": "AD",
+      "elevation": "1603 FT",
+      "traffic": "CIVIL",
+      "lat": "510305N",
+      "lon": "0074224E"
+    },
+    {
+      "id": "EDKH",
+      "name": "EDKH",
+      "title": "Huensborn",
+      "type": "AD",
+      "elevation": "1306 FT",
+      "traffic": "CIVIL",
+      "lat": "505544N",
+      "lon": "0075357E"
+    },
+    {
+      "id": "EDKI",
+      "name": "EDKI",
+      "title": "Betzdorf-Kirchen",
+      "type": "AD",
+      "elevation": "1126 FT",
+      "traffic": "CIVIL",
+      "lat": "504902N",
+      "lon": "0074950E"
+    },
+    {
+      "id": "EDKL",
+      "name": "EDKL",
+      "title": "Leverkusen",
+      "type": "AD",
+      "elevation": "157 FT",
+      "traffic": "CIVIL",
+      "lat": "510055N",
+      "lon": "0070022E"
+    },
+    {
+      "id": "EDKM",
+      "name": "EDKM",
+      "title": "Meschede-Schueren",
+      "type": "AD",
+      "elevation": "1436 FT",
+      "traffic": "CIVIL",
+      "lat": "511808N",
+      "lon": "0081415E"
+    },
+    {
+      "id": "EDKN",
+      "name": "EDKN",
+      "title": "Wipperfuerth-Neye",
+      "type": "AD",
+      "elevation": "863 FT",
+      "traffic": "CIVIL",
+      "lat": "510725N",
+      "lon": "0072227E"
+    },
+    {
+      "id": "EDKO",
+      "name": "EDKO",
+      "title": "Brilon/Hochsauerland",
+      "type": "AD",
+      "elevation": "1510 FT",
+      "traffic": "CIVIL",
+      "lat": "512409N",
+      "lon": "0083830E"
+    },
+    {
+      "id": "EDKP",
+      "name": "EDKP",
+      "title": "Plettenberg-Hueinghausen",
+      "type": "AD",
+      "elevation": "980 FT",
+      "traffic": "CIVIL",
+      "lat": "511131N",
+      "lon": "0074722E"
+    },
+    {
+      "id": "EDKR",
+      "name": "EDKR",
+      "title": "Schmallenberg-Rennefeld",
+      "type": "AD",
+      "elevation": "1530 FT",
+      "traffic": "CIVIL",
+      "lat": "510941N",
+      "lon": "0081539E"
+    },
+    {
+      "id": "EDKS",
+      "name": "EDKS",
+      "title": "Iserlohn-Suemmern",
+      "type": "AD",
+      "elevation": "505 FT",
+      "traffic": "CIVIL",
+      "lat": "512611N",
+      "lon": "0074159E"
+    },
+    {
+      "id": "EDKU",
+      "name": "EDKU",
+      "title": "Attendorn-Finnentrop",
+      "type": "AD",
+      "elevation": "1040 FT",
+      "traffic": "CIVIL",
+      "lat": "510846N",
+      "lon": "0075613E"
+    },
+    {
+      "id": "EDKV",
+      "name": "EDKV",
+      "title": "Dahlemer Binz",
+      "type": "AD",
+      "elevation": "1896 FT",
+      "traffic": "CIVIL",
+      "lat": "502421N",
+      "lon": "0063144E"
+    },
+    {
+      "id": "EDKW",
+      "name": "EDKW",
+      "title": "Werdohl-Kuentrop",
+      "type": "AD",
+      "elevation": "1049 FT",
+      "traffic": "CIVIL",
+      "lat": "511749N",
+      "lon": "0074903E"
+    },
+    {
+      "id": "EDKZ",
+      "name": "EDKZ",
+      "title": "Meinerzhagen",
+      "type": "AD",
+      "elevation": "1546 FT",
+      "traffic": "CIVIL",
+      "lat": "510559N",
+      "lon": "0073556E"
+    },
+    {
+      "id": "EDLA",
+      "name": "EDLA",
+      "title": "Arnsberg-Menden",
+      "type": "AD",
+      "elevation": "794 FT",
+      "traffic": "CIVIL",
+      "lat": "512900N",
+      "lon": "0075358E"
+    },
+    {
+      "id": "EDLB",
+      "name": "EDLB",
+      "title": "Borkenberge",
+      "type": "AD",
+      "elevation": "158 FT",
+      "traffic": "CIVIL",
+      "lat": "514649N",
+      "lon": "0071725E"
+    },
+    {
+      "id": "EDLC",
+      "name": "EDLC",
+      "title": "Kamp-Lintfort",
+      "type": "AD",
+      "elevation": "80 FT",
+      "traffic": "CIVIL",
+      "lat": "513144N",
+      "lon": "0063210E"
+    },
+    {
+      "id": "EDLD",
+      "name": "EDLD",
+      "title": "Dinslaken/Schwarze Heide",
+      "type": "AD",
+      "elevation": "213 FT",
+      "traffic": "CIVIL",
+      "lat": "513658N",
+      "lon": "0065140E"
+    },
+    {
+      "id": "EDLE",
+      "name": "EDLE",
+      "title": "Essen/Muelheim",
+      "type": "AD",
+      "elevation": "424 FT",
+      "traffic": "CIVIL",
+      "lat": "512408N",
+      "lon": "0065614E"
+    },
+    {
+      "id": "EDLF",
+      "name": "EDLF",
+      "title": "Grefrath-Niershorst",
+      "type": "AD",
+      "elevation": "105 FT",
+      "traffic": "CIVIL",
+      "lat": "512002N",
+      "lon": "0062134E"
+    },
+    {
+      "id": "EDLG",
+      "name": "EDLG",
+      "title": "Goch-Asperden",
+      "type": "AD",
+      "elevation": "52 FT",
+      "traffic": "CIVIL",
+      "lat": "514127N",
+      "lon": "0060615E"
+    },
+    {
+      "id": "EDLH",
+      "name": "EDLH",
+      "title": "Hamm-Lippewiesen",
+      "type": "AD",
+      "elevation": "190 FT",
+      "traffic": "CIVIL",
+      "lat": "514126N",
+      "lon": "0074907E"
+    },
+    {
+      "id": "EDLI",
+      "name": "EDLI",
+      "title": "Bielefeld",
+      "type": "AD",
+      "elevation": "454 FT",
+      "traffic": "CIVIL",
+      "lat": "515753N",
+      "lon": "0083241E"
+    },
+    {
+      "id": "EDLJ",
+      "name": "EDLJ",
+      "title": "Detmold",
+      "type": "AD",
+      "elevation": "623 FT",
+      "traffic": "CIVIL",
+      "lat": "515628N",
+      "lon": "0085415E"
+    },
+    {
+      "id": "EDLK",
+      "name": "EDLK",
+      "title": "Krefeld-Egelsberg",
+      "type": "AD",
+      "elevation": "141 FT",
+      "traffic": "CIVIL",
+      "lat": "512306N",
+      "lon": "0063515E"
+    },
+    {
+      "id": "EDLM",
+      "name": "EDLM",
+      "title": "Marl-Loemuehle",
+      "type": "AD",
+      "elevation": "241 FT",
+      "traffic": "CIVIL",
+      "lat": "513849N",
+      "lon": "0070949E"
+    },
+    {
+      "id": "EDLN",
+      "name": "EDLN",
+      "title": "Moenchengladbach",
+      "type": "AD",
+      "elevation": "125 FT",
+      "traffic": "CIVIL",
+      "lat": "511349N",
+      "lon": "0063016E"
+    },
+    {
+      "id": "EDLO",
+      "name": "EDLO",
+      "title": "Oerlinghausen",
+      "type": "AD",
+      "elevation": "568 FT",
+      "traffic": "CIVIL",
+      "lat": "515557N",
+      "lon": "0083943E"
+    },
+    {
+      "id": "EDLP",
+      "name": "EDLP",
+      "title": "Paderborn/Lippstadt",
+      "type": "AD",
+      "elevation": "698 FT",
+      "traffic": "CIVIL",
+      "lat": "513651N",
+      "lon": "0083659E"
+    },
+    {
+      "id": "EDLQ",
+      "name": "EDLQ",
+      "title": "Beelen",
+      "type": "AD",
+      "elevation": "197 FT",
+      "traffic": "CIVIL",
+      "lat": "515554N",
+      "lon": "0080454E"
+    },
+    {
+      "id": "EDLR",
+      "name": "EDLR",
+      "title": "Paderborn-Haxterberg",
+      "type": "AD",
+      "elevation": "800 FT",
+      "traffic": "CIVIL",
+      "lat": "514118N",
+      "lon": "0084629E"
+    },
+    {
+      "id": "EDLS",
+      "name": "EDLS",
+      "title": "Stadtlohn-Vreden",
+      "type": "AD",
+      "elevation": "157 FT",
+      "traffic": "CIVIL",
+      "lat": "515945N",
+      "lon": "0065026E"
+    },
+    {
+      "id": "EDLT",
+      "name": "EDLT",
+      "title": "Muenster-Telgte",
+      "type": "AD",
+      "elevation": "177 FT",
+      "traffic": "CIVIL",
+      "lat": "515641N",
+      "lon": "0074622E"
+    },
+    {
+      "id": "EDLU",
+      "name": "EDLU",
+      "title": "Oelde-Bergeler",
+      "type": "AD",
+      "elevation": "272 FT",
+      "traffic": "CIVIL",
+      "lat": "514950N",
+      "lon": "0081048E"
+    },
+    {
+      "id": "EDLV",
+      "name": "EDLV",
+      "title": "Niederrhein",
+      "type": "AD",
+      "elevation": "106 FT",
+      "traffic": "CIVIL",
+      "lat": "513609N",
+      "lon": "0060832E"
+    },
+    {
+      "id": "EDLW",
+      "name": "EDLW",
+      "title": "Dortmund",
+      "type": "AD",
+      "elevation": "424 FT",
+      "traffic": "CIVIL",
+      "lat": "513106N",
+      "lon": "0073644E"
+    },
+    {
+      "id": "EDLX",
+      "name": "EDLX",
+      "title": "Wesel-Roemerwardt",
+      "type": "AD",
+      "elevation": "72 FT",
+      "traffic": "CIVIL",
+      "lat": "513946N",
+      "lon": "0063544E"
+    },
+    {
+      "id": "EDLY",
+      "name": "EDLY",
+      "title": "Borken-Hoxfeld",
+      "type": "AD",
+      "elevation": "156 FT",
+      "traffic": "CIVIL",
+      "lat": "515112N",
+      "lon": "0064853E"
+    },
+    {
+      "id": "EDLZ",
+      "name": "EDLZ",
+      "title": "Soest/Bad Sassendorf",
+      "type": "AD",
+      "elevation": "394 FT",
+      "traffic": "CIVIL",
+      "lat": "513441N",
+      "lon": "0081253E"
+    },
+    {
+      "id": "EDMA",
+      "name": "EDMA",
+      "title": "Augsburg",
+      "type": "AD",
+      "elevation": "1515 FT",
+      "traffic": "CIVIL",
+      "lat": "482531N",
+      "lon": "0105554E"
+    },
+    {
+      "id": "EDMB",
+      "name": "EDMB",
+      "title": "Biberach A.D.Riss",
+      "type": "AD",
+      "elevation": "1903 FT",
+      "traffic": "CIVIL",
+      "lat": "480640N",
+      "lon": "0094546E"
+    },
+    {
+      "id": "EDMC",
+      "name": "EDMC",
+      "title": "Blaubeuren",
+      "type": "AD",
+      "elevation": "2217 FT",
+      "traffic": "CIVIL",
+      "lat": "482512N",
+      "lon": "0094756E"
+    },
+    {
+      "id": "EDMD",
+      "name": "EDMD",
+      "title": "Dachau-Groebenried",
+      "type": "AD",
+      "elevation": "1608 FT",
+      "traffic": "CIVIL",
+      "lat": "481343N",
+      "lon": "0112523E"
+    },
+    {
+      "id": "EDME",
+      "name": "EDME",
+      "title": "Eggenfelden",
+      "type": "AD",
+      "elevation": "1343 FT",
+      "traffic": "CIVIL",
+      "lat": "482346N",
+      "lon": "0124325E"
+    },
+    {
+      "id": "EDMF",
+      "name": "EDMF",
+      "title": "Fuerstenzell",
+      "type": "AD",
+      "elevation": "1345 FT",
+      "traffic": "CIVIL",
+      "lat": "483105N",
+      "lon": "0132046E"
+    },
+    {
+      "id": "EDMG",
+      "name": "EDMG",
+      "title": "Guenzburg-Donauried",
+      "type": "AD",
+      "elevation": "1457 FT",
+      "traffic": "CIVIL",
+      "lat": "482914N",
+      "lon": "0101701E"
+    },
+    {
+      "id": "EDMH",
+      "name": "EDMH",
+      "title": "Gunzenhausen-Reutberg",
+      "type": "AD",
+      "elevation": "1591 FT",
+      "traffic": "CIVIL",
+      "lat": "490643N",
+      "lon": "0104654E"
+    },
+    {
+      "id": "EDMI",
+      "name": "EDMI",
+      "title": "Illertissen",
+      "type": "AD",
+      "elevation": "1680 FT",
+      "traffic": "CIVIL",
+      "lat": "481407N",
+      "lon": "0100816E"
+    },
+    {
+      "id": "EDMJ",
+      "name": "EDMJ",
+      "title": "Jesenwang",
+      "type": "AD",
+      "elevation": "1861 FT",
+      "traffic": "CIVIL",
+      "lat": "481028N",
+      "lon": "0110730E"
+    },
+    {
+      "id": "EDMK",
+      "name": "EDMK",
+      "title": "Kempten-Durach",
+      "type": "AD",
+      "elevation": "2340 FT",
+      "traffic": "CIVIL",
+      "lat": "474134N",
+      "lon": "0102018E"
+    },
+    {
+      "id": "EDML",
+      "name": "EDML",
+      "title": "Landshut",
+      "type": "AD",
+      "elevation": "1312 FT",
+      "traffic": "CIVIL",
+      "lat": "483042N",
+      "lon": "0120200E"
+    },
+    {
+      "id": "EDMN",
+      "name": "EDMN",
+      "title": "Mindelheim-Mattsies",
+      "type": "AD",
+      "elevation": "1857 FT",
+      "traffic": "CIVIL",
+      "lat": "480632N",
+      "lon": "0103128E"
+    },
+    {
+      "id": "EDMO",
+      "name": "EDMO",
+      "title": "Oberpfaffenhofen",
+      "type": "AD",
+      "elevation": "1947 FT",
+      "traffic": "CIVIL",
+      "lat": "480453N",
+      "lon": "0111659E"
+    },
+    {
+      "id": "EDMP",
+      "name": "EDMP",
+      "title": "Vilsbiburg",
+      "type": "AD",
+      "elevation": "1450 FT",
+      "traffic": "CIVIL",
+      "lat": "482536N",
+      "lon": "0122044E"
+    },
+    {
+      "id": "EDMQ",
+      "name": "EDMQ",
+      "title": "Donauwoerth-Genderkingen",
+      "type": "AD",
+      "elevation": "1312 FT",
+      "traffic": "CIVIL",
+      "lat": "484210N",
+      "lon": "0105103E"
+    },
+    {
+      "id": "EDMR",
+      "name": "EDMR",
+      "title": "Ottobrunn",
+      "type": "HP",
+      "elevation": "1852 FT",
+      "traffic": "",
+      "lat": "480253N",
+      "lon": "0113913E"
+    },
+    {
+      "id": "EDMS",
+      "name": "EDMS",
+      "title": "Straubing",
+      "type": "AD",
+      "elevation": "1053 FT",
+      "traffic": "CIVIL",
+      "lat": "485403N",
+      "lon": "0123105E"
+    },
+    {
+      "id": "EDMT",
+      "name": "EDMT",
+      "title": "Tannheim",
+      "type": "AD",
+      "elevation": "1903 FT",
+      "traffic": "CIVIL",
+      "lat": "480039N",
+      "lon": "0100603E"
+    },
+    {
+      "id": "EDMU",
+      "name": "EDMU",
+      "title": "Gundelfingen",
+      "type": "AD",
+      "elevation": "1446 FT",
+      "traffic": "CIVIL",
+      "lat": "483410N",
+      "lon": "0102133E"
+    },
+    {
+      "id": "EDMV",
+      "name": "EDMV",
+      "title": "Vilshofen",
+      "type": "AD",
+      "elevation": "991 FT",
+      "traffic": "CIVIL",
+      "lat": "483807N",
+      "lon": "0131144E"
+    },
+    {
+      "id": "EDMW",
+      "name": "EDMW",
+      "title": "Deggendorf",
+      "type": "AD",
+      "elevation": "1030 FT",
+      "traffic": "CIVIL",
+      "lat": "484948N",
+      "lon": "0125247E"
+    },
+    {
+      "id": "EDMX",
+      "name": "EDMX",
+      "title": "Oberschleissheim",
+      "type": "HP",
+      "elevation": "1600 FT",
+      "traffic": "OTHER",
+      "lat": "481417N",
+      "lon": "0113356E"
+    },
+    {
+      "id": "EDMY",
+      "name": "EDMY",
+      "title": "Muehldorf",
+      "type": "AD",
+      "elevation": "1331 FT",
+      "traffic": "CIVIL",
+      "lat": "481648N",
+      "lon": "0123007E"
+    },
+    {
+      "id": "EDMZ",
+      "name": "EDMZ",
+      "title": "Bad Waldsee-Reute",
+      "type": "AD",
+      "elevation": "1887 FT",
+      "traffic": "",
+      "lat": "475457N",
+      "lon": "0094236E"
+    },
+    {
+      "id": "EDNA",
+      "name": "EDNA",
+      "title": "Ampfing",
+      "type": "AD",
+      "elevation": "1360 FT",
+      "traffic": "CIVIL",
+      "lat": "481552N",
+      "lon": "0122450E"
+    },
+    {
+      "id": "EDNB",
+      "name": "EDNB",
+      "title": "Arnbruck",
+      "type": "AD",
+      "elevation": "1716 FT",
+      "traffic": "CIVIL",
+      "lat": "490730N",
+      "lon": "0125906E"
+    },
+    {
+      "id": "EDNC",
+      "name": "EDNC",
+      "title": "Beilngries",
+      "type": "AD",
+      "elevation": "1210 FT",
+      "traffic": "CIVIL",
+      "lat": "490117N",
+      "lon": "0112905E"
+    },
+    {
+      "id": "EDND",
+      "name": "EDND",
+      "title": "Dinkelsbuehl-Sinbronn",
+      "type": "AD",
+      "elevation": "1598 FT",
+      "traffic": "CIVIL",
+      "lat": "490354N",
+      "lon": "0102404E"
+    },
+    {
+      "id": "EDNE",
+      "name": "EDNE",
+      "title": "Erbach",
+      "type": "AD",
+      "elevation": "1558 FT",
+      "traffic": "CIVIL",
+      "lat": "482031N",
+      "lon": "0095500E"
+    },
+    {
+      "id": "EDNF",
+      "name": "EDNF",
+      "title": "Elsenthal-Grafenau",
+      "type": "AD",
+      "elevation": "1417 FT",
+      "traffic": "CIVIL",
+      "lat": "484920N",
+      "lon": "0132203E"
+    },
+    {
+      "id": "EDNG",
+      "name": "EDNG",
+      "title": "Giengen/Brenz",
+      "type": "AD",
+      "elevation": "1695 FT",
+      "traffic": "CIVIL",
+      "lat": "483806N",
+      "lon": "0101256E"
+    },
+    {
+      "id": "EDNH",
+      "name": "EDNH",
+      "title": "Bad Woerishofen-Nord",
+      "type": "AD",
+      "elevation": "2034 FT",
+      "traffic": "CIVIL",
+      "lat": "480059N",
+      "lon": "0103658E"
+    },
+    {
+      "id": "EDNI",
+      "name": "EDNI",
+      "title": "Berching",
+      "type": "AD",
+      "elevation": "1275 FT",
+      "traffic": "CIVIL",
+      "lat": "490750N",
+      "lon": "0112639E"
+    },
+    {
+      "id": "EDNJ",
+      "name": "EDNJ",
+      "title": "Neuburg-Egweil",
+      "type": "AD",
+      "elevation": "1345 FT",
+      "traffic": "CIVIL",
+      "lat": "484656N",
+      "lon": "0111255E"
+    },
+    {
+      "id": "EDNK",
+      "name": "EDNK",
+      "title": "Kirchdorf/Inn",
+      "type": "AD",
+      "elevation": "1138 FT",
+      "traffic": "CIVIL",
+      "lat": "481419N",
+      "lon": "0125836E"
+    },
+    {
+      "id": "EDNL",
+      "name": "EDNL",
+      "title": "Leutkirch-Unterzeil",
+      "type": "AD",
+      "elevation": "2099 FT",
+      "traffic": "CIVIL",
+      "lat": "475132N",
+      "lon": "0100052E"
+    },
+    {
+      "id": "EDNO",
+      "name": "EDNO",
+      "title": "Noerdlingen",
+      "type": "AD",
+      "elevation": "1384 FT",
+      "traffic": "CIVIL",
+      "lat": "485216N",
+      "lon": "0103021E"
+    },
+    {
+      "id": "EDNP",
+      "name": "EDNP",
+      "title": "Pfarrkirchen",
+      "type": "AD",
+      "elevation": "1266 FT",
+      "traffic": "CIVIL",
+      "lat": "482513N",
+      "lon": "0125153E"
+    },
+    {
+      "id": "EDNQ",
+      "name": "EDNQ",
+      "title": "Bopfingen",
+      "type": "AD",
+      "elevation": "2028 FT",
+      "traffic": "CIVIL",
+      "lat": "485054N",
+      "lon": "0102002E"
+    },
+    {
+      "id": "EDNR",
+      "name": "EDNR",
+      "title": "Regensburg-Oberhub",
+      "type": "AD",
+      "elevation": "1298 FT",
+      "traffic": "CIVIL",
+      "lat": "490831N",
+      "lon": "0120455E"
+    },
+    {
+      "id": "EDNS",
+      "name": "EDNS",
+      "title": "Schwabmuenchen",
+      "type": "AD",
+      "elevation": "1805 FT",
+      "traffic": "CIVIL",
+      "lat": "481046N",
+      "lon": "0104210E"
+    },
+    {
+      "id": "EDNT",
+      "name": "EDNT",
+      "title": "Treuchtlingen-Bubenheim",
+      "type": "AD",
+      "elevation": "1345 FT",
+      "traffic": "CIVIL",
+      "lat": "485945N",
+      "lon": "0105305E"
+    },
+    {
+      "id": "EDNU",
+      "name": "EDNU",
+      "title": "Thannhausen",
+      "type": "AD",
+      "elevation": "1611 FT",
+      "traffic": "CIVIL",
+      "lat": "481724N",
+      "lon": "0102631E"
+    },
+    {
+      "id": "EDNV",
+      "name": "EDNV",
+      "title": "Vogtareuth",
+      "type": "AD",
+      "elevation": "1535 FT",
+      "traffic": "CIVIL",
+      "lat": "475646N",
+      "lon": "0121217E"
+    },
+    {
+      "id": "EDNW",
+      "name": "EDNW",
+      "title": "Weissenhorn",
+      "type": "AD",
+      "elevation": "1642 FT",
+      "traffic": "CIVIL",
+      "lat": "481722N",
+      "lon": "0100825E"
+    },
+    {
+      "id": "EDNX",
+      "name": "EDNX",
+      "title": "Oberschleissheim",
+      "type": "AD",
+      "elevation": "1596 FT",
+      "traffic": "CIVIL",
+      "lat": "481421N",
+      "lon": "0113333E"
+    },
+    {
+      "id": "EDNY",
+      "name": "EDNY",
+      "title": "Friedrichshafen",
+      "type": "AD",
+      "elevation": "1368 FT",
+      "traffic": "CIVIL",
+      "lat": "474017N",
+      "lon": "0093041E"
+    },
+    {
+      "id": "EDNZ",
+      "name": "EDNZ",
+      "title": "Zell-Haidberg",
+      "type": "AD",
+      "elevation": "1902 FT",
+      "traffic": "CIVIL",
+      "lat": "500812N",
+      "lon": "0114740E"
+    },
+    {
+      "id": "EDOA",
+      "name": "EDOA",
+      "title": "Auerbach",
+      "type": "AD",
+      "elevation": "1878 FT",
+      "traffic": "CIVIL",
+      "lat": "502950N",
+      "lon": "0122241E"
+    },
+    {
+      "id": "EDOB",
+      "name": "EDOB",
+      "title": "Bad Berka",
+      "type": "AD",
+      "elevation": "1024 FT",
+      "traffic": "CIVIL",
+      "lat": "505416N",
+      "lon": "0111525E"
+    },
+    {
+      "id": "EDOC",
+      "name": "EDOC",
+      "title": "Gardelegen",
+      "type": "AD",
+      "elevation": "230 FT",
+      "traffic": "CIVIL",
+      "lat": "523140N",
+      "lon": "0112115E"
+    },
+    {
+      "id": "EDOD",
+      "name": "EDOD",
+      "title": "Reinsdorf",
+      "type": "AD",
+      "elevation": "335 FT",
+      "traffic": "CIVIL",
+      "lat": "515404N",
+      "lon": "0131139E"
+    },
+    {
+      "id": "EDOE",
+      "name": "EDOE",
+      "title": "Boehlen",
+      "type": "AD",
+      "elevation": "424 FT",
+      "traffic": "CIVIL",
+      "lat": "511255N",
+      "lon": "0122204E"
+    },
+    {
+      "id": "EDOF",
+      "name": "EDOF",
+      "title": "Bad Frankenhausen",
+      "type": "AD",
+      "elevation": "786 FT",
+      "traffic": "CIVIL",
+      "lat": "512223N",
+      "lon": "0110829E"
+    },
+    {
+      "id": "EDOH",
+      "name": "EDOH",
+      "title": "Langhennersdorf",
+      "type": "AD",
+      "elevation": "1266 FT",
+      "traffic": "CIVIL",
+      "lat": "505654N",
+      "lon": "0131542E"
+    },
+    {
+      "id": "EDOI",
+      "name": "EDOI",
+      "title": "Bienenfarm",
+      "type": "AD",
+      "elevation": "100 FT",
+      "traffic": "CIVIL",
+      "lat": "523942N",
+      "lon": "0124446E"
+    },
+    {
+      "id": "EDOJ",
+      "name": "EDOJ",
+      "title": "Luesse",
+      "type": "AD",
+      "elevation": "213 FT",
+      "traffic": "CIVIL",
+      "lat": "520839N",
+      "lon": "0124011E"
+    },
+    {
+      "id": "EDOK",
+      "name": "EDOK",
+      "title": "Rudolstadt-Groschwitz",
+      "type": "AD",
+      "elevation": "1535 FT",
+      "traffic": "CIVIL",
+      "lat": "504358N",
+      "lon": "0111410E"
+    },
+    {
+      "id": "EDOL",
+      "name": "EDOL",
+      "title": "Oschersleben",
+      "type": "AD",
+      "elevation": "345 FT",
+      "traffic": "CIVIL",
+      "lat": "520217N",
+      "lon": "0111220E"
+    },
+    {
+      "id": "EDOM",
+      "name": "EDOM",
+      "title": "Klein Muehlingen",
+      "type": "AD",
+      "elevation": "171 FT",
+      "traffic": "CIVIL",
+      "lat": "515651N",
+      "lon": "0114611E"
+    },
+    {
+      "id": "EDON",
+      "name": "EDON",
+      "title": "Neuhardenberg",
+      "type": "AD",
+      "elevation": "35 FT",
+      "traffic": "CIVIL",
+      "lat": "523647N",
+      "lon": "0141433E"
+    },
+    {
+      "id": "EDOP",
+      "name": "EDOP",
+      "title": "Schwerin-Parchim",
+      "type": "LS",
+      "elevation": "166 FT",
+      "traffic": "CIVIL",
+      "lat": "532537N",
+      "lon": "0114700E"
+    },
+    {
+      "id": "EDOQ",
+      "name": "EDOQ",
+      "title": "Oschatz",
+      "type": "AD",
+      "elevation": "504 FT",
+      "traffic": "CIVIL",
+      "lat": "511749N",
+      "lon": "0130441E"
+    },
+    {
+      "id": "EDOR",
+      "name": "EDOR",
+      "title": "Stoelln/Rhinow",
+      "type": "AD",
+      "elevation": "131 FT",
+      "traffic": "CIVIL",
+      "lat": "524427N",
+      "lon": "0122324E"
+    },
+    {
+      "id": "EDOS",
+      "name": "EDOS",
+      "title": "Pennewitz",
+      "type": "AD",
+      "elevation": "1500 FT",
+      "traffic": "CIVIL",
+      "lat": "504010N",
+      "lon": "0110303E"
+    },
+    {
+      "id": "EDOT",
+      "name": "EDOT",
+      "title": "Greiz-Obergrochlitz",
+      "type": "AD",
+      "elevation": "1279 FT",
+      "traffic": "CIVIL",
+      "lat": "503838N",
+      "lon": "0121029E"
+    },
+    {
+      "id": "EDOU",
+      "name": "EDOU",
+      "title": "Weimar-Umpferstedt",
+      "type": "AD",
+      "elevation": "984 FT",
+      "traffic": "CIVIL",
+      "lat": "505754N",
+      "lon": "0112401E"
+    },
+    {
+      "id": "EDOV",
+      "name": "EDOV",
+      "title": "Stendal-Borstel",
+      "type": "AD",
+      "elevation": "184 FT",
+      "traffic": "CIVIL",
+      "lat": "523744N",
+      "lon": "0114912E"
+    },
+    {
+      "id": "EDOW",
+      "name": "EDOW",
+      "title": "Waren/Vielist",
+      "type": "AD",
+      "elevation": "282 FT",
+      "traffic": "CIVIL",
+      "lat": "533407N",
+      "lon": "0123910E"
+    },
+    {
+      "id": "EDOX",
+      "name": "EDOX",
+      "title": "Renneritz",
+      "type": "AD",
+      "elevation": "308 FT",
+      "traffic": "CIVIL",
+      "lat": "513535N",
+      "lon": "0121414E"
+    },
+    {
+      "id": "EDOY",
+      "name": "EDOY",
+      "title": "Ahrensfelde",
+      "type": "HP",
+      "elevation": "217 FT",
+      "traffic": "",
+      "lat": "523601N",
+      "lon": "0133434E"
+    },
+    {
+      "id": "EDOZ",
+      "name": "EDOZ",
+      "title": "Schoenebeck-Zackmuende",
+      "type": "AD",
+      "elevation": "167 FT",
+      "traffic": "CIVIL",
+      "lat": "515950N",
+      "lon": "0114724E"
+    },
+    {
+      "id": "EDPA",
+      "name": "EDPA",
+      "title": "Aalen-Heidenheim/Elchingen",
+      "type": "AD",
+      "elevation": "1916 FT",
+      "traffic": "CIVIL",
+      "lat": "484640N",
+      "lon": "0101553E"
+    },
+    {
+      "id": "EDPB",
+      "name": "EDPB",
+      "title": "Bad Ditzenbach",
+      "type": "AD",
+      "elevation": "2362 FT",
+      "traffic": "CIVIL",
+      "lat": "483346N",
+      "lon": "0094345E"
+    },
+    {
+      "id": "EDPC",
+      "name": "EDPC",
+      "title": "Bad Endorf/Jolling",
+      "type": "AD",
+      "elevation": "1687 FT",
+      "traffic": "CIVIL",
+      "lat": "475537N",
+      "lon": "0121714E"
+    },
+    {
+      "id": "EDPD",
+      "name": "EDPD",
+      "title": "Dingolfing",
+      "type": "AD",
+      "elevation": "1165 FT",
+      "traffic": "CIVIL",
+      "lat": "483928N",
+      "lon": "0123002E"
+    },
+    {
+      "id": "EDPE",
+      "name": "EDPE",
+      "title": "Eichstaett",
+      "type": "AD",
+      "elevation": "1713 FT",
+      "traffic": "CIVIL",
+      "lat": "485237N",
+      "lon": "0111056E"
+    },
+    {
+      "id": "EDPF",
+      "name": "EDPF",
+      "title": "Schwandorf",
+      "type": "AD",
+      "elevation": "1270 FT",
+      "traffic": "CIVIL",
+      "lat": "492026N",
+      "lon": "0121105E"
+    },
+    {
+      "id": "EDPG",
+      "name": "EDPG",
+      "title": "Griesau",
+      "type": "AD",
+      "elevation": "1060 FT",
+      "traffic": "CIVIL",
+      "lat": "485713N",
+      "lon": "0122517E"
+    },
+    {
+      "id": "EDPH",
+      "name": "EDPH",
+      "title": "Schwabach-Buechenbach",
+      "type": "AD",
+      "elevation": "1181 FT",
+      "traffic": "CIVIL",
+      "lat": "491607N",
+      "lon": "0110034E"
+    },
+    {
+      "id": "EDPI",
+      "name": "EDPI",
+      "title": "Moosburg Auf Der Kippe",
+      "type": "AD",
+      "elevation": "1376 FT",
+      "traffic": "CIVIL",
+      "lat": "482727N",
+      "lon": "0115634E"
+    },
+    {
+      "id": "EDPJ",
+      "name": "EDPJ",
+      "title": "Laichingen",
+      "type": "AD",
+      "elevation": "2434 FT",
+      "traffic": "CIVIL",
+      "lat": "482947N",
+      "lon": "0093821E"
+    },
+    {
+      "id": "EDPK",
+      "name": "EDPK",
+      "title": "Schoenberg",
+      "type": "AD",
+      "elevation": "1780 FT",
+      "traffic": "CIVIL",
+      "lat": "480252N",
+      "lon": "0123002E"
+    },
+    {
+      "id": "EDPM",
+      "name": "EDPM",
+      "title": "Donzdorf",
+      "type": "AD",
+      "elevation": "2272 FT",
+      "traffic": "CIVIL",
+      "lat": "484041N",
+      "lon": "0095037E"
+    },
+    {
+      "id": "EDPO",
+      "name": "EDPO",
+      "title": "Neumarkt/Opf.",
+      "type": "AD",
+      "elevation": "1394 FT",
+      "traffic": "CIVIL",
+      "lat": "491708N",
+      "lon": "0112641E"
+    },
+    {
+      "id": "EDPQ",
+      "name": "EDPQ",
+      "title": "Schmidgaden",
+      "type": "AD",
+      "elevation": "1247 FT",
+      "traffic": "CIVIL",
+      "lat": "492547N",
+      "lon": "0120549E"
+    },
+    {
+      "id": "EDPR",
+      "name": "EDPR",
+      "title": "Donauwoerth",
+      "type": "HP",
+      "elevation": "1315 FT",
+      "traffic": "",
+      "lat": "484227N",
+      "lon": "0104609E"
+    },
+    {
+      "id": "EDPS",
+      "name": "EDPS",
+      "title": "Sonnen",
+      "type": "AD",
+      "elevation": "2702 FT",
+      "traffic": "CIVIL",
+      "lat": "484058N",
+      "lon": "0134145E"
+    },
+    {
+      "id": "EDPT",
+      "name": "EDPT",
+      "title": "Gerstetten",
+      "type": "AD",
+      "elevation": "1959 FT",
+      "traffic": "CIVIL",
+      "lat": "483713N",
+      "lon": "0100333E"
+    },
+    {
+      "id": "EDPU",
+      "name": "EDPU",
+      "title": "Bartholomae-Amalienhof",
+      "type": "AD",
+      "elevation": "2100 FT",
+      "traffic": "CIVIL",
+      "lat": "484448N",
+      "lon": "0100018E"
+    },
+    {
+      "id": "EDPW",
+      "name": "EDPW",
+      "title": "Thalmaessing-Waizenhofen",
+      "type": "AD",
+      "elevation": "1892 FT",
+      "traffic": "CIVIL",
+      "lat": "490351N",
+      "lon": "0111234E"
+    },
+    {
+      "id": "EDPY",
+      "name": "EDPY",
+      "title": "Ellwangen",
+      "type": "AD",
+      "elevation": "1649 FT",
+      "traffic": "CIVIL",
+      "lat": "485739N",
+      "lon": "0101412E"
+    },
+    {
+      "id": "EDPZ",
+      "name": "EDPZ",
+      "title": "Paterzell",
+      "type": "AD",
+      "elevation": "1929 FT",
+      "traffic": "CIVIL",
+      "lat": "475046N",
+      "lon": "0110340E"
+    },
+    {
+      "id": "EDQA",
+      "name": "EDQA",
+      "title": "Bamberg-Breitenau",
+      "type": "AD",
+      "elevation": "827 FT",
+      "traffic": "CIVIL",
+      "lat": "495514N",
+      "lon": "0105452E"
+    },
+    {
+      "id": "EDQB",
+      "name": "EDQB",
+      "title": "Bad Windsheim",
+      "type": "AD",
+      "elevation": "1220 FT",
+      "traffic": "CIVIL",
+      "lat": "493036N",
+      "lon": "0102200E"
+    },
+    {
+      "id": "EDQC",
+      "name": "EDQC",
+      "title": "Coburg-Brandensteinsebene",
+      "type": "AD",
+      "elevation": "1486 FT",
+      "traffic": "CIVIL",
+      "lat": "501548N",
+      "lon": "0105942E"
+    },
+    {
+      "id": "EDQD",
+      "name": "EDQD",
+      "title": "Bayreuth",
+      "type": "AD",
+      "elevation": "1600 FT",
+      "traffic": "CIVIL",
+      "lat": "495904N",
+      "lon": "0113819E"
+    },
+    {
+      "id": "EDQE",
+      "name": "EDQE",
+      "title": "Burg Feuerstein",
+      "type": "AD",
+      "elevation": "1662 FT",
+      "traffic": "CIVIL",
+      "lat": "494742N",
+      "lon": "0110804E"
+    },
+    {
+      "id": "EDQF",
+      "name": "EDQF",
+      "title": "Ansbach-Petersdorf",
+      "type": "AD",
+      "elevation": "1375 FT",
+      "traffic": "CIVIL",
+      "lat": "492139N",
+      "lon": "0104006E"
+    },
+    {
+      "id": "EDQG",
+      "name": "EDQG",
+      "title": "Giebelstadt",
+      "type": "AD",
+      "elevation": "980 FT",
+      "traffic": "CIVIL",
+      "lat": "493853N",
+      "lon": "0095759E"
+    },
+    {
+      "id": "EDQH",
+      "name": "EDQH",
+      "title": "Herzogenaurach",
+      "type": "AD",
+      "elevation": "1070 FT",
+      "traffic": "CIVIL",
+      "lat": "493458N",
+      "lon": "0105241E"
+    },
+    {
+      "id": "EDQI",
+      "name": "EDQI",
+      "title": "Lauf-Lillinghof",
+      "type": "AD",
+      "elevation": "1789 FT",
+      "traffic": "CIVIL",
+      "lat": "493617N",
+      "lon": "0111702E"
+    },
+    {
+      "id": "EDQK",
+      "name": "EDQK",
+      "title": "Kulmbach",
+      "type": "AD",
+      "elevation": "1660 FT",
+      "traffic": "CIVIL",
+      "lat": "500806N",
+      "lon": "0112731E"
+    },
+    {
+      "id": "EDQL",
+      "name": "EDQL",
+      "title": "Lichtenfels",
+      "type": "AD",
+      "elevation": "853 FT",
+      "traffic": "CIVIL",
+      "lat": "500854N",
+      "lon": "0110250E"
+    },
+    {
+      "id": "EDQM",
+      "name": "EDQM",
+      "title": "Hof-Plauen",
+      "type": "AD",
+      "elevation": "1961 FT",
+      "traffic": "CIVIL",
+      "lat": "501720N",
+      "lon": "0115118E"
+    },
+    {
+      "id": "EDQN",
+      "name": "EDQN",
+      "title": "Neustadt/Aisch",
+      "type": "AD",
+      "elevation": "1198 FT",
+      "traffic": "CIVIL",
+      "lat": "493515N",
+      "lon": "0103439E"
+    },
+    {
+      "id": "EDQO",
+      "name": "EDQO",
+      "title": "Ottengruener Heide",
+      "type": "AD",
+      "elevation": "1880 FT",
+      "traffic": "CIVIL",
+      "lat": "501333N",
+      "lon": "0114357E"
+    },
+    {
+      "id": "EDQP",
+      "name": "EDQP",
+      "title": "Rosenthal-Field-Ploessen",
+      "type": "AD",
+      "elevation": "1496 FT",
+      "traffic": "CIVIL",
+      "lat": "495147N",
+      "lon": "0114716E"
+    },
+    {
+      "id": "EDQR",
+      "name": "EDQR",
+      "title": "Ebern-Sendelbach",
+      "type": "AD",
+      "elevation": "828 FT",
+      "traffic": "CIVIL",
+      "lat": "500223N",
+      "lon": "0104922E"
+    },
+    {
+      "id": "EDQS",
+      "name": "EDQS",
+      "title": "Suhl-Goldlauter",
+      "type": "AD",
+      "elevation": "1928 FT",
+      "traffic": "CIVIL",
+      "lat": "503756N",
+      "lon": "0104334E"
+    },
+    {
+      "id": "EDQT",
+      "name": "EDQT",
+      "title": "Hassfurt-Hassberge",
+      "type": "AD",
+      "elevation": "720 FT",
+      "traffic": "CIVIL",
+      "lat": "500105N",
+      "lon": "0103146E"
+    },
+    {
+      "id": "EDQW",
+      "name": "EDQW",
+      "title": "Weiden/Opf.",
+      "type": "AD",
+      "elevation": "1330 FT",
+      "traffic": "CIVIL",
+      "lat": "494044N",
+      "lon": "0120700E"
+    },
+    {
+      "id": "EDQX",
+      "name": "EDQX",
+      "title": "Hetzleser Berg",
+      "type": "AD",
+      "elevation": "1749 FT",
+      "traffic": "CIVIL",
+      "lat": "493832N",
+      "lon": "0110942E"
+    },
+    {
+      "id": "EDQZ",
+      "name": "EDQZ",
+      "title": "Pegnitz-Zipser Berg",
+      "type": "AD",
+      "elevation": "1792 FT",
+      "traffic": "CIVIL",
+      "lat": "494544N",
+      "lon": "0113429E"
+    },
+    {
+      "id": "EDRA",
+      "name": "EDRA",
+      "title": "Bad Neuenahr-Ahrweiler",
+      "type": "AD",
+      "elevation": "672 FT",
+      "traffic": "CIVIL",
+      "lat": "503328N",
+      "lon": "0070814E"
+    },
+    {
+      "id": "EDRB",
+      "name": "EDRB",
+      "title": "Bitburg",
+      "type": "AD",
+      "elevation": "1226 FT",
+      "traffic": "CIVIL",
+      "lat": "495654N",
+      "lon": "0063418E"
+    },
+    {
+      "id": "EDRC",
+      "name": "EDRC",
+      "title": "Marpingen",
+      "type": "AD",
+      "elevation": "1170 FT",
+      "traffic": "CIVIL",
+      "lat": "492710N",
+      "lon": "0070221E"
+    },
+    {
+      "id": "EDRD",
+      "name": "EDRD",
+      "title": "Neumagen-Dhron",
+      "type": "AD",
+      "elevation": "879 FT",
+      "traffic": "CIVIL",
+      "lat": "495034N",
+      "lon": "0065458E"
+    },
+    {
+      "id": "EDRE",
+      "name": "EDRE",
+      "title": "Mendig",
+      "type": "AD",
+      "elevation": "571 FT",
+      "traffic": "CIVIL",
+      "lat": "502158N",
+      "lon": "0071855E"
+    },
+    {
+      "id": "EDRF",
+      "name": "EDRF",
+      "title": "Bad Duerkheim",
+      "type": "AD",
+      "elevation": "351 FT",
+      "traffic": "CIVIL",
+      "lat": "492823N",
+      "lon": "0081147E"
+    },
+    {
+      "id": "EDRG",
+      "name": "EDRG",
+      "title": "Idar-Oberstein/Goettschied",
+      "type": "AD",
+      "elevation": "1575 FT",
+      "traffic": "CIVIL",
+      "lat": "494358N",
+      "lon": "0072017E"
+    },
+    {
+      "id": "EDRH",
+      "name": "EDRH",
+      "title": "Hoppstaedten-Weiersbach",
+      "type": "AD",
+      "elevation": "1093 FT",
+      "traffic": "JOINT",
+      "lat": "493641N",
+      "lon": "0071106E"
+    },
+    {
+      "id": "EDRI",
+      "name": "EDRI",
+      "title": "Linkenheim",
+      "type": "AD",
+      "elevation": "325 FT",
+      "traffic": "CIVIL",
+      "lat": "490828N",
+      "lon": "0082341E"
+    },
+    {
+      "id": "EDRJ",
+      "name": "EDRJ",
+      "title": "Saarlouis-Dueren",
+      "type": "AD",
+      "elevation": "1120 FT",
+      "traffic": "CIVIL",
+      "lat": "491845N",
+      "lon": "0064026E"
+    },
+    {
+      "id": "EDRK",
+      "name": "EDRK",
+      "title": "Koblenz-Winningen",
+      "type": "AD",
+      "elevation": "640 FT",
+      "traffic": "CIVIL",
+      "lat": "501932N",
+      "lon": "0073143E"
+    },
+    {
+      "id": "EDRL",
+      "name": "EDRL",
+      "title": "Lachen-Speyerdorf",
+      "type": "AD",
+      "elevation": "394 FT",
+      "traffic": "CIVIL",
+      "lat": "491951N",
+      "lon": "0081219E"
+    },
+    {
+      "id": "EDRM",
+      "name": "EDRM",
+      "title": "Traben-Trarbach/Mont Royal",
+      "type": "AD",
+      "elevation": "919 FT",
+      "traffic": "CIVIL",
+      "lat": "495804N",
+      "lon": "0070642E"
+    },
+    {
+      "id": "EDRN",
+      "name": "EDRN",
+      "title": "Nannhausen",
+      "type": "AD",
+      "elevation": "1238 FT",
+      "traffic": "CIVIL",
+      "lat": "495812N",
+      "lon": "0072842E"
+    },
+    {
+      "id": "EDRO",
+      "name": "EDRO",
+      "title": "Schweighofen",
+      "type": "AD",
+      "elevation": "492 FT",
+      "traffic": "CIVIL",
+      "lat": "490154N",
+      "lon": "0075924E"
+    },
+    {
+      "id": "EDRP",
+      "name": "EDRP",
+      "title": "Pirmasens",
+      "type": "AD",
+      "elevation": "1247 FT",
+      "traffic": "CIVIL",
+      "lat": "491556N",
+      "lon": "0072927E"
+    },
+    {
+      "id": "EDRQ",
+      "name": "EDRQ",
+      "title": "Imsweiler",
+      "type": "AD",
+      "elevation": "944 FT",
+      "traffic": "CIVIL",
+      "lat": "493623N",
+      "lon": "0074744E"
+    },
+    {
+      "id": "EDRS",
+      "name": "EDRS",
+      "title": "Bad Sobernheim-Domberg",
+      "type": "AD",
+      "elevation": "810 FT",
+      "traffic": "CIVIL",
+      "lat": "494727N",
+      "lon": "0073957E"
+    },
+    {
+      "id": "EDRT",
+      "name": "EDRT",
+      "title": "Trier-Foehren",
+      "type": "AD",
+      "elevation": "665 FT",
+      "traffic": "JOINT",
+      "lat": "495151N",
+      "lon": "0064716E"
+    },
+    {
+      "id": "EDRV",
+      "name": "EDRV",
+      "title": "Wershofen/Eifel",
+      "type": "AD",
+      "elevation": "1582 FT",
+      "traffic": "CIVIL",
+      "lat": "502707N",
+      "lon": "0064709E"
+    },
+    {
+      "id": "EDRW",
+      "name": "EDRW",
+      "title": "Dierdorf-Wienau",
+      "type": "AD",
+      "elevation": "951 FT",
+      "traffic": "CIVIL",
+      "lat": "503359N",
+      "lon": "0073914E"
+    },
+    {
+      "id": "EDRX",
+      "name": "EDRX",
+      "title": "Neunkirchen-Bexbach",
+      "type": "AD",
+      "elevation": "892 FT",
+      "traffic": "CIVIL",
+      "lat": "492023N",
+      "lon": "0071510E"
+    },
+    {
+      "id": "EDRY",
+      "name": "EDRY",
+      "title": "Speyer",
+      "type": "AD",
+      "elevation": "312 FT",
+      "traffic": "CIVIL",
+      "lat": "491808N",
+      "lon": "0082706E"
+    },
+    {
+      "id": "EDRZ",
+      "name": "EDRZ",
+      "title": "Zweibruecken",
+      "type": "AD",
+      "elevation": "1134 FT",
+      "traffic": "CIVIL",
+      "lat": "491234N",
+      "lon": "0072402E"
+    },
+    {
+      "id": "EDSA",
+      "name": "EDSA",
+      "title": "Albstadt-Degerfeld",
+      "type": "AD",
+      "elevation": "2924 FT",
+      "traffic": "CIVIL",
+      "lat": "481459N",
+      "lon": "0090337E"
+    },
+    {
+      "id": "EDSB",
+      "name": "EDSB",
+      "title": "Karlsruhe/Baden-Baden",
+      "type": "AD",
+      "elevation": "409 FT",
+      "traffic": "CIVIL",
+      "lat": "484646N",
+      "lon": "0080450E"
+    },
+    {
+      "id": "EDSD",
+      "name": "EDSD",
+      "title": "Deckenpfronn",
+      "type": "AD",
+      "elevation": "1895 FT",
+      "traffic": "CIVIL",
+      "lat": "483820N",
+      "lon": "0084906E"
+    },
+    {
+      "id": "EDSE",
+      "name": "EDSE",
+      "title": "Goeppingen-Bezgenriet",
+      "type": "AD",
+      "elevation": "1208 FT",
+      "traffic": "CIVIL",
+      "lat": "483930N",
+      "lon": "0093730E"
+    },
+    {
+      "id": "EDSF",
+      "name": "EDSF",
+      "title": "Huetten-Hotzenwald",
+      "type": "AD",
+      "elevation": "2887 FT",
+      "traffic": "CIVIL",
+      "lat": "473802N",
+      "lon": "0075614E"
+    },
+    {
+      "id": "EDSG",
+      "name": "EDSG",
+      "title": "Grabenstetten",
+      "type": "AD",
+      "elevation": "2329 FT",
+      "traffic": "CIVIL",
+      "lat": "483210N",
+      "lon": "0092613E"
+    },
+    {
+      "id": "EDSH",
+      "name": "EDSH",
+      "title": "Backnang-Heiningen",
+      "type": "AD",
+      "elevation": "971 FT",
+      "traffic": "CIVIL",
+      "lat": "485511N",
+      "lon": "0092719E"
+    },
+    {
+      "id": "EDSI",
+      "name": "EDSI",
+      "title": "Binningen",
+      "type": "AD",
+      "elevation": "1594 FT",
+      "traffic": "CIVIL",
+      "lat": "474757N",
+      "lon": "0084314E"
+    },
+    {
+      "id": "EDSK",
+      "name": "EDSK",
+      "title": "Kehl-Sundheim",
+      "type": "AD",
+      "elevation": "452 FT",
+      "traffic": "CIVIL",
+      "lat": "483342N",
+      "lon": "0075038E"
+    },
+    {
+      "id": "EDSL",
+      "name": "EDSL",
+      "title": "Blumberg",
+      "type": "AD",
+      "elevation": "2291 FT",
+      "traffic": "CIVIL",
+      "lat": "475042N",
+      "lon": "0083357E"
+    },
+    {
+      "id": "EDSM",
+      "name": "EDSM",
+      "title": "Muellheim",
+      "type": "AD",
+      "elevation": "965 FT",
+      "traffic": "CIVIL",
+      "lat": "474928N",
+      "lon": "0073822E"
+    },
+    {
+      "id": "EDSN",
+      "name": "EDSN",
+      "title": "Neuhausen Ob Eck",
+      "type": "AD",
+      "elevation": "2648 FT",
+      "traffic": "CIVIL",
+      "lat": "475837N",
+      "lon": "0085418E"
+    },
+    {
+      "id": "EDSO",
+      "name": "EDSO",
+      "title": "Gruibingen-Nortel",
+      "type": "AD",
+      "elevation": "2323 FT",
+      "traffic": "CIVIL",
+      "lat": "483716N",
+      "lon": "0093921E"
+    },
+    {
+      "id": "EDSP",
+      "name": "EDSP",
+      "title": "Poltringen",
+      "type": "AD",
+      "elevation": "1313 FT",
+      "traffic": "CIVIL",
+      "lat": "483250N",
+      "lon": "0085645E"
+    },
+    {
+      "id": "EDSR",
+      "name": "EDSR",
+      "title": "Radolfzell-Stahringen",
+      "type": "AD",
+      "elevation": "1381 FT",
+      "traffic": "CIVIL",
+      "lat": "474810N",
+      "lon": "0085846E"
+    },
+    {
+      "id": "EDST",
+      "name": "EDST",
+      "title": "Hahnweide",
+      "type": "AD",
+      "elevation": "1167 FT",
+      "traffic": "CIVIL",
+      "lat": "483755N",
+      "lon": "0092546E"
+    },
+    {
+      "id": "EDSV",
+      "name": "EDSV",
+      "title": "Waechtersberg",
+      "type": "AD",
+      "elevation": "1962 FT",
+      "traffic": "CIVIL",
+      "lat": "483655N",
+      "lon": "0084520E"
+    },
+    {
+      "id": "EDSW",
+      "name": "EDSW",
+      "title": "Altdorf-Wallburg",
+      "type": "AD",
+      "elevation": "625 FT",
+      "traffic": "CIVIL",
+      "lat": "481612N",
+      "lon": "0075032E"
+    },
+    {
+      "id": "EDSX",
+      "name": "EDSX",
+      "title": "Voelkleshofen-Lichtenberg",
+      "type": "AD",
+      "elevation": "1301 FT",
+      "traffic": "CIVIL",
+      "lat": "490034N",
+      "lon": "0092117E"
+    },
+    {
+      "id": "EDSZ",
+      "name": "EDSZ",
+      "title": "Rottweil-Zepfenhan",
+      "type": "AD",
+      "elevation": "2444 FT",
+      "traffic": "CIVIL",
+      "lat": "481112N",
+      "lon": "0084316E"
+    },
+    {
+      "id": "EDTA",
+      "name": "EDTA",
+      "title": "Bohlhof",
+      "type": "AD",
+      "elevation": "1866 FT",
+      "traffic": "CIVIL",
+      "lat": "473903N",
+      "lon": "0082312E"
+    },
+    {
+      "id": "EDTB",
+      "name": "EDTB",
+      "title": "Baden-Oos",
+      "type": "AD",
+      "elevation": "405 FT",
+      "traffic": "CIVIL",
+      "lat": "484730N",
+      "lon": "0081112E"
+    },
+    {
+      "id": "EDTC",
+      "name": "EDTC",
+      "title": "Bruchsal",
+      "type": "AD",
+      "elevation": "364 FT",
+      "traffic": "CIVIL",
+      "lat": "490806N",
+      "lon": "0083349E"
+    },
+    {
+      "id": "EDTD",
+      "name": "EDTD",
+      "title": "Donaueschingen-Villingen",
+      "type": "AD",
+      "elevation": "2231 FT",
+      "traffic": "CIVIL",
+      "lat": "475825N",
+      "lon": "0083120E"
+    },
+    {
+      "id": "EDTE",
+      "name": "EDTE",
+      "title": "Eutingen Im Gaeu",
+      "type": "AD",
+      "elevation": "1640 FT",
+      "traffic": "CIVIL",
+      "lat": "482908N",
+      "lon": "0084641E"
+    },
+    {
+      "id": "EDTF",
+      "name": "EDTF",
+      "title": "Freiburg I.Br.",
+      "type": "AD",
+      "elevation": "805 FT",
+      "traffic": "JOINT",
+      "lat": "480114N",
+      "lon": "0075001E"
+    },
+    {
+      "id": "EDTG",
+      "name": "EDTG",
+      "title": "Bremgarten",
+      "type": "AD",
+      "elevation": "695 FT",
+      "traffic": "CIVIL",
+      "lat": "475412N",
+      "lon": "0073704E"
+    },
+    {
+      "id": "EDTH",
+      "name": "EDTH",
+      "title": "Heubach",
+      "type": "AD",
+      "elevation": "1423 FT",
+      "traffic": "CIVIL",
+      "lat": "484808N",
+      "lon": "0095539E"
+    },
+    {
+      "id": "EDTK",
+      "name": "EDTK",
+      "title": "Sinsheim",
+      "type": "AD",
+      "elevation": "519 FT",
+      "traffic": "CIVIL",
+      "lat": "491454N",
+      "lon": "0085341E"
+    },
+    {
+      "id": "EDTL",
+      "name": "EDTL",
+      "title": "Lahr",
+      "type": "AD",
+      "elevation": "511 FT",
+      "traffic": "CIVIL",
+      "lat": "482209N",
+      "lon": "0074940E"
+    },
+    {
+      "id": "EDTM",
+      "name": "EDTM",
+      "title": "Mengen-Hohentengen",
+      "type": "AD",
+      "elevation": "1821 FT",
+      "traffic": "CIVIL",
+      "lat": "480314N",
+      "lon": "0092222E"
+    },
+    {
+      "id": "EDTN",
+      "name": "EDTN",
+      "title": "Nabern/Teck",
+      "type": "AD",
+      "elevation": "1215 FT",
+      "traffic": "CIVIL",
+      "lat": "483645N",
+      "lon": "0092838E"
+    },
+    {
+      "id": "EDTO",
+      "name": "EDTO",
+      "title": "Offenburg",
+      "type": "AD",
+      "elevation": "509 FT",
+      "traffic": "CIVIL",
+      "lat": "482659N",
+      "lon": "0075529E"
+    },
+    {
+      "id": "EDTP",
+      "name": "EDTP",
+      "title": "Pfullendorf",
+      "type": "AD",
+      "elevation": "2301 FT",
+      "traffic": "CIVIL",
+      "lat": "475431N",
+      "lon": "0091506E"
+    },
+    {
+      "id": "EDTQ",
+      "name": "EDTQ",
+      "title": "Pattonville",
+      "type": "AD",
+      "elevation": "926 FT",
+      "traffic": "CIVIL",
+      "lat": "485150N",
+      "lon": "0091327E"
+    },
+    {
+      "id": "EDTR",
+      "name": "EDTR",
+      "title": "Herten-Rheinfelden",
+      "type": "AD",
+      "elevation": "925 FT",
+      "traffic": "CIVIL",
+      "lat": "473336N",
+      "lon": "0074454E"
+    },
+    {
+      "id": "EDTS",
+      "name": "EDTS",
+      "title": "Schwenningen Am Neckar",
+      "type": "AD",
+      "elevation": "2169 FT",
+      "traffic": "CIVIL",
+      "lat": "480357N",
+      "lon": "0083417E"
+    },
+    {
+      "id": "EDTU",
+      "name": "EDTU",
+      "title": "Saulgau",
+      "type": "AD",
+      "elevation": "1907 FT",
+      "traffic": "CIVIL",
+      "lat": "480146N",
+      "lon": "0093026E"
+    },
+    {
+      "id": "EDTW",
+      "name": "EDTW",
+      "title": "Winzeln-Schramberg",
+      "type": "AD",
+      "elevation": "2202 FT",
+      "traffic": "CIVIL",
+      "lat": "481645N",
+      "lon": "0082542E"
+    },
+    {
+      "id": "EDTX",
+      "name": "EDTX",
+      "title": "Schwaebisch Hall-Weckrieden",
+      "type": "AD",
+      "elevation": "1295 FT",
+      "traffic": "CIVIL",
+      "lat": "490728N",
+      "lon": "0094654E"
+    },
+    {
+      "id": "EDTY",
+      "name": "EDTY",
+      "title": "Schwaebisch Hall",
+      "type": "AD",
+      "elevation": "1311 FT",
+      "traffic": "CIVIL",
+      "lat": "490706N",
+      "lon": "0094702E"
+    },
+    {
+      "id": "EDTZ",
+      "name": "EDTZ",
+      "title": "Konstanz",
+      "type": "AD",
+      "elevation": "1302 FT",
+      "traffic": "CIVIL",
+      "lat": "474055N",
+      "lon": "0090814E"
+    },
+    {
+      "id": "EDUA",
+      "name": "EDUA",
+      "title": "Stechow-Ferchesar",
+      "type": "AD",
+      "elevation": "148 FT",
+      "traffic": "CIVIL",
+      "lat": "523903N",
+      "lon": "0122916E"
+    },
+    {
+      "id": "EDUF",
+      "name": "EDUF",
+      "title": "Falkenberg-Loennewitz",
+      "type": "AD",
+      "elevation": "284 FT",
+      "traffic": "CIVIL",
+      "lat": "513252N",
+      "lon": "0131341E"
+    },
+    {
+      "id": "EDUG",
+      "name": "EDUG",
+      "title": "Gransee",
+      "type": "AD",
+      "elevation": "168 FT",
+      "traffic": "CIVIL",
+      "lat": "530024N",
+      "lon": "0131205E"
+    },
+    {
+      "id": "EDUM",
+      "name": "EDUM",
+      "title": "Crussow",
+      "type": "AD",
+      "elevation": "176 FT",
+      "traffic": "CIVIL",
+      "lat": "530049N",
+      "lon": "0140413E"
+    },
+    {
+      "id": "EDUO",
+      "name": "EDUO",
+      "title": "Oberrissdorf",
+      "type": "AD",
+      "elevation": "739 FT",
+      "traffic": "CIVIL",
+      "lat": "513233N",
+      "lon": "0113545E"
+    },
+    {
+      "id": "EDUP",
+      "name": "EDUP",
+      "title": "Perleberg",
+      "type": "AD",
+      "elevation": "98 FT",
+      "traffic": "CIVIL",
+      "lat": "530413N",
+      "lon": "0114906E"
+    },
+    {
+      "id": "EDUW",
+      "name": "EDUW",
+      "title": "Tutow",
+      "type": "AD",
+      "elevation": "23 FT",
+      "traffic": "CIVIL",
+      "lat": "535503N",
+      "lon": "0131313E"
+    },
+    {
+      "id": "EDUY",
+      "name": "EDUY",
+      "title": "Sedlitzer See",
+      "type": "AD",
+      "elevation": "331 FT",
+      "traffic": "CIVIL",
+      "lat": "513328N",
+      "lon": "0140618E"
+    },
+    {
+      "id": "EDUZ",
+      "name": "EDUZ",
+      "title": "Zerbst",
+      "type": "AD",
+      "elevation": "266 FT",
+      "traffic": "CIVIL",
+      "lat": "520003N",
+      "lon": "0120857E"
+    },
+    {
+      "id": "EDVA",
+      "name": "EDVA",
+      "title": "Bad Gandersheim",
+      "type": "AD",
+      "elevation": "792 FT",
+      "traffic": "CIVIL",
+      "lat": "515110N",
+      "lon": "0100136E"
+    },
+    {
+      "id": "EDVC",
+      "name": "EDVC",
+      "title": "Celle-Arloh",
+      "type": "AD",
+      "elevation": "207 FT",
+      "traffic": "CIVIL",
+      "lat": "524117N",
+      "lon": "0100646E"
+    },
+    {
+      "id": "EDVD",
+      "name": "EDVD",
+      "title": "Uslar",
+      "type": "AD",
+      "elevation": "853 FT",
+      "traffic": "CIVIL",
+      "lat": "513950N",
+      "lon": "0093637E"
+    },
+    {
+      "id": "EDVE",
+      "name": "EDVE",
+      "title": "Braunschweig-Wolfsburg",
+      "type": "AD",
+      "elevation": "296 FT",
+      "traffic": "CIVIL",
+      "lat": "521910N",
+      "lon": "0103332E"
+    },
+    {
+      "id": "EDVF",
+      "name": "EDVF",
+      "title": "Blomberg-Borkhausen",
+      "type": "AD",
+      "elevation": "535 FT",
+      "traffic": "CIVIL",
+      "lat": "515505N",
+      "lon": "0090648E"
+    },
+    {
+      "id": "EDVG",
+      "name": "EDVG",
+      "title": "Mengeringhausen",
+      "type": "AD",
+      "elevation": "1190 FT",
+      "traffic": "CIVIL",
+      "lat": "512235N",
+      "lon": "0085852E"
+    },
+    {
+      "id": "EDVH",
+      "name": "EDVH",
+      "title": "Hodenhagen",
+      "type": "AD",
+      "elevation": "82 FT",
+      "traffic": "CIVIL",
+      "lat": "524541N",
+      "lon": "0093637E"
+    },
+    {
+      "id": "EDVI",
+      "name": "EDVI",
+      "title": "Hoexter-Holzminden",
+      "type": "AD",
+      "elevation": "934 FT",
+      "traffic": "CIVIL",
+      "lat": "514823N",
+      "lon": "0092242E"
+    },
+    {
+      "id": "EDVJ",
+      "name": "EDVJ",
+      "title": "Salzgitter-Schaeferstuhl",
+      "type": "AD",
+      "elevation": "742 FT",
+      "traffic": "CIVIL",
+      "lat": "520143N",
+      "lon": "0102206E"
+    },
+    {
+      "id": "EDVK",
+      "name": "EDVK",
+      "title": "Kassel-Calden",
+      "type": "AD",
+      "elevation": "860 FT",
+      "traffic": "CIVIL",
+      "lat": "512515N",
+      "lon": "0092332E"
+    },
+    {
+      "id": "EDVL",
+      "name": "EDVL",
+      "title": "Hoelleberg",
+      "type": "AD",
+      "elevation": "837 FT",
+      "traffic": "CIVIL",
+      "lat": "513640N",
+      "lon": "0092351E"
+    },
+    {
+      "id": "EDVM",
+      "name": "EDVM",
+      "title": "Hildesheim",
+      "type": "AD",
+      "elevation": "293 FT",
+      "traffic": "JOINT",
+      "lat": "521047N",
+      "lon": "0095645E"
+    },
+    {
+      "id": "EDVN",
+      "name": "EDVN",
+      "title": "Northeim",
+      "type": "AD",
+      "elevation": "404 FT",
+      "traffic": "CIVIL",
+      "lat": "514224N",
+      "lon": "0100222E"
+    },
+    {
+      "id": "EDVP",
+      "name": "EDVP",
+      "title": "Peine-Glindbruchkippe",
+      "type": "AD",
+      "elevation": "246 FT",
+      "traffic": "CIVIL",
+      "lat": "521927N",
+      "lon": "0101053E"
+    },
+    {
+      "id": "EDVQ",
+      "name": "EDVQ",
+      "title": "Wilsche",
+      "type": "AD",
+      "elevation": "180 FT",
+      "traffic": "CIVIL",
+      "lat": "523128N",
+      "lon": "0102746E"
+    },
+    {
+      "id": "EDVR",
+      "name": "EDVR",
+      "title": "Rinteln",
+      "type": "AD",
+      "elevation": "180 FT",
+      "traffic": "CIVIL",
+      "lat": "521031N",
+      "lon": "0090312E"
+    },
+    {
+      "id": "EDVT",
+      "name": "EDVT",
+      "title": "Ithwiesen",
+      "type": "AD",
+      "elevation": "1280 FT",
+      "traffic": "CIVIL",
+      "lat": "515705N",
+      "lon": "0093944E"
+    },
+    {
+      "id": "EDVU",
+      "name": "EDVU",
+      "title": "Uelzen",
+      "type": "AD",
+      "elevation": "246 FT",
+      "traffic": "CIVIL",
+      "lat": "525900N",
+      "lon": "0102755E"
+    },
+    {
+      "id": "EDVW",
+      "name": "EDVW",
+      "title": "Bad Pyrmont",
+      "type": "AD",
+      "elevation": "1177 FT",
+      "traffic": "CIVIL",
+      "lat": "515803N",
+      "lon": "0091735E"
+    },
+    {
+      "id": "EDVX",
+      "name": "EDVX",
+      "title": "Gifhorn Bundespolizei",
+      "type": "HP",
+      "elevation": "209 FT",
+      "traffic": "",
+      "lat": "522943N",
+      "lon": "0103037E"
+    },
+    {
+      "id": "EDVY",
+      "name": "EDVY",
+      "title": "Porta Westfalica",
+      "type": "AD",
+      "elevation": "148 FT",
+      "traffic": "CIVIL",
+      "lat": "521320N",
+      "lon": "0085146E"
+    },
+    {
+      "id": "EDVZ",
+      "name": "EDVZ",
+      "title": "Fuldatal Ihringshausen",
+      "type": "HP",
+      "elevation": "697 FT",
+      "traffic": "",
+      "lat": "512135N",
+      "lon": "0093010E"
+    },
+    {
+      "id": "EDWC",
+      "name": "EDWC",
+      "title": "Damme",
+      "type": "AD",
+      "elevation": "151 FT",
+      "traffic": "CIVIL",
+      "lat": "522915N",
+      "lon": "0081110E"
+    },
+    {
+      "id": "EDWE",
+      "name": "EDWE",
+      "title": "Emden",
+      "type": "AD",
+      "elevation": "2 FT",
+      "traffic": "CIVIL",
+      "lat": "532328N",
+      "lon": "0071332E"
+    },
+    {
+      "id": "EDWF",
+      "name": "EDWF",
+      "title": "Leer-Papenburg",
+      "type": "AD",
+      "elevation": "3 FT",
+      "traffic": "CIVIL",
+      "lat": "531619N",
+      "lon": "0072631E"
+    },
+    {
+      "id": "EDWG",
+      "name": "EDWG",
+      "title": "Wangerooge",
+      "type": "AD",
+      "elevation": "6 FT",
+      "traffic": "CIVIL",
+      "lat": "534711N",
+      "lon": "0075444E"
+    },
+    {
+      "id": "EDWH",
+      "name": "EDWH",
+      "title": "Oldenburg-Hatten",
+      "type": "AD",
+      "elevation": "26 FT",
+      "traffic": "CIVIL",
+      "lat": "530409N",
+      "lon": "0081849E"
+    },
+    {
+      "id": "EDWI",
+      "name": "EDWI",
+      "title": "Wilhelmshaven Jadeweser Airport",
+      "type": "AD",
+      "elevation": "19 FT",
+      "traffic": "CIVIL",
+      "lat": "533017N",
+      "lon": "0080312E"
+    },
+    {
+      "id": "EDWJ",
+      "name": "EDWJ",
+      "title": "Juist",
+      "type": "AD",
+      "elevation": "8 FT",
+      "traffic": "CIVIL",
+      "lat": "534052N",
+      "lon": "0070323E"
+    },
+    {
+      "id": "EDWK",
+      "name": "EDWK",
+      "title": "Karlshoefen",
+      "type": "AD",
+      "elevation": "20 FT",
+      "traffic": "CIVIL",
+      "lat": "531958N",
+      "lon": "0090140E"
+    },
+    {
+      "id": "EDWL",
+      "name": "EDWL",
+      "title": "Langeoog",
+      "type": "AD",
+      "elevation": "7 FT",
+      "traffic": "CIVIL",
+      "lat": "534434N",
+      "lon": "0072955E"
+    },
+    {
+      "id": "EDWM",
+      "name": "EDWM",
+      "title": "Weser-Wuemme",
+      "type": "AD",
+      "elevation": "59 FT",
+      "traffic": "CIVIL",
+      "lat": "530315N",
+      "lon": "0091231E"
+    },
+    {
+      "id": "EDWN",
+      "name": "EDWN",
+      "title": "Nordhorn-Lingen",
+      "type": "AD",
+      "elevation": "85 FT",
+      "traffic": "CIVIL",
+      "lat": "522727N",
+      "lon": "0071058E"
+    },
+    {
+      "id": "EDWO",
+      "name": "EDWO",
+      "title": "Osnabrueck-Atterheide",
+      "type": "AD",
+      "elevation": "287 FT",
+      "traffic": "CIVIL",
+      "lat": "521711N",
+      "lon": "0075824E"
+    },
+    {
+      "id": "EDWP",
+      "name": "EDWP",
+      "title": "Wiefelstede/Conneforde",
+      "type": "AD",
+      "elevation": "30 FT",
+      "traffic": "CIVIL",
+      "lat": "531917N",
+      "lon": "0080425E"
+    },
+    {
+      "id": "EDWQ",
+      "name": "EDWQ",
+      "title": "Ganderkesee Atlas Airfield",
+      "type": "AD",
+      "elevation": "96 FT",
+      "traffic": "CIVIL",
+      "lat": "530210N",
+      "lon": "0083018E"
+    },
+    {
+      "id": "EDWR",
+      "name": "EDWR",
+      "title": "Borkum",
+      "type": "AD",
+      "elevation": "3 FT",
+      "traffic": "CIVIL",
+      "lat": "533544N",
+      "lon": "0064233E"
+    },
+    {
+      "id": "EDWS",
+      "name": "EDWS",
+      "title": "Norden-Norddeich",
+      "type": "AD",
+      "elevation": "3 FT",
+      "traffic": "CIVIL",
+      "lat": "533759N",
+      "lon": "0071122E"
+    },
+    {
+      "id": "EDWT",
+      "name": "EDWT",
+      "title": "Blexen",
+      "type": "AD",
+      "elevation": "10 FT",
+      "traffic": "CIVIL",
+      "lat": "533218N",
+      "lon": "0083218E"
+    },
+    {
+      "id": "EDWU",
+      "name": "EDWU",
+      "title": "Varrelbusch",
+      "type": "AD",
+      "elevation": "128 FT",
+      "traffic": "CIVIL",
+      "lat": "525431N",
+      "lon": "0080234E"
+    },
+    {
+      "id": "EDWV",
+      "name": "EDWV",
+      "title": "Verden-Scharnhorst",
+      "type": "AD",
+      "elevation": "144 FT",
+      "traffic": "CIVIL",
+      "lat": "525755N",
+      "lon": "0091658E"
+    },
+    {
+      "id": "EDWX",
+      "name": "EDWX",
+      "title": "Westerstede-Felde",
+      "type": "AD",
+      "elevation": "30 FT",
+      "traffic": "CIVIL",
+      "lat": "531720N",
+      "lon": "0075553E"
+    },
+    {
+      "id": "EDWY",
+      "name": "EDWY",
+      "title": "Norderney",
+      "type": "AD",
+      "elevation": "6 FT",
+      "traffic": "CIVIL",
+      "lat": "534225N",
+      "lon": "0071343E"
+    },
+    {
+      "id": "EDWZ",
+      "name": "EDWZ",
+      "title": "Baltrum",
+      "type": "AD",
+      "elevation": "7 FT",
+      "traffic": "CIVIL",
+      "lat": "534331N",
+      "lon": "0072220E"
+    },
+    {
+      "id": "EDXA",
+      "name": "EDXA",
+      "title": "Achmer",
+      "type": "AD",
+      "elevation": "177 FT",
+      "traffic": "CIVIL",
+      "lat": "522239N",
+      "lon": "0075449E"
+    },
+    {
+      "id": "EDXB",
+      "name": "EDXB",
+      "title": "Heide-Buesum",
+      "type": "AD",
+      "elevation": "7 FT",
+      "traffic": "CIVIL",
+      "lat": "540912N",
+      "lon": "0085406E"
+    },
+    {
+      "id": "EDXC",
+      "name": "EDXC",
+      "title": "Schleswig-Kropp",
+      "type": "AD",
+      "elevation": "54 FT",
+      "traffic": "CIVIL",
+      "lat": "542532N",
+      "lon": "0093226E"
+    },
+    {
+      "id": "EDXD",
+      "name": "EDXD",
+      "title": "Bohmte-Bad Essen",
+      "type": "AD",
+      "elevation": "151 FT",
+      "traffic": "CIVIL",
+      "lat": "522105N",
+      "lon": "0081934E"
+    },
+    {
+      "id": "EDXE",
+      "name": "EDXE",
+      "title": "Rheine-Eschendorf",
+      "type": "AD",
+      "elevation": "131 FT",
+      "traffic": "CIVIL",
+      "lat": "521633N",
+      "lon": "0072929E"
+    },
+    {
+      "id": "EDXF",
+      "name": "EDXF",
+      "title": "Flensburg-Schaeferhaus",
+      "type": "AD",
+      "elevation": "130 FT",
+      "traffic": "CIVIL",
+      "lat": "544624N",
+      "lon": "0092244E"
+    },
+    {
+      "id": "EDXG",
+      "name": "EDXG",
+      "title": "Melle-Groenegau",
+      "type": "AD",
+      "elevation": "236 FT",
+      "traffic": "CIVIL",
+      "lat": "521203N",
+      "lon": "0082240E"
+    },
+    {
+      "id": "EDXH",
+      "name": "EDXH",
+      "title": "Helgoland Duene",
+      "type": "AD",
+      "elevation": "8 FT",
+      "traffic": "CIVIL",
+      "lat": "541107N",
+      "lon": "0075457E"
+    },
+    {
+      "id": "EDXI",
+      "name": "EDXI",
+      "title": "Nienburg-Holzbalge",
+      "type": "AD",
+      "elevation": "82 FT",
+      "traffic": "CIVIL",
+      "lat": "524235N",
+      "lon": "0090945E"
+    },
+    {
+      "id": "EDXJ",
+      "name": "EDXJ",
+      "title": "Husum-Schwesing",
+      "type": "AD",
+      "elevation": "62 FT",
+      "traffic": "CIVIL",
+      "lat": "543036N",
+      "lon": "0090818E"
+    },
+    {
+      "id": "EDXK",
+      "name": "EDXK",
+      "title": "Leck",
+      "type": "AD",
+      "elevation": "24 FT",
+      "traffic": "CIVIL",
+      "lat": "544724N",
+      "lon": "0085741E"
+    },
+    {
+      "id": "EDXL",
+      "name": "EDXL",
+      "title": "Barssel",
+      "type": "AD",
+      "elevation": "10 FT",
+      "traffic": "CIVIL",
+      "lat": "530949N",
+      "lon": "0074734E"
+    },
+    {
+      "id": "EDXM",
+      "name": "EDXM",
+      "title": "St.Michaelisdonn",
+      "type": "AD",
+      "elevation": "124 FT",
+      "traffic": "CIVIL",
+      "lat": "535842N",
+      "lon": "0090836E"
+    },
+    {
+      "id": "EDXN",
+      "name": "EDXN",
+      "title": "Nordholz-Spieka",
+      "type": "AD",
+      "elevation": "57 FT",
+      "traffic": "CIVIL",
+      "lat": "534608N",
+      "lon": "0083832E"
+    },
+    {
+      "id": "EDXO",
+      "name": "EDXO",
+      "title": "St.Peter-Ording",
+      "type": "AD",
+      "elevation": "5 FT",
+      "traffic": "CIVIL",
+      "lat": "541832N",
+      "lon": "0084112E"
+    },
+    {
+      "id": "EDXP",
+      "name": "EDXP",
+      "title": "Harle",
+      "type": "AD",
+      "elevation": "7 FT",
+      "traffic": "OTHER",
+      "lat": "534225N",
+      "lon": "0074917E"
+    },
+    {
+      "id": "EDXQ",
+      "name": "EDXQ",
+      "title": "Rotenburg (Wuemme)",
+      "type": "AD",
+      "elevation": "97 FT",
+      "traffic": "CIVIL",
+      "lat": "530742N",
+      "lon": "0092055E"
+    },
+    {
+      "id": "EDXR",
+      "name": "EDXR",
+      "title": "Rendsburg-Schachtholm",
+      "type": "AD",
+      "elevation": "23 FT",
+      "traffic": "CIVIL",
+      "lat": "541309N",
+      "lon": "0093555E"
+    },
+    {
+      "id": "EDXT",
+      "name": "EDXT",
+      "title": "Sierksdorf/Hof Altona",
+      "type": "AD",
+      "elevation": "80 FT",
+      "traffic": "OTHER",
+      "lat": "540404N",
+      "lon": "0104435E"
+    },
+    {
+      "id": "EDXU",
+      "name": "EDXU",
+      "title": "Huettenbusch",
+      "type": "AD",
+      "elevation": "10 FT",
+      "traffic": "CIVIL",
+      "lat": "531711N",
+      "lon": "0085650E"
+    },
+    {
+      "id": "EDXW",
+      "name": "EDXW",
+      "title": "Sylt",
+      "type": "AD",
+      "elevation": "52 FT",
+      "traffic": "CIVIL",
+      "lat": "545442N",
+      "lon": "0082033E"
+    },
+    {
+      "id": "EDXY",
+      "name": "EDXY",
+      "title": "Wyk Auf Foehr",
+      "type": "AD",
+      "elevation": "25 FT",
+      "traffic": "CIVIL",
+      "lat": "544107N",
+      "lon": "0083154E"
+    },
+    {
+      "id": "EDXZ",
+      "name": "EDXZ",
+      "title": "Kuehrstedt-Bederkesa",
+      "type": "AD",
+      "elevation": "26 FT",
+      "traffic": "CIVIL",
+      "lat": "533405N",
+      "lon": "0084722E"
+    },
+    {
+      "id": "EDYA",
+      "name": "EDYA",
+      "title": "Amrumbank",
+      "type": "HP",
+      "elevation": "132 FT",
+      "traffic": "",
+      "lat": "543112N",
+      "lon": "0074406E"
+    },
+    {
+      "id": "EDYB",
+      "name": "EDYB",
+      "title": "Bkr-Z01 Windfarm",
+      "type": "HP",
+      "elevation": "129 FT",
+      "traffic": "",
+      "lat": "535751N",
+      "lon": "0063356E"
+    },
+    {
+      "id": "EDYC",
+      "name": "EDYC",
+      "title": "Ao1 Oss",
+      "type": "HP",
+      "elevation": "120 FT",
+      "traffic": "",
+      "lat": "544903N",
+      "lon": "0134038E"
+    },
+    {
+      "id": "EDYD",
+      "name": "EDYD",
+      "title": "Dolwin Beta",
+      "type": "HP",
+      "elevation": "180 FT",
+      "traffic": "",
+      "lat": "535842N",
+      "lon": "0065525E"
+    },
+    {
+      "id": "EDYE",
+      "name": "EDYE",
+      "title": "Be Oss",
+      "type": "HP",
+      "elevation": "137 FT",
+      "traffic": "",
+      "lat": "544916N",
+      "lon": "0135356E"
+    },
+    {
+      "id": "EDYF",
+      "name": "EDYF",
+      "title": "Fino1",
+      "type": "HP",
+      "elevation": "80 FT",
+      "traffic": "",
+      "lat": "540052N",
+      "lon": "0063516E"
+    },
+    {
+      "id": "EDYG",
+      "name": "EDYG",
+      "title": "Gow01-Z01",
+      "type": "HP",
+      "elevation": "141 FT",
+      "traffic": "",
+      "lat": "540129N",
+      "lon": "0070032E"
+    },
+    {
+      "id": "EDYH",
+      "name": "EDYH",
+      "title": "Helwin Alpha",
+      "type": "HP",
+      "elevation": "174 FT",
+      "traffic": "",
+      "lat": "542708N",
+      "lon": "0074424E"
+    },
+    {
+      "id": "EDYJ",
+      "name": "EDYJ",
+      "title": "Jasmund",
+      "type": "HP",
+      "elevation": "141 FT",
+      "traffic": "",
+      "lat": "545255N",
+      "lon": "0140039E"
+    },
+    {
+      "id": "EDYM",
+      "name": "EDYM",
+      "title": "M00",
+      "type": "HP",
+      "elevation": "132 FT",
+      "traffic": "",
+      "lat": "542358N",
+      "lon": "0074159E"
+    },
+    {
+      "id": "EDYN",
+      "name": "EDYN",
+      "title": "Nordsee One",
+      "type": "HP",
+      "elevation": "131 FT",
+      "traffic": "",
+      "lat": "535856N",
+      "lon": "0065010E"
+    },
+    {
+      "id": "EDYO",
+      "name": "EDYO",
+      "title": "Merkur",
+      "type": "HP",
+      "elevation": "146 FT",
+      "traffic": "",
+      "lat": "540214N",
+      "lon": "0063339E"
+    },
+    {
+      "id": "EDYS",
+      "name": "EDYS",
+      "title": "Arkona",
+      "type": "HP",
+      "elevation": "",
+      "traffic": "",
+      "lat": "544713N",
+      "lon": "0140554E"
+    },
+    {
+      "id": "EDYV",
+      "name": "EDYV",
+      "title": "Alpha Ventus",
+      "type": "HP",
+      "elevation": "94 FT",
+      "traffic": "",
+      "lat": "540000N",
+      "lon": "0063724E"
+    },
+    {
+      "id": "EDYW",
+      "name": "EDYW",
+      "title": "Wk Oss",
+      "type": "HP",
+      "elevation": "115 FT",
+      "traffic": "",
+      "lat": "545004N",
+      "lon": "0140427E"
+    },
+    {
+      "id": "EDYZ",
+      "name": "EDYZ",
+      "title": "Gow02-Z01",
+      "type": "HP",
+      "elevation": "134 FT",
+      "traffic": "",
+      "lat": "540321N",
+      "lon": "0070218E"
+    },
+    {
+      "id": "ETAD",
+      "name": "ETAD",
+      "title": "SPANGDAHLEM",
+      "type": "military aerodrome",
+      "elevation": "1197 FT",
+      "traffic": "IFR/VFR",
+      "lat": "495835N",
+      "lon": "0064154E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETAR",
+      "name": "ETAR",
+      "title": "RAMSTEIN",
+      "type": "military aerodrome",
+      "elevation": "776 FT",
+      "traffic": "IFR/VFR",
+      "lat": "492613N",
+      "lon": "0073601E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETEB",
+      "name": "ETEB",
+      "title": "ANSBACH KATTERBACH",
+      "type": "military heliport",
+      "elevation": "",
+      "traffic": "",
+      "lat": "491830N",
+      "lon": "0103819E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETEK",
+      "name": "ETEK",
+      "title": "BAUMHOLDER",
+      "type": "military aerodrome",
+      "elevation": "",
+      "traffic": "VFR",
+      "lat": "493901N",
+      "lon": "0071800E",
+      "source": "Great Circle Mapper ETEK page (PUBLIC FALLBACK for DOD FLIP coordinates; elevation unavailable; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETHA",
+      "name": "ETHA",
+      "title": "ALTENSTADT",
+      "type": "military aerodrome",
+      "elevation": "2432 FT",
+      "traffic": "VFR",
+      "lat": "475008N",
+      "lon": "0105217E"
+    },
+    {
+      "id": "ETHB",
+      "name": "ETHB",
+      "title": "BUECKEBURG",
+      "type": "military aerodrome",
+      "elevation": "229 FT",
+      "traffic": "IFR/VFR",
+      "lat": "521642N",
+      "lon": "0090456E"
+    },
+    {
+      "id": "ETHC",
+      "name": "ETHC",
+      "title": "CELLE",
+      "type": "military aerodrome",
+      "elevation": "129 FT",
+      "traffic": "IFR/VFR",
+      "lat": "523528N",
+      "lon": "0100120E"
+    },
+    {
+      "id": "ETHF",
+      "name": "ETHF",
+      "title": "FRITZLAR",
+      "type": "military aerodrome",
+      "elevation": "565 FT",
+      "traffic": "IFR/VFR",
+      "lat": "510652N",
+      "lon": "0091709E"
+    },
+    {
+      "id": "ETHL",
+      "name": "ETHL",
+      "title": "LAUPHEIM",
+      "type": "military aerodrome",
+      "elevation": "1766 FT",
+      "traffic": "IFR/VFR",
+      "lat": "481312N",
+      "lon": "0095437E"
+    },
+    {
+      "id": "ETHN",
+      "name": "ETHN",
+      "title": "NIEDERSTETTEN",
+      "type": "military-civil aerodrome",
+      "elevation": "1536 FT",
+      "traffic": "IFR/VFR",
+      "lat": "492331N",
+      "lon": "0095729E"
+    },
+    {
+      "id": "ETHS",
+      "name": "ETHS",
+      "title": "FASSBERG",
+      "type": "military aerodrome",
+      "elevation": "244 FT",
+      "traffic": "IFR/VFR",
+      "lat": "525510N",
+      "lon": "0101102E"
+    },
+    {
+      "id": "ETIC",
+      "name": "ETIC",
+      "title": "GRAFENWOEHR",
+      "type": "military aerodrome",
+      "elevation": "1363 FT",
+      "traffic": "IFR/VFR",
+      "lat": "494155N",
+      "lon": "0115625E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETIH",
+      "name": "ETIH",
+      "title": "HOHENFELS",
+      "type": "military aerodrome",
+      "elevation": "1455 FT",
+      "traffic": "VFR",
+      "lat": "491300N",
+      "lon": "0115010E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETIK",
+      "name": "ETIK",
+      "title": "ILLESHEIM",
+      "type": "military heliport",
+      "elevation": "1079 FT",
+      "traffic": "",
+      "lat": "492826N",
+      "lon": "0102317E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETIY",
+      "name": "ETIY",
+      "title": "LANDSTUHL REGIONAL MEDICAL CENTER",
+      "type": "military heliport",
+      "elevation": "1136 FT",
+      "traffic": "",
+      "lat": "492409N",
+      "lon": "0073331E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETMN",
+      "name": "ETMN",
+      "title": "NORDHOLZ",
+      "type": "military-civil aerodrome",
+      "elevation": "73 FT",
+      "traffic": "IFR/VFR",
+      "lat": "534603N",
+      "lon": "0083931E"
+    },
+    {
+      "id": "ETND",
+      "name": "ETND",
+      "title": "DIEPHOLZ",
+      "type": "military aerodrome",
+      "elevation": "127 FT",
+      "traffic": "IFR/VFR",
+      "lat": "523508N",
+      "lon": "0082027E"
+    },
+    {
+      "id": "ETNG",
+      "name": "ETNG",
+      "title": "GEILENKIRCHEN",
+      "type": "military aerodrome",
+      "elevation": "292 FT",
+      "traffic": "IFR/VFR",
+      "lat": "505739N",
+      "lon": "0060230E"
+    },
+    {
+      "id": "ETNH",
+      "name": "ETNH",
+      "title": "HOHN",
+      "type": "military aerodrome",
+      "elevation": "39 FT",
+      "traffic": "IFR/VFR",
+      "lat": "541844N",
+      "lon": "0093217E"
+    },
+    {
+      "id": "ETNL",
+      "name": "ETNL",
+      "title": "LAAGE",
+      "type": "military-civil aerodrome",
+      "elevation": "140 FT",
+      "traffic": "IFR/VFR",
+      "lat": "535505N",
+      "lon": "0121645E"
+    },
+    {
+      "id": "ETNN",
+      "name": "ETNN",
+      "title": "NOERVENICH",
+      "type": "military aerodrome",
+      "elevation": "380 FT",
+      "traffic": "IFR/VFR",
+      "lat": "504952N",
+      "lon": "0063930E"
+    },
+    {
+      "id": "ETNS",
+      "name": "ETNS",
+      "title": "SCHLESWIG",
+      "type": "military aerodrome",
+      "elevation": "74 FT",
+      "traffic": "IFR/VFR",
+      "lat": "542734N",
+      "lon": "0093059E"
+    },
+    {
+      "id": "ETNT",
+      "name": "ETNT",
+      "title": "WITTMUNDHAFEN",
+      "type": "military aerodrome",
+      "elevation": "26 FT",
+      "traffic": "IFR/VFR",
+      "lat": "533252N",
+      "lon": "0074003E"
+    },
+    {
+      "id": "ETNW",
+      "name": "ETNW",
+      "title": "WUNSTORF",
+      "type": "military aerodrome",
+      "elevation": "187 FT",
+      "traffic": "IFR/VFR",
+      "lat": "522726N",
+      "lon": "0092538E"
+    },
+    {
+      "id": "ETOU",
+      "name": "ETOU",
+      "title": "WIESBADEN",
+      "type": "military aerodrome",
+      "elevation": "461 FT",
+      "traffic": "IFR/VFR",
+      "lat": "500259N",
+      "lon": "0081931E",
+      "source": "OurAirports airports.csv (PUBLIC FALLBACK for DOD FLIP coordinates/elevation; German Military AIP identifies this aerodrome as DOD FLIP), retrieved 2026-07-30"
+    },
+    {
+      "id": "ETSB",
+      "name": "ETSB",
+      "title": "BUECHEL",
+      "type": "military aerodrome",
+      "elevation": "1566 FT",
+      "traffic": "IFR/VFR",
+      "lat": "501026N",
+      "lon": "0070348E"
+    },
+    {
+      "id": "ETSH",
+      "name": "ETSH",
+      "title": "HOLZDORF",
+      "type": "military aerodrome",
+      "elevation": "265 FT",
+      "traffic": "IFR/VFR",
+      "lat": "514604N",
+      "lon": "0131003E"
+    },
+    {
+      "id": "ETSI",
+      "name": "ETSI",
+      "title": "INGOLSTADT/MANCHING",
+      "type": "military-civil aerodrome",
+      "elevation": "1203 FT",
+      "traffic": "IFR/VFR",
+      "lat": "484256N",
+      "lon": "0113201E"
+    },
+    {
+      "id": "ETSL",
+      "name": "ETSL",
+      "title": "LECHFELD",
+      "type": "military aerodrome",
+      "elevation": "1822 FT",
+      "traffic": "IFR/VFR",
+      "lat": "481108N",
+      "lon": "0105140E"
+    },
+    {
+      "id": "ETSN",
+      "name": "ETSN",
+      "title": "NEUBURG",
+      "type": "military aerodrome",
+      "elevation": "1249 FT",
+      "traffic": "IFR/VFR",
+      "lat": "484240N",
+      "lon": "0111241E"
+    },
+    {
+      "id": "ETSR",
+      "name": "ETSR",
+      "title": "ROTH",
+      "type": "military aerodrome",
+      "elevation": "1271 FT",
+      "traffic": "VFR",
+      "lat": "491303N",
+      "lon": "0110601E"
+    },
+    {
+      "id": "ETWM",
+      "name": "ETWM",
+      "title": "MEPPEN",
+      "type": "military aerodrome",
+      "elevation": "68 FT",
+      "traffic": "VFR",
+      "lat": "524323N",
+      "lon": "0071935E"
+    }
+  ]
+}
