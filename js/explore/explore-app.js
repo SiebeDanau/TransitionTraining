@@ -242,7 +242,7 @@ function renderDatasetFilter(dataset) {
   return `<details class="filter-node" open><summary>${filterCheckbox(datasetNode, true)}</summary><div class="filter-children">${children}</div></details>`;
 }
 function renderFilters() {
-  els.datasets.innerHTML = `<p class="filter-help">Klik op de pijl of groepsnaam om onderdelen open te klappen. Het vakje rechts schakelt de hele groep in of uit.</p><div class="filter-tree">${state.repository.datasets
+  els.datasets.innerHTML = `<p class="filter-help">Enkel kaartgegevens die in de geselecteerde rol(len) zit kunnen worden aangeduid. Geen rol selecteren zal alle gegevens beschikbaar maken.</p><div class="filter-tree">${state.repository.datasets
     .filter((dataset) => dataset.filterable !== false)
     .map(renderDatasetFilter)
     .join("")}</div>`;
