@@ -11,7 +11,9 @@
         "airspaceClass": "C",
         "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
         "aipPage": "ENR 2.1-10",
-        "geometryNote": "Circle arcs sampled at maximum 1 degree; published endpoints retained exactly."
+        "geometryNote": "The published circular arc is sampled at maximum 1 degree. The segment described as following the Belgian-Dutch border uses the identical Amsterdam/Brussels FIR boundary coordinates; its published anchors are retained in publishedLateralLimits.",
+        "publishedLateralLimits": "511938N 0044052E - 511938N 0050800E - along the Belgian-Dutch border - 511845N 0051000E - 510605N 0051000E - 511332N 0045955E - an arc of circle, 26 NM radius, centred on 505408N 0043217E and traced counterclockwise to 511938N 0044052E.",
+        "borderGeometrySource": "Shared Amsterdam/Brussels FIR boundary; Belgium AIP ENR 2.1 and Eurostat/GISCO Countries 2024, EPSG:4326"
       },
       "geometry": {
         "type": "Polygon",
@@ -22,12 +24,16 @@
               51.32722222
             ],
             [
-              5.13333333,
-              51.32722222
+              5.132513399000061,
+              51.333728561000044
             ],
             [
               5.13446456500003,
               51.31549060100008
+            ],
+            [
+              5.162679369000045,
+              51.31081328600004
             ],
             [
               5.16666667,

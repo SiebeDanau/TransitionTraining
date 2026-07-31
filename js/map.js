@@ -43,6 +43,7 @@ const TMA_FILE_GROUPS = {
     "luxembourg-tma-1b",
     "luxembourg-tma-5",
   ],
+  "lille-tma": ["lille-tma-2", "lille-tma-9"],
   "maastricht-tma": ["maastricht-tma-1", "maastricht-tma-2"],
   "oostende-tma": ["oostende-tma-1", "oostende-tma-2"],
 };

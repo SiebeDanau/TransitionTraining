@@ -13,8 +13,9 @@
         "aipSource": "Netherlands AIP ENR 2.1, A 01/2025, effective 04-SEP-2025",
         "aipPage": "ENR 2.1-1 to ENR 2.1-2",
         "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
-        "geometryNote": "Published Netherlands AIP anchor points retained, except the shared Brussels/Amsterdam FIR boundary, which uses the more precise Belgium AIP/GISCO geometry so both FIRs share identical coordinates.",
-        "sharedBoundarySource": "Belgium AIP ENR 2.1 and Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326"
+        "geometryNote": "Offshore AIP anchors retained. Points introducing an 'along border' segment are snapped to the shared detailed GISCO/Belgium-AIP boundary to prevent parallel representations of the same FIR border.",
+        "sharedBoundarySource": "Belgium AIP ENR 2.1 and Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "5500N 00500E - along parallel - 5500N 00630E - 5340N 00630E - 5334N 00636E - 5331N 00640E - 5330N 00645E - 5330N 00649E - 5328N 00652E - 5324N 00657E - 5320N 00660E - 5319N 00702E - 5318N 00712E - 5313N 00713E along Dutch-German border - 5045N 00601E along Dutch-Belgian border - 5122N 00322E - 5130N 00200E - 5500N 00500E."
       },
       "geometry": {
         "type": "Polygon",
@@ -67,10 +68,6 @@
             [
               7.2,
               53.3
-            ],
-            [
-              7.216666666666667,
-              53.21666666666667
             ],
             [
               7.2173248,
@@ -1915,10 +1912,6 @@
             [
               6.020999,
               50.7542954
-            ],
-            [
-              6.016666666666667,
-              50.75
             ],
             [
               6.02111111,

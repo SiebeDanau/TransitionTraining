@@ -11,7 +11,8 @@
         "airspaceClass": "C",
         "aipSource": "Belgium AIP ENR 2.1, AMDT 006/2025, effective 12-JUN-2025",
         "aipPage": "ENR 2.1-16",
-        "geometryNote": "Published endpoints retained exactly; circle arcs sampled at maximum 1 degree; international-border segments use Eurostat/GISCO Countries 2024 CNTR_BN_01M."
+        "geometryNote": "Published non-border endpoints retained. The northern segment along the Belgian-Dutch border uses the identical Amsterdam/Brussels FIR boundary coordinates.",
+        "borderGeometrySource": "Shared Amsterdam/Brussels FIR boundary; Belgium AIP ENR 2.1 and Eurostat/GISCO Countries 2024, EPSG:4326"
       },
       "geometry": {
         "type": "Polygon",
@@ -34,11 +35,11 @@
               51.105
             ],
             [
-              2.0,
+              2,
               51.11666667
             ],
             [
-              2.0,
+              2,
               51.5
             ],
             [
@@ -114,8 +115,8 @@
               51.27976375900005
             ],
             [
-              3.37666667,
-              51.27638889
+              3.376371939000023,
+              51.27780883300005
             ],
             [
               3.25,
