@@ -11,6 +11,7 @@ const BLANK_STYLE = {
 };
 
 const OSM_STYLE_URL = "https://tiles.openfreemap.org/styles/bright";
+const AIRSPACE_DATA_VERSION = "20260731-1";
 const TMA_FILE_GROUPS = {
   "brussels-tma": [
     "brussels-tma-1",
@@ -146,7 +147,7 @@ function addTrainingLayers() {
   if (!map.getSource("brussels-uir")) {
     map.addSource("brussels-uir", {
       type: "geojson",
-      data: "data/airspaces/brussels-uir.geojson?v=20260726-3",
+      data: `data/airspaces/brussels-uir.geojson?v=${AIRSPACE_DATA_VERSION}`,
     });
   }
   if (!map.getLayer("brussels-uir-outline")) {
@@ -170,7 +171,7 @@ function addTrainingLayers() {
   if (!map.getSource("amsterdam-fir")) {
     map.addSource("amsterdam-fir", {
       type: "geojson",
-      data: "data/airspaces/amsterdam-fir.geojson",
+      data: `data/airspaces/amsterdam-fir.geojson?v=${AIRSPACE_DATA_VERSION}`,
     });
   }
   if (!map.getLayer("amsterdam-fir-outline")) {
@@ -197,7 +198,9 @@ function addTrainingLayers() {
       if (!map.getSource(sourceId)) {
         map.addSource(sourceId, {
           type: "geojson",
-          data: `data/airspaces/${encodeURIComponent(folder)}/${sourceId}.geojson`,
+          data:
+            `data/airspaces/${encodeURIComponent(folder)}/${sourceId}.geojson` +
+            `?v=${AIRSPACE_DATA_VERSION}`,
         });
       }
       if (!map.getLayer(layerId)) {
