@@ -766,7 +766,7 @@ async function init() {
     } catch {
       state.filterOverrides = {};
     }
-    state.roles = loadSet("explore.roles", []);
+    state.roles = loadSet("explore.roles", ["fic-essential"]);
     buildFilterTree();
     state.search = createSearchIndex(state.repository.features);
     renderFilters();

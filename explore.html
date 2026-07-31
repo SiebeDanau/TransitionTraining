@@ -16,7 +16,7 @@
         <div class="searchbox"><input id="searchInput" type="search" autocomplete="off" placeholder="Naam, identifier of type…" aria-autocomplete="list" aria-controls="searchResults"><span id="searchSpinner" hidden>•••</span></div>
         <div id="searchResults" class="search-results" role="listbox" hidden></div>
       </section>
-      <details><summary>Rollen <span class="summary-note">puntenfilter</span></summary><p class="help">Zonder selectie worden alle punten getoond. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
+      <details open><summary>Rollen <span class="summary-note">puntenfilter</span></summary><p class="help">Zonder selectie worden alle punten getoond. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
       <details open><summary>Kaartgegevens</summary><div class="quick-actions"><button id="showAll" type="button">Alles tonen</button><button id="hideAll" type="button">Alles verbergen</button></div><div id="datasetFilters" class="filters"></div></details>
       <p id="status" class="status" aria-live="polite">Gegevens laden…</p>
     </aside>
@@ -29,6 +29,6 @@
     </section>
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-  <script type="module" src="js/explore/explore-app.js?v=20260731-1"></script>
+  <script type="module" src="js/explore/explore-app.js?v=20260731-2"></script>
 </body>
 </html>
