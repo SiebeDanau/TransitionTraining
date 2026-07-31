@@ -24,6 +24,7 @@ export class TrainingMap extends EventTarget {
     this.backgroundMode = backgroundMode;
     this.points = [];
     this.statuses = new Map();
+    this.hoveredFeatureKey = null;
     this.map = null;
   }
 
@@ -49,8 +50,15 @@ export class TrainingMap extends EventTarget {
       const featureKey = event.features?.[0]?.properties?.id;
       if (featureKey) this.dispatchEvent(new CustomEvent("select", { detail: { featureKey } }));
     });
-    this.map.on("mouseenter", "training-hit-area", () => { this.map.getCanvas().style.cursor = "pointer"; });
-    this.map.on("mouseleave", "training-hit-area", () => { this.map.getCanvas().style.cursor = ""; });
+    this.map.on("mousemove", "training-hit-area", (event) => {
+      const featureKey = event.features?.[0]?.properties?.id || null;
+      this.map.getCanvas().style.cursor = "pointer";
+      this.#setHoveredFeature(featureKey);
+    });
+    this.map.on("mouseleave", "training-hit-area", () => {
+      this.map.getCanvas().style.cursor = "";
+      this.#setHoveredFeature(null);
+    });
   }
 
   setBackground(mode) {
@@ -145,10 +153,31 @@ export class TrainingMap extends EventTarget {
         "circle-stroke-width": 4,
       },
     });
+    if (!this.map.getLayer("training-hover-preview")) this.map.addLayer({
+      id: "training-hover-preview", type: "circle", source: "training-points",
+      filter: ["==", ["get", "id"], this.hoveredFeatureKey || ""],
+      paint: {
+        "circle-radius": 12,
+        "circle-color": "rgba(17, 107, 120, 0.12)",
+        "circle-stroke-color": "#116b78",
+        "circle-stroke-width": 3,
+      },
+    });
     if (!this.map.getLayer("training-hit-area")) this.map.addLayer({
       id: "training-hit-area", type: "circle", source: "training-points",
       paint: { "circle-radius": 15, "circle-opacity": 0, "circle-stroke-opacity": 0 },
     });
+  }
+
+  #setHoveredFeature(featureKey) {
+    if (this.hoveredFeatureKey === featureKey) return;
+    this.hoveredFeatureKey = featureKey;
+    if (this.map?.getLayer("training-hover-preview")) {
+      this.map.setFilter(
+        "training-hover-preview",
+        ["==", ["get", "id"], featureKey || ""],
+      );
+    }
   }
 
   #simplifyOsmStyle() {

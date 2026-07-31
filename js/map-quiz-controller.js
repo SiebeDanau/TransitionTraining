@@ -124,10 +124,26 @@ function createMapQuestions(records, allowedIds) {
       label,
       featureKey,
       correctFeatureKey: featureKey,
+      acceptedFeatureKeys: [featureKey],
       lat,
       lon,
     });
   });
+
+  const questionsByLocation = new Map();
+  unique.forEach((question) => {
+    const locationKey = `${question.lat.toFixed(7)},${question.lon.toFixed(7)}`;
+    const locationQuestions = questionsByLocation.get(locationKey) || [];
+    locationQuestions.push(question);
+    questionsByLocation.set(locationKey, locationQuestions);
+  });
+  questionsByLocation.forEach((locationQuestions) => {
+    const acceptedFeatureKeys = locationQuestions.map((question) => question.featureKey);
+    locationQuestions.forEach((question) => {
+      question.acceptedFeatureKeys = acceptedFeatureKeys;
+    });
+  });
+
   return [...unique.values()]
     .filter((question) => !allowedIds.size || allowedIds.has(question.featureKey))
     .sort((a, b) => a.label.localeCompare(b.label));

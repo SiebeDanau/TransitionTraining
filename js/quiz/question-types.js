@@ -1,7 +1,8 @@
 export const standardQuestionTypes = {
   "map-location": {
     evaluate: (question, value) =>
-      value?.featureKey === question.correctFeatureKey,
+      (question.acceptedFeatureKeys || [question.correctFeatureKey])
+        .includes(value?.featureKey),
   },
   "multiple-choice": {
     evaluate: (question, value) => value === question.correctOptionId,
