@@ -614,10 +614,7 @@ function loadPoints(records) {
     const lon = parseCoordinate(record.lon);
     if (!id || !Number.isFinite(lat) || !Number.isFinite(lon)) return;
     const label = record.name || id;
-    const questionLabel =
-      moduleConfig.id === "radio-navigation-aids" && record.station
-        ? `${label} (${record.station})`
-        : label;
+    const questionLabel = label;
     uniquePoints.set(id, {
       id,
       label,
