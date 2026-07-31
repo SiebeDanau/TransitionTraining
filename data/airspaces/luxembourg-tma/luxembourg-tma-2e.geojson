@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "LUXEMBOURG TMA TWO E",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2E1",
+        "name": "LUXEMBOURG TMA TWO E1",
+        "upperLimit": "FL095",
+        "lowerLimit": "1000FT AGL",
+        "airspaceClass": "D/E",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "remarks": "Lower limit partially 2500FT AGL. Airspace class E below 3500FT AMSL; class D at and above 3500FT AMSL.",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "494833N 0063010E - 494708N 0063341E - 494600N 0063347E - 493834N 0063423E - 493212N 0063453E - 493039N 0063055E - 493808N 0062543E - 494833N 0063010E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.502777777777778,
+              49.80916666666666
+            ],
+            [
+              6.561388888888889,
+              49.785555555555554
+            ],
+            [
+              6.563055555555556,
+              49.766666666666666
+            ],
+            [
+              6.573055555555555,
+              49.64277777777778
+            ],
+            [
+              6.581388888888888,
+              49.53666666666666
+            ],
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ],
+            [
+              6.4286111111111115,
+              49.635555555555555
+            ],
+            [
+              6.502777777777778,
+              49.80916666666666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2E2",
+        "name": "LUXEMBOURG TMA TWO E2",
+        "upperLimit": "FL095",
+        "lowerLimit": "1000FT AGL",
+        "airspaceClass": "E",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "remarks": "Lower limit partially 2500FT AGL.",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "493212N 0063453E - 492340N 0063534E - 493039N 0063055E - 493212N 0063453E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.581388888888888,
+              49.53666666666666
+            ],
+            [
+              6.592777777777777,
+              49.394444444444446
+            ],
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ],
+            [
+              6.581388888888888,
+              49.53666666666666
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

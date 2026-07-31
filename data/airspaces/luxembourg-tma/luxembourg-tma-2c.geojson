@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "name": "LUXEMBOURG TMA TWO C",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2C1",
+        "name": "LUXEMBOURG TMA TWO C1",
+        "upperLimit": "FL095",
+        "lowerLimit": "5500FT AMSL",
+        "airspaceClass": "E",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "500149N 0061228E - 495719N 0062051E - 495528N 0061337E - 495608N 0061204E - 500149N 0061228E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.207777777777778,
+              50.030277777777776
+            ],
+            [
+              6.3475,
+              49.95527777777778
+            ],
+            [
+              6.226944444444444,
+              49.92444444444444
+            ],
+            [
+              6.2011111111111115,
+              49.93555555555555
+            ],
+            [
+              6.207777777777778,
+              50.030277777777776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2C2",
+        "name": "LUXEMBOURG TMA TWO C2",
+        "upperLimit": "FL095",
+        "lowerLimit": "5500FT AMSL",
+        "airspaceClass": "D",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "495528N 0061337E - 495228N 0062026E - 494833N 0063010E - 494708N 0063341E - 495032N 0063325E - 495107N 0063220E - 495719N 0062051E - 495528N 0061337E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.226944444444444,
+              49.92444444444444
+            ],
+            [
+              6.3405555555555555,
+              49.87444444444444
+            ],
+            [
+              6.502777777777778,
+              49.80916666666666
+            ],
+            [
+              6.561388888888889,
+              49.785555555555554
+            ],
+            [
+              6.5569444444444445,
+              49.842222222222226
+            ],
+            [
+              6.538888888888889,
+              49.85194444444445
+            ],
+            [
+              6.3475,
+              49.95527777777778
+            ],
+            [
+              6.226944444444444,
+              49.92444444444444
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

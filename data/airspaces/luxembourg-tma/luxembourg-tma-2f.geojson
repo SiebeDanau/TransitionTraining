@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "name": "LUXEMBOURG TMA TWO F",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2F1",
+        "name": "LUXEMBOURG TMA TWO F1",
+        "upperLimit": "FL165",
+        "lowerLimit": "1000FT AGL",
+        "airspaceClass": "C/D/E",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "remarks": "Lower limit partially 2500FT AGL. Airspace class E below 3500FT AMSL; class D from 3500FT AMSL through FL095; class C above FL095.",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "493808N 0062543E - 493039N 0063055E - 492837N 0062541E - along the German-French border - 492810N 0062202E - along the German-Luxembourg border - 493808N 0062543E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.4286111111111115,
+              49.635555555555555
+            ],
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ],
+            [
+              6.428055555555556,
+              49.47694444444445
+            ],
+            [
+              6.421934981000049,
+              49.47602409900003
+            ],
+            [
+              6.403585732000067,
+              49.46591654000008
+            ],
+            [
+              6.376266605000069,
+              49.46442104100004
+            ],
+            [
+              6.367222222222222,
+              49.46944444444445
+            ],
+            [
+              6.367371750000075,
+              49.50199093900005
+            ],
+            [
+              6.357462942000041,
+              49.52941271700007
+            ],
+            [
+              6.361043910000035,
+              49.53636792700007
+            ],
+            [
+              6.380052606000049,
+              49.551105033000056
+            ],
+            [
+              6.381213950000074,
+              49.55704037600003
+            ],
+            [
+              6.375674513000035,
+              49.561906072000056
+            ],
+            [
+              6.367854604000058,
+              49.56655106900007
+            ],
+            [
+              6.358385967000061,
+              49.57217540500005
+            ],
+            [
+              6.367112132000045,
+              49.57826891600007
+            ],
+            [
+              6.368010101000039,
+              49.57826173500007
+            ],
+            [
+              6.380836745000067,
+              49.578159165000045
+            ],
+            [
+              6.376656739000055,
+              49.58546752900003
+            ],
+            [
+              6.374093585000026,
+              49.58994897300005
+            ],
+            [
+              6.383749129000023,
+              49.59846826000006
+            ],
+            [
+              6.392384286000038,
+              49.60033537800007
+            ],
+            [
+              6.396642796000037,
+              49.60212318200007
+            ],
+            [
+              6.401288608000073,
+              49.60407358200007
+            ],
+            [
+              6.422795703000077,
+              49.62229507600006
+            ],
+            [
+              6.4286111111111115,
+              49.635555555555555
+            ],
+            [
+              6.4286111111111115,
+              49.635555555555555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LUXEMBOURG-TMA-2F2",
+        "name": "LUXEMBOURG TMA TWO F2",
+        "upperLimit": "FL165",
+        "lowerLimit": "1000FT AGL",
+        "airspaceClass": "C/E",
+        "controlUnit": "Luxembourg APP",
+        "aipSource": "Germany AIP ENR 2.2 and DFS AIXM 5.1 airspace snapshot, effective 09-JUL-2026",
+        "aipPage": "ENR 2.2",
+        "remarks": "Lower limit partially 2500FT AGL. Airspace class E through FL095; class C above FL095.",
+        "geometryNote": "Published AIP anchors retained exactly; segments specified as international borders use detailed Eurostat/GISCO boundary coordinates.",
+        "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
+        "publishedLateralLimits": "493039N 0063055E - 492340N 0063534E - 492340N 0063308E - along the German-French border - 492837N 0062541E - 493039N 0063055E."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ],
+            [
+              6.592777777777777,
+              49.394444444444446
+            ],
+            [
+              6.552222222222222,
+              49.394444444444446
+            ],
+            [
+              6.551222204000055,
+              49.398207909000064
+            ],
+            [
+              6.550856456000076,
+              49.399627285000065
+            ],
+            [
+              6.546505864000039,
+              49.40032655200008
+            ],
+            [
+              6.54079445900004,
+              49.40124454200003
+            ],
+            [
+              6.538958437000076,
+              49.41189748200003
+            ],
+            [
+              6.55698581300004,
+              49.41920838800007
+            ],
+            [
+              6.535217510000052,
+              49.43416398200003
+            ],
+            [
+              6.522954709000032,
+              49.43647315000004
+            ],
+            [
+              6.507798938000064,
+              49.445880921000025
+            ],
+            [
+              6.499280679000037,
+              49.45017556100004
+            ],
+            [
+              6.484759260000033,
+              49.45254646400008
+            ],
+            [
+              6.467731945000025,
+              49.46430451600003
+            ],
+            [
+              6.455745749000073,
+              49.46327925800006
+            ],
+            [
+              6.440549306000037,
+              49.46670949800006
+            ],
+            [
+              6.430459825000071,
+              49.47523595200005
+            ],
+            [
+              6.428055555555556,
+              49.47694444444445
+            ],
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ],
+            [
+              6.5152777777777775,
+              49.51083333333333
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
