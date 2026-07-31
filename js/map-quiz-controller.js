@@ -20,7 +20,7 @@ const elements = {
 
 let moduleConfig = readStoredJson("activeModule");
 const activeRole = readStoredJson("activeRole");
-const backgroundMode = localStorage.getItem("mapBackgroundMode") || "local";
+const backgroundMode = localStorage.getItem("mapBackgroundMode") || "osm";
 const engine = new QuizEngine(standardQuestionTypes);
 const trainingMap = new TrainingMap({
   container: elements.mapCanvas,

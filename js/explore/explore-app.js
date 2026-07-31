@@ -37,7 +37,7 @@ const state = {
   roles: new Set(),
   hovered: [],
   selected: null,
-  background: localStorage.getItem("explore.background") || "local",
+  background: localStorage.getItem("explore.background") || "osm",
   activeSearchIndex: -1,
 };
 const $ = (selector) => document.querySelector(selector);

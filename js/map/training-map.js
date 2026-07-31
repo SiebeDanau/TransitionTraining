@@ -17,7 +17,7 @@ const TMA_FILE_GROUPS = {
 };
 
 export class TrainingMap extends EventTarget {
-  constructor({ container, noteElement, backgroundMode = "local" }) {
+  constructor({ container, noteElement, backgroundMode = "osm" }) {
     super();
     this.container = container;
     this.noteElement = noteElement;
