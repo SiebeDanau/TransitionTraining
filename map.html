@@ -61,6 +61,18 @@
         letter-spacing: 0;
       }
 
+      .back {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .back:hover,
+      .back:focus-visible {
+        text-decoration: underline;
+      }
+
       .intro,
       .hint {
         margin: 0;
@@ -257,6 +269,7 @@
     <main class="app">
       <section class="sidebar" aria-label="Quiz">
         <div>
+          <a href="index.html" class="back">← Modules</a>
           <h1 class="title" id="pageTitle">Kaarttrainer</h1>
           <p class="intro" id="pageIntro">
             Klik op de gevraagde punten.
