@@ -1,0 +1,57 @@
+{
+  "datasets": [
+    {
+      "id": "fir-uir",
+      "label": "FIR en UIR",
+      "typeLabel": "FIR / UIR",
+      "kind": "airspace",
+      "subtype": "fir-uir",
+      "format": "geojson",
+      "filterable": false,
+      "interactive": false,
+      "defaultVisible": true,
+      "files": ["airspaces/amsterdam-fir.geojson", "airspaces/brussels-uir.geojson"]
+    },
+    {
+      "id": "tma",
+      "label": "Terminal control areas (TMA)",
+      "typeLabel": "TMA",
+      "kind": "airspace",
+      "subtype": "tma",
+      "format": "geojson",
+      "defaultVisible": true,
+      "files": [
+        "airspaces/brussels-tma/brussels-tma-1.geojson", "airspaces/brussels-tma/brussels-tma-2.geojson", "airspaces/brussels-tma/brussels-tma-3a.geojson", "airspaces/brussels-tma/brussels-tma-3b.geojson", "airspaces/brussels-tma/brussels-tma-4.geojson", "airspaces/brussels-tma/brussels-tma-5.geojson", "airspaces/brussels-tma/brussels-tma-7.geojson", "airspaces/brussels-tma/brussels-tma-8.geojson", "airspaces/brussels-tma/brussels-tma-9a.geojson", "airspaces/brussels-tma/brussels-tma-9b.geojson",
+        "airspaces/charleroi-tma/charleroi-tma-1.geojson", "airspaces/charleroi-tma/charleroi-tma-2a.geojson", "airspaces/charleroi-tma/charleroi-tma-2b.geojson", "airspaces/charleroi-tma/charleroi-tma-3a.geojson", "airspaces/charleroi-tma/charleroi-tma-3b.geojson",
+        "airspaces/liege-tma/liege-tma-1.geojson", "airspaces/liege-tma/liege-tma-2.geojson", "airspaces/liege-tma/liege-tma-3.geojson", "airspaces/liege-tma/liege-tma-4.geojson", "airspaces/liege-tma/liege-tma-5.geojson",
+        "airspaces/lille-tma/lille-tma-2.geojson", "airspaces/lille-tma/lille-tma-9.geojson",
+        "airspaces/luxembourg-tma/luxembourg-tma-1a.geojson", "airspaces/luxembourg-tma/luxembourg-tma-1b.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2a.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2b.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2c.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2d.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2e.geojson", "airspaces/luxembourg-tma/luxembourg-tma-2f.geojson", "airspaces/luxembourg-tma/luxembourg-tma-3.geojson", "airspaces/luxembourg-tma/luxembourg-tma-4.geojson", "airspaces/luxembourg-tma/luxembourg-tma-5.geojson",
+        "airspaces/maastricht-tma/maastricht-tma-1.geojson", "airspaces/maastricht-tma/maastricht-tma-2.geojson", "airspaces/oostende-tma/oostende-tma-1.geojson", "airspaces/oostende-tma/oostende-tma-2.geojson"
+      ]
+    },
+    {
+      "id": "restricted-areas", "label": "Prohibited en restricted areas", "typeLabel": "Restricted Area", "kind": "airspace", "subtype": "restricted", "format": "geojson", "roleFilterable": true, "groupBy": "areaType", "groupLabels": { "danger": "Danger areas", "restricted": "Restricted areas" }, "defaultVisible": true,
+      "files": ["airspaces/navigation-warnings/prohibited-restricted-danger-areas.geojson"]
+    },
+    {
+      "id": "military-areas", "label": "Military exercise en training areas", "typeLabel": "Military Area", "kind": "airspace", "subtype": "military", "format": "geojson", "roleFilterable": true, "flattenGroups": true, "defaultVisible": false,
+      "files": ["airspaces/navigation-warnings/military-exercise-training-areas.geojson"]
+    },
+    {
+      "id": "sporting-areas", "label": "Aerial sporting en recreational areas", "typeLabel": "Sporting Area", "kind": "airspace", "subtype": "sporting", "format": "geojson", "roleFilterable": true, "flattenGroups": true, "defaultVisible": false,
+      "files": ["airspaces/navigation-warnings/aerial-sporting-recreational-areas.geojson"]
+    },
+    {
+      "id": "significant-points", "label": "Significant points", "typeLabel": "Significant Point", "kind": "point", "subtype": "significant-point", "format": "points", "roleFilterable": true, "defaultVisible": true,
+      "files": ["significant-points/significant-points-belgium.json", "significant-points/significant-points-france.json", "significant-points/significant-points-germany.json", "significant-points/significant-points-netherlands.json", "significant-points/significant-points-uk.json"]
+    },
+    {
+      "id": "radio-navigation-aids", "label": "Radio navigation aids", "typeLabel": "Radio Navigation Aid", "kind": "point", "subtype": "radio-navigation-aid", "format": "points", "roleFilterable": true, "defaultVisible": true,
+      "files": ["radio-navigation-aids/radio-navigation-aids-belgium.json", "radio-navigation-aids/radio-navigation-aids-france.json", "radio-navigation-aids/radio-navigation-aids-germany.json", "radio-navigation-aids/radio-navigation-aids-netherlands.json", "radio-navigation-aids/radio-navigation-aids-uk.json"]
+    },
+    {
+      "id": "aerodromes", "label": "Aerodromes", "typeLabel": "Aerodrome", "kind": "point", "subtype": "aerodrome", "format": "points", "roleFilterable": true, "defaultVisible": false,
+      "files": ["Aerodromes/aerodromes-belgium.json", "Aerodromes/aerodromes-france.json", "Aerodromes/aerodromes-germany.json", "Aerodromes/aerodromes-netherlands.json", "Aerodromes/aerodromes-uk.json"]
+    }
+  ]
+}

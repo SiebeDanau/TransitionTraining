@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Explore · Transition Training</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="css/explore.css">
+  <link rel="stylesheet" href="css/explore-tree.css">
+</head>
+<body>
+  <main class="app">
+    <aside class="sidebar">
+      <header><a href="index.html" class="back">← Modules</a><h1>Explore</h1><p>Doorzoek en verken alle luchtvaartgegevens.</p></header>
+      <section class="search-section" aria-label="Zoeken">
+        <label for="searchInput">Zoeken</label>
+        <div class="searchbox"><input id="searchInput" type="search" autocomplete="off" placeholder="Naam, identifier of type…" aria-autocomplete="list" aria-controls="searchResults"><span id="searchSpinner" hidden>•••</span></div>
+        <div id="searchResults" class="search-results" role="listbox" hidden></div>
+      </section>
+      <details open><summary>Kaartgegevens</summary><div class="quick-actions"><button id="showAll" type="button">Alles tonen</button><button id="hideAll" type="button">Alles verbergen</button></div><div id="datasetFilters" class="filters"></div></details>
+      <details><summary>Rollen <span class="summary-note">puntenfilter</span></summary><p class="help">Zonder selectie worden alle punten getoond. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
+      <p id="status" class="status" aria-live="polite">Gegevens laden…</p>
+    </aside>
+    <section class="map-area">
+      <div class="toolbar"><label>Achtergrond <select id="backgroundMode"><option value="local">Rustige kaart</option><option value="osm">OpenStreetMap minimaal</option></select></label><span id="mapHint">Klik in een gebied, op een grens of op een punt.</span></div>
+      <div id="map" class="map"></div>
+      <div id="hoverCard" class="hover-card" hidden></div>
+      <aside id="detailPanel" class="detail-panel" aria-live="polite" hidden><button id="closeDetails" class="close" aria-label="Details sluiten">×</button><div id="detailContent"></div></aside>
+      <div id="candidatePanel" class="candidate-panel" hidden><button id="closeCandidates" class="close" aria-label="Selectie sluiten">×</button><h2>Wat wil je openen?</h2><p id="candidateIntro"></p><div id="candidateList"></div></div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script type="module" src="js/explore/explore-app.js?v=20260731-1"></script>
+</body>
+</html>

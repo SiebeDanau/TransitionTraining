@@ -1,10 +1,20 @@
 {
   "modules": [
     {
+      "id": "explore",
+      "title": "Explore",
+      "description": "Doorzoek en verken alle luchtvaartgegevens op de kaart.",
+      "type": "explore",
+      "entry": "explore.html",
+      "requiresRole": false
+    },
+    {
       "id": "significant-points",
       "title": "Significant Points",
       "description": "",
       "type": "map",
+      "entry": "map.html",
+      "requiresRole": true,
       "data": [
         "significant-points/significant-points-belgium.json",
         "significant-points/significant-points-france.json",
@@ -18,6 +28,8 @@
       "title": "Radio Navigation Points",
       "description": "",
       "type": "map",
+      "entry": "map.html",
+      "requiresRole": true,
       "data": [
         "radio-navigation-aids/radio-navigation-aids-belgium.json",
         "radio-navigation-aids/radio-navigation-aids-france.json",
@@ -31,12 +43,14 @@
       "title": "Aerodromes",
       "description": "",
       "type": "map",
+      "entry": "map.html",
+      "requiresRole": true,
       "data": [
-        "aerodromes/aerodromes-belgium.json",
-        "aerodromes/aerodromes-france.json",
-        "aerodromes/aerodromes-germany.json",
-        "aerodromes/aerodromes-netherlands.json",
-        "aerodromes/aerodromes-uk.json"
+        "Aerodromes/aerodromes-belgium.json",
+        "Aerodromes/aerodromes-france.json",
+        "Aerodromes/aerodromes-germany.json",
+        "Aerodromes/aerodromes-netherlands.json",
+        "Aerodromes/aerodromes-uk.json"
       ]
     }
   ]

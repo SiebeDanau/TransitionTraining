@@ -25,31 +25,32 @@ Promise.all([
       const actions = document.createElement("div");
       actions.className = "module-actions";
 
-      const field = document.createElement("label");
-      field.className = "role-field";
-      field.textContent = "Rol";
-
-      const roleSelect = document.createElement("select");
-      roleSelect.setAttribute("aria-label", `Rol voor ${module.title}`);
-      roleSelect.add(new Option("Selecteer een rol", ""));
-      [...roles]
-        .sort((a, b) => a.label.localeCompare(b.label, "nl"))
-        .forEach((role) => roleSelect.add(new Option(role.label, role.id)));
-      field.appendChild(roleSelect);
-
       const openButton = document.createElement("button");
       openButton.type = "button";
       openButton.textContent = "Module laden";
-      openButton.disabled = true;
-      roleSelect.addEventListener("change", () => {
-        openButton.disabled = !roleSelect.value;
-      });
-      openButton.addEventListener("click", () => {
-        const role = roles.find((item) => item.id === roleSelect.value);
-        if (role) openModule(module, role);
-      });
-
-      actions.append(field, openButton);
+      if (module.requiresRole !== false) {
+        const field = document.createElement("label");
+        field.className = "role-field";
+        field.textContent = "Rol";
+        const roleSelect = document.createElement("select");
+        roleSelect.setAttribute("aria-label", `Rol voor ${module.title}`);
+        roleSelect.add(new Option("Selecteer een rol", ""));
+        [...roles].sort((a, b) => a.label.localeCompare(b.label, "nl"))
+          .forEach((role) => roleSelect.add(new Option(role.label, role.id)));
+        field.appendChild(roleSelect);
+        openButton.disabled = true;
+        roleSelect.addEventListener("change", () => {
+          openButton.disabled = !roleSelect.value;
+        });
+        openButton.addEventListener("click", () => {
+          const role = roles.find((item) => item.id === roleSelect.value);
+          if (role) openModule(module, role);
+        });
+        actions.append(field, openButton);
+      } else {
+        openButton.addEventListener("click", () => openModule(module));
+        actions.append(openButton);
+      }
       card.appendChild(actions);
       menu.appendChild(card);
     });
@@ -67,10 +68,10 @@ function checkResponse(response) {
 
 function openModule(module, role) {
   localStorage.setItem("activeModule", JSON.stringify(module));
-  localStorage.setItem(
-    "activeRole",
-    JSON.stringify({ id: role.id, label: role.label })
-  );
-
-  window.location.href = "map.html";
+  if (role) {
+    localStorage.setItem("activeRole", JSON.stringify({ id: role.id, label: role.label }));
+  } else {
+    localStorage.removeItem("activeRole");
+  }
+  window.location.href = module.entry || "map.html";
 }
