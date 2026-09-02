@@ -21,6 +21,16 @@ CTR_NORTH = [5.76694444, 50.99888889]  # 505956N 0054601E
 CTR_DE_NORTH = [5.87722222, 51.03361111]  # 510201N 0055238E
 CTR_DE_SOUTH = [6.08500000, 50.91166667]  # 505442N 0060506E
 
+# Parts of Maastricht TMA 1 situated in Brussels FIR, Belgium AIP ENR 2.1.
+BE_PART_1_BORDER = [5.64916667, 50.82638889]  # 504935N 0053857E
+BE_PART_1_INNER = [5.63750000, 50.81416667]  # 504851N 0053815E
+BE_PART_2_BORDER = [5.99888889, 50.75361111]  # 504513N 0055956E
+BE_PART_2_INNER = (
+    [5.99888889, 50.75222222],  # 504508N 0055956E
+    [5.91500000, 50.74972222],  # 504459N 0055454E
+    [5.80666667, 50.75527778],  # 504519N 0054824E
+)
+
 
 def distance(a: list[float], b: list[float]) -> float:
     longitude_scale = math.cos(math.radians((a[1] + b[1]) / 2))
@@ -55,6 +65,22 @@ def segment_distance(start: list[float], end: list[float], target: list[float]) 
 
 def update_note(data: dict) -> None:
     properties = data["features"][0]["properties"]
+    if properties.get("id") == "EHBK1":
+        properties["aipSource"] = (
+            "Netherlands AIP ENR 2.1 and Belgium & Luxembourg AIP ENR 2.1"
+        )
+        properties["belgianLateralLimits"] = (
+            "Part 1: 504935N 0053857E - 504851N 0053815E - 504724N "
+            "0054146E - along the Belgian-Dutch border - 504935N 0053857E. "
+            "Part 2: 504611N 0054446E - along the Belgian-Dutch border - "
+            "504513N 0055956E - 504508N 0055956E - 504459N 0055454E - "
+            "504519N 0054824E - 504611N 0054446E."
+        )
+        properties["geometryNote"] = (
+            "The complete Netherlands AIP outline is combined with both Maastricht "
+            "TMA 1 parts published for Brussels FIR in Belgium AIP ENR 2.1. Border "
+            "segments use shared detailed international-boundary coordinates."
+        )
     properties["sharedBoundaryNote"] = (
         "The straight boundary 504611N 0054446E - 504724N 0054146E is stored "
         "with identical exact AIP endpoints in Maastricht TMA 1 and Liège TMA 1/2."
@@ -85,6 +111,7 @@ def fix_maastricht() -> None:
             points.insert(insertion_after + 1, target)
             belgian_border_start += 1
     if CTR_NORTH not in points:
+        north_index = points.index(NORTH_WEST)
         insertion_after = min(
             range(north_index, len(points) - 1),
             key=lambda index: segment_distance(points[index], points[index + 1], CTR_NORTH),
@@ -92,6 +119,37 @@ def fix_maastricht() -> None:
         if segment_distance(points[insertion_after], points[insertion_after + 1], CTR_NORTH) > 0.005:
             raise RuntimeError("Maastricht CTR northern border anchor is not on the TMA border path")
         points.insert(insertion_after + 1, CTR_NORTH)
+
+    # Insert the exact Belgian border anchors, then replace only the portions where
+    # the Belgian AIP sends the boundary into Brussels FIR instead of along the border.
+    if BE_PART_2_BORDER not in points:
+        south_index = points.index(SOUTH_EAST)
+        belgian_border_start = nearest_index(points, [6.02111111, 50.75416667])
+        insertion_after = min(
+            range(belgian_border_start, south_index),
+            key=lambda index: segment_distance(points[index], points[index + 1], BE_PART_2_BORDER),
+        )
+        if segment_distance(points[insertion_after], points[insertion_after + 1], BE_PART_2_BORDER) > 0.005:
+            raise RuntimeError("Belgian Maastricht TMA part 2 border anchor was not found")
+        points.insert(insertion_after + 1, BE_PART_2_BORDER)
+    part_2_start, part_2_end = points.index(BE_PART_2_BORDER), points.index(SOUTH_EAST)
+    expected_part_2 = [BE_PART_2_BORDER, *BE_PART_2_INNER, SOUTH_EAST]
+    if points[part_2_start:part_2_end + 1] != expected_part_2:
+        points[part_2_start:part_2_end + 1] = expected_part_2
+
+    if BE_PART_1_BORDER not in points:
+        north_index = points.index(NORTH_WEST)
+        insertion_after = min(
+            range(north_index, len(points) - 1),
+            key=lambda index: segment_distance(points[index], points[index + 1], BE_PART_1_BORDER),
+        )
+        if segment_distance(points[insertion_after], points[insertion_after + 1], BE_PART_1_BORDER) > 0.005:
+            raise RuntimeError("Belgian Maastricht TMA part 1 border anchor was not found")
+        points.insert(insertion_after + 1, BE_PART_1_BORDER)
+    part_1_start, part_1_end = points.index(NORTH_WEST), points.index(BE_PART_1_BORDER)
+    expected_part_1 = [NORTH_WEST, BE_PART_1_INNER, BE_PART_1_BORDER]
+    if points[part_1_start:part_1_end + 1] != expected_part_1:
+        points[part_1_start:part_1_end + 1] = expected_part_1
     update_note(data)
     save(MAASTRICHT, data)
 
@@ -119,6 +177,12 @@ def assert_shared_edge() -> None:
     de_south = maastricht.index(CTR_DE_SOUTH)
     if de_south <= de_north:
         raise RuntimeError("Maastricht German-border anchors have unexpected order")
+    part_1 = maastricht.index(NORTH_WEST)
+    if maastricht[part_1:part_1 + 3] != [NORTH_WEST, BE_PART_1_INNER, BE_PART_1_BORDER]:
+        raise RuntimeError("Belgian Maastricht TMA part 1 is not exact")
+    part_2 = maastricht.index(BE_PART_2_BORDER)
+    if maastricht[part_2:part_2 + 5] != [BE_PART_2_BORDER, *BE_PART_2_INNER, SOUTH_EAST]:
+        raise RuntimeError("Belgian Maastricht TMA part 2 is not exact")
     for path in LIEGE:
         points = ring(load(path))
         liege_index = next(index for index, value in enumerate(points) if value == NORTH_WEST)

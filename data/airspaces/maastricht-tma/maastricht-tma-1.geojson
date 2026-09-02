@@ -10,12 +10,13 @@
         "upperLimit": "FL095",
         "lowerLimit": "1500FT AMSL",
         "airspaceClass": "D",
-        "aipSource": "Netherlands AIP ENR 2.1, A 01/2025, effective 04-SEP-2025",
+        "aipSource": "Netherlands AIP ENR 2.1 and Belgium & Luxembourg AIP ENR 2.1",
         "aipPage": "ENR 2.1-8",
         "borderGeometrySource": "Eurostat/GISCO Countries 2024, CNTR_BN_01M, EPSG:4326",
-        "geometryNote": "Straight AIP segments retained; every segment described as following an international border uses the identical Amsterdam FIR boundary coordinates.",
+        "geometryNote": "The complete Netherlands AIP outline is combined with both Maastricht TMA 1 parts published for Brussels FIR in Belgium AIP ENR 2.1. Border segments use shared detailed international-boundary coordinates.",
         "publishedLateralLimits": "510941N 0055000E - 511100N 0055000E - 511100N 0055825E - 511455N 0055708E - 511446N 0060454E along Dutch-German border - 504515N 0060116E along Dutch-Belgian border - 504611N 0054446E - 504724N 0054146E along Dutch-Belgian border - 510941N 0055000E.",
-        "sharedBoundaryNote": "The straight boundary 504611N 0054446E - 504724N 0054146E is stored with identical exact AIP endpoints in Maastricht TMA 1 and Liège TMA 1/2."
+        "sharedBoundaryNote": "The straight boundary 504611N 0054446E - 504724N 0054146E is stored with identical exact AIP endpoints in Maastricht TMA 1 and Liège TMA 1/2.",
+        "belgianLateralLimits": "Part 1: 504935N 0053857E - 504851N 0053815E - 504724N 0054146E - along the Belgian-Dutch border - 504935N 0053857E. Part 2: 504611N 0054446E - along the Belgian-Dutch border - 504513N 0055956E - 504508N 0055956E - 504459N 0055454E - 504519N 0054824E - 504611N 0054446E."
       },
       "geometry": {
         "type": "Polygon",
@@ -522,84 +523,20 @@
               50.75416667
             ],
             [
-              5.982813467000028,
-              50.75315556000004
+              5.99888889,
+              50.75361111
             ],
             [
-              5.975517545000059,
-              50.755226709000056
+              5.99888889,
+              50.75222222
             ],
             [
-              5.971311266000043,
-              50.75977706700007
+              5.915,
+              50.74972222
             ],
             [
-              5.959681167000042,
-              50.76197552000008
-            ],
-            [
-              5.936111141000026,
-              50.756801891000066
-            ],
-            [
-              5.918461993000051,
-              50.75091105300004
-            ],
-            [
-              5.913142078000021,
-              50.75527418300004
-            ],
-            [
-              5.901031698000054,
-              50.752160581000055
-            ],
-            [
-              5.892072996000024,
-              50.75523758400004
-            ],
-            [
-              5.885941317000061,
-              50.76936443400007
-            ],
-            [
-              5.862913774000049,
-              50.76312286900003
-            ],
-            [
-              5.849429458000031,
-              50.75466896200004
-            ],
-            [
-              5.844916845000057,
-              50.76538490400003
-            ],
-            [
-              5.830421998000077,
-              50.75877718000004
-            ],
-            [
-              5.808849452000061,
-              50.75628551400007
-            ],
-            [
-              5.793819054000039,
-              50.769184358000075
-            ],
-            [
-              5.784332200000051,
-              50.76855900400005
-            ],
-            [
-              5.776582520000034,
-              50.78144356900003
-            ],
-            [
-              5.771372547000055,
-              50.78301767100004
-            ],
-            [
-              5.765056306000076,
-              50.781874378000055
+              5.80666667,
+              50.75527778
             ],
             [
               5.74611111,
@@ -610,36 +547,12 @@
               50.79
             ],
             [
-              5.694594814000027,
-              50.79414395500004
+              5.6375,
+              50.81416667
             ],
             [
-              5.69397600800005,
-              50.79663602800008
-            ],
-            [
-              5.693544491000068,
-              50.80011536300003
-            ],
-            [
-              5.693788718000064,
-              50.80972401500003
-            ],
-            [
-              5.687622129000033,
-              50.81192397800004
-            ],
-            [
-              5.655683399000054,
-              50.81971852500004
-            ],
-            [
-              5.655059165000068,
-              50.82352668100003
-            ],
-            [
-              5.65485999200007,
-              50.824741739000046
+              5.64916667,
+              50.82638889
             ],
             [
               5.649506083000063,
