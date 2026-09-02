@@ -30,6 +30,10 @@
       ]
     },
     {
+      "id": "ctr", "label": "CTR", "typeLabel": "CTR", "kind": "airspace", "subtype": "ctr", "format": "geojson", "groupBy": "category", "subgroupBy": "parentGroup", "defaultVisible": true,
+      "files": ["airspaces/ctr/ctr.geojson"]
+    },
+    {
       "id": "restricted-areas", "label": "Prohibited en restricted areas", "typeLabel": "Restricted Area", "kind": "airspace", "subtype": "restricted", "format": "geojson", "roleFilterable": true, "groupBy": "areaType", "groupLabels": { "danger": "Danger areas", "restricted": "Restricted areas" }, "defaultVisible": true,
       "files": ["airspaces/navigation-warnings/prohibited-restricted-danger-areas.geojson"]
     },

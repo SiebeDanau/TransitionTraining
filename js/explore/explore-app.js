@@ -19,6 +19,7 @@ const OSM_STYLE = "https://tiles.openfreemap.org/styles/bright";
 const COLORS = {
   "fir-uir": "#222222",
   tma: "#2563eb",
+  ctr: "#0891b2",
   "restricted-areas": "#d62728",
   "military-areas": "#8b5cf6",
   "sporting-areas": "#d97706",
@@ -152,8 +153,19 @@ function buildFilterTree() {
         dataset,
         level: "group",
       });
+      const subgroups = new Map();
       features.forEach((feature) => {
-        const featureId = `${groupId}/f:${feature.key}`;
+        const subgroupLabel = dataset.subgroupBy
+          ? feature.properties?.[dataset.subgroupBy]
+          : null;
+        let parentId = groupId;
+        if (subgroupLabel) {
+          const subgroupKey = String(subgroupLabel).toLowerCase().replace(/[^a-z0-9]+/g, "-");
+          parentId = `${groupId}/s:${subgroupKey}`;
+          if (!subgroups.has(parentId)) subgroups.set(parentId, { label: subgroupLabel, features: [] });
+          subgroups.get(parentId).features.push(feature);
+        }
+        const featureId = `${parentId}/f:${feature.key}`;
         state.filterNodes.set(featureId, {
           id: featureId,
           label: feature.title,
@@ -161,8 +173,11 @@ function buildFilterTree() {
           dataset,
           level: "feature",
         });
-        state.featurePaths.set(feature.key, [datasetId, groupId, featureId]);
+        state.featurePaths.set(feature.key, subgroupLabel ? [datasetId, groupId, parentId, featureId] : [datasetId, groupId, featureId]);
       });
+      subgroups.forEach((subgroup, subgroupId) => state.filterNodes.set(subgroupId, {
+        id: subgroupId, label: subgroup.label, features: subgroup.features, dataset, level: "subgroup",
+      }));
     });
   });
 }
@@ -224,19 +239,30 @@ function renderDatasetFilter(dataset) {
     .map(menuNode)
     .filter((node) => node.features.length)
     .sort((a, b) => a.label.localeCompare(b.label, "nl"));
+  const renderGroupChildren = (group) => {
+    const directFeatures = group.features.filter((feature) => state.featurePaths.get(feature.key).length === 3);
+    const directLeaves = directFeatures
+      .sort((a, b) => a.title.localeCompare(b.title, "nl"))
+      .map((feature) => filterCheckbox(state.filterNodes.get(state.featurePaths.get(feature.key).at(-1))))
+      .join("");
+    const subgroupNodes = [...state.filterNodes.values()]
+      .filter((node) => node.level === "subgroup" && node.id.startsWith(`${group.id}/`))
+      .map(menuNode)
+      .filter((node) => node.features.length)
+      .sort((a, b) => a.label.localeCompare(b.label, "nl"))
+      .map((subgroup) => `<details class="filter-node"><summary>${filterCheckbox(subgroup, true)}</summary><div class="filter-children">${subgroup.features
+        .sort((a, b) => a.title.localeCompare(b.title, "nl"))
+        .map((feature) => filterCheckbox(state.filterNodes.get(state.featurePaths.get(feature.key).at(-1))))
+        .join("")}</div></details>`)
+      .join("");
+    return directLeaves + subgroupNodes;
+  };
   const children = dataset.flattenGroups
     ? leaves
     : groups
         .map(
           (group) =>
-            `<details class="filter-node"><summary>${filterCheckbox(group, true)}</summary><div class="filter-children">${group.features
-              .sort((a, b) => a.title.localeCompare(b.title, "nl"))
-              .map((feature) =>
-                filterCheckbox(
-                  state.filterNodes.get(state.featurePaths.get(feature.key)[2]),
-                ),
-              )
-              .join("")}</div></details>`,
+            `<details class="filter-node"><summary>${filterCheckbox(group, true)}</summary><div class="filter-children">${renderGroupChildren(group)}</div></details>`,
         )
         .join("");
   return `<details class="filter-node" open><summary>${filterCheckbox(datasetNode, true)}</summary><div class="filter-children">${children}</div></details>`;
@@ -557,6 +583,16 @@ const FIELDS_BY_TYPE = {
     "lowerLimit",
     "upperLimit",
     "remarks",
+  ],
+  ctr: [
+    "airspaceClass",
+    "lowerLimit",
+    "upperLimit",
+    "controlUnit",
+    "hours",
+    "remarks",
+    "lateralLimits",
+    "aipSource",
   ],
   restricted: [
     "areaType",

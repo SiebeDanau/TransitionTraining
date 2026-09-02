@@ -11,7 +11,8 @@
         "airspaceClass": "C",
         "aipSource": "Belgium AIP ENR 2.1, AMDT 012/2025, effective 27-NOV-2025",
         "aipPage": "ENR 2.1-13",
-        "geometryNote": "Published endpoints retained exactly; circle arcs sampled at maximum 1 degree; international-border segments use Eurostat/GISCO Countries 2024 CNTR_BN_01M."
+        "geometryNote": "Published endpoints retained exactly; circle arcs sampled at maximum 1 degree; international-border segments use Eurostat/GISCO Countries 2024 CNTR_BN_01M.",
+        "sharedBoundaryNote": "The straight boundary 504611N 0054446E - 504724N 0054146E is stored with identical exact AIP endpoints in Maastricht TMA 1 and Liège TMA 1/2."
       },
       "geometry": {
         "type": "Polygon",
@@ -756,6 +757,10 @@
             [
               5.6375,
               50.81416667
+            ],
+            [
+              5.69611111,
+              50.79
             ],
             [
               5.74611111,
