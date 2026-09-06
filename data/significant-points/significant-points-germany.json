@@ -1,6 +1,30 @@
 {
-  "source": "Germany AIP ENR 4.4 name-code designators for significant points (effective 09 JUL 2026).",
+  "source": "Germany AIP ENR 4.4 name-code designators for significant points (effective 09 JUL 2026), supplemented with verified military-only points from MIL AIP Germany/GEMIL FLIP.",
   "points": [
+    {
+      "id": "ALESU",
+      "name": "ALESU",
+      "title": "ALESU",
+      "lat": "505228.8N",
+      "lon": "0061806.0E",
+      "remarks": "Military significant point; ETNG approach use. Source: MIL AIP Germany/GEMIL FLIP."
+    },
+    {
+      "id": "GELNU",
+      "name": "GELNU",
+      "title": "GELNU",
+      "lat": "505744.4N",
+      "lon": "0055257.0E",
+      "remarks": "Military significant point. Source: MIL AIP Germany/GEMIL FLIP."
+    },
+    {
+      "id": "KETIG",
+      "name": "KETIG",
+      "title": "KETIG",
+      "lat": "505725.2N",
+      "lon": "0062212.6E",
+      "remarks": "Military significant point; ETNG approach use. Source: MIL AIP Germany/GEMIL FLIP."
+    },
     {
       "id": "ABAMI",
       "name": "ABAMI",
