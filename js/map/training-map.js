@@ -29,6 +29,7 @@ export class TrainingMap extends EventTarget {
   }
 
   initialize(points) {
+    this.#updateBackgroundNote();
     if (!window.maplibregl) {
       this.container.className = "map-error";
       this.container.textContent = "De interactieve kaart kon niet geladen worden. Controleer de internetverbinding.";
@@ -64,10 +65,16 @@ export class TrainingMap extends EventTarget {
   setBackground(mode) {
     if (!this.map) return;
     this.backgroundMode = mode;
-    this.noteElement.textContent = mode === "local"
-      ? "De bestaande rustige trainingskaart blijft behouden."
-      : "Alleen land, water, grote rivieren en landsgrenzen blijven zichtbaar.";
+    this.#updateBackgroundNote();
     this.map.setStyle(mode === "local" ? BLANK_STYLE : OSM_STYLE_URL);
+  }
+
+  #updateBackgroundNote() {
+    this.noteElement.textContent = this.backgroundMode === "local"
+      ? "De bestaande rustige trainingskaart blijft behouden."
+      : this.backgroundMode === "cities"
+        ? "Plaatsnamen, wegen en bebouwing helpen je steden te situeren."
+        : "Alleen land, water, grote rivieren en landsgrenzen blijven zichtbaar.";
   }
 
   clearFeedback() {
