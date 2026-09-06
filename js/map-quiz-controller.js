@@ -122,6 +122,7 @@ function createMapQuestions(records, allowedIds) {
       questionType: "map-location",
       prompt: label,
       label,
+      answerName: moduleConfig.id === "aerodromes" ? record.title || label : null,
       featureKey,
       correctFeatureKey: featureKey,
       acceptedFeatureKeys: [featureKey],
@@ -220,7 +221,10 @@ function showAnswer(snapshot) {
     setFeedback("Juist.", "good");
   } else {
     const selected = questions.find((question) => question.featureKey === result.answer?.featureKey);
-    setFeedback(`Fout. Je duidde ${selected?.label || "een ander punt"} aan.`, "bad");
+    const selectedLabel = selected?.answerName && selected.answerName !== selected.label
+      ? `${selected.label} (${selected.answerName})`
+      : selected?.label || "een ander punt";
+    setFeedback(`Fout. Je duidde ${selectedLabel} aan.`, "bad");
   }
   updateStats(snapshot);
 }

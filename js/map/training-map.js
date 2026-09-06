@@ -26,6 +26,7 @@ export class TrainingMap extends EventTarget {
     this.statuses = new Map();
     this.hoveredFeatureKey = null;
     this.map = null;
+    this.answerPopup = null;
   }
 
   initialize(points) {
@@ -82,12 +83,14 @@ export class TrainingMap extends EventTarget {
   }
 
   clearFeedback() {
+    this.answerPopup?.remove();
+    this.answerPopup = null;
     this.statuses.clear();
     this.#updatePointSource();
   }
 
   showAnswer({ selectedFeatureKey, correctFeatureKey, correct, revealed }) {
-    this.statuses.clear();
+    this.clearFeedback();
     if (revealed) {
       this.statuses.set(correctFeatureKey, "reveal");
     } else if (correct) {
@@ -97,6 +100,25 @@ export class TrainingMap extends EventTarget {
       this.statuses.set(correctFeatureKey, "reveal");
     }
     this.#updatePointSource();
+    const point = this.points.find((item) => item.featureKey === correctFeatureKey);
+    if (this.map && point?.answerName) {
+      const content = document.createElement("div");
+      content.setAttribute("role", "status");
+      const code = document.createElement("div");
+      code.className = "answer-airport-code";
+      code.textContent = point.label;
+      const name = document.createElement("div");
+      name.className = "answer-airport-name";
+      name.textContent = point.answerName;
+      content.append(code, name);
+      this.answerPopup = new maplibregl.Popup({
+        className: "answer-airport-popup",
+        closeButton: false,
+        closeOnClick: false,
+        offset: 18,
+        maxWidth: "280px",
+      }).setLngLat([point.lon, point.lat]).setDOMContent(content).addTo(this.map);
+    }
   }
 
   #pointGeoJson() {
