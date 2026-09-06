@@ -41,8 +41,12 @@ export class TrainingMap extends EventTarget {
       style: this.backgroundMode === "local" ? BLANK_STYLE : OSM_STYLE_URL,
       center: [4.55, 50.65],
       zoom: 6.2,
+      dragRotate: false,
+      touchPitch: false,
       attributionControl: false,
     });
+    this.map.touchZoomRotate.disableRotation();
+    this.map.keyboard.disableRotation();
     this.map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     this.map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
     this.map.on("style.load", () => this.#restoreLayers());

@@ -753,8 +753,12 @@ function initializeMap() {
     style: state.background === "local" ? BLANK_STYLE : OSM_STYLE,
     center: [4.55, 50.65],
     zoom: 6.2,
+    dragRotate: false,
+    touchPitch: false,
     attributionControl: false,
   });
+  state.map.touchZoomRotate.disableRotation();
+  state.map.keyboard.disableRotation();
   state.map.addControl(
     new maplibregl.NavigationControl({ showCompass: false }),
     "top-right",
