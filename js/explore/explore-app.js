@@ -17,6 +17,7 @@ const BLANK_STYLE = {
 };
 const OSM_STYLE = "https://tiles.openfreemap.org/styles/bright";
 const COLORS = {
+  "ats-routes": "#b45309",
   "fir-uir": "#222222",
   tma: "#2563eb",
   ctr: "#0891b2",
@@ -84,6 +85,7 @@ function savePreferences() {
 }
 function featureSubtitle(feature) {
   const p = feature.properties;
+  if (feature.kind === "route") return `${feature.typeLabel} · ${p.points.length} punten${p.missingPoints.length ? " · onvolledige kaartgegevens" : ""}`;
   const vertical =
     [p.lowerLimit, p.upperLimit].filter(Boolean).join(" / ");
   return [feature.typeLabel, vertical, p.station, p.type]
@@ -307,7 +309,7 @@ function allowedFeatureIds(datasetId) {
     .filter((role) => state.roles.has(role.id))
     .forEach((role) => {
       const category = role.categories?.[datasetId] || {};
-      (category.pointIds || category.areaIds || []).forEach((id) =>
+      (category.pointIds || category.areaIds || category.routeIds || []).forEach((id) =>
         ids.add(String(id).toUpperCase()),
       );
     });
@@ -358,6 +360,22 @@ function addApplicationLayers() {
           "line-opacity": 0.9,
         },
       });
+    } else if (dataset.kind === "route") {
+      addLayer({
+        id: `${sourceId}-line-hit`, type: "line", source: sourceId,
+        paint: { "line-color": "rgba(0,0,0,0)", "line-width": 14 },
+      });
+      addLayer({
+        id: `${sourceId}-line`, type: "line", source: sourceId,
+        layout: { "line-join": "round", "line-cap": "round" },
+        paint: { "line-color": color, "line-width": 2, "line-opacity": 0.8 },
+      });
+      if (map.getStyle().glyphs) addLayer({
+        id: `${sourceId}-label`, type: "symbol", source: sourceId,
+        minzoom: 7,
+        layout: { "symbol-placement": "line", "text-field": ["get", "title"], "text-size": 12, "symbol-spacing": 250 },
+        paint: { "text-color": color, "text-halo-color": "#fff", "text-halo-width": 2 },
+      });
     } else {
       addLayer({
         id: `${sourceId}-point-hit`,
@@ -394,7 +412,7 @@ function addApplicationLayers() {
     id: "explore-highlight-line",
     type: "line",
     source: "explore-highlight",
-    filter: ["==", ["get", "kind"], "airspace"],
+    filter: ["in", ["get", "kind"], ["literal", ["airspace", "route"]]],
     paint: { "line-color": "#00a6b8", "line-width": 5, "line-opacity": 1 },
   });
   addLayer({
@@ -456,7 +474,7 @@ function renderedCandidates(point, wide = false) {
     .flatMap((dataset) =>
       dataset.kind === "airspace"
         ? [`explore-${dataset.id}-fill`, `explore-${dataset.id}-line-hit`]
-        : [`explore-${dataset.id}-point-hit`],
+        : dataset.kind === "route" ? [`explore-${dataset.id}-line-hit`] : [`explore-${dataset.id}-point-hit`],
     )
     .filter((id) => state.map.getLayer(id));
   const area = wide
@@ -631,6 +649,12 @@ const FIELDS_BY_TYPE = {
   "significant-point": ["id"],
 };
 function renderDetails(feature) {
+  if (feature.kind === "route") {
+    const { points, missingPoints } = feature.properties;
+    els.detailContent.innerHTML = `<h2>${escapeHtml(feature.title)}</h2><span class="type-badge">ATS-route</span><h3>Puntenvolgorde</h3><p>${points.map(escapeHtml).join(" → ")}</p>${missingPoints.length ? `<p>Kaartgegevens ontbreken voor: ${missingPoints.map(escapeHtml).join(", ")}. Alleen trajecten tussen opeenvolgende bekende punten worden getoond.</p>` : ""}`;
+    els.details.hidden = false;
+    return;
+  }
   const fields =
     FIELDS_BY_TYPE[feature.subtype] || Object.keys(feature.properties);
   const rows = fields

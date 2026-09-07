@@ -73,6 +73,44 @@ function preferBelgianAip(features) {
   });
 }
 
+export function normalizeRoutes(dataset, collection, file, fileIndex, pointFeatures) {
+  const points = new Map();
+  // Resolve Belgian records first, consistently with the other map datasets.
+  [...pointFeatures].sort((a, b) => Number(b.sourceFile.endsWith('-belgium.json')) - Number(a.sourceFile.endsWith('-belgium.json')))
+    .forEach((feature) => {
+      if (feature.kind === 'point' && !points.has(feature.canonicalId)) points.set(feature.canonicalId, feature.geometry.coordinates);
+    });
+  return (collection.routes || []).map((record, index) => {
+    const missingPoints = [], segments = [];
+    let segment = [];
+    const finishSegment = () => {
+      if (segment.length > 1) segments.push(segment);
+      segment = [];
+    };
+    record.points.forEach((id) => {
+      const coordinate = String(id).trim().split(/\s+/);
+      const literal = coordinate.length === 2 ? [parseCoordinate(coordinate[1]), parseCoordinate(coordinate[0])] : null;
+      const resolved = points.get(String(id).toUpperCase()) || (literal?.every(Number.isFinite) ? literal : null);
+      if (resolved) segment.push(resolved);
+      else {
+        missingPoints.push(id);
+        // Never draw a shortcut across an unknown waypoint.
+        finishSegment();
+      }
+    });
+    finishSegment();
+    const geometry = segments.length ? { type: 'MultiLineString', coordinates: segments } : null;
+    const metrics = geometryMetrics(geometry);
+    return {
+      key: `${dataset.id}:${fileIndex}:${record.id}:${index}`,
+      canonicalId: record.id.toUpperCase(), datasetId: dataset.id, kind: dataset.kind, subtype: dataset.subtype,
+      title: record.id, typeLabel: dataset.typeLabel,
+      properties: { id: record.id, points: record.points, missingPoints: [...new Set(missingPoints)] },
+      geometry, ...metrics, sourceFile: file,
+    };
+  });
+}
+
 export async function loadRepository() {
   const [catalog, roleConfig] = await Promise.all([fetchJson("data/catalog.json"), fetchJson("data/roles.json")]);
   const datasets = catalog.datasets || [];
@@ -85,7 +123,10 @@ export async function loadRepository() {
   }
   const features = preferBelgianAip(jobs.flatMap((job, index) => job.dataset.format === "geojson"
     ? normalizeGeoJson(job.dataset, collections[index], job.file, job.fileIndex)
-    : normalizePoints(job.dataset, collections[index], job.file, job.fileIndex)));
+    : job.dataset.format === "routes" ? [] : normalizePoints(job.dataset, collections[index], job.file, job.fileIndex)));
+  const routeFeatures = jobs.flatMap((job, index) => job.dataset.format === "routes"
+    ? normalizeRoutes(job.dataset, collections[index], job.file, job.fileIndex, features) : []);
+  features.push(...routeFeatures);
   return { datasets, features, roles: roleConfig.roles || [] };
 }
 

@@ -16,12 +16,12 @@
         <div class="searchbox"><input id="searchInput" type="search" autocomplete="off" placeholder="Naam, identifier of type…" aria-autocomplete="list" aria-controls="searchResults"><span id="searchSpinner" hidden>•••</span></div>
         <div id="searchResults" class="search-results" role="listbox" hidden></div>
       </section>
-      <details open><summary>Rollen <span class="summary-note">puntenfilter</span></summary><p class="help">Zonder selectie worden alle punten getoond. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
+      <details open><summary>Rollen <span class="summary-note">gegevensfilter</span></summary><p class="help">Zonder selectie zijn alle gegevens beschikbaar. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
       <details open><summary>Kaartgegevens</summary><div class="quick-actions"><button id="showAll" type="button">Alles tonen</button><button id="hideAll" type="button">Alles verbergen</button></div><div id="datasetFilters" class="filters"></div></details>
       <p id="status" class="status" aria-live="polite">Gegevens laden…</p>
     </aside>
     <section class="map-area">
-      <div class="toolbar"><label>Achtergrond <select id="backgroundMode"><option value="local">Rustige kaart</option><option value="osm" selected>OpenStreetMap minimaal</option><option value="cities">Steden en wegen</option></select></label><span id="mapHint">Klik in een gebied, op een grens of op een punt.</span></div>
+      <div class="toolbar"><label>Achtergrond <select id="backgroundMode"><option value="local">Rustige kaart</option><option value="osm" selected>OpenStreetMap minimaal</option><option value="cities">Steden en wegen</option></select></label><span id="mapHint">Klik op een gebied, route, grens of punt.</span></div>
       <div id="map" class="map"></div>
       <div id="hoverCard" class="hover-card" hidden></div>
       <aside id="detailPanel" class="detail-panel" aria-live="polite" hidden><button id="closeDetails" class="close" aria-label="Details sluiten">×</button><div id="detailContent"></div></aside>

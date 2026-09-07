@@ -1,6 +1,10 @@
 {
   "datasets": [
     {
+      "id": "ats-routes", "label": "ATS-routes", "typeLabel": "ATS-route", "kind": "route", "subtype": "ats-route", "format": "routes", "roleFilterable": true, "flattenGroups": true, "defaultVisible": true,
+      "files": ["routes/routes-belgium.json"]
+    },
+    {
       "id": "fir-uir",
       "label": "FIR en UIR",
       "typeLabel": "FIR / UIR",
