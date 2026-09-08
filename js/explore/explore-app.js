@@ -104,7 +104,7 @@ function titleCase(value) {
 }
 function groupLabel(dataset, file, features) {
   if (dataset.groupBy) {
-    const value = features[0]?.properties?.[dataset.groupBy];
+    const value = features[0]?.properties?.[dataset.groupBy] || dataset.defaultGroup;
     return dataset.groupLabels?.[value] || titleCase(value);
   }
   if (dataset.id === "tma") return titleCase(file.split("/").pop());
@@ -120,7 +120,7 @@ function groupLabel(dataset, file, features) {
 }
 function groupKey(dataset, feature) {
   if (dataset.groupBy)
-    return `${dataset.groupBy}:${feature.properties?.[dataset.groupBy] || "other"}`;
+    return `${dataset.groupBy}:${feature.properties?.[dataset.groupBy] || dataset.defaultGroup || "other"}`;
   if (dataset.id === "tma")
     return feature.sourceFile.split("/").slice(0, -1).join("/");
   return feature.sourceFile;
@@ -157,7 +157,9 @@ function buildFilterTree() {
       });
       const subgroups = new Map();
       features.forEach((feature) => {
-        const subgroupLabel = dataset.subgroupBy
+        const subgroupLabel = dataset.id === "tma"
+          ? titleCase(feature.sourceFile.split("/").at(-2))
+          : dataset.subgroupBy
           ? feature.properties?.[dataset.subgroupBy]
           : null;
         let parentId = groupId;
@@ -600,7 +602,10 @@ const FIELDS_BY_TYPE = {
     "airspaceClass",
     "lowerLimit",
     "upperLimit",
+    "controlUnit",
+    "hours",
     "remarks",
+    "aipSource",
   ],
   ctr: [
     "airspaceClass",

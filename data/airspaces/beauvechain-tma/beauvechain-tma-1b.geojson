@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "name": "BEAUVECHAIN TMA ONE B",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BEAUVECHAIN-TMA-1B",
+        "name": "BEAUVECHAIN TMA ONE B",
+        "category": "Military",
+        "lowerLimit": "3500FT AMSL",
+        "upperLimit": "4500FT AMSL",
+        "airspaceClass": "C",
+        "controlUnit": "Beauvechain APP",
+        "hours": "See EBBE AD 2.3",
+        "remarks": "Outside EBBE OPR HR, airspace is not active. Activation can be checked with Steenokkerzeel ATCC or Brussels FIC. As EBBE may be re-activated at any time, pilots are advised to avoid crossing whenever possible.",
+        "lateralLimits": "504048N 0043801E - 505345N 0045425E - 505107N 0050712E - an arc of circle, 40 NM radius, centred on 510954N 0041102E and traced clockwise to 503810N 0044949E - 504048N 0043801E.",
+        "aipSource": "Belgium & Luxembourg AIP ENR 2.1, edition effective 03-SEP-2026",
+        "aipSourceUrl": "https://ops.skeyes.be/html/belgocontrol_static/eaip/eAIP_Main/html/eAIP/EB-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03",
+        "geometryNote": "Published AIP endpoints retained exactly; geodesic arcs sampled at maximum one degree. Border sections reuse the detailed Brussels UIR boundary. Conditional exclusions and vertical limits are described in remarks; activation is not evaluated live."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.633611111111111,
+              50.68
+            ],
+            [
+              4.830277777777778,
+              50.63611111111111
+            ],
+            [
+              4.84298773,
+              50.64432845
+            ],
+            [
+              4.85698614,
+              50.65147233
+            ],
+            [
+              4.87079411,
+              50.65876532
+            ],
+            [
+              4.88440765,
+              50.66620534
+            ],
+            [
+              4.89782281,
+              50.6737903
+            ],
+            [
+              4.9110357,
+              50.68151805
+            ],
+            [
+              4.92404247,
+              50.68938639
+            ],
+            [
+              4.93683932,
+              50.69739309
+            ],
+            [
+              4.94942253,
+              50.70553589
+            ],
+            [
+              4.9617884,
+              50.71381246
+            ],
+            [
+              4.97393332,
+              50.72222046
+            ],
+            [
+              4.98585371,
+              50.73075751
+            ],
+            [
+              4.99754605,
+              50.73942117
+            ],
+            [
+              5.00900691,
+              50.74820898
+            ],
+            [
+              5.02023288,
+              50.75711843
+            ],
+            [
+              5.03122063,
+              50.766147
+            ],
+            [
+              5.0419669,
+              50.7752921
+            ],
+            [
+              5.05246848,
+              50.78455114
+            ],
+            [
+              5.06272222,
+              50.79392147
+            ],
+            [
+              5.07272507,
+              50.80340041
+            ],
+            [
+              5.08247399,
+              50.81298526
+            ],
+            [
+              5.09196606,
+              50.82267328
+            ],
+            [
+              5.10119839,
+              50.8324617
+            ],
+            [
+              5.11016819,
+              50.84234771
+            ],
+            [
+              5.119999999999999,
+              50.85194444444445
+            ],
+            [
+              4.906944444444445,
+              50.895833333333336
+            ],
+            [
+              4.633611111111111,
+              50.68
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

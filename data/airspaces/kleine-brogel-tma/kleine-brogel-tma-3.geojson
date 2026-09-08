@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "name": "KLEINE-BROGEL TMA THREE",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KLEINE-BROGEL-TMA-3",
+        "name": "KLEINE-BROGEL TMA THREE",
+        "category": "Military",
+        "lowerLimit": "2500FT AMSL",
+        "upperLimit": "4500FT AMSL",
+        "airspaceClass": "C",
+        "controlUnit": "Kleine-Brogel APP",
+        "hours": "See EBBL AD 2.3",
+        "remarks": "Outside EBBL OPR HR, airspace is not active. Activation can be checked with Steenokkerzeel ATCC or Brussels FIC. EBR05C and TRA17 excluded when active (activation can be checked with EBBL ATC or Steenokkerzeel ATCC).",
+        "lateralLimits": "510333N 0054619E - along the Belgian-Dutch border - 505655N 0054502E - 505528N 0053207E - 505533N 0051951E - 510122N 0051316E - 510057N 0051655E - 505929N 0051951E - 510157N 0053455E - 510333N 0054619E.",
+        "aipSource": "Belgium & Luxembourg AIP ENR 2.1, edition effective 03-SEP-2026",
+        "aipSourceUrl": "https://ops.skeyes.be/html/belgocontrol_static/eaip/eAIP_Main/html/eAIP/EB-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03",
+        "geometryNote": "Published AIP endpoints retained exactly; geodesic arcs sampled at maximum one degree. Border sections reuse the detailed Brussels UIR boundary. Conditional exclusions and vertical limits are described in remarks; activation is not evaluated live."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.771944444444444,
+              51.05916666666666
+            ],
+            [
+              5.581944444444444,
+              51.0325
+            ],
+            [
+              5.3308333333333335,
+              50.99138888888889
+            ],
+            [
+              5.281944444444444,
+              51.01583333333333
+            ],
+            [
+              5.221111111111111,
+              51.022777777777776
+            ],
+            [
+              5.3308333333333335,
+              50.92583333333333
+            ],
+            [
+              5.535277777777778,
+              50.92444444444444
+            ],
+            [
+              5.750555555555556,
+              50.948611111111106
+            ],
+            [
+              5.757608016000063,
+              50.95172198200004
+            ],
+            [
+              5.753896867000037,
+              50.958323146000055
+            ],
+            [
+              5.745614197000066,
+              50.96089462100008
+            ],
+            [
+              5.738547800000049,
+              50.95862581700004
+            ],
+            [
+              5.728954790000046,
+              50.955545794000045
+            ],
+            [
+              5.722445042000061,
+              50.95790987600003
+            ],
+            [
+              5.72109623800003,
+              50.961649856000065
+            ],
+            [
+              5.738007233000076,
+              50.97841447600007
+            ],
+            [
+              5.745662737000032,
+              50.98127095000007
+            ],
+            [
+              5.748910982000041,
+              50.98248295800005
+            ],
+            [
+              5.765072018000069,
+              50.99722077800004
+            ],
+            [
+              5.766074106000076,
+              51.008594294000034
+            ],
+            [
+              5.773411483000075,
+              51.018817596000076
+            ],
+            [
+              5.774233817000038,
+              51.025691753000046
+            ],
+            [
+              5.769014308000067,
+              51.02766344400004
+            ],
+            [
+              5.761215640000046,
+              51.030609422000055
+            ],
+            [
+              5.759419879000063,
+              51.03424951000005
+            ],
+            [
+              5.766635476000033,
+              51.04460012700008
+            ],
+            [
+              5.770656616000053,
+              51.050368365000054
+            ],
+            [
+              5.771481721000043,
+              51.05414536300003
+            ],
+            [
+              5.771944444444444,
+              51.05916666666666
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

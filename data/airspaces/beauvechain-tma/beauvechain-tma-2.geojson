@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "name": "BEAUVECHAIN TMA TWO",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BEAUVECHAIN-TMA-2",
+        "name": "BEAUVECHAIN TMA TWO",
+        "category": "Military",
+        "lowerLimit": "2500FT AMSL",
+        "upperLimit": "3500FT AMSL",
+        "airspaceClass": "C",
+        "controlUnit": "Beauvechain APP during EBBE OPR HR; Brussels APP outside EBBE OPR HR",
+        "hours": "See EBBE AD 2.3; Brussels APP H24",
+        "remarks": "During EBBE OPR HR, controlled by Beauvechain APP; activation can be checked with Steenokkerzeel ATCC or Brussels FIC. Outside EBBE OPR HR, controlled by Brussels APP (Brussels Departure). As EBBE may be re-activated at any time, pilots are advised to avoid crossing whenever possible.",
+        "lateralLimits": "504111N 0042920E - 505500N 0044845E - 505345N 0045425E - 504048N 0043801E - 503823N 0042917E - 504111N 0042920E.",
+        "aipSource": "Belgium & Luxembourg AIP ENR 2.1, edition effective 03-SEP-2026",
+        "aipSourceUrl": "https://ops.skeyes.be/html/belgocontrol_static/eaip/eAIP_Main/html/eAIP/EB-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03",
+        "geometryNote": "Published AIP endpoints retained exactly; geodesic arcs sampled at maximum one degree. Border sections reuse the detailed Brussels UIR boundary. Conditional exclusions and vertical limits are described in remarks; activation is not evaluated live."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.488888888888889,
+              50.686388888888885
+            ],
+            [
+              4.4880555555555555,
+              50.63972222222222
+            ],
+            [
+              4.633611111111111,
+              50.68
+            ],
+            [
+              4.906944444444445,
+              50.895833333333336
+            ],
+            [
+              4.8125,
+              50.916666666666664
+            ],
+            [
+              4.488888888888889,
+              50.686388888888885
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

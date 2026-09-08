@@ -5,8 +5,8 @@ const BLANK_STYLE = {
 };
 
 const OSM_STYLE_URL = "https://tiles.openfreemap.org/styles/bright";
-const AIRSPACE_DATA_VERSION = "20260731-1";
-const TMA_FILE_GROUPS = {
+const AIRSPACE_DATA_VERSION = "20260908-1";
+const CIVIL_TMA_FILE_GROUPS = {
   "brussels-tma": ["brussels-tma-1", "brussels-tma-2", "brussels-tma-3a", "brussels-tma-3b", "brussels-tma-4", "brussels-tma-5", "brussels-tma-7", "brussels-tma-8", "brussels-tma-9a", "brussels-tma-9b"],
   "charleroi-tma": ["charleroi-tma-1", "charleroi-tma-2a", "charleroi-tma-2b", "charleroi-tma-3a", "charleroi-tma-3b"],
   "liege-tma": ["liege-tma-1", "liege-tma-2", "liege-tma-3", "liege-tma-4", "liege-tma-5"],
@@ -208,7 +208,7 @@ export class TrainingMap extends EventTarget {
   #addLayers() {
     this.#addReferenceLayer("brussels-uir", "brussels-uir-outline", `data/airspaces/brussels-uir.geojson?v=${AIRSPACE_DATA_VERSION}`, "#000000", ["interpolate", ["linear"], ["zoom"], 5, 3, 9, 5]);
     this.#addReferenceLayer("amsterdam-fir", "amsterdam-fir-outline", `data/airspaces/amsterdam-fir.geojson?v=${AIRSPACE_DATA_VERSION}`, "#000000", ["interpolate", ["linear"], ["zoom"], 5, 3, 9, 5]);
-    Object.entries(TMA_FILE_GROUPS).forEach(([folder, files]) => files.forEach((sourceId) => {
+    Object.entries(CIVIL_TMA_FILE_GROUPS).forEach(([folder, files]) => files.forEach((sourceId) => {
       const width = sourceId === "maastricht-tma-1"
         ? ["interpolate", ["linear"], ["zoom"], 5, 4, 9, 6]
         : ["interpolate", ["linear"], ["zoom"], 5, 2, 9, 4];
