@@ -52,6 +52,10 @@
         "Aerodromes/aerodromes-netherlands.json",
         "Aerodromes/aerodromes-uk.json"
       ]
+    },
+    {
+      "id": "ats-routes", "title": "ATS Routes", "description": "Duid zelf de punten van een willekeurige route aan, in de juiste volgorde.",
+      "type": "route-quiz", "entry": "routes-quiz.html", "requiresRole": true
     }
   ]
 }

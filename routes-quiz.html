@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATS Routes · Transition Training</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="css/routes-quiz.css">
+</head>
+<body>
+  <main class="app">
+    <aside>
+      <a href="index.html">← Modules</a>
+      <h1>ATS Routes</h1>
+      <p id="roleLabel"></p>
+      <div class="point-legend" aria-label="Puntsoorten"><span><i style="background:#d62728"></i>Significant point</span><span><i style="background:#7c3aed"></i>Radionavigatiepunt</span><span><i style="background:#087f5b"></i>Luchthaven</span><span><i style="background:#64748b"></i>Overig routepunt</span></div>
+      <p>Je krijgt telkens een willekeurige route voor je rol. Duid zelf alle punten aan in de juiste volgorde, vanaf het eerste punt. Alle beschikbare routepunten staan op de kaart.</p>
+      <section class="question">
+        <p id="progress"></p>
+        <h2 id="prompt">Gegevens laden…</h2>
+        <p id="feedback" role="status" aria-live="polite"></p>
+      </section>
+      <p id="score"></p>
+      <div class="actions">
+        <button id="restart" disabled>Route opnieuw</button>
+        <button id="nextRoute" disabled>Volgende route</button>
+      </div>
+      <p id="coverage"></p>
+      <details><summary>Voltooide punten</summary><ol id="completed"></ol></details>
+      <section id="routeAnswer" hidden><h2>Correcte route</h2><ol id="answerPoints"></ol></section>
+    </aside>
+    <section class="map-area">
+      <label class="background">Achtergrond <select id="backgroundMode"><option value="osm">OpenStreetMap minimaal</option><option value="local">Rustige kaart</option><option value="cities">Steden en wegen</option></select></label>
+      <div id="mapCanvas"></div>
+      <p id="mapNote"></p>
+    </section>
+  </main>
+  <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script type="module" src="js/routes-quiz.js"></script>
+</body>
+</html>

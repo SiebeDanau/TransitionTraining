@@ -17,7 +17,7 @@ const TMA_FILE_GROUPS = {
 };
 
 export class TrainingMap extends EventTarget {
-  constructor({ container, noteElement, backgroundMode = "osm" }) {
+  constructor({ container, noteElement, backgroundMode = "osm", showPointInfo = false }) {
     super();
     this.container = container;
     this.noteElement = noteElement;
@@ -27,6 +27,10 @@ export class TrainingMap extends EventTarget {
     this.hoveredFeatureKey = null;
     this.map = null;
     this.answerPopup = null;
+    this.showPointInfo = showPointInfo;
+    this.hoverPopup = null;
+    this.routeKeys = [];
+    this.routeLabels = [];
   }
 
   initialize(points) {
@@ -69,6 +73,7 @@ export class TrainingMap extends EventTarget {
 
   setBackground(mode) {
     if (!this.map) return;
+    this.#setHoveredFeature(null);
     this.backgroundMode = mode;
     this.#updateBackgroundNote();
     this.map.setStyle(mode === "local" ? BLANK_STYLE : OSM_STYLE_URL);
@@ -83,6 +88,10 @@ export class TrainingMap extends EventTarget {
   }
 
   clearFeedback() {
+    this.routeLabels.forEach(label => label.remove());
+    this.routeLabels = [];
+    this.routeKeys = [];
+    this.#updateRouteLine();
     this.answerPopup?.remove();
     this.answerPopup = null;
     this.statuses.clear();
@@ -121,13 +130,61 @@ export class TrainingMap extends EventTarget {
     }
   }
 
+  setRouteProgress(completed, incorrect = null) {
+    this.routeKeys = [...completed];
+    this.statuses.clear();
+    completed.forEach((key) => this.statuses.set(key, "correct"));
+    if (incorrect) this.statuses.set(incorrect, "incorrect");
+    this.#updatePointSource();
+    this.#setHoveredFeature(null);
+    this.#updateRouteLine();
+  }
+
+  #pointContent(point, prefix = "") {
+    const content = document.createElement("div");
+    const name = document.createElement("strong");
+    name.textContent = prefix + point.label;
+    const type = document.createElement("div");
+    type.textContent = point.typeLabel || "Routepunt";
+    content.append(name, type);
+    return content;
+  }
+
+  revealRoute(keys) {
+    this.setRouteProgress(keys);
+    this.routeLabels.forEach(label => label.remove());
+    const groups = new Map();
+    keys.forEach((key, index) => {
+      const point = this.points.find(point => point.featureKey === key);
+      if (!point) return;
+      const coordinate = `${point.lon},${point.lat}`;
+      if (!groups.has(coordinate)) groups.set(coordinate, { point, content: document.createElement("div") });
+      groups.get(coordinate).content.append(this.#pointContent(point, `${index + 1}. `));
+    });
+    this.routeLabels = [...groups.values()].map(({ point, content }) =>
+      new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 15, maxWidth: "230px", className: "point-info-popup route-answer-label" })
+        .setLngLat([point.lon, point.lat]).setDOMContent(content).addTo(this.map));
+    const bounds = new maplibregl.LngLatBounds();
+    groups.forEach(({ point }) => bounds.extend([point.lon, point.lat]));
+    if (groups.size) this.map.fitBounds(bounds, { padding: 100, maxZoom: 9, duration: 400 });
+  }
+
+  #updateRouteLine() {
+    if (!this.showPointInfo || !this.map?.getSource("training-route")) return;
+    const coordinates = this.routeKeys.map(key => this.points.find(point => point.featureKey === key))
+      .filter(Boolean).map(point => [point.lon, point.lat]);
+    this.map.getSource("training-route").setData({ type: "FeatureCollection", features: coordinates.length < 2 ? [] : [
+      { type: "Feature", properties: {}, geometry: { type: "LineString", coordinates } },
+    ] });
+  }
+
   #pointGeoJson() {
     return {
       type: "FeatureCollection",
       features: this.points.map((point) => ({
         type: "Feature",
         id: point.featureKey,
-        properties: { id: point.featureKey, label: point.label, status: this.statuses.get(point.featureKey) || "idle" },
+        properties: { id: point.featureKey, label: point.label, color: point.color || "#d62728", status: this.statuses.get(point.featureKey) || "idle" },
         geometry: { type: "Point", coordinates: [point.lon, point.lat] },
       })),
     };
@@ -158,6 +215,10 @@ export class TrainingMap extends EventTarget {
       this.#addReferenceLayer(sourceId, `tma-${sourceId}-outline`, `data/airspaces/${encodeURIComponent(folder)}/${sourceId}.geojson?v=${AIRSPACE_DATA_VERSION}`, "#2563eb", width);
     }));
     if (!this.map.getSource("training-points")) this.map.addSource("training-points", { type: "geojson", data: this.#pointGeoJson() });
+    if (this.showPointInfo) {
+      this.#addReferenceLayer("training-route", "training-route-line", { type: "FeatureCollection", features: [] }, "#167847", 4);
+      this.#updateRouteLine();
+    }
     this.#addPointLayers();
   }
 
@@ -165,23 +226,23 @@ export class TrainingMap extends EventTarget {
     if (!this.map.getLayer("training-points")) this.map.addLayer({
       id: "training-points", type: "circle", source: "training-points",
       paint: {
-        "circle-radius": ["case", ["==", ["get", "status"], "idle"], 4.5, 10],
-        "circle-color": ["match", ["get", "status"], "correct", "rgba(0, 0, 0, 0)", "incorrect", "#b3261e", "reveal", "rgba(0, 0, 0, 0)", "#d62728"],
+        "circle-radius": this.showPointInfo ? 4.5 : ["case", ["==", ["get", "status"], "idle"], 4.5, 10],
+        "circle-color": this.showPointInfo ? ["get", "color"] : ["match", ["get", "status"], "correct", "rgba(0, 0, 0, 0)", "incorrect", "#b3261e", "reveal", "rgba(0, 0, 0, 0)", "#d62728"],
         "circle-stroke-color": ["match", ["get", "status"], "correct", "#0b5d36", "incorrect", "#7d1712", "reveal", "#167847", "#ffffff"],
-        "circle-stroke-width": ["case", ["==", ["get", "status"], "idle"], 1.5, 4],
+        "circle-stroke-width": this.showPointInfo ? 1.5 : ["case", ["==", ["get", "status"], "idle"], 1.5, 4],
       },
     });
     if (!this.map.getLayer("training-revealed-point")) this.map.addLayer({
       id: "training-revealed-point", type: "circle", source: "training-points",
       filter: ["in", ["get", "status"], ["literal", ["correct", "reveal"]]],
-      paint: { "circle-radius": 4.5, "circle-color": "#d62728", "circle-stroke-color": "#ffffff", "circle-stroke-width": 1.5 },
+      paint: { "circle-radius": 4.5, "circle-color": ["get", "color"], "circle-stroke-color": "#ffffff", "circle-stroke-width": 1.5 },
     });
     if (!this.map.getLayer("training-feedback")) this.map.addLayer({
       id: "training-feedback", type: "circle", source: "training-points",
       filter: ["!=", ["get", "status"], "idle"],
       paint: {
         "circle-radius": 10,
-        "circle-color": ["match", ["get", "status"], "correct", "rgba(0, 0, 0, 0)", "incorrect", "#b3261e", "reveal", "rgba(0, 0, 0, 0)", "#d62728"],
+        "circle-color": this.showPointInfo ? "rgba(0, 0, 0, 0)" : ["match", ["get", "status"], "correct", "rgba(0, 0, 0, 0)", "incorrect", "#b3261e", "reveal", "rgba(0, 0, 0, 0)", "#d62728"],
         "circle-stroke-color": ["match", ["get", "status"], "correct", "#0b5d36", "incorrect", "#7d1712", "reveal", "#167847", "#ffffff"],
         "circle-stroke-width": 4,
       },
@@ -192,7 +253,7 @@ export class TrainingMap extends EventTarget {
       paint: {
         "circle-radius": 12,
         "circle-color": "rgba(17, 107, 120, 0.12)",
-        "circle-stroke-color": "#116b78",
+        "circle-stroke-color": this.showPointInfo ? ["case", ["==", ["get", "status"], "correct"], "#0b5d36", "#116b78"] : "#116b78",
         "circle-stroke-width": 3,
       },
     });
@@ -205,6 +266,14 @@ export class TrainingMap extends EventTarget {
   #setHoveredFeature(featureKey) {
     if (this.hoveredFeatureKey === featureKey) return;
     this.hoveredFeatureKey = featureKey;
+    this.hoverPopup?.remove();
+    this.hoverPopup = null;
+    const point = this.points.find(item => item.featureKey === featureKey);
+    if (this.showPointInfo && point) {
+      const content = this.#pointContent(point);
+      this.hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 18, maxWidth: "260px", className: "point-info-popup" })
+        .setLngLat([point.lon, point.lat]).setDOMContent(content).addTo(this.map);
+    }
     if (this.map?.getLayer("training-hover-preview")) {
       this.map.setFilter(
         "training-hover-preview",
