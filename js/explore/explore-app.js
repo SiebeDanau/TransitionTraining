@@ -514,7 +514,10 @@ function showHover(event, candidates) {
   const primary = candidates[0];
   if (!state.selected && els.candidates.hidden) setHighlight([primary]);
   state.map.getCanvas().style.cursor = "pointer";
-  els.hover.innerHTML = `<strong>${escapeHtml(primary.title)}</strong><span>${escapeHtml(featureSubtitle(primary))}${candidates.length > 1 ? ` · +${candidates.length - 1} andere` : ""}</span>`;
+  const hoverTitle = primary.datasetId === "aerodromes"
+    ? `${primary.canonicalId} / ${primary.title}`
+    : primary.title;
+  els.hover.innerHTML = `<strong>${escapeHtml(hoverTitle)}</strong><span>${escapeHtml(featureSubtitle(primary))}${candidates.length > 1 ? ` · +${candidates.length - 1} andere` : ""}</span>`;
   els.hover.style.left = `${Math.min(event.point.x + 15, state.map.getContainer().clientWidth - 275)}px`;
   els.hover.style.top = `${Math.max(60, event.point.y - 5)}px`;
   els.hover.hidden = false;
