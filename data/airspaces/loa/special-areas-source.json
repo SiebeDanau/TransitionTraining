@@ -1,0 +1,64 @@
+{
+  "areas": [
+    {
+      "id": "LOA-L179", "name": "L179 Area", "lowerLimit": "FL 095", "upperLimit": "FL 195", "airspaceClass": "B",
+      "controlUnit": "Brussels ACC",
+      "lateralLimits": "511521N 0053324E;511455N 0055708E;511100N 0055825E;511100N 0054606E;border;511521N 0053324E",
+      "remarks": "Part of Amsterdam FIR where Brussels ACC provides ATS in accordance with the airspace classification.",
+      "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex B, B.3.1.7, page B4 and chart B14, dated 11 JUN 2026",
+      "aipSourceUrl": "",
+      "geometryNote": "Published LoA coordinates with the Dutch-Belgian border segment expanded along the shared Amsterdam FIR boundary; checked against the L179 Area chart in Annex B."
+    },
+    {
+      "id": "LOA-WALCHEREN", "name": "Walcheren Area", "lowerLimit": "FL 055", "upperLimit": "FL 125", "airspaceClass": "A",
+      "lateralLimits": "514420N 0024628E;514105N 0034732E;512259N 0034759E;512755N 0032525E;513723N 0024508E;514420N 0024628E",
+      "remarks": "Maximum level to be used: FL 120. Amsterdam ACC Supervisor notifies Brussels ACC Supervisor of activation/deactivation with 5 minutes prior notice. During activation, Brussels ACC keeps flights below FL 125 on or east of the HELEN–HAMZA axis. Deviations below FL 125 on L179 more than 5 NM north of its axis must be reported immediately to MilATCC Schiphol. Activation status is not provided by this static map.",
+      "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex D, D.3.2, page D4 and chart D7, dated 11 JUN 2026",
+      "aipSourceUrl": "",
+      "geometryNote": "Straight segments connecting the published LoA coordinates; checked against the Walcheren chart in Annex D."
+    },
+    {
+      "id": "LOA-EINDHOVEN", "name": "Eindhoven Area", "lowerLimit": "FL 095", "upperLimit": "FL 165", "airspaceClass": "B",
+      "controlUnit": "MilATCC Schiphol",
+      "lateralLimits": "513833N 0052539E;513757N 0060212E;512000N 0060209E;511455N 0055708E;511520N 0053452E;513833N 0052539E",
+      "remarks": "Part of Nieuw Milligen TMA D. When Delta Area ATS is delegated to Amsterdam ACC, MilATCC Schiphol may activate Eindhoven Area during Eindhoven Airport opening hours. While active, Eindhoven Area is excluded from that delegation; MilATCC Schiphol notifies Brussels ACC of activation/deactivation. Activation status is not provided by this static map.",
+      "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex B, B.3.2.7, page B6 and chart B19; Annex D, D.4.1.1, page D6; dated 11 JUN 2026",
+      "aipSourceUrl": "",
+      "geometryNote": "Straight segments connecting the published LoA coordinates; checked against the Eindhoven Area chart in Annex B."
+    },
+    {
+      "id": "EHAADLG13", "name": "SASKI A Area", "lowerLimit": "FL 055", "upperLimit": "FL 245",
+      "controlUnit": "Brussels ACC / Brussels Control", "hours": "H24",
+      "lateralLimits": "513813N 0023000E;513555N 0024001E;512850N 0031019E;512531N 0032419E;511610N 0040651E;border;512223N 0032147E;512719N 0023000E;513813N 0023000E",
+      "remarks": "ATS in Amsterdam FIR delegated to Belgium. Airspace classification: see AIP Belgium."
+    },
+    {
+      "id": "EHAADLG31", "name": "SASKI B Area", "lowerLimit": "FL 245", "upperLimit": "FL 660",
+      "controlUnit": "London AC (Swanwick) / London Control", "hours": "H24",
+      "lateralLimits": "514245N 0021001E;513813N 0023000E;512720N 0023000E;513000N 0020000E;514245N 0021001E",
+      "remarks": "ATS in Amsterdam FIR delegated to the United Kingdom."
+    },
+    {
+      "id": "EHAADLG17", "name": "AMRIV Area", "lowerLimit": "FL 055", "upperLimit": "FL 215",
+      "controlUnit": "London TC (Swanwick) / London Control", "hours": "H24",
+      "lateralLimits": "515710N 0022129E;515827N 0024001E;513555N 0024001E;513813N 0023000E;512720N 0023000E;513000N 0020000E;515710N 0022129E",
+      "remarks": "ATS in Amsterdam FIR delegated to the United Kingdom."
+    },
+    {
+      "id": "EHAADLG30", "name": "ABNED Area", "lowerLimit": "FL 215", "upperLimit": "FL 245",
+      "controlUnit": "London AC (Swanwick) / London Control", "hours": "H24",
+      "lateralLimits": "515710N 0022129E;520027N 0031019E;512850N 0031019E;513813N 0023000E;512720N 0023000E;513000N 0020000E;515710N 0022129E",
+      "remarks": "ATS in Amsterdam FIR delegated to the United Kingdom."
+    },
+    {
+      "id": "EBBUDLG4", "name": "WOODY Area", "lowerLimit": "FL 095", "upperLimit": "FL 245",
+      "lateralLimits": "512523N 0043208E;512248N 0042533E;border;512523N 0043208E",
+      "remarks": "Part of Brussels FIR delegated to the Netherlands. Comprises Brussels CTA North (FL 095–195) and Brussels UTA Two (FL 195–245). See AIP Belgium; the source table does not specify a controlling unit or hours."
+    },
+    {
+      "id": "EHAADLG48", "name": "Delta Area", "lowerLimit": "FL 095", "upperLimit": "FL 245",
+      "lateralLimits": "515746N 0051517E;515855N 0051742E;520004N 0053116E;515622N 0054700E;515002N 0055732E;border;511446N 0060454E;511455N 0055708E;511521N 0053324E;border;512656N 0050537E;512656N 0044635E;515120N 0050158E;515746N 0051517E",
+      "remarks": "Published in ENR 2.2 section 8.1 (ATS delegation to adjacent states). The source table does not specify a controlling unit, hours or airspace class."
+    }
+  ]
+}

@@ -17,6 +17,7 @@ const BLANK_STYLE = {
 };
 const OSM_STYLE = "https://tiles.openfreemap.org/styles/bright";
 const COLORS = {
+  loa: "#be185d",
   "ats-routes": "#b45309",
   "fir-uir": "#222222",
   tma: "#2563eb",
@@ -601,6 +602,7 @@ const FIELD_LABELS = {
   aipPage: "AIP Page",
 };
 const FIELDS_BY_TYPE = {
+  loa: ["airspaceClass", "lowerLimit", "upperLimit", "controlUnit", "hours", "remarks", "geometryNote", "aipSource", "aipSourceUrl"],
   tma: [
     "airspaceClass",
     "lowerLimit",

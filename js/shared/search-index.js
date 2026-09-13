@@ -18,7 +18,7 @@ function distance(a, b) {
 
 function score(feature, query) {
   const title = normalize(feature.title), id = normalize(feature.canonicalId), type = normalize(feature.typeLabel);
-  const values = [title, id, normalize(feature.properties.station), normalize(feature.properties.identifier), type].filter(Boolean);
+  const values = [title, id, normalize(feature.properties.station), normalize(feature.properties.identifier), normalize(feature.properties.loaPartner), type].filter(Boolean);
   if (id === query || title === query) return 0;
   if (id.startsWith(query)) return 4;
   if (title.startsWith(query)) return 6;
