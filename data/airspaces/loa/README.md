@@ -22,6 +22,11 @@ L179 Area uses the same supplied LoA, Annex B B.3.1.7 (B4, chart B14):
 FL 095–195, class B, ATS provided by Brussels ACC. Its southern/western edge
 follows the shared Dutch-Belgian border; it is separate from ATS route L179.
 
+Extended TMA G1 uses Annex D D.3.1 (D4, chart D7): FL 055–095, class A.
+LoA endpoints are preserved; the two south-coast segments use intermediate AIP
+Nieuw Milligen TMA G1 anchors as a shoreline approximation. The exact textual
+boundary and this limitation are retained in the feature metadata.
+
 New airspace coordinates and limits were transcribed from Netherlands AIP ENR 2.1,
 AIRAC AMDT 06/2026, effective 11 June 2026. The September 2026 issue could not be
 retrieved due to the publisher's access challenge; current-cycle verification is

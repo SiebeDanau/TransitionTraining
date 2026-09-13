@@ -6,6 +6,134 @@
       "type": "Feature",
       "properties": {
         "loaPartner": "Special areas",
+        "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex D, D.3.1, page D4 and chart D7, dated 11 JUN 2026. Intermediate coastline anchors: Netherlands AIP ENR 2.1 Nieuw Milligen TMA G1, 11 JUN 2026.",
+        "aipSourceUrl": "",
+        "geometryNote": "LoA endpoints retained. National-border segments follow the shared Amsterdam FIR boundary. The two south-coast segments are approximated using intermediate published Nieuw Milligen TMA G1 anchors, not a detailed shoreline survey; the exact prescribed boundary is recorded in publishedLateralLimits.",
+        "id": "LOA-EXTENDED-TMA-G1",
+        "name": "Extended TMA G1",
+        "lowerLimit": "FL 055",
+        "upperLimit": "FL 095",
+        "airspaceClass": "A",
+        "lateralLimits": "513810N 0035605E;513654N 0035910E;513800N 0040425E;513800N 0040600E;513648N 0040733E;513701N 0041042E;513600N 0041200E;513600N 0043617E;512850N 0043045E;border;512656N 0042251E;512656N 0042031E;512235N 0041500E;border;511615N 0040630E;511830N 0035605E;513810N 0035605E",
+        "publishedLateralLimits": "513810N 0035605E - along the south coast of Schouwen Duiveland to 513800N 0040425E - 513800N 0040600E - along the south coast of St. Philipsland to 513600N 0041200E - 513600N 0043617E - 512850N 0043045E - along the Dutch-Belgian border to 512656N 0042251E - 512656N 0042031E - 512235N 0041500E - along the Dutch-Belgian border to 511615N 0040630E - 511830N 0035605E - 513810N 0035605E.",
+        "remarks": "Amsterdam ACC Supervisor informs Brussels ACC Supervisor of activation/deactivation with 5 minutes prior notice. During activation, Brussels TMA departures with RFL above FL 095 cross the common AoR boundary at FL 100 or above. Brussels ACC coordinates flights crossing Brussels TMA below FL 095 and departures with RFL below FL 095 with Amsterdam ACC. Activation status is not provided by this static map."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.9347222222222227,
+              51.63611111111111
+            ],
+            [
+              3.986111111111111,
+              51.615
+            ],
+            [
+              4.073611111111111,
+              51.63333333333333
+            ],
+            [
+              4.1,
+              51.63333333333333
+            ],
+            [
+              4.125833333333333,
+              51.61333333333334
+            ],
+            [
+              4.178333333333334,
+              51.61694444444444
+            ],
+            [
+              4.2,
+              51.6
+            ],
+            [
+              4.604722222222222,
+              51.6
+            ],
+            [
+              4.5125,
+              51.480555555555554
+            ],
+            [
+              4.486697532000051,
+              51.47736062900003
+            ],
+            [
+              4.476027571000031,
+              51.47771624500007
+            ],
+            [
+              4.469626755000036,
+              51.474222171000065
+            ],
+            [
+              4.464163995000035,
+              51.47124016200007
+            ],
+            [
+              4.457768611000063,
+              51.47039838500007
+            ],
+            [
+              4.441115803000059,
+              51.468206499000075
+            ],
+            [
+              4.391183077000051,
+              51.451370111000074
+            ],
+            [
+              4.380833333333333,
+              51.44888888888889
+            ],
+            [
+              4.341944444444444,
+              51.44888888888889
+            ],
+            [
+              4.25,
+              51.37638888888889
+            ],
+            [
+              4.234817405000058,
+              51.348254205000046
+            ],
+            [
+              4.231869623000023,
+              51.34588393100006
+            ],
+            [
+              4.206818699000053,
+              51.32574285800007
+            ],
+            [
+              4.165675408000027,
+              51.292692266000074
+            ],
+            [
+              4.108333333333333,
+              51.270833333333336
+            ],
+            [
+              3.9347222222222227,
+              51.30833333333333
+            ],
+            [
+              3.9347222222222227,
+              51.63611111111111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "loaPartner": "Special areas",
         "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex B, B.3.1.7, page B4 and chart B14, dated 11 JUN 2026",
         "aipSourceUrl": "",
         "geometryNote": "Published LoA coordinates with the Dutch-Belgian border segment expanded along the shared Amsterdam FIR boundary; checked against the L179 Area chart in Annex B.",

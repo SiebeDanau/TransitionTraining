@@ -1,6 +1,15 @@
 {
   "areas": [
     {
+      "id": "LOA-EXTENDED-TMA-G1", "name": "Extended TMA G1", "lowerLimit": "FL 055", "upperLimit": "FL 095", "airspaceClass": "A",
+      "lateralLimits": "513810N 0035605E;513654N 0035910E;513800N 0040425E;513800N 0040600E;513648N 0040733E;513701N 0041042E;513600N 0041200E;513600N 0043617E;512850N 0043045E;border;512656N 0042251E;512656N 0042031E;512235N 0041500E;border;511615N 0040630E;511830N 0035605E;513810N 0035605E",
+      "publishedLateralLimits": "513810N 0035605E - along the south coast of Schouwen Duiveland to 513800N 0040425E - 513800N 0040600E - along the south coast of St. Philipsland to 513600N 0041200E - 513600N 0043617E - 512850N 0043045E - along the Dutch-Belgian border to 512656N 0042251E - 512656N 0042031E - 512235N 0041500E - along the Dutch-Belgian border to 511615N 0040630E - 511830N 0035605E - 513810N 0035605E.",
+      "remarks": "Amsterdam ACC Supervisor informs Brussels ACC Supervisor of activation/deactivation with 5 minutes prior notice. During activation, Brussels TMA departures with RFL above FL 095 cross the common AoR boundary at FL 100 or above. Brussels ACC coordinates flights crossing Brussels TMA below FL 095 and departures with RFL below FL 095 with Amsterdam ACC. Activation status is not provided by this static map.",
+      "aipSource": "User-provided LoA Amsterdam ACC – Brussels ACC (September 2026 filename); Annex D, D.3.1, page D4 and chart D7, dated 11 JUN 2026. Intermediate coastline anchors: Netherlands AIP ENR 2.1 Nieuw Milligen TMA G1, 11 JUN 2026.",
+      "aipSourceUrl": "",
+      "geometryNote": "LoA endpoints retained. National-border segments follow the shared Amsterdam FIR boundary. The two south-coast segments are approximated using intermediate published Nieuw Milligen TMA G1 anchors, not a detailed shoreline survey; the exact prescribed boundary is recorded in publishedLateralLimits."
+    },
+    {
       "id": "LOA-L179", "name": "L179 Area", "lowerLimit": "FL 095", "upperLimit": "FL 195", "airspaceClass": "B",
       "controlUnit": "Brussels ACC",
       "lateralLimits": "511521N 0053324E;511455N 0055708E;511100N 0055825E;511100N 0054606E;border;511521N 0053324E",
