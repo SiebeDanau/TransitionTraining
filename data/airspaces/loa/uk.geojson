@@ -1,0 +1,662 @@
+{
+  "type": "FeatureCollection",
+  "name": "LoA — UK",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LONDON-FIR",
+        "name": "LONDON FIR",
+        "loaPartner": "UK",
+        "parentGroup": "FIR / UIR",
+        "lowerLimit": "SFC",
+        "upperLimit": "FL 245",
+        "airspaceClass": "G (SFC–FL 195); C (FL 195–245)",
+        "controlUnit": "London ACC / Scottish ACC",
+        "hours": "H24",
+        "remarks": "FIR background classification; separately designated controlled airspace retains its published class.",
+        "lateralLimits": "550000N 0050000E - 513000N 0020000E - 510700N 0020000E - 510000N 0012800E - 504000N 0012800E - 500000N 0001500W following the line of latitude to - 500000N 0020000W - 485000N 0080000W - 510000N 0080000W - 522000N 0053000W - 550000N 0053000W following the line of latitude to - 550000N 0050000E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              55.0
+            ],
+            [
+              -5.5,
+              55.0
+            ],
+            [
+              -5.5,
+              52.333333333333336
+            ],
+            [
+              -8.0,
+              51.0
+            ],
+            [
+              -8.0,
+              48.833333333333336
+            ],
+            [
+              -2.0,
+              50.0
+            ],
+            [
+              -0.25,
+              50.0
+            ],
+            [
+              1.4666666666666668,
+              50.666666666666664
+            ],
+            [
+              1.4666666666666668,
+              51.0
+            ],
+            [
+              2.0,
+              51.11666666666667
+            ],
+            [
+              2.0,
+              51.5
+            ],
+            [
+              5.0,
+              55.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "LONDON-UIR",
+        "name": "LONDON UIR",
+        "loaPartner": "UK",
+        "parentGroup": "FIR / UIR",
+        "lowerLimit": "FL 245",
+        "upperLimit": "FL 660",
+        "airspaceClass": "C",
+        "controlUnit": "London ACC / Scottish ACC",
+        "hours": "H24",
+        "remarks": "Same lateral limits as London FIR. RVSM airspace: FL 290–410 inclusive.",
+        "lateralLimits": "Same extent as LONDON FIR",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.0,
+              55.0
+            ],
+            [
+              -5.5,
+              55.0
+            ],
+            [
+              -5.5,
+              52.333333333333336
+            ],
+            [
+              -8.0,
+              51.0
+            ],
+            [
+              -8.0,
+              48.833333333333336
+            ],
+            [
+              -2.0,
+              50.0
+            ],
+            [
+              -0.25,
+              50.0
+            ],
+            [
+              1.4666666666666668,
+              50.666666666666664
+            ],
+            [
+              1.4666666666666668,
+              51.0
+            ],
+            [
+              2.0,
+              51.11666666666667
+            ],
+            [
+              2.0,
+              51.5
+            ],
+            [
+              5.0,
+              55.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CLACTON-CTA-7",
+        "name": "CLACTON CTA 7",
+        "loaPartner": "UK",
+        "parentGroup": "Clacton CTA",
+        "lowerLimit": "FL 65",
+        "upperLimit": "FL 195",
+        "airspaceClass": "A",
+        "controlUnit": "London ACC / London Control",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "515222N 0012635E - 515220N 0021737E - 513000N 0020000E - 512922N 0020000E - 513024N 0013733E - 512708N 0013826E - 512053N 0013611E - 512106N 0013052E - 512130N 0012140E - 512247N 0011549E - 513905N 0012500E - 515222N 0012635E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.4430555555555555,
+              51.87277777777778
+            ],
+            [
+              1.4166666666666667,
+              51.65138888888889
+            ],
+            [
+              1.263611111111111,
+              51.37972222222222
+            ],
+            [
+              1.3611111111111112,
+              51.358333333333334
+            ],
+            [
+              1.5144444444444445,
+              51.35166666666667
+            ],
+            [
+              1.6030555555555557,
+              51.34805555555556
+            ],
+            [
+              1.6405555555555555,
+              51.452222222222225
+            ],
+            [
+              1.6258333333333335,
+              51.50666666666667
+            ],
+            [
+              2.0,
+              51.489444444444445
+            ],
+            [
+              2.0,
+              51.5
+            ],
+            [
+              2.293611111111111,
+              51.87222222222222
+            ],
+            [
+              1.4430555555555555,
+              51.87277777777778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CLACTON-CTA-9",
+        "name": "CLACTON CTA 9",
+        "loaPartner": "UK",
+        "parentGroup": "Clacton CTA",
+        "lowerLimit": "FL 105",
+        "upperLimit": "FL 195",
+        "airspaceClass": "A",
+        "controlUnit": "London ACC / London Control",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "513024N 0013733E - 512922N 0020000E - 511948N 0020000E - 512053N 0013611E - 512708N 0013826E - 513024N 0013733E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.6258333333333335,
+              51.50666666666667
+            ],
+            [
+              1.6405555555555555,
+              51.452222222222225
+            ],
+            [
+              1.6030555555555557,
+              51.34805555555556
+            ],
+            [
+              2.0,
+              51.330000000000005
+            ],
+            [
+              2.0,
+              51.489444444444445
+            ],
+            [
+              1.6258333333333335,
+              51.50666666666667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SOUTHERN-CTA",
+        "name": "SOUTHERN CTA",
+        "loaPartner": "UK",
+        "parentGroup": "Upper control areas",
+        "lowerLimit": "FL 195",
+        "upperLimit": "FL 245",
+        "airspaceClass": "C",
+        "controlUnit": "London ACC / London Control",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "523412N 0015410E - 522842N 0023414E - 522819N 0024644E - 513000N 0020000E - 510700N 0020000E - 510000N 0012800E - 504000N 0012800E - 500000N 0001500W following the line of latitude to - 500000N 0020000W - 495738N 0021420W - 495458N 0023011W - 501745N 0022725W - 503146N 0022018W - 503712N 0021731W - 503949N 0023058W - 504459N 0023107W - 504947N 0023317W - 510123N 0012711W - 511617N 0012057W - 511726N 0012843W - 511837N 0012813W - 512624N 0012933W - 512619N 0012850W - 513607N 0012547W - 513423N 0011138W - 514420N 0010041W - 515745N 0011126W - 520421N 0003712W - 520316N 0003441W - 521126N 0002220W - 522632N 0003702W - 522511N 0012817E - 523412N 0015410E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.9027777777777777,
+              52.57
+            ],
+            [
+              1.471388888888889,
+              52.41972222222222
+            ],
+            [
+              -0.6172222222222222,
+              52.44222222222222
+            ],
+            [
+              -0.3722222222222222,
+              52.190555555555555
+            ],
+            [
+              -0.5780555555555555,
+              52.05444444444444
+            ],
+            [
+              -0.62,
+              52.072500000000005
+            ],
+            [
+              -1.1905555555555556,
+              51.962500000000006
+            ],
+            [
+              -1.011388888888889,
+              51.73888888888889
+            ],
+            [
+              -1.193888888888889,
+              51.573055555555555
+            ],
+            [
+              -1.4297222222222223,
+              51.60194444444445
+            ],
+            [
+              -1.4805555555555556,
+              51.43861111111111
+            ],
+            [
+              -1.4925000000000002,
+              51.44
+            ],
+            [
+              -1.4702777777777778,
+              51.31027777777778
+            ],
+            [
+              -1.4786111111111113,
+              51.29055555555556
+            ],
+            [
+              -1.3491666666666666,
+              51.271388888888886
+            ],
+            [
+              -1.4530555555555555,
+              51.02305555555555
+            ],
+            [
+              -2.554722222222222,
+              50.82972222222222
+            ],
+            [
+              -2.518611111111111,
+              50.749722222222225
+            ],
+            [
+              -2.516111111111111,
+              50.66361111111111
+            ],
+            [
+              -2.2919444444444443,
+              50.62
+            ],
+            [
+              -2.3383333333333334,
+              50.529444444444444
+            ],
+            [
+              -2.456944444444445,
+              50.295833333333334
+            ],
+            [
+              -2.5030555555555556,
+              49.91611111111111
+            ],
+            [
+              -2.238888888888889,
+              49.96055555555556
+            ],
+            [
+              -2.0,
+              50.0
+            ],
+            [
+              -0.25,
+              50.0
+            ],
+            [
+              1.4666666666666668,
+              50.666666666666664
+            ],
+            [
+              1.4666666666666668,
+              51.0
+            ],
+            [
+              2.0,
+              51.11666666666667
+            ],
+            [
+              2.0,
+              51.5
+            ],
+            [
+              2.778888888888889,
+              52.471944444444446
+            ],
+            [
+              2.5705555555555555,
+              52.47833333333333
+            ],
+            [
+              1.9027777777777777,
+              52.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "UPPER-AIRSPACE-CTA",
+        "name": "UPPER AIRSPACE CTA",
+        "loaPartner": "UK",
+        "parentGroup": "Upper control areas",
+        "lowerLimit": "FL 245",
+        "upperLimit": "FL 660",
+        "airspaceClass": "C",
+        "controlUnit": "London ACC / Scottish ACC",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "610000N 0100000W following the line of latitude to - 610000N 0000000E - 600000N 0000000E - 570000N 0050000E - 550000N 0050000E - 523000N 0024800E - 513000N 0020000E - 510700N 0020000E - 510000N 0012800E - 504000N 0012800E - 500000N 0001500W following the line of latitude to - 500000N 0020000W - 485000N 0080000W - 510000N 0080000W - 522000N 0053000W - 535500N 0053000W - 542500N 0081000W - 552000N 0065500W - 552500N 0072000W - 552000N 0081500W - 544500N 0090000W - 543400N 0100000W - 610000N 0100000W",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.0,
+              61.0
+            ],
+            [
+              -10.0,
+              54.56666666666667
+            ],
+            [
+              -9.0,
+              54.75
+            ],
+            [
+              -8.25,
+              55.333333333333336
+            ],
+            [
+              -7.333333333333333,
+              55.416666666666664
+            ],
+            [
+              -6.916666666666667,
+              55.333333333333336
+            ],
+            [
+              -8.166666666666666,
+              54.416666666666664
+            ],
+            [
+              -5.5,
+              53.916666666666664
+            ],
+            [
+              -5.5,
+              52.333333333333336
+            ],
+            [
+              -8.0,
+              51.0
+            ],
+            [
+              -8.0,
+              48.833333333333336
+            ],
+            [
+              -2.0,
+              50.0
+            ],
+            [
+              -0.25,
+              50.0
+            ],
+            [
+              1.4666666666666668,
+              50.666666666666664
+            ],
+            [
+              1.4666666666666668,
+              51.0
+            ],
+            [
+              2.0,
+              51.11666666666667
+            ],
+            [
+              2.0,
+              51.5
+            ],
+            [
+              2.8,
+              52.5
+            ],
+            [
+              5.0,
+              55.0
+            ],
+            [
+              5.0,
+              57.0
+            ],
+            [
+              0.0,
+              60.0
+            ],
+            [
+              0.0,
+              61.0
+            ],
+            [
+              -10.0,
+              61.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "WORTHING-CTA-3",
+        "name": "WORTHING CTA 3",
+        "loaPartner": "UK",
+        "parentGroup": "Worthing CTA",
+        "lowerLimit": "FL 75",
+        "upperLimit": "FL 195",
+        "airspaceClass": "A",
+        "controlUnit": "London ACC / London Control",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "511929N 0013040E - 511251N 0020000E - 510700N 0020000E - 510354N 0014545E - 510600N 0014138E - 511422N 0013004E - 511929N 0013040E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.511111111111111,
+              51.32472222222223
+            ],
+            [
+              1.501111111111111,
+              51.239444444444445
+            ],
+            [
+              1.693888888888889,
+              51.1
+            ],
+            [
+              1.7625,
+              51.065
+            ],
+            [
+              2.0,
+              51.11666666666667
+            ],
+            [
+              2.0,
+              51.21416666666667
+            ],
+            [
+              1.511111111111111,
+              51.32472222222223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "WORTHING-CTA-5",
+        "name": "WORTHING CTA 5",
+        "loaPartner": "UK",
+        "parentGroup": "Worthing CTA",
+        "lowerLimit": "FL 105",
+        "upperLimit": "FL 195",
+        "airspaceClass": "A",
+        "controlUnit": "London ACC / London Control",
+        "hours": "H24",
+        "remarks": "",
+        "lateralLimits": "512053N 0013611E - 511948N 0020000E - 511251N 0020000E - 511826N 0013519E - 512053N 0013611E",
+        "geometryNote": "Full published lateral envelope; adjoining Brussels FIR on 0020000E between 510700N and 513000N. Straight coordinate segments and specified parallels retained. LoA grouping does not define coordination procedures.",
+        "aipSource": "UK AIP ENR 2.1, AIRAC 09/2026, effective 03 SEP 2026",
+        "aipSourceUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2026-09-03-AIRAC/html/eAIP/EG-ENR-2.1-en-GB.html",
+        "effectiveDate": "2026-09-03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.6030555555555557,
+              51.34805555555556
+            ],
+            [
+              1.5886111111111112,
+              51.30722222222222
+            ],
+            [
+              2.0,
+              51.21416666666667
+            ],
+            [
+              2.0,
+              51.330000000000005
+            ],
+            [
+              1.6030555555555557,
+              51.34805555555556
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
