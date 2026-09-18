@@ -16,6 +16,7 @@
         <div class="searchbox"><input id="searchInput" type="search" autocomplete="off" placeholder="Naam, identifier of type…" aria-autocomplete="list" aria-controls="searchResults"><span id="searchSpinner" hidden>•••</span></div>
         <div id="searchResults" class="search-results" role="listbox" hidden></div>
       </section>
+      <details id="extraObjects" open hidden><summary>Extra getoonde objecten</summary><p class="help">Handmatig getoond buiten het rolfilter.</p><div class="quick-actions"><button id="hideExtraObjects" type="button">Alle extra objecten verbergen</button></div><div id="extraObjectList" class="filters"></div></details>
       <details open><summary>Rollen <span class="summary-note">gegevensfilter</span></summary><p class="help">Zonder selectie zijn alle gegevens beschikbaar. Meerdere rollen worden gecombineerd.</p><div id="roleFilters" class="filters"></div></details>
       <details open><summary>Kaartgegevens</summary><div class="quick-actions"><button id="showAll" type="button">Alles tonen</button><button id="hideAll" type="button">Alles verbergen</button></div><div id="datasetFilters" class="filters"></div></details>
       <p id="status" class="status" aria-live="polite">Gegevens laden…</p>

@@ -1,3 +1,5 @@
+import { addMapPdfControl } from "../map/pdf-export.js";
+
 import {
   loadRepository,
   featuresToGeoJson,
@@ -38,8 +40,10 @@ const state = {
   featurePaths: new Map(),
   filterOverrides: {},
   roles: new Set(),
+  extraObjects: new Set(),
   hovered: [],
   selected: null,
+  selectionPreviewHidden: false,
   background: localStorage.getItem("explore.background") || "osm",
   activeSearchIndex: -1,
 };
@@ -58,6 +62,8 @@ const els = {
   closeCandidates: $("#closeCandidates"),
   hover: $("#hoverCard"),
   background: $("#backgroundMode"),
+  extraObjects: $("#extraObjects"),
+  extraObjectList: $("#extraObjectList"),
 };
 
 function escapeHtml(value) {
@@ -83,6 +89,7 @@ function savePreferences() {
     JSON.stringify(state.filterOverrides),
   );
   localStorage.setItem("explore.roles", JSON.stringify([...state.roles]));
+  localStorage.setItem("explore.extraObjects", JSON.stringify([...state.extraObjects]));
 }
 function featureSubtitle(feature) {
   const p = feature.properties;
@@ -191,7 +198,10 @@ function isFeatureEnabled(feature) {
     (item) => item.id === feature.datasetId,
   );
   let enabled = Boolean(dataset?.defaultVisible);
-  if (dataset?.filterable === false) return enabled;
+  if (dataset?.filterable === false) {
+    const featureId = state.featurePaths.get(feature.key)?.at(-1);
+    return state.filterOverrides[featureId] ?? enabled;
+  }
   (state.featurePaths.get(feature.key) || []).forEach((nodeId) => {
     if (Object.prototype.hasOwnProperty.call(state.filterOverrides, nodeId))
       enabled = state.filterOverrides[nodeId];
@@ -301,6 +311,14 @@ function setFilterNode(nodeId, enabled) {
     .filter((key) => key === nodeId || key.startsWith(`${nodeId}/`))
     .forEach((key) => delete state.filterOverrides[key]);
   state.filterOverrides[nodeId] = enabled;
+  if (!enabled) {
+    state.extraObjects.forEach(key => {
+      if (state.featurePaths.get(key)?.includes(nodeId)) state.extraObjects.delete(key);
+    });
+  }
+  if (state.selected && state.featurePaths.get(state.selected.key)?.includes(nodeId)) {
+    state.selectionPreviewHidden = !enabled;
+  }
   updateFilterStates();
   refreshMap();
 }
@@ -319,14 +337,69 @@ function allowedFeatureIds(datasetId) {
   return ids;
 }
 function visibleFeatures(dataset) {
-  const features = state.repository.features.filter(
-    (feature) => feature.datasetId === dataset.id && isFeatureEnabled(feature),
+  return state.repository.features.filter(
+    feature => feature.datasetId === dataset.id && isFeatureVisible(feature),
   );
-  if (!dataset.roleFilterable) return features;
-  const allowed = allowedFeatureIds(dataset.id);
-  return allowed
-    ? features.filter((feature) => allowed.has(feature.canonicalId))
-    : features;
+}
+
+function isFeatureAllowed(feature) {
+  const dataset = state.repository.datasets.find(item => item.id === feature.datasetId);
+  const allowed = dataset?.roleFilterable ? allowedFeatureIds(dataset.id) : null;
+  return !allowed || allowed.has(feature.canonicalId);
+}
+
+function isFeatureVisible(feature) {
+  return isFeatureEnabled(feature) && (isFeatureAllowed(feature) || state.extraObjects.has(feature.key));
+}
+
+function setObjectVisibility(feature, enabled) {
+  const nodeId = state.featurePaths.get(feature.key)?.at(-1);
+  if (!nodeId) return;
+  if (enabled && !isFeatureAllowed(feature)) state.extraObjects.add(feature.key);
+  else state.extraObjects.delete(feature.key);
+  setFilterNode(nodeId, enabled);
+}
+
+function hideExtraObjects() {
+  state.extraObjects.forEach(key => {
+    const nodeId = state.featurePaths.get(key)?.at(-1);
+    if (nodeId) state.filterOverrides[nodeId] = false;
+    if (state.selected?.key === key) state.selectionPreviewHidden = true;
+  });
+  state.extraObjects.clear();
+  updateFilterStates();
+  refreshMap();
+}
+
+function renderExtraObjects() {
+  const features = [...state.extraObjects].map(key => state.featuresByKey.get(key))
+    .filter(feature => feature && isFeatureVisible(feature))
+    .sort((a, b) => a.title.localeCompare(b.title, "nl"));
+  els.extraObjects.hidden = !features.length;
+  els.extraObjectList.innerHTML = features.map(feature =>
+    `<label class="filter"><input type="checkbox" checked data-extra-key="${escapeHtml(feature.key)}" aria-label="${escapeHtml(`${feature.title} tonen`)}"><span>${escapeHtml(feature.title)}</span></label>`,
+  ).join("");
+}
+
+function updateDetailVisibility() {
+  const feature = state.selected;
+  const button = els.detailContent.querySelector(".object-visibility");
+  if (!feature || !button) return;
+  const visible = isFeatureVisible(feature);
+  button.textContent = visible ? "Verbergen op kaart" : "Tonen op kaart";
+  button.disabled = false;
+  button.title = !visible && !isFeatureAllowed(feature) ? "Voeg dit object toe aan Extra getoonde objecten." : "";
+}
+
+function addDetailVisibilityButton(feature) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "object-visibility";
+  button.addEventListener("click", () => {
+    setObjectVisibility(feature, !isFeatureVisible(feature));
+  });
+  els.detailContent.querySelector(".type-badge").after(button);
+  updateDetailVisibility();
 }
 
 function addApplicationLayers() {
@@ -462,14 +535,22 @@ function simplifyOsm() {
   });
 }
 function refreshMap() {
+  // Objects now covered by the role filter no longer need an exception.
+  state.extraObjects.forEach(key => {
+    const feature = state.featuresByKey.get(key);
+    if (!feature || isFeatureAllowed(feature)) state.extraObjects.delete(key);
+  });
+  renderExtraObjects();
   const count = state.repository.datasets.reduce(
     (sum, dataset) => sum + visibleFeatures(dataset).length,
     0,
   );
   els.status.textContent = `${count.toLocaleString("nl-BE")} objecten zichtbaar${state.roles.size ? ` · ${state.roles.size} rolfilter(s)` : ""}.`;
   savePreferences();
+  updateDetailVisibility();
   if (!state.map?.isStyleLoaded()) return;
   addApplicationLayers();
+  setHighlight(state.selected ? [state.selected] : []);
 }
 
 function renderedCandidates(point, wide = false) {
@@ -500,6 +581,11 @@ function renderedCandidates(point, wide = false) {
     );
 }
 function setHighlight(features) {
+  // Search previews can highlight filtered-out objects. Only suppress the
+  // selected preview when the user explicitly hides it after selecting it.
+  features = features.filter(feature =>
+    feature.key !== state.selected?.key || !state.selectionPreviewHidden,
+  );
   state.hovered = features;
   state.map
     ?.getSource("explore-highlight")
@@ -553,6 +639,7 @@ function deselectFeature() {
 }
 function selectFeature(feature, { move = false } = {}) {
   state.selected = feature;
+  state.selectionPreviewHidden = false;
   closeCandidateMenu();
   els.results.hidden = true;
   setHighlight([feature]);
@@ -663,6 +750,7 @@ function renderDetails(feature) {
     const { points, missingPoints } = feature.properties;
     els.detailContent.innerHTML = `<h2>${escapeHtml(feature.title)}</h2><span class="type-badge">ATS-route</span><h3>Puntenvolgorde</h3><p>${points.map(escapeHtml).join(" → ")}</p>${missingPoints.length ? `<p>Kaartgegevens ontbreken voor: ${missingPoints.map(escapeHtml).join(", ")}. Alleen trajecten tussen opeenvolgende bekende punten worden getoond.</p>` : ""}`;
     els.details.hidden = false;
+    addDetailVisibilityButton(feature);
     return;
   }
   const fields =
@@ -679,6 +767,7 @@ function renderDetails(feature) {
     .join("");
   els.detailContent.innerHTML = `<h2>${escapeHtml(feature.title)}</h2><span class="type-badge">${escapeHtml(feature.typeLabel)}</span><dl class="details">${rows || "<div><dd>Geen aanvullende details beschikbaar.</dd></div>"}</dl>`;
   els.details.hidden = false;
+  addDetailVisibilityButton(feature);
 }
 
 function renderSearchResults() {
@@ -718,6 +807,11 @@ function setActiveSearch(index) {
 }
 
 function wireUi() {
+  els.extraObjectList.addEventListener("change", event => {
+    const feature = state.featuresByKey.get(event.target.dataset.extraKey);
+    if (feature) setObjectVisibility(feature, event.target.checked);
+  });
+  $("#hideExtraObjects").addEventListener("click", hideExtraObjects);
   els.datasets.addEventListener("click", (event) => {
     if (event.target.closest(".filter-summary-toggle")) event.stopPropagation();
   });
@@ -741,6 +835,8 @@ function wireUi() {
     refreshMap();
   });
   $("#hideAll").addEventListener("click", () => {
+    if (state.selected && state.extraObjects.has(state.selected.key)) state.selectionPreviewHidden = true;
+    state.extraObjects.clear();
     state.filterOverrides = {};
     state.repository.datasets
       .filter((dataset) => dataset.filterable !== false)
@@ -793,6 +889,7 @@ function initializeMap() {
   });
   state.map.touchZoomRotate.disableRotation();
   state.map.keyboard.disableRotation();
+  addMapPdfControl(state.map);
   state.map.addControl(
     new maplibregl.NavigationControl({ showCompass: false }),
     "top-right",
@@ -841,6 +938,7 @@ async function init() {
       state.filterOverrides = {};
     }
     state.roles = loadSet("explore.roles", ["fic-essential"]);
+    state.extraObjects = loadSet("explore.extraObjects", []);
     buildFilterTree();
     state.search = createSearchIndex(state.repository.features);
     renderFilters();

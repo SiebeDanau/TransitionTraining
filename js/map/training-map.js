@@ -1,3 +1,5 @@
+import { addMapPdfControl } from "./pdf-export.js";
+
 const BLANK_STYLE = {
   version: 8,
   sources: {},
@@ -54,6 +56,7 @@ export class TrainingMap extends EventTarget {
     this.map.keyboard.disableRotation();
     this.map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     this.map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+    addMapPdfControl(this.map);
     this.map.on("style.load", () => this.#restoreLayers());
     this.map.once("load", () => this.#fitToData());
     this.map.on("click", "training-hit-area", (event) => {
