@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>Transition Training</title>
-  <script src="js/index.js?v=20260727-1" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/index.js?v=20260920-1" defer></script>
   <style>
     body {
       max-width: 920px;
@@ -73,6 +74,46 @@
     #menuStatus {
       color: #b3261e;
     }
+
+    .object-dropdown { position: relative; }
+    .object-dropdown summary {
+      box-sizing: border-box;
+      min-height: 42px;
+      padding: 11px 12px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+    }
+    .object-options {
+      position: absolute;
+      z-index: 2;
+      top: calc(100% + 4px);
+      left: 0;
+      min-width: 100%;
+      max-height: 280px;
+      overflow-y: auto;
+      background: #fff;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px #0002;
+    }
+    .object-options label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .object-options label:first-child {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      font-weight: bold;
+    }
+    .object-options label:hover { background: #f5f4ef; }
   </style>
 </head>
 <body>

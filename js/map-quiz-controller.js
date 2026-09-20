@@ -93,6 +93,11 @@ async function initialize() {
       allowedIds,
     );
     reportMissingRoleData(allowedIds, questions);
+    const selection = readStoredJson("activeQuizSelection");
+    if (selection?.moduleId === moduleConfig.id && selection.roleId === activeRole.id && Array.isArray(selection.objectIds)) {
+      const selectedIds = new Set(selection.objectIds.map(normalizePointId));
+      questions = questions.filter(question => selectedIds.has(question.featureKey));
+    }
     trainingMap.initialize(questions);
 
     if (!questions.length) {

@@ -38,15 +38,71 @@ Promise.all([
         [...roles].sort((a, b) => a.label.localeCompare(b.label, "nl"))
           .forEach((role) => roleSelect.add(new Option(role.label, role.id)));
         field.appendChild(roleSelect);
+        const objectField = document.createElement("div");
+        objectField.className = "role-field";
+        const objectLabel = document.createElement("span");
+        objectLabel.textContent = "Objecten";
+        const dropdown = document.createElement("details");
+        dropdown.className = "object-dropdown";
+        const summary = document.createElement("summary");
+        summary.textContent = "Selecteer eerst een rol";
+        summary.setAttribute("aria-label", `Objecten voor ${module.title}`);
+        const options = document.createElement("div");
+        options.className = "object-options";
+        dropdown.append(summary, options);
+        objectField.append(objectLabel, dropdown);
+        let objectInputs = [];
+        const selectedIds = () => objectInputs.filter(input => input.checked).map(input => input.value);
+        const addOption = (label, value) => {
+          const row = document.createElement("label");
+          const input = document.createElement("input");
+          input.type = "checkbox";
+          input.value = value;
+          input.checked = true;
+          row.append(input, document.createTextNode(label));
+          options.appendChild(row);
+          return input;
+        };
+        dropdown.addEventListener("keydown", event => {
+          if (event.key === "Escape") {
+            dropdown.open = false;
+            summary.focus();
+          }
+        });
+        document.addEventListener("click", event => {
+          if (!dropdown.contains(event.target)) dropdown.open = false;
+        });
         openButton.disabled = true;
         roleSelect.addEventListener("change", () => {
-          openButton.disabled = !roleSelect.value;
+          dropdown.open = false;
+          options.replaceChildren();
+          objectInputs = [];
+          const role = roles.find(item => item.id === roleSelect.value);
+          const category = role?.categories?.[module.id];
+          const ids = [...new Set(category?.pointIds || category?.routeIds || [])]
+            .sort((a, b) => a.localeCompare(b, "nl", { numeric: true }));
+          const all = addOption("Alles", "");
+          objectInputs = ids.map(id => addOption(id, id));
+          const update = () => {
+            const count = selectedIds().length;
+            all.checked = count > 0 && count === ids.length;
+            all.indeterminate = count > 0 && count < ids.length;
+            all.disabled = !ids.length;
+            summary.textContent = !role ? "Selecteer eerst een rol" : !ids.length ? "Geen objecten beschikbaar" : `${count} van ${ids.length} geselecteerd`;
+            openButton.disabled = !role || !count;
+          };
+          all.addEventListener("change", () => {
+            objectInputs.forEach(input => { input.checked = all.checked; });
+            update();
+          });
+          objectInputs.forEach(input => input.addEventListener("change", update));
+          update();
         });
         openButton.addEventListener("click", () => {
           const role = roles.find((item) => item.id === roleSelect.value);
-          if (role) openModule(module, role);
+          if (role && selectedIds().length) openModule(module, role, selectedIds());
         });
-        actions.append(field, openButton);
+        actions.append(field, objectField, openButton);
       } else {
         openButton.addEventListener("click", () => openModule(module));
         actions.append(openButton);
@@ -66,8 +122,13 @@ function checkResponse(response) {
   return response.json();
 }
 
-function openModule(module, role) {
+function openModule(module, role, objectIds) {
   localStorage.setItem("activeModule", JSON.stringify(module));
+  if (role && objectIds) {
+    localStorage.setItem("activeQuizSelection", JSON.stringify({ moduleId: module.id, roleId: role.id, objectIds }));
+  } else {
+    localStorage.removeItem("activeQuizSelection");
+  }
   if (role) {
     localStorage.setItem("activeRole", JSON.stringify({ id: role.id, label: role.label }));
   } else {

@@ -75,12 +75,17 @@ async function init() {
     const allowed = new Set((role.categories['ats-routes']?.routeIds || []).map(key));
     const roleRoutes = repository.features.filter(f => f.kind === 'route' && allowed.has(f.canonicalId));
     routes = roleRoutes.filter(f => f.geometry && !f.properties.missingPoints.length);
+    const missing = [...allowed].filter(id => !routes.some(r => r.canonicalId === id));
+    const selection = JSON.parse(localStorage.getItem('activeQuizSelection') || 'null');
+    if (selection?.moduleId === 'ats-routes' && selection.roleId === storedRole.id && Array.isArray(selection.objectIds)) {
+      const selectedIds = new Set(selection.objectIds.map(key));
+      routes = routes.filter(route => selectedIds.has(route.canonicalId));
+    }
     // Shuffle once so each available route is asked exactly once per session.
     for (let i = routes.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [routes[i], routes[j]] = [routes[j], routes[i]];
     }
-    const missing = [...allowed].filter(id => !routes.some(r => r.canonicalId === id));
     el.coverage.textContent = missing.length ? `${routes.length} routes beschikbaar. Geen volledige kaartgegevens voor: ${missing.join(', ')}.` : `${routes.length} routes beschikbaar.`;
     if (!routes.length) { el.prompt.textContent = 'Geen routes beschikbaar voor deze rol'; return; }
     // All route points are candidates, including points absent from the role's separate point category.
