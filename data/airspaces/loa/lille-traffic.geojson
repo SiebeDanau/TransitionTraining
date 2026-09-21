@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lille – Brussel Traffic Stream",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lille-n873",
+        "name": "N873 · Van Lille · CMB → VEKIN",
+        "loaPartner": "Traffic Stream",
+        "parentGroup": "Lille – Brussel",
+        "trafficStream": true,
+        "color": "#3730a3",
+        "routeLabel": "N873 · FL100",
+        "direction": "Van Lille",
+        "levels": "FL100",
+        "waypoints": [
+          "CMB",
+          "VEKIN"
+        ],
+        "frequencies": "Lille West: 120.275 · Lille East: 126.480 (lezing foto; te bevestigen)",
+        "remarks": "Het vervolg naar het handgeschreven grenspunt (mogelijk BANTO) is niet getekend: de identiteit en coördinaten zijn onzeker.",
+        "coordination": "Foto: Lille ARR corridors CIV–DENIN (COP: ROBAL); FL110, DENIN 115°, R8. Interpretatie te bevestigen. Special coordination: From Lille — paradrop (afkortingen onduidelijk); To Lille — LFA G2 en paradrop EBST / HO (lezing te bevestigen).",
+        "geometryNote": "Schematische verbindingen tussen bestaande navigatiepunten; overgenomen uit de gebruikersfoto, niet gevalideerd tegen een actuele LoA.",
+        "aipSource": "Gebruikersfoto Lille–Brussel; puntcoördinaten uit lokale datasets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1515,
+            50.22813888888889
+          ],
+          [
+            3.275,
+            50.40416666666667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lille-z373",
+        "name": "Z373 · Van Lille · CMB → ARVOL",
+        "loaPartner": "Traffic Stream",
+        "parentGroup": "Lille – Brussel",
+        "trafficStream": true,
+        "color": "#3730a3",
+        "routeLabel": "Z373 · FL100",
+        "direction": "Van Lille",
+        "levels": "FL100",
+        "waypoints": [
+          "CMB",
+          "ARVOL"
+        ],
+        "frequencies": "Lille West: 120.275 · Lille East: 126.480 (lezing foto; te bevestigen)",
+        "remarks": "",
+        "coordination": "Foto: Lille ARR corridors CIV–DENIN (COP: ROBAL); FL110, DENIN 115°, R8. Interpretatie te bevestigen. Special coordination: From Lille — paradrop (afkortingen onduidelijk); To Lille — LFA G2 en paradrop EBST / HO (lezing te bevestigen).",
+        "geometryNote": "Schematische verbindingen tussen bestaande navigatiepunten; overgenomen uit de gebruikersfoto, niet gevalideerd tegen een actuele LoA.",
+        "aipSource": "Gebruikersfoto Lille–Brussel; puntcoördinaten uit lokale datasets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1515,
+            50.22813888888889
+          ],
+          [
+            3.4969444444444444,
+            50.545833333333334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lille-m617-out",
+        "name": "M617 · Van Lille · CMB → DENIN → ROBAL",
+        "loaPartner": "Traffic Stream",
+        "parentGroup": "Lille – Brussel",
+        "trafficStream": true,
+        "color": "#3730a3",
+        "routeLabel": "M617 · FL60 / FL80 / FL100",
+        "direction": "Van Lille",
+        "levels": "FL60 / FL80 / FL100",
+        "waypoints": [
+          "CMB",
+          "DENIN",
+          "ROBAL"
+        ],
+        "frequencies": "Lille West: 120.275 · Lille East: 126.480 (lezing foto; te bevestigen)",
+        "remarks": "De markering bij FL60 op de foto is onduidelijk.",
+        "coordination": "Foto: Lille ARR corridors CIV–DENIN (COP: ROBAL); FL110, DENIN 115°, R8. Interpretatie te bevestigen. Special coordination: From Lille — paradrop (afkortingen onduidelijk); To Lille — LFA G2 en paradrop EBST / HO (lezing te bevestigen).",
+        "geometryNote": "Schematische verbindingen tussen bestaande navigatiepunten; overgenomen uit de gebruikersfoto, niet gevalideerd tegen een actuele LoA.",
+        "aipSource": "Gebruikersfoto Lille–Brussel; puntcoördinaten uit lokale datasets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.1515,
+            50.22813888888889
+          ],
+          [
+            3.4299999999999997,
+            50.37
+          ],
+          [
+            3.6333333333333333,
+            50.473333333333336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lille-m617-in",
+        "name": "M617 · Naar Lille · CIV → ROBAL",
+        "loaPartner": "Traffic Stream",
+        "parentGroup": "Lille – Brussel",
+        "trafficStream": true,
+        "color": "#15803d",
+        "routeLabel": "M617 · FL70 / FL90 / FL110",
+        "direction": "Naar Lille",
+        "levels": "FL70 / FL90 / FL110",
+        "waypoints": [
+          "CIV",
+          "ROBAL"
+        ],
+        "frequencies": "Lille West: 120.275 · Lille East: 126.480 (lezing foto; te bevestigen)",
+        "remarks": "",
+        "coordination": "Foto: Lille ARR corridors CIV–DENIN (COP: ROBAL); FL110, DENIN 115°, R8. Interpretatie te bevestigen. Special coordination: From Lille — paradrop (afkortingen onduidelijk); To Lille — LFA G2 en paradrop EBST / HO (lezing te bevestigen).",
+        "geometryNote": "Schematische verbindingen tussen bestaande navigatiepunten; overgenomen uit de gebruikersfoto, niet gevalideerd tegen een actuele LoA.",
+        "aipSource": "Gebruikersfoto Lille–Brussel; puntcoördinaten uit lokale datasets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8327777777777774,
+            50.573888888888895
+          ],
+          [
+            3.6333333333333333,
+            50.473333333333336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lille-y50",
+        "name": "Y50 · Naar Lille · CIV → IDOKO",
+        "loaPartner": "Traffic Stream",
+        "parentGroup": "Lille – Brussel",
+        "trafficStream": true,
+        "color": "#15803d",
+        "routeLabel": "Y50 · FL70 / FL90 / FL110",
+        "direction": "Naar Lille",
+        "levels": "FL70 / FL90 / FL110",
+        "waypoints": [
+          "CIV",
+          "IDOKO"
+        ],
+        "frequencies": "Lille West: 120.275 · Lille East: 126.480 (lezing foto; te bevestigen)",
+        "remarks": "",
+        "coordination": "Foto: Lille ARR corridors CIV–DENIN (COP: ROBAL); FL110, DENIN 115°, R8. Interpretatie te bevestigen. Special coordination: From Lille — paradrop (afkortingen onduidelijk); To Lille — LFA G2 en paradrop EBST / HO (lezing te bevestigen).",
+        "geometryNote": "Schematische verbindingen tussen bestaande navigatiepunten; overgenomen uit de gebruikersfoto, niet gevalideerd tegen een actuele LoA.",
+        "aipSource": "Gebruikersfoto Lille–Brussel; puntcoördinaten uit lokale datasets"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.8327777777777774,
+            50.573888888888895
+          ],
+          [
+            3.8730555555555557,
+            50.34055555555556
+          ]
+        ]
+      }
+    }
+  ]
+}

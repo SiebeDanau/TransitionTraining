@@ -1,4 +1,5 @@
 import { addMapPdfControl } from "../map/pdf-export.js";
+import { renderTrafficStream } from "./traffic-stream.js";
 
 import {
   loadRepository,
@@ -93,6 +94,7 @@ function savePreferences() {
 }
 function featureSubtitle(feature) {
   const p = feature.properties;
+  if (p.trafficStream) return `${p.direction} · ${p.levels}`;
   if (feature.kind === "route") return `${feature.typeLabel} · ${p.points.length} punten${p.missingPoints.length ? " · onvolledige kaartgegevens" : ""}`;
   const vertical =
     [p.lowerLimit, p.upperLimit].filter(Boolean).join(" / ");
@@ -432,7 +434,7 @@ function addApplicationLayers() {
         source: sourceId,
         paint: {
           "line-color": ["coalesce", ["get", "color"], color],
-          "line-width": dataset.id === "fir-uir" ? 3 : 2,
+          "line-width": ["case", ["==", ["get", "trafficStream"], true], 4, dataset.id === "fir-uir" ? 3 : 2],
           "line-opacity": 0.9,
         },
       });
@@ -472,6 +474,7 @@ function addApplicationLayers() {
       });
     }
   });
+  renderTrafficStream(map, state.repository.features.filter(feature => feature.properties.trafficStream && isFeatureVisible(feature)));
   if (!map.getSource("explore-highlight"))
     map.addSource("explore-highlight", {
       type: "geojson",
@@ -664,6 +667,11 @@ function selectFeature(feature, { move = false } = {}) {
 }
 
 const FIELD_LABELS = {
+  direction: "Richting",
+  levels: "Vliegniveaus volgens foto",
+  waypoints: "Puntenvolgorde",
+  frequencies: "Frequenties volgens foto",
+  coordination: "Coördinatienotities volgens foto",
   id: "ICAO",
   title: "Full Name",
   identifier: "Identifier",
@@ -753,8 +761,9 @@ function renderDetails(feature) {
     addDetailVisibilityButton(feature);
     return;
   }
-  const fields =
-    FIELDS_BY_TYPE[feature.subtype] || Object.keys(feature.properties);
+  const fields = feature.properties.trafficStream
+    ? ["direction", "levels", "waypoints", "frequencies", "remarks", "coordination", "geometryNote", "aipSource"]
+    : FIELDS_BY_TYPE[feature.subtype] || Object.keys(feature.properties);
   const rows = fields
     .filter(
       (key) =>

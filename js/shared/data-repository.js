@@ -39,7 +39,7 @@ function normalizeGeoJson(dataset, collection, file, fileIndex) {
     return {
       key: `${dataset.id}:${fileIndex}:${id}:${featureIndex}`,
       canonicalId:id.trim().toUpperCase(),datasetId:dataset.id,kind:dataset.kind,subtype:dataset.subtype,
-      typeLabel: dataset.typeLabel, title: properties.name || collection.name || id,
+      typeLabel: properties.trafficStream ? "Traffic Stream" : dataset.typeLabel, title: properties.name || collection.name || id,
       properties, geometry: source.geometry, bbox: metrics.bbox, center: metrics.center,
       size: metrics.size, sourceFile: file,
     };
@@ -134,6 +134,7 @@ export function featuresToGeoJson(features) {
   return { type: "FeatureCollection", features: features.map((feature) => ({
     type: "Feature", id: feature.key, geometry: feature.geometry,
     properties: { featureKey: feature.key, datasetId: feature.datasetId, kind: feature.kind, subtype: feature.subtype,
-      title: feature.title, typeLabel: feature.typeLabel, size: feature.size },
+      title: feature.title, typeLabel: feature.typeLabel, size: feature.size,
+      ...(feature.properties.trafficStream ? { trafficStream: true, color: feature.properties.color, routeLabel: feature.properties.routeLabel } : {}) },
   })) };
 }
