@@ -91,6 +91,11 @@ function savePreferences() {
   localStorage.setItem("explore.roles", JSON.stringify([...state.roles]));
   localStorage.setItem("explore.extraObjects", JSON.stringify([...state.extraObjects]));
 }
+function featureDisplayTitle(feature) {
+  return feature.datasetId === "aerodromes"
+    ? `${feature.canonicalId} / ${feature.title}`
+    : feature.title;
+}
 function featureSubtitle(feature) {
   const p = feature.properties;
   if (feature.kind === "route") return `${feature.typeLabel} · ${p.points.length} punten${p.missingPoints.length ? " · onvolledige kaartgegevens" : ""}`;
@@ -180,7 +185,7 @@ function buildFilterTree() {
         const featureId = `${parentId}/f:${feature.key}`;
         state.filterNodes.set(featureId, {
           id: featureId,
-          label: feature.title,
+          label: featureDisplayTitle(feature),
           features: [feature],
           dataset,
           level: "feature",
@@ -377,7 +382,7 @@ function renderExtraObjects() {
     .sort((a, b) => a.title.localeCompare(b.title, "nl"));
   els.extraObjects.hidden = !features.length;
   els.extraObjectList.innerHTML = features.map(feature =>
-    `<label class="filter"><input type="checkbox" checked data-extra-key="${escapeHtml(feature.key)}" aria-label="${escapeHtml(`${feature.title} tonen`)}"><span>${escapeHtml(feature.title)}</span></label>`,
+    `<label class="filter"><input type="checkbox" checked data-extra-key="${escapeHtml(feature.key)}" aria-label="${escapeHtml(`${featureDisplayTitle(feature)} tonen`)}"><span>${escapeHtml(featureDisplayTitle(feature))}</span></label>`,
   ).join("");
 }
 
@@ -601,9 +606,7 @@ function showHover(event, candidates) {
   const primary = candidates[0];
   if (!state.selected && els.candidates.hidden) setHighlight([primary]);
   state.map.getCanvas().style.cursor = "pointer";
-  const hoverTitle = primary.datasetId === "aerodromes"
-    ? `${primary.canonicalId} / ${primary.title}`
-    : primary.title;
+  const hoverTitle = featureDisplayTitle(primary);
   els.hover.innerHTML = `<strong>${escapeHtml(hoverTitle)}</strong><span>${escapeHtml(featureSubtitle(primary))}${candidates.length > 1 ? ` · +${candidates.length - 1} andere` : ""}</span>`;
   els.hover.style.left = `${Math.min(event.point.x + 15, state.map.getContainer().clientWidth - 275)}px`;
   els.hover.style.top = `${Math.max(60, event.point.y - 5)}px`;
@@ -781,7 +784,7 @@ function renderSearchResults() {
     ? results
         .map(
           (feature, index) =>
-            `<button class="search-result" role="option" data-key="${escapeHtml(feature.key)}" data-index="${index}"><strong>${escapeHtml(feature.title)}</strong><span>${escapeHtml(featureSubtitle(feature))}</span></button>`,
+            `<button class="search-result" role="option" data-key="${escapeHtml(feature.key)}" data-index="${index}"><strong>${escapeHtml(featureDisplayTitle(feature))}</strong><span>${escapeHtml(featureSubtitle(feature))}</span></button>`,
         )
         .join("")
     : '<div class="search-result"><span>Geen resultaten gevonden</span></div>';
