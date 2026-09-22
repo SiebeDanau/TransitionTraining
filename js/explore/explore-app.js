@@ -92,6 +92,8 @@ function savePreferences() {
   localStorage.setItem("explore.extraObjects", JSON.stringify([...state.extraObjects]));
 }
 function featureDisplayTitle(feature) {
+  if (feature.properties.loaPartner === "Sectors" && feature.properties.abbreviation)
+    return `${feature.properties.abbreviation} / ${feature.title.replace(/\s*\([^()]*\)$/, "")}`;
   return feature.datasetId === "aerodromes"
     ? `${feature.canonicalId} / ${feature.title}`
     : feature.title;
@@ -422,7 +424,10 @@ function addApplicationLayers() {
           id: `${sourceId}-fill`,
           type: "fill",
           source: sourceId,
-          paint: { "fill-color": color, "fill-opacity": 0.012 },
+          paint: {
+            "fill-color": dataset.id === "loa" ? ["case", ["==", ["get", "sector"], true], "#9ca3af", color] : color,
+            "fill-opacity": dataset.id === "loa" ? ["case", ["==", ["get", "sector"], true], 0.28, 0.012] : 0.012,
+          },
         });
         addLayer({
           id: `${sourceId}-line-hit`,
@@ -435,6 +440,7 @@ function addApplicationLayers() {
         id: `${sourceId}-line`,
         type: "line",
         source: sourceId,
+        ...(dataset.id === "loa" ? { filter: ["!=", ["get", "sector"], true] } : {}),
         paint: {
           "line-color": ["coalesce", ["get", "color"], color],
           "line-width": dataset.id === "fir-uir" ? 3 : 2,
@@ -493,7 +499,7 @@ function addApplicationLayers() {
     id: "explore-highlight-line",
     type: "line",
     source: "explore-highlight",
-    filter: ["in", ["get", "kind"], ["literal", ["airspace", "route"]]],
+    filter: ["all", ["in", ["get", "kind"], ["literal", ["airspace", "route"]]], ["!=", ["get", "sector"], true]],
     paint: { "line-color": "#00a6b8", "line-width": 5, "line-opacity": 1 },
   });
   addLayer({

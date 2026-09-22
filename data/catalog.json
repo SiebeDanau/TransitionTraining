@@ -2,7 +2,7 @@
   "datasets": [
     {
       "id": "loa", "label": "LoA", "typeLabel": "LoA airspace", "kind": "airspace", "subtype": "loa", "format": "geojson", "groupBy": "loaPartner", "subgroupBy": "parentGroup", "defaultVisible": false,
-      "files": ["airspaces/loa/netherlands.geojson", "airspaces/loa/special-areas.geojson", "airspaces/loa/uk.geojson"]
+      "files": ["airspaces/loa/netherlands.geojson", "airspaces/loa/special-areas.geojson", "airspaces/loa/uk.geojson", "airspaces/loa/sectors.geojson"]
     },
     {
       "id": "ats-routes", "label": "ATS-routes", "typeLabel": "ATS-route", "kind": "route", "subtype": "ats-route", "format": "routes", "roleFilterable": true, "flattenGroups": true, "defaultVisible": true,

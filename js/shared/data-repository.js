@@ -134,6 +134,7 @@ export function featuresToGeoJson(features) {
   return { type: "FeatureCollection", features: features.map((feature) => ({
     type: "Feature", id: feature.key, geometry: feature.geometry,
     properties: { featureKey: feature.key, datasetId: feature.datasetId, kind: feature.kind, subtype: feature.subtype,
-      title: feature.title, typeLabel: feature.typeLabel, size: feature.size },
+      title: feature.title, typeLabel: feature.typeLabel, size: feature.size,
+      ...(feature.properties.loaPartner === 'Sectors' ? { sector: true } : {}) },
   })) };
 }

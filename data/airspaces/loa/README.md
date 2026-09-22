@@ -1,5 +1,17 @@
 # LoA in Explore
 
+**Sectors** contains 13 Brussels ACC and 19 Maastricht UAC 2D sector
+footprints from the user-provided *Brussels FIR/UIR 3D Model* KMZ, dated
+03 October 2024. The KMZ's sector names and altitude surfaces are preserved;
+the map displays lateral footprints while the detail panel shows vertical
+limits. Several sectors have separate polygons or vertical variants with the
+same name, so they remain distinct features. This is a training model, not
+an indication of the active sector configuration. Extract `doc.kml` from the
+KMZ and run `node scripts/import_brussels_fir_sectors.mjs path/to/doc.kml`
+to regenerate `sectors.geojson`.
+The abbreviations in the Explore list are display labels; only the full sector
+names and geometry come from the KMZ.
+
 This category groups neighbouring airspaces for training: Dutch MIL (Nieuw Milligen
 TMA D1/D2, G1/G2 and Eindhoven TMA 1–4) and Nederland (Maastricht TMA 1–2
 and Amsterdam CTA East 1/2, South 1/2 and West).
