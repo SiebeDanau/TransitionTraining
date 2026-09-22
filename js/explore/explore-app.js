@@ -767,6 +767,7 @@ function renderDetails(feature) {
   const rows = fields
     .filter(
       (key) =>
+        !(feature.properties.loaPartner === "Sectors" && key === "geometryNote") &&
         feature.properties[key] !== undefined && feature.properties[key] !== "",
     )
     .map(
